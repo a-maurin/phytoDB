@@ -1,0 +1,56 @@
+# Configuration phytoDB - Analyse des PPP pour la Côte-d'Or (département 21)
+
+# Département cible (code INSEE)
+departement:
+  code: "21"
+  nom: "Côte-d'Or"
+
+# API tabulaire data.gouv.fr (données tabulaires)
+api_tabulaire:
+  base_url: "https://tabular-api.data.gouv.fr/api"
+  page_size: 500
+
+# Jeux de données data.gouv.fr (pour découvrir les RIDs des ressources)
+# C3PO : https://www.data.gouv.fr/datasets/base-de-connaissances-sur-les-produits-phytopharmaceutiques-a-partir-de-sources-ouvertes-c3po
+datasets:
+  c3po:
+    # ID du jeu de données (pour lister les ressources via l'API)
+    id: "64be9998c68b47dc9883389a"
+    # RIDs connus de ressources utiles (API tabulaire) - à compléter depuis l'onglet Métadonnées de chaque ressource
+    resource_ids:
+      - "29c0baa2-d064-4133-8ba3-194198d24939"  # substances_identification (explore.data.gouv.fr)
+
+# Cache local (optionnel) pour éviter de re-télécharger à chaque run
+cache:
+  dir: "data/cache"
+  enabled: true
+
+# API Hub'Eau (Eaufrance) - Naïades + ADES
+# Doc : https://hubeau.eaufrance.fr/page/apis
+hubeau:
+  base_url: "https://hubeau.eaufrance.fr/api"
+  qualite_rivieres:
+    version: "v2"
+    path: "qualite_rivieres"
+  qualite_nappes:
+    version: "v1"
+    path: "qualite_nappes"
+  page_size: 1000
+  max_pages: 50
+
+# Paramètres PPP (codes Sandre) et période d'analyse
+# Ces listes doivent contenir les codes de paramètres correspondant aux pesticides / produits phytosanitaires
+# tels que définis dans les référentiels Sandre (listes pesticides / phytosanitaires).
+ppp:
+  naiades:
+    # Liste de codes Sandre de paramètres à considérer comme PPP (ex. groupe \"phytosanitaires\").
+    # À renseigner depuis les listes officielles (Naïades / Sandre).
+    codes_parametre: []
+    # Fenêtre temporelle recommandée pour l'analyse (format AAAA-MM-JJ). Laisser null pour ne pas filtrer.
+    date_debut: null   # ex. \"2013-01-01\"
+    date_fin: null
+  ades:
+    # Liste de codes Sandre de paramètres PPP pour les nappes (mêmes principes que ci-dessus).
+    codes_parametre: []
+    date_debut: null
+    date_fin: null

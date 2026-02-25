@@ -1,0 +1,1373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.179873915761917,
+          47.13403567954293
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017000",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06017000",
+        "libelle_station": "VOUGE A AUBIGNY-EN-PLAINE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 98,
+        "n_depassements": 31,
+        "max_ratio": 68.0,
+        "max_conc_ugl": 6.8,
+        "seuil_ugl": 0.1,
+        "annee_min": "1999",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.3001686940701465,
+          47.178370127067545
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06013800",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06013800",
+        "libelle_station": "TILLE A CHAMPDOTRE 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 98,
+        "n_depassements": 6,
+        "max_ratio": 7.3,
+        "max_conc_ugl": 0.73,
+        "seuil_ugl": 0.1,
+        "annee_min": "1999",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.165636185828036,
+          47.073698608313535
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017050",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06017050",
+        "libelle_station": "SAONE A CHARREY-SUR-SAONE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 73,
+        "n_depassements": 14,
+        "max_ratio": 6.7,
+        "max_conc_ugl": 0.67,
+        "seuil_ugl": 0.1,
+        "annee_min": "1999",
+        "annee_max": "2007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.996350927158372,
+          46.98310090742092
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06036970",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06036970",
+        "libelle_station": "MEUZIN A CORGENGOUX 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 98,
+        "n_depassements": 23,
+        "max_ratio": 24.2,
+        "max_conc_ugl": 2.42,
+        "seuil_ugl": 0.1,
+        "annee_min": "1999",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.038302167211509,
+          47.299358528508456
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06015550",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06015550",
+        "libelle_station": "OUCHE A DIJON 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 16,
+        "n_depassements": 1,
+        "max_ratio": 8.6,
+        "max_conc_ugl": 0.86,
+        "seuil_ugl": 0.1,
+        "annee_min": "2004",
+        "annee_max": "2007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.117497571098566,
+          47.26624040764427
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016000",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06016000",
+        "libelle_station": "OUCHE A CRIMOLOIS 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 73,
+        "n_depassements": 19,
+        "max_ratio": 400.0,
+        "max_conc_ugl": 40.0,
+        "seuil_ugl": 0.1,
+        "annee_min": "2004",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.7691739263308595,
+          46.9200575902593
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06037080",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06037080",
+        "libelle_station": "DHEUNE A CORPEAU 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 4,
+        "n_depassements": 3,
+        "max_ratio": 52.99999999999999,
+        "max_conc_ugl": 5.3,
+        "seuil_ugl": 0.1,
+        "annee_min": "2005",
+        "annee_max": "2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.996355153173651,
+          47.08471744094972
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06036310",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06036310",
+        "libelle_station": "MEUZIN A GERLAND ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 3,
+        "n_depassements": 2,
+        "max_ratio": 59.0,
+        "max_conc_ugl": 5.9,
+        "seuil_ugl": 0.1,
+        "annee_min": "2005",
+        "annee_max": "2006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.386246719956166,
+          47.188291908071044
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06110110",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06110110",
+        "libelle_station": "BRIZOTTE A AUXONNE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 26,
+        "n_depassements": 4,
+        "max_ratio": 4.6,
+        "max_conc_ugl": 0.46,
+        "seuil_ugl": 0.1,
+        "annee_min": "2005",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.7813339744902486,
+          46.971599769403035
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06036070",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06036070",
+        "libelle_station": "CLOUX A MEURSAULT 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 48,
+        "n_depassements": 8,
+        "max_ratio": 12.799999999999999,
+        "max_conc_ugl": 1.28,
+        "seuil_ugl": 0.1,
+        "annee_min": "2006",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.216022428639148,
+          47.130160542292344
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016955",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06016955",
+        "libelle_station": "BIETRE A BRAZEY-EN-PLAINE 5",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 24,
+        "n_depassements": 1,
+        "max_ratio": 1.2,
+        "max_conc_ugl": 0.12,
+        "seuil_ugl": 0.1,
+        "annee_min": "2006",
+        "annee_max": "2007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.477145128669176,
+          47.531575870257875
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03039940",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "03039940",
+        "libelle_station": "L'OZERAIN A ALISE-SAINTE-REINE 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 35,
+        "n_depassements": 1,
+        "max_ratio": 1.0599999999999998,
+        "max_conc_ugl": 0.106,
+        "seuil_ugl": 0.1,
+        "annee_min": "2006",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.143535237908081,
+          46.99692410001211
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017070",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06017070",
+        "libelle_station": "SAONE A SEURRE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 14,
+        "n_depassements": 6,
+        "max_ratio": 34.3,
+        "max_conc_ugl": 3.43,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.280295315253676,
+          47.11398711571098
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016500",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06016500",
+        "libelle_station": "OUCHE A ECHENON ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 13,
+        "n_depassements": 6,
+        "max_ratio": 92.89999999999999,
+        "max_conc_ugl": 9.29,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.738000826892868,
+          47.66505453590082
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03000344",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "03000344",
+        "libelle_station": "LA COQUILLE A AIGNAY-LE-DUC 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 22,
+        "n_depassements": 1,
+        "max_ratio": 1.0299999999999998,
+        "max_conc_ugl": 0.103,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.2958024073550005,
+          47.63970008422549
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03041000",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "03041000",
+        "libelle_station": "LA BRENNE A SAINT-REMY 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 2,
+        "n_depassements": 1,
+        "max_ratio": 1.0699999999999998,
+        "max_conc_ugl": 0.107,
+        "seuil_ugl": 0.1,
+        "annee_min": "2010",
+        "annee_max": "2010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.771060078598352,
+          46.92065902662293
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06037085",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06037085",
+        "libelle_station": "DHEUNE A CORPEAU 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 7,
+        "n_depassements": 4,
+        "max_ratio": 4.45,
+        "max_conc_ugl": 0.445,
+        "seuil_ugl": 0.1,
+        "annee_min": "2011",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.1723384308511955,
+          47.27674468499439
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06012300",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06012300",
+        "libelle_station": "NORGE A MAGNY-SUR-TILLE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 7,
+        "n_depassements": 1,
+        "max_ratio": 2.38,
+        "max_conc_ugl": 0.238,
+        "seuil_ugl": 0.1,
+        "annee_min": "2011",
+        "annee_max": "2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.228226463285978,
+          47.20474270419327
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06015650",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06015650",
+        "libelle_station": "OUCHE A TART LE BAS 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 4,
+        "n_depassements": 4,
+        "max_ratio": 19.599999999999998,
+        "max_conc_ugl": 1.96,
+        "seuil_ugl": 0.1,
+        "annee_min": "2011",
+        "annee_max": "2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.899666624448401,
+          46.96672140443488
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06036190",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06036190",
+        "libelle_station": "AVANT DHEUNE A STE-MARIE-LA-BLANCHE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 4,
+        "n_depassements": 2,
+        "max_ratio": 3.6999999999999997,
+        "max_conc_ugl": 0.37,
+        "seuil_ugl": 0.1,
+        "annee_min": "2011",
+        "annee_max": "2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.933706344239705,
+          46.99811846614657
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06036600",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06036600",
+        "libelle_station": "BOUZAISE A MEURSANGES ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 4,
+        "n_depassements": 2,
+        "max_ratio": 2.0999999999999996,
+        "max_conc_ugl": 0.21,
+        "seuil_ugl": 0.1,
+        "annee_min": "2011",
+        "annee_max": "2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.01473483601214,
+          47.14963772143428
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016600",
+        "code_parametre": "1105",
+        "libelle_parametre": "Aminotriazole",
+        "code_station": "06016600",
+        "libelle_station": "VOUGE A ST-BERNARD ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 8,
+        "n_depassements": 2,
+        "max_ratio": 1.9,
+        "max_conc_ugl": 0.19,
+        "seuil_ugl": 0.1,
+        "annee_min": "2011",
+        "annee_max": "2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.165636185828036,
+          47.073698608313535
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017050",
+        "code_parametre": "1141",
+        "libelle_parametre": "2,4-D",
+        "code_station": "06017050",
+        "libelle_station": "SAONE A CHARREY-SUR-SAONE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 110,
+        "n_depassements": 2,
+        "max_ratio": 11.0,
+        "max_conc_ugl": 1.1,
+        "seuil_ugl": 0.1,
+        "annee_min": "1997",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.179873915761917,
+          47.13403567954293
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017000",
+        "code_parametre": "1141",
+        "libelle_parametre": "2,4-D",
+        "code_station": "06017000",
+        "libelle_station": "VOUGE A AUBIGNY-EN-PLAINE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 110,
+        "n_depassements": 1,
+        "max_ratio": 1.2,
+        "max_conc_ugl": 0.12,
+        "seuil_ugl": 0.1,
+        "annee_min": "1999",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.117497571098566,
+          47.26624040764427
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016000",
+        "code_parametre": "1141",
+        "libelle_parametre": "2,4-D",
+        "code_station": "06016000",
+        "libelle_station": "OUCHE A CRIMOLOIS 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 57,
+        "n_depassements": 9,
+        "max_ratio": 50.0,
+        "max_conc_ugl": 5.0,
+        "seuil_ugl": 0.1,
+        "annee_min": "2004",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.280295315253676,
+          47.11398711571098
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016500",
+        "code_parametre": "1141",
+        "libelle_parametre": "2,4-D",
+        "code_station": "06016500",
+        "libelle_station": "OUCHE A ECHENON ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 10,
+        "n_depassements": 2,
+        "max_ratio": 3.5999999999999996,
+        "max_conc_ugl": 0.36,
+        "seuil_ugl": 0.1,
+        "annee_min": "2006",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.317442301282121,
+          47.34005816110041
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03034370",
+        "code_parametre": "1141",
+        "libelle_parametre": "2,4-D",
+        "code_station": "03034370",
+        "libelle_station": "LE SEREIN A VIC-SOUS-THIL 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 10,
+        "n_depassements": 1,
+        "max_ratio": 4.53,
+        "max_conc_ugl": 0.453,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.1283806064362265,
+          47.46606372196596
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03034720",
+        "code_parametre": "1141",
+        "libelle_parametre": "2,4-D",
+        "code_station": "03034720",
+        "libelle_station": "LE SEREIN A VIEUX-CHATEAU 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 14,
+        "n_depassements": 1,
+        "max_ratio": 2.0799999999999996,
+        "max_conc_ugl": 0.208,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.3001686940701465,
+          47.178370127067545
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06013800",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06013800",
+        "libelle_station": "TILLE A CHAMPDOTRE 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 116,
+        "n_depassements": 1,
+        "max_ratio": 1.5999999999999999,
+        "max_conc_ugl": 0.16,
+        "seuil_ugl": 0.1,
+        "annee_min": "1997",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.165636185828036,
+          47.073698608313535
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017050",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06017050",
+        "libelle_station": "SAONE A CHARREY-SUR-SAONE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 109,
+        "n_depassements": 1,
+        "max_ratio": 3.1999999999999997,
+        "max_conc_ugl": 0.32,
+        "seuil_ugl": 0.1,
+        "annee_min": "1997",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.996350927158372,
+          46.98310090742092
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06036970",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06036970",
+        "libelle_station": "MEUZIN A CORGENGOUX 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 117,
+        "n_depassements": 3,
+        "max_ratio": 2.8000000000000003,
+        "max_conc_ugl": 0.28,
+        "seuil_ugl": 0.1,
+        "annee_min": "1997",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.179873915761917,
+          47.13403567954293
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06017000",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06017000",
+        "libelle_station": "VOUGE A AUBIGNY-EN-PLAINE ",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 110,
+        "n_depassements": 4,
+        "max_ratio": 13.999999999999998,
+        "max_conc_ugl": 1.4,
+        "seuil_ugl": 0.1,
+        "annee_min": "1999",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.117497571098566,
+          47.26624040764427
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016000",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06016000",
+        "libelle_station": "OUCHE A CRIMOLOIS 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 57,
+        "n_depassements": 5,
+        "max_ratio": 129.0,
+        "max_conc_ugl": 12.9,
+        "seuil_ugl": 0.1,
+        "annee_min": "2004",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.216022428639148,
+          47.130160542292344
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016955",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06016955",
+        "libelle_station": "BIETRE A BRAZEY-EN-PLAINE 5",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 24,
+        "n_depassements": 1,
+        "max_ratio": 6.6,
+        "max_conc_ugl": 0.66,
+        "seuil_ugl": 0.1,
+        "annee_min": "2006",
+        "annee_max": "2007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          5.200790118871342,
+          47.150445685090226
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "06016940",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "06016940",
+        "libelle_station": "BIETRE A BRAZEY-EN-PLAINE 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 4,
+        "n_depassements": 1,
+        "max_ratio": 1.5999999999999999,
+        "max_conc_ugl": 0.16,
+        "seuil_ugl": 0.1,
+        "annee_min": "2007",
+        "annee_max": "2007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.317442301282121,
+          47.34005816110041
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03034370",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "03034370",
+        "libelle_station": "LE SEREIN A VIC-SOUS-THIL 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 9,
+        "n_depassements": 1,
+        "max_ratio": 1.0499999999999998,
+        "max_conc_ugl": 0.105,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.371562349556197,
+          47.43123065052191
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03036510",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "03036510",
+        "libelle_station": "L'ARMANÇON A MONTIGNY-SUR-ARMANCON 1",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 13,
+        "n_depassements": 2,
+        "max_ratio": 2.48,
+        "max_conc_ugl": 0.248,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+          }
+        },
+        "coordinates": [
+          4.329608341319907,
+          47.50339058670343
+        ]
+      },
+      "properties": {
+        "source": "Naïades",
+        "identifiant_point": "03036650",
+        "code_parametre": "1212",
+        "libelle_parametre": "2,4-MCPA",
+        "code_station": "03036650",
+        "libelle_station": "L'ARMANÇON A SEMUR-EN-AUXOIS 2",
+        "bss_id": null,
+        "code_bss": null,
+        "code_departement": "21",
+        "code_commune": null,
+        "libelle_commune": null,
+        "n_mesures": 9,
+        "n_depassements": 1,
+        "max_ratio": 2.09,
+        "max_conc_ugl": 0.209,
+        "seuil_ugl": 0.1,
+        "annee_min": "2008",
+        "annee_max": "2009"
+      }
+    }
+  ]
+}
