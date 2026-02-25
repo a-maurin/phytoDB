@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Données générées par le programme
+data/cache/
+data/out/
+data/sig/
+
+# Référentiels générés automatiquement
+data/ref/parametres_pesticides.csv
+
+# Fichiers / dossiers d'IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Artefacts de build Python
+build/
+dist/
+*.egg-info/
+

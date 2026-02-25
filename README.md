@@ -82,7 +82,7 @@ Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrite
 - **Impact** : Naïades (qualité des eaux de surface, stations + analyses) et ADES (qualité des nappes, stations + analyses), avec géométrie (point de mesure).
 - **Normalisation** : chaque source est convertie en *features* GeoJSON avec un schéma commun (`source`, `type_donnee` = impact_surface | impact_souterrain, propriétés métier, géométrie).
 - **Export** : un seul fichier GeoJSON (FeatureCollection) agrège stations et analyses pour le département 21, exploitable dans QGIS ou ArcGIS pour visualiser les zones impactées et les croiser avec d’autres couches (communes, bassins versants, parcelles, etc.).
-- **Évolutions envisagées** : filtrage des paramètres « pesticides » (codes Sandre), agrégation par commune ou maille, indicateur de pression (ventes) géolocalisé (ex. achats par code postal), puis combinaison pression + impact dans une couche d’indicateurs de contrôle.
+- **Évolutions envisagées** : affiner les listes de paramètres « pesticides » (codes Sandre), agréger les indicateurs par commune ou maille, et construire des indicateurs de contrôle pour les agents de terrain (combinaison fréquence de détection / dépassements de seuils).
 
 ## Structure du projet
 
