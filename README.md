@@ -107,4 +107,12 @@ Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrite
 
 ## Licence
 
-Conformément aux jeux de données : Licence Ouverte / Open Licence version 2.0.
+Le code de ce dépôt est publié sous licence **Apache 2.0** (voir le fichier `LICENSE` à la racine du projet).
+
+Les jeux de données externes utilisés (C3PO, Naïades, ADES, etc.) restent soumis à leurs **licences propres** telles que publiées sur data.gouv.fr / Eaufrance ; leur réutilisation doit respecter ces conditions.
+
+## Contact
+
+- **Auteur** : Aguirre MAURIN  
+- **Service** : Service départemental de la Côte-d'Or – Office Français de la Biodiversité  
+- **Courriel** : aguirre.maurin@ofb.gouv.fr

@@ -1,0 +1,17 @@
+phytoDB – Analyse de l'impact des produits phytopharmaceutiques (PPP) en Côte-d'Or
+
+Copyright (c) 2024
+Aguirre MAURIN
+Service départemental de la Côte-d'Or – Office Français de la Biodiversité
+
+Ce logiciel est distribué sous licence Apache 2.0.
+Vous devez consulter le fichier LICENSE pour les termes complets de la licence.
+
+Ce projet réutilise des données ouvertes externes, notamment :
+- Base de connaissances C3PO (data.gouv.fr)
+- Données Naïades – Qualité des eaux de surface (Eaufrance / Hub'Eau)
+- Données ADES – Qualité des eaux souterraines (Eaufrance / Hub'Eau)
+
+Les jeux de données externes restent soumis à leurs propres licences
+et conditions d’utilisation, telles que publiées par leurs producteurs
+respectifs (data.gouv.fr, Eaufrance, etc.).

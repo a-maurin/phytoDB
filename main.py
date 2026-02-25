@@ -1,8 +1,8 @@
 """
 Point d'entrée CLI - phytoDB : récupération et analyse PPP pour la Côte-d'Or.
 Usage :
-  python main.py fetch     # récupère les données C3PO (et optionnellement ventes)
-  python main.py analyze   # lance l'analyse et écrit les sorties dans data/out
+  python main.py fetch     # récupère les données C3PO
+  python main.py analyze   # lance l'analyse C3PO et écrit les sorties dans data/out
   python main.py run       # analyse complète : C3PO + Naïades + ADES + analyse + export SIG
 """
 from __future__ import annotations
@@ -36,10 +36,6 @@ def cmd_fetch(args) -> int:
         data = fetch_all_c3po(cache=not args.no_cache)
         for rid_short, rows in data.items():
             print(f"  Ressource {rid_short}: {len(rows)} lignes.")
-        if getattr(args, "ventes", False):
-            print("Tentative de récupération des ventes par département (API)...")
-            ventes = fetch_ventes_cote_dor_from_api()
-            print(f"  Ventes Côte-d'Or (API): {len(ventes)} lignes.")
         return 0
     except Exception as e:
         print(f"Erreur: {e}")
@@ -139,8 +135,8 @@ def cmd_run(args) -> int:
         print(f"  Erreur ADES: {e}")
         ades_stations, ades_analyses = [], []
 
-    # 4) Analyse (C3PO + ventes)
-    print("\n=== 4/5 Analyse (C3PO + ventes) ===")
+    # 4) Analyse (C3PO)
+    print("\n=== 4/5 Analyse (C3PO) ===")
     if cmd_analyze(args) != 0:
         return 1
 

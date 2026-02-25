@@ -9,16 +9,15 @@ Objectif : croiser plusieurs sources de données pour repérer les zones les plu
 
 ## D’où viennent les données ?
 
-Le programme s’appuie sur **quatre types de sources** (toutes ouvertes / API publiques) :
+Le programme s’appuie sur **trois types de sources** (toutes ouvertes / API publiques) :
 
 | Source | Ce qu’elle apporte | Rôle dans phytoDB |
 |--------|--------------------|--------------------|
 | **C3PO** (data.gouv.fr) | Liste des substances PPP (noms, codes CAS, liens entre bases) | Référentiel : savoir de quelles substances on parle. |
-| **BNV-D ventes** (data.gouv.fr) | Ventes de pesticides **par département du vendeur** | Pression : ce qui est vendu (mais le dép. 21 est souvent vide car peu de vendeurs en Côte-d’Or). |
 | **Naïades** (Hub’Eau) | Qualité des **eaux de surface** (rivières, lacs) : stations de mesure + analyses | Impact : où l’eau est mesurée et ce qu’on y trouve (dont pesticides possibles). |
 | **ADES** (Hub’Eau) | Qualité des **eaux souterraines** (nappes) : points d’eau + analyses | Impact : idem pour les nappes. |
 
-- **C3PO** et **ventes** sont chargés via l’**API tabulaire data.gouv.fr** ou via des **fichiers CSV** que vous fournissez (ex. extraits des ZIP BNV-D).
+- **C3PO** est chargé via l’**API tabulaire data.gouv.fr**.
 - **Naïades** et **ADES** sont chargés via l’**API Hub’Eau** (filtre par département 21).
 
 Tout est configuré dans **`config.yaml`** (département 21, cache, RIDs des ressources C3PO, etc.).
@@ -53,8 +52,8 @@ python main.py <commande> [options]
    Optionnellement, avec `--ades-analyses`, il récupère aussi les **analyses**.
 
 4. **Analyse**  
-   Le programme croise **C3PO** et **ventes** (si vous en avez fourni, par API ou par fichier CSV).  
-   Il produit un résumé (nombre de substances, nombre de lignes de ventes, top substances, etc.) et écrit les résultats dans **`data/out/`** (JSON + CSV).
+   Le programme analyse **C3PO** pour le département 21 (liste et propriétés des substances)  
+   et écrit un résumé dans **`data/out/`** (JSON).
 
 5. **Export SIG**  
    Les données Naïades et ADES (stations + analyses) sont converties en **points géographiques** (coordonnées) et regroupées dans un **fichier GeoJSON**.  
