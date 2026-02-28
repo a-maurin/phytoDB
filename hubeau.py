@@ -129,3 +129,101 @@ def ades_analyses(
         params["date_fin_prelevement"] = date_fin_prelevement
     url = _url("hubeau", "v1", "qualite_nappes", "analyses")
     return _iter_pages(url, params, page_size=page_size, max_pages=max_pages, session=session)
+
+
+# ---------- Versions asynchrones (httpx) ----------
+
+
+async def _fetch_all_pages_async(
+    url: str,
+    params: dict[str, Any],
+    *,
+    page_size: int = 1000,
+    max_pages: int | None = 50,
+) -> list[dict[str, Any]]:
+    """Charge toutes les pages d'un endpoint Hub'Eau en async ; retourne la liste des items."""
+    import httpx
+    out: list[dict[str, Any]] = []
+    params = dict(params)
+    params["size"] = page_size
+    page = 1
+    async with httpx.AsyncClient(timeout=60.0) as client:
+        while True:
+            params["page"] = page
+            r = await client.get(url, params=params)
+            r.raise_for_status()
+            data = r.json()
+            items = data.get("data") or []
+            out.extend(items)
+            if not items or not data.get("next"):
+                break
+            page += 1
+            if max_pages is not None and page > max_pages:
+                break
+    return out
+
+
+async def naiades_stations_async(
+    code_departement: str,
+    page_size: int = 1000,
+    max_pages: int | None = 50,
+) -> list[dict[str, Any]]:
+    """Stations Naïades (async)."""
+    url = _url("hubeau", "v2", "qualite_rivieres", "station_pc")
+    return await _fetch_all_pages_async(
+        url, {"code_departement": code_departement},
+        page_size=page_size, max_pages=max_pages,
+    )
+
+
+async def naiades_analyses_async(
+    code_departement: str,
+    page_size: int = 1000,
+    max_pages: int | None = 50,
+    code_parametre: str | None = None,
+    date_debut_prelevement: str | None = None,
+    date_fin_prelevement: str | None = None,
+) -> list[dict[str, Any]]:
+    """Analyses Naïades (async)."""
+    params: dict[str, Any] = {"code_departement": code_departement}
+    if code_parametre:
+        params["code_parametre"] = code_parametre
+    if date_debut_prelevement:
+        params["date_debut_prelevement"] = date_debut_prelevement
+    if date_fin_prelevement:
+        params["date_fin_prelevement"] = date_fin_prelevement
+    url = _url("hubeau", "v2", "qualite_rivieres", "analyse_pc")
+    return await _fetch_all_pages_async(url, params, page_size=page_size, max_pages=max_pages)
+
+
+async def ades_stations_async(
+    code_departement: str,
+    page_size: int = 1000,
+    max_pages: int | None = 50,
+) -> list[dict[str, Any]]:
+    """Stations ADES (async)."""
+    url = _url("hubeau", "v1", "qualite_nappes", "stations")
+    return await _fetch_all_pages_async(
+        url, {"code_departement": code_departement},
+        page_size=page_size, max_pages=max_pages,
+    )
+
+
+async def ades_analyses_async(
+    code_departement: str,
+    page_size: int = 1000,
+    max_pages: int | None = 50,
+    code_parametre: int | str | None = None,
+    date_debut_prelevement: str | None = None,
+    date_fin_prelevement: str | None = None,
+) -> list[dict[str, Any]]:
+    """Analyses ADES (async)."""
+    params: dict[str, Any] = {"code_departement": code_departement}
+    if code_parametre is not None:
+        params["code_parametre"] = str(code_parametre)
+    if date_debut_prelevement:
+        params["date_debut_prelevement"] = date_debut_prelevement
+    if date_fin_prelevement:
+        params["date_fin_prelevement"] = date_fin_prelevement
+    url = _url("hubeau", "v1", "qualite_nappes", "analyses")
+    return await _fetch_all_pages_async(url, params, page_size=page_size, max_pages=max_pages)

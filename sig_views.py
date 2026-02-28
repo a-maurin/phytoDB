@@ -13,6 +13,23 @@ from typing import Any, Dict, Tuple
 
 from thresholds import seuil_sanitaire_ugL
 
+# Ordre des propriétés pour les couches dérivées (utile en premier)
+COLONNES_TOP10_ORDER = [
+    "ppp_nom", "ppp_usage", "ppp_usages_typiques", "ppp_taux_ugl", "ppp_seuil_sanitaire_ugl",
+    "ppp_ratio_seuil", "ppp_depassement", "top10_ppp_annee", "top10_rang",
+    "libelle_station", "libelle_commune", "nom_commune", "code_station", "code_commune",
+    "code_departement", "source", "type_donnee", "libelle_parametre", "code_parametre",
+    "resultat", "symbole_unite", "date_prelevement", "annee",
+]
+
+COLONNES_HOTSPOTS_ORDER = [
+    "ppp_nom", "ppp_usage", "ppp_usages_typiques", "n_depassements", "n_mesures",
+    "max_ratio", "max_conc_ugl", "ppp_taux_ugl", "ppp_seuil_sanitaire_ugl", "ppp_ratio_seuil", "ppp_depassement",
+    "libelle_station", "code_station", "libelle_commune", "nom_commune", "code_commune", "code_departement",
+    "bss_id", "code_bss", "source", "identifiant_point", "code_parametre", "libelle_parametre",
+    "annee_min", "annee_max",
+]
+
 
 def _load_features(sig_path: str | Path) -> list[dict[str, Any]]:
     p = Path(sig_path)
@@ -24,7 +41,7 @@ def _load_features(sig_path: str | Path) -> list[dict[str, Any]]:
 
 
 def export_top10_ppp_par_annee(
-    sig_path: str | Path = "data/sig/impact_ppp_cote_dor.geojson",
+    sig_path: str | Path = "data/sig/analyse_stations_ppp_cote_dor.geojson",
     out_path: str | Path = "data/sig/top10_ppp_par_annee.geojson",
 ) -> Path:
     """
@@ -70,8 +87,13 @@ def export_top10_ppp_par_annee(
         props = dict(props)
         props["top10_ppp_annee"] = True
         props["top10_rang"] = rk
+        # Réordonner les propriétés (champs utiles en premier)
+        props_ordered = {k: props[k] for k in COLONNES_TOP10_ORDER if k in props}
+        for k, v in props.items():
+            if k not in props_ordered:
+                props_ordered[k] = v
         f_out = dict(f)
-        f_out["properties"] = props
+        f_out["properties"] = props_ordered
         out_features.append(f_out)
 
     out_path = Path(out_path)
@@ -82,7 +104,7 @@ def export_top10_ppp_par_annee(
 
 
 def export_hotspots_ppp(
-    sig_path: str | Path = "data/sig/impact_ppp_cote_dor.geojson",
+    sig_path: str | Path = "data/sig/analyse_stations_ppp_cote_dor.geojson",
     out_path: str | Path = "data/sig/hotspots_ppp.geojson",
 ) -> Path:
     """
@@ -147,6 +169,10 @@ def export_hotspots_ppp(
                 "identifiant_point": ident,
                 "code_parametre": str(code_param),
                 "libelle_parametre": props.get("libelle_parametre"),
+                # Champs PPP « lisibles » repris de la couche principale
+                "ppp_nom": props.get("ppp_nom") or props.get("libelle_parametre"),
+                "ppp_usage": props.get("ppp_usage"),
+                "ppp_usages_typiques": props.get("ppp_usages_typiques"),
                 "code_station": props.get("code_station"),
                 "libelle_station": props.get("libelle_station"),
                 "bss_id": props.get("bss_id"),
@@ -159,6 +185,11 @@ def export_hotspots_ppp(
                 "max_ratio": 0.0,
                 "max_conc_ugl": 0.0,
                 "seuil_ugl": seuil,
+                # Champs PPP synthétiques alignés avec la couche principale
+                "ppp_taux_ugl": 0.0,
+                "ppp_seuil_sanitaire_ugl": seuil,
+                "ppp_ratio_seuil": 0.0,
+                "ppp_depassement": False,
                 "annee_min": props.get("annee"),
                 "annee_max": props.get("annee"),
                 "_geometry": geom,
@@ -178,6 +209,11 @@ def export_hotspots_ppp(
             if ratio > agg["max_ratio"]:
                 agg["max_ratio"] = ratio
                 agg["max_conc_ugl"] = conc_ugl
+                # Mettre à jour les champs PPP synthétiques sur la base du pire cas
+                agg["ppp_taux_ugl"] = conc_ugl
+                agg["ppp_seuil_sanitaire_ugl"] = seuil
+                agg["ppp_ratio_seuil"] = ratio
+                agg["ppp_depassement"] = True
 
     # On ne garde que les vrais "points chauds" (au moins un dépassement)
     out_features: list[dict[str, Any]] = []
@@ -185,8 +221,12 @@ def export_hotspots_ppp(
         if agg["n_depassements"] <= 0:
             continue
         geom = agg.pop("_geometry", None)
-        props = agg
-        f = {"type": "Feature", "geometry": geom, "properties": props}
+        # Réordonner les propriétés (champs utiles en premier)
+        props_ordered = {k: agg[k] for k in COLONNES_HOTSPOTS_ORDER if k in agg}
+        for k, v in agg.items():
+            if k not in props_ordered:
+                props_ordered[k] = v
+        f = {"type": "Feature", "geometry": geom, "properties": props_ordered}
         out_features.append(f)
 
     out_path = Path(out_path)

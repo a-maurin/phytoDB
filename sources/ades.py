@@ -126,3 +126,78 @@ def fetch_ades_analyses_dep(
             json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
         )
     return data
+
+
+async def fetch_ades_stations_dep_async(
+    code_departement: str = "21",
+    cache_dir: Path | None = None,
+    max_pages: int = 100,
+) -> list[dict[str, Any]]:
+    """Récupère les stations ADES (async)."""
+    from hubeau import ades_stations_async
+    config = _load_config()
+    cfg = config.get("hubeau", {})
+    page_size = cfg.get("page_size", 1000)
+    data = await ades_stations_async(code_departement, page_size=page_size, max_pages=max_pages)
+    if cache_dir:
+        import json
+        cache_dir = Path(cache_dir)
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        (cache_dir / "ades_stations_21.json").write_text(
+            json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
+        )
+    return data
+
+
+async def fetch_ades_analyses_dep_async(
+    code_departement: str = "21",
+    code_parametre: int | str | None = None,
+    date_debut: str | None = None,
+    date_fin: str | None = None,
+    cache_dir: Path | None = None,
+    max_pages: int = 20,
+) -> list[dict[str, Any]]:
+    """Récupère les analyses ADES (async). Même logique que fetch_ades_analyses_dep."""
+    from hubeau import ades_analyses_async
+    config = _load_config()
+    cfg_hubeau = config.get("hubeau", {})
+    cfg_ppp = config.get("ppp", {}).get("ades", {}) or {}
+    page_size = cfg_hubeau.get("page_size", 1000)
+    date_debut_eff = date_debut or cfg_ppp.get("date_debut")
+    date_fin_eff = date_fin or cfg_ppp.get("date_fin")
+    data: list[dict[str, Any]] = []
+    if code_parametre is not None:
+        data = await ades_analyses_async(
+            code_departement, page_size=page_size, max_pages=max_pages,
+            code_parametre=code_parametre,
+            date_debut_prelevement=date_debut_eff, date_fin_prelevement=date_fin_eff,
+        )
+    else:
+        codes_ppp: list[str] = cfg_ppp.get("codes_parametre") or []
+        if not codes_ppp:
+            data = await ades_analyses_async(
+                code_departement, page_size=page_size, max_pages=max_pages,
+                date_debut_prelevement=date_debut_eff, date_fin_prelevement=date_fin_eff,
+            )
+        else:
+            pages_restantes = max_pages
+            for idx, code_ppp in enumerate(codes_ppp):
+                if pages_restantes <= 0:
+                    break
+                n_codes = len(codes_ppp)
+                max_pages_code = max(1, pages_restantes // max(1, n_codes - idx))
+                part = await ades_analyses_async(
+                    code_departement, page_size=page_size, max_pages=max_pages_code,
+                    code_parametre=code_ppp,
+                    date_debut_prelevement=date_debut_eff, date_fin_prelevement=date_fin_eff,
+                )
+                data.extend(part)
+                pages_restantes -= max_pages_code
+    if cache_dir:
+        import json
+        cache_dir = Path(cache_dir)
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        (cache_dir / "ades_analyses_21.json").write_text(
+            json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
+        )
+    return data

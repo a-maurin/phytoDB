@@ -109,3 +109,34 @@ def fetch_full_resource(
 ) -> list[dict[str, Any]]:
     """Charge l'intégralité d'une ressource en mémoire."""
     return list(iter_data(rid, page_size=page_size, filters=filters, session=session))
+
+
+async def fetch_full_resource_async(
+    rid: str,
+    *,
+    page_size: int = DEFAULT_PAGE_SIZE,
+    filters: dict[str, str] | None = None,
+) -> list[dict[str, Any]]:
+    """Charge l'intégralité d'une ressource en mémoire (async, httpx)."""
+    import asyncio
+    import httpx
+    url_base = _url(rid, "data")
+    out: list[dict[str, Any]] = []
+    page = 1
+    async with httpx.AsyncClient(timeout=60.0) as client:
+        while True:
+            params: dict[str, Any] = {"page": page, "page_size": page_size}
+            if filters:
+                params.update(filters)
+            r = await client.get(url_base, params=params)
+            r.raise_for_status()
+            data = r.json()
+            rows = data.get("data") or []
+            out.extend(rows)
+            meta = data.get("meta") or {}
+            total = meta.get("total", 0)
+            if len(out) >= total or not rows:
+                break
+            page += 1
+            await asyncio.sleep(1.0 / RATE_LIMIT_PER_SECOND)
+    return out

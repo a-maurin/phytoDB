@@ -54,3 +54,18 @@ ppp:
     codes_parametre: []
     date_debut: null
     date_fin: null
+
+# Référentiels complémentaires
+ref:
+  # Référentiel de paramètres pesticides (codes Sandre) utilisé pour filtrer les analyses
+  parametres_pesticides:
+    file: data/ref/parametres_pesticides.csv
+    # url: https://exemple.sandre.eaufrance.fr/parametres_pesticides.csv
+
+  # Dictionnaire optionnel des usages PPP (type et usages typiques),
+  # construit à partir de sources comme E-phy, BNVD, bases européennes, etc.
+  # Format : voir ppp_dict.py
+  ppp_usages:
+    file: data/ref/ppp_usages.csv
+    # Répertoire des sources C3PO/e-Phy (substances_identification.csv, substances_fonctions.csv, etc.)
+    sources_dictionnaire: sources/sources_dictionnaire

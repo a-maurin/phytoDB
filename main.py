@@ -3,25 +3,38 @@ Point d'entrée CLI - phytoDB : récupération et analyse PPP pour la Côte-d'Or
 Usage :
   python main.py fetch     # récupère les données C3PO
   python main.py analyze   # lance l'analyse C3PO et écrit les sorties dans data/out
-  python main.py run       # analyse complète : C3PO + Naïades + ADES + analyse + export SIG
+  python main.py run       # analyse complète : C3PO + Naïades + ADES + analyse + export SIG (fetch en parallèle)
 """
 from __future__ import annotations
 
 import argparse
+import asyncio
 import sys
 from pathlib import Path
 
 # Permettre l'import des modules du projet (répertoire courant)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from c3po import fetch_all_c3po, get_c3po_resource_ids
+from c3po import fetch_all_c3po, fetch_all_c3po_async, get_c3po_resource_ids
 from analysis import run_analysis
 from datagouv import get_resources_for_tabular
-from sources.naiades import fetch_naiades_stations_dep, fetch_naiades_analyses_dep
-from sources.ades import fetch_ades_stations_dep, fetch_ades_analyses_dep
+from sources.naiades import (
+    fetch_naiades_stations_dep,
+    fetch_naiades_analyses_dep,
+    fetch_naiades_stations_dep_async,
+    fetch_naiades_analyses_dep_async,
+)
+from sources.ades import (
+    fetch_ades_stations_dep,
+    fetch_ades_analyses_dep,
+    fetch_ades_stations_dep_async,
+    fetch_ades_analyses_dep_async,
+)
 from sig import export_sig_geojson
+from sig_styles import write_sig_styles
 from sig_views import export_top10_ppp_par_annee, export_hotspots_ppp
 from ref_params import filter_analyses_pesticides
+from ppp_dict import build_ppp_usages_from_sources_dictionnaire
 import yaml
 
 
@@ -61,88 +74,78 @@ def cmd_analyze(args) -> int:
 
 
 def cmd_run(args) -> int:
-    """Analyse complète : fetch C3PO → Naïades → ADES → analyze → export SIG."""
+    """Analyse complète : fetch C3PO, Naïades et ADES en parallèle (async), puis analyse + export SIG."""
     root = Path(__file__).resolve().parent
     with open(root / "config.yaml", encoding="utf-8") as f:
         config = yaml.safe_load(f)
+    return asyncio.run(_run_async(args, config))
+
+
+async def _run_async(args: argparse.Namespace, config: dict) -> int:
+    """Coroutine exécutant fetch C3PO, Naïades et ADES en parallèle puis le reste en séquentiel."""
     code_dep = config.get("departement", {}).get("code", "21")
     cache = _cache_dir(config)
     out_dir = getattr(args, "out_dir", "data/out")
-    out_sig = Path(getattr(args, "out_sig", "data/sig/impact_ppp_cote_dor.geojson"))
+    out_sig = Path(getattr(args, "out_sig", "data/sig/analyse_stations_ppp_cote_dor.geojson"))
+    max_pages_naiades = getattr(args, "max_pages_naiades", 20)
+    max_pages_ades = getattr(args, "max_pages_ades", 20)
+    max_pages_ades_analyses = getattr(args, "max_pages_ades_analyses", 20)
+    apercu_naiades = min(max_pages_naiades, 5) if not getattr(args, "naiades_analyses", False) else max_pages_naiades
+    apercu_ades = min(max_pages_ades_analyses, 3) if not getattr(args, "ades_analyses", False) else max_pages_ades_analyses
 
-    # 1) C3PO
-    print("=== 1/5 C3PO (API tabulaire) ===")
-    if cmd_fetch(args) != 0:
+    # 1) Fetch en parallèle : C3PO, Naïades (stations + analyses), ADES (stations + analyses)
+    print("=== 1/5 Fetch en parallèle (C3PO, Naïades, ADES) ===")
+    rids = get_c3po_resource_ids()
+    if not rids:
+        print("Aucun resource_id C3PO configuré. Lancez sans async ou configurez config.yaml.")
         return 1
 
-    # 2) Naïades (stations + analyses, filtrées sur paramètres PPP si référentiel disponible)
-    print("\n=== 2/5 Naïades (qualité cours d'eau) ===")
-    try:
-        naiades_stations = fetch_naiades_stations_dep(code_dep, cache_dir=cache)
-        print(f"  Stations: {len(naiades_stations)}")
-        naiades_analyses = []
-        max_pages_naiades = getattr(args, "max_pages_naiades", 20)
-        if getattr(args, "naiades_analyses", False):
-            # Mode complet : on respecte max_pages_naiades
-            naiades_analyses = fetch_naiades_analyses_dep(
-                code_dep, cache_dir=cache, max_pages=max_pages_naiades
-            )
-            print(f"  Analyses Naïades brutes (max_pages={max_pages_naiades}): {len(naiades_analyses)}")
-        else:
-            # Par défaut : on récupère au moins un aperçu limité pour alimenter la couche SIG
-            apercu_pages = min(max_pages_naiades, 5)
-            naiades_analyses = fetch_naiades_analyses_dep(
-                code_dep, cache_dir=cache, max_pages=apercu_pages
-            )
-            print(f"  Analyses Naïades brutes (aperçu, max_pages={apercu_pages}): {len(naiades_analyses)}")
+    async def do_c3po():
+        data = await fetch_all_c3po_async(cache=not getattr(args, "no_cache", False))
+        for rid_short, rows in data.items():
+            print(f"  C3PO {rid_short}: {len(rows)} lignes.")
+        return data
 
-        # Filtrage PPP (pesticides) si un référentiel de codes est disponible
-        naiades_analyses_ppp = filter_analyses_pesticides(naiades_analyses, code_field="code_parametre")
-        print(f"  Analyses Naïades pesticides retenues: {len(naiades_analyses_ppp)}")
-        naiades_analyses = naiades_analyses_ppp
-    except Exception as e:
-        print(f"  Erreur Naïades: {e}")
-        naiades_stations, naiades_analyses = [], []
-
-    # 3) ADES (stations + analyses, filtrées sur paramètres PPP si référentiel disponible)
-    print("\n=== 3/5 ADES (qualité nappes) ===")
-    try:
-        ades_stations = fetch_ades_stations_dep(
-            code_dep, cache_dir=cache, max_pages=getattr(args, "max_pages_ades", 20)
+    async def do_naiades():
+        stations = await fetch_naiades_stations_dep_async(code_dep, cache_dir=cache)
+        analyses = await fetch_naiades_analyses_dep_async(
+            code_dep, cache_dir=cache, max_pages=apercu_naiades
         )
-        print(f"  Stations: {len(ades_stations)}")
-        ades_analyses = []
-        max_pages_ades_analyses = getattr(args, "max_pages_ades_analyses", 20)
-        if getattr(args, "ades_analyses", False):
-            # Mode complet : on respecte max_pages_ades_analyses
-            ades_analyses = fetch_ades_analyses_dep(
-                code_dep, cache_dir=cache, max_pages=max_pages_ades_analyses
-            )
-            print(f"  Analyses ADES brutes (max_pages={max_pages_ades_analyses}): {len(ades_analyses)}")
-        else:
-            # Par défaut : on récupère un échantillon limité pour alimenter la couche SIG
-            apercu_pages_ades = min(max_pages_ades_analyses, 3)
-            ades_analyses = fetch_ades_analyses_dep(
-                code_dep, cache_dir=cache, max_pages=apercu_pages_ades
-            )
-            print(f"  Analyses ADES brutes (aperçu, max_pages={apercu_pages_ades}): {len(ades_analyses)}")
+        print(f"  Naïades: {len(stations)} stations, {len(analyses)} analyses brutes.")
+        return (stations, analyses)
 
-        # Filtrage PPP (pesticides) si un référentiel de codes est disponible
-        ades_analyses_ppp = filter_analyses_pesticides(ades_analyses, code_field="code_param")
-        print(f"  Analyses ADES pesticides retenues: {len(ades_analyses_ppp)}")
-        ades_analyses = ades_analyses_ppp
+    async def do_ades():
+        stations = await fetch_ades_stations_dep_async(
+            code_dep, cache_dir=cache, max_pages=max_pages_ades
+        )
+        analyses = await fetch_ades_analyses_dep_async(
+            code_dep, cache_dir=cache, max_pages=apercu_ades
+        )
+        print(f"  ADES: {len(stations)} stations, {len(analyses)} analyses brutes.")
+        return (stations, analyses)
+
+    try:
+        _, (naiades_stations, naiades_analyses), (ades_stations, ades_analyses) = await asyncio.gather(
+            do_c3po(), do_naiades(), do_ades()
+        )
     except Exception as e:
-        print(f"  Erreur ADES: {e}")
-        ades_stations, ades_analyses = [], []
+        print(f"Erreur fetch: {e}")
+        return 1
 
-    # 4) Analyse (C3PO)
-    print("\n=== 4/5 Analyse (C3PO) ===")
+    # Filtrage PPP
+    naiades_analyses = filter_analyses_pesticides(naiades_analyses, code_field="code_parametre")
+    print(f"  Analyses Naïades pesticides retenues: {len(naiades_analyses)}")
+    ades_analyses = filter_analyses_pesticides(ades_analyses, code_field="code_param")
+    print(f"  Analyses ADES pesticides retenues: {len(ades_analyses)}")
+
+    # 2) Analyse (C3PO)
+    print("\n=== 2/5 Analyse (C3PO) ===")
     if cmd_analyze(args) != 0:
         return 1
 
-    # 5) Export SIG
+    # 3) Export SIG
     if not getattr(args, "no_sig", False):
-        print("\n=== 5/5 Export couche SIG ===")
+        print("\n=== 3/5 Export couche SIG ===")
         try:
             path = export_sig_geojson(
                 out_path=out_sig,
@@ -151,17 +154,17 @@ def cmd_run(args) -> int:
                 ades_stations=ades_stations,
                 ades_analyses=ades_analyses,
             )
+            write_sig_styles(out_sig.parent)
             print(f"  Couche SIG: {path} ({path.stat().st_size // 1024} Ko)")
-
-            # Couches dérivées pour une symbologie plus parlante
-            top10_path = export_top10_ppp_par_annee(sig_path=path, out_path=Path("data/sig/top10_ppp_par_annee.geojson"))
-            print(f"  Couche top10 PPP par année: {top10_path} ({top10_path.stat().st_size // 1024} Ko)")
+            if getattr(args, "top10", False):
+                top10_path = export_top10_ppp_par_annee(sig_path=path, out_path=Path("data/sig/top10_ppp_par_annee.geojson"))
+                print(f"  Couche top10 PPP par année: {top10_path} ({top10_path.stat().st_size // 1024} Ko)")
             hotspots_path = export_hotspots_ppp(sig_path=path, out_path=Path("data/sig/hotspots_ppp.geojson"))
             print(f"  Couche points chauds PPP: {hotspots_path} ({hotspots_path.stat().st_size // 1024} Ko)")
         except Exception as e:
             print(f"  Erreur export SIG: {e}")
     else:
-        print("\n=== 5/5 Export SIG (ignoré avec --no-sig) ===")
+        print("\n=== 3/5 Export SIG (ignoré avec --no-sig) ===")
 
     print("\n--- Analyse complète terminée ---")
     print(f"  Sorties: {out_dir}/")
@@ -184,6 +187,30 @@ def cmd_list_resources(args) -> int:
         for r in resources:
             print(f"  RID: {r.get('id')}  titre: {r.get('title')}  format: {r.get('format')}")
         return 0
+    except Exception as e:
+        print(f"Erreur: {e}")
+        return 1
+
+
+def cmd_build_ppp_dict(args) -> int:
+    """Construit data/ref/ppp_usages.csv à partir de sources/sources_dictionnaire (C3PO/e-Phy)."""
+    root = Path(__file__).resolve().parent
+    sources_dir = getattr(args, "sources_dir", None)
+    if sources_dir:
+        sources_dir = Path(sources_dir)
+        if not sources_dir.is_absolute():
+            sources_dir = root / sources_dir
+    out = getattr(args, "out", None)
+    try:
+        path = build_ppp_usages_from_sources_dictionnaire(
+            sources_dir=sources_dir,
+            output_path=out,
+        )
+        print(f"Dictionnaire PPP généré : {path} ({len(path.read_text(encoding='utf-8').splitlines()) - 1} entrées)")
+        return 0
+    except FileNotFoundError as e:
+        print(f"Erreur: {e}")
+        return 1
     except Exception as e:
         print(f"Erreur: {e}")
         return 1
@@ -246,7 +273,7 @@ def cmd_export_sig(args) -> int:
         config = yaml.safe_load(f)
     code_dep = config.get("departement", {}).get("code", "21")
     cache = Path(config.get("cache", {}).get("dir", "data/cache"))
-    out = Path(getattr(args, "out", "data/sig/impact_ppp_cote_dor.geojson"))
+    out = Path(getattr(args, "out", "data/sig/analyse_stations_ppp_cote_dor.geojson"))
 
     naiades_stations, naiades_analyses, ades_stations, ades_analyses = [], [], [], []
 
@@ -293,6 +320,7 @@ def cmd_export_sig(args) -> int:
         ades_stations=ades_stations,
         ades_analyses=ades_analyses,
     )
+    write_sig_styles(out.parent)
     print(f"Couche SIG exportée: {path} ({path.stat().st_size // 1024} Ko)")
     return 0
 
@@ -312,17 +340,23 @@ def main() -> int:
     p_run = sub.add_parser("run", help="Analyse complète : C3PO + Naïades + ADES + analyse + export SIG")
     p_run.add_argument("--no-cache", action="store_true", help="Désactiver le cache")
     p_run.add_argument("--out-dir", default="data/out", help="Répertoire de sortie analyse")
-    p_run.add_argument("--out-sig", default="data/sig/impact_ppp_cote_dor.geojson", help="Fichier GeoJSON couche SIG")
+    p_run.add_argument("--out-sig", default="data/sig/analyse_stations_ppp_cote_dor.geojson", help="Fichier GeoJSON couche SIG")
     p_run.add_argument("--naiades-analyses", action="store_true", help="Inclure les analyses Naïades (volume important)")
     p_run.add_argument("--max-pages-naiades", type=int, default=20, help="Max pages analyses Naïades")
     p_run.add_argument("--ades-analyses", action="store_true", help="Inclure les analyses ADES")
     p_run.add_argument("--max-pages-ades", type=int, default=20, help="Max pages stations ADES")
     p_run.add_argument("--max-pages-ades-analyses", type=int, default=20, help="Max pages analyses ADES")
     p_run.add_argument("--no-sig", action="store_true", help="Ne pas exporter la couche SIG")
+    p_run.add_argument("--top10", action="store_true", help="Exporter aussi la couche top10 PPP par année")
     p_run.set_defaults(func=cmd_run)
 
     p_list = sub.add_parser("list-resources", help="Lister les RIDs des ressources C3PO")
     p_list.set_defaults(func=cmd_list_resources)
+
+    p_build_dict = sub.add_parser("build-ppp-dict", help="Construire data/ref/ppp_usages.csv depuis sources_dictionnaire (C3PO/e-Phy)")
+    p_build_dict.add_argument("--sources-dir", default=None, help="Répertoire des CSV (défaut: config ref.ppp_usages.sources_dictionnaire)")
+    p_build_dict.add_argument("--out", default=None, help="Fichier CSV de sortie (défaut: data/ref/ppp_usages.csv)")
+    p_build_dict.set_defaults(func=cmd_build_ppp_dict)
 
     p_naiades = sub.add_parser("fetch-naiades", help="Récupérer les données Naïades (qualité cours d'eau)")
     p_naiades.add_argument("--analyses", action="store_true", help="Récupérer aussi les analyses (volume important)")
@@ -336,7 +370,7 @@ def main() -> int:
     p_ades.set_defaults(func=cmd_fetch_ades)
 
     p_sig = sub.add_parser("export-sig", help="Exporter la couche SIG (GeoJSON) pour QGIS/ArcGIS")
-    p_sig.add_argument("--out", default="data/sig/impact_ppp_cote_dor.geojson", help="Fichier GeoJSON de sortie")
+    p_sig.add_argument("--out", default="data/sig/analyse_stations_ppp_cote_dor.geojson", help="Fichier GeoJSON de sortie")
     p_sig.add_argument("--no-naiades", action="store_true", dest="no_naiades", help="Exclure Naïades")
     p_sig.add_argument("--no-ades", action="store_true", dest="no_ades", help="Exclure ADES")
     p_sig.add_argument("--no-fetch-analyses", action="store_true", dest="no_fetch_analyses",

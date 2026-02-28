@@ -57,7 +57,7 @@ python main.py <commande> [options]
 
 5. **Export SIG**  
    Les données Naïades et ADES (stations + analyses) sont converties en **points géographiques** (coordonnées) et regroupées dans un **fichier GeoJSON**.  
-   → Fichier généré : **`data/sig/impact_ppp_cote_dor.geojson`**, utilisable dans QGIS ou ArcGIS pour afficher une couche « impact PPP » sur la Côte-d’Or.
+   → Fichier généré : **`data/sig/analyse_stations_ppp_cote_dor.geojson`**, utilisable dans QGIS ou ArcGIS pour afficher une couche « impact PPP » sur la Côte-d’Or.
 
 Si une étape échoue (ex. ADES en erreur), les suivantes sont quand même exécutées avec les données déjà récupérées.
 
@@ -90,10 +90,25 @@ Si une étape échoue (ex. ADES en erreur), les suivantes sont quand même exéc
 | Emplacement | Contenu | Usage |
 |-------------|--------|--------|
 | **`data/out/`** | Résultats de l’**analyse** : `analyse_cote_dor.json`, `top_substances_ventes_21.csv`, `substances_c3po_disponibles.json` (si pas de ventes). | Consulter les indicateurs, les listes de substances, les agrégats pour la Côte-d’Or. |
-| **`data/sig/`** | **Couche géographique** : `impact_ppp_cote_dor.geojson` (points = stations et analyses Naïades/ADES). | Ouvrir dans QGIS/ArcGIS pour cartographier les zones de mesure de la qualité de l’eau (impact potentiel des PPP). |
+| **`data/sig/`** | **Couche géographique** : `analyse_stations_ppp_cote_dor.geojson` (points = stations et analyses Naïades/ADES). | Ouvrir dans QGIS/ArcGIS pour cartographier les zones de mesure de la qualité de l’eau (impact potentiel des PPP). |
 | **`data/cache/`** | Données brutes **mises en cache** (C3PO, Naïades, ADES) pour ne pas tout re-télécharger à chaque run. | Accélérer les prochains lancements ; option `--no-cache` pour forcer un nouveau téléchargement. |
 
-**Couche SIG** : uniquement des entités en Côte-d'Or. Table attributaire normalisée : `wkt_geom`, `source`, `type_donnee`, `bss_id`, `code_bss`, `code_station`, `libelle_station`, `code_departement`, `code_commune`, `libelle_commune`, `nom_cours_eau`, `nom_masse_deau`, `num_departement`, `nom_commune`, puis `libelle_parametre`, `code_parametre`, `resultat`, `symbole_unite`, `date_prelevement`, `annee` (données PPP et impact). Permet d'évaluer le degré d'impact (filtrage par paramètre, concentrations, quantités).
+**Couche SIG** : uniquement des entités en Côte-d'Or, et uniquement les **analyses** (les stations seules ne figurent pas dans la couche). Table attributaire normalisée, pensée pour un **agent non spécialiste** :
+
+- **Champs PPP « lisibles » affichés en premier** dans le formulaire d'entité :
+  - `ppp_nom` : PPP analysé (nom lisible de la substance / paramètre),
+  - `ppp_usage` : destination du PPP (herbicide, fongicide, insecticide, etc.),
+  - `ppp_usages_typiques` : cas typiques d'utilisation (texte court),
+  - `ppp_taux_ugl` : taux relevé par l'analyse, converti en µg/L,
+  - `ppp_seuil_sanitaire_ugl` : taux réglementaire/sanitaire à ne pas dépasser (µg/L),
+  - `ppp_ratio_seuil` : rapport taux / seuil ( > 1 = dépassement),
+  - `ppp_depassement` : booléen indiquant s'il y a dépassement du seuil.
+
+- **Champs de localisation / contexte** : `wkt_geom`, `source`, `type_donnee`, `bss_id`, `code_bss`, `code_station`, `libelle_station`, `code_departement`, `code_commune`, `libelle_commune`, `nom_cours_eau`, `nom_masse_deau`, `num_departement`, `nom_commune`.
+
+- **Champs techniques de paramètre** : `libelle_parametre`, `code_parametre`, `resultat`, `symbole_unite`, `date_prelevement`, `annee`, `ppp_description`, `ppp_url_inrs`, `ppp_url_ephy`.
+
+Ce schéma permet à la fois une lecture immédiate par l'agent (PPP, usage, taux, seuil, dépassement) et des analyses plus fines (paramètres techniques, dates, localisation précise).
 
 ---
 
@@ -115,7 +130,7 @@ config.yaml (département 21, RIDs C3PO, cache)
         |
         +---> 4) Analyse (C3PO + ventes) -------> data/out/*.json, *.csv
         |
-        +---> 5) Export SIG (Naïades + ADES) ---> data/sig/impact_ppp_cote_dor.geojson
+        +---> 5) Export SIG (Naïades + ADES) ---> data/sig/analyse_stations_ppp_cote_dor.geojson, hotspots_ppp.geojson
 ```
 
 ---

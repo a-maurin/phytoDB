@@ -23,9 +23,17 @@ cd phytoDB
 pip install -r requirements.txt
 ```
 
+Sous Linux (Debian/Ubuntu, Python 3.12+), si `pip` refuse l’installation (*externally-managed-environment*), utilisez :
+
+```bash
+pip install --break-system-packages -r requirements.txt
+```
+
+Ou installez les paquets via votre gestionnaire (ex. `apt install python3-requests python3-yaml python3-httpx` si disponibles).
+
 ## Configuration
 
-- `config.yaml` : département cible (21), URLs des API, RIDs des ressources C3PO, cache.
+- `config.yaml` : département cible (21), URLs des API, RIDs des ressources C3PO, cache, référentiels PPP.
 - Les **RIDs** des ressources sont visibles sur la page du jeu de données data.gouv.fr, onglet *Métadonnées* de chaque ressource.
 - Pour le filtrage PPP (pesticides), on peut renseigner une URL de référentiel Sandre ou un CSV local, par ex. :
 
@@ -37,6 +45,14 @@ ref:
     # (Optionnel) URL distante d'un CSV de paramètres pesticides (Sandre / Eaufrance / autre)
     # Si le fichier n'existe pas encore, le programme tentera de le télécharger automatiquement.
     url: https://exemple.sandre.eaufrance.fr/parametres_pesticides.csv
+
+  ppp_usages:
+    # Dictionnaire optionnel des usages PPP (type et usages typiques),
+    # construit à partir de sources comme E-phy, BNVD, bases européennes, etc.
+    # Format minimal du CSV :
+    #   code_parametre;ppp_usage;ppp_usages_typiques
+    # (optionnel) cas;ppp_usage;ppp_usages_typiques
+    file: data/ref/ppp_usages.csv
 ```
 
 ## Utilisation (CLI)
@@ -55,6 +71,7 @@ python main.py run
 # Avec options (analyses qualité eau, ou sans export SIG)
 python main.py run --naiades-analyses --ades-analyses
 python main.py run --no-sig
+python main.py run --top10   # inclure la couche top10 PPP par année
 
 # --- Naïades (qualité cours d'eau) et ADES (qualité nappes) ---
 # Les listes de paramètres PPP (codes Sandre) peuvent être fournies dans un CSV
@@ -65,7 +82,7 @@ python main.py fetch-ades                 # stations ADES dép. 21
 python main.py fetch-ades --analyses
 
 # --- Couche SIG (GeoJSON pour QGIS / ArcGIS) ---
-python main.py export-sig            # génère data/sig/impact_ppp_cote_dor.geojson
+python main.py export-sig            # génère data/sig/analyse_stations_ppp_cote_dor.geojson + styles .qml
 # Si le cache des analyses est vide, des analyses (Naïades + ADES) sont récupérées automatiquement
 # puis filtrées sur les paramètres « pesticides » si un fichier de références Sandre est présent,
 # afin que la couche contienne des paramètres PPP (filtre « code_parametre is not null » en SIG).
@@ -74,7 +91,7 @@ python main.py export-sig --no-ades  # uniquement Naïades
 python main.py export-sig --no-naiades --out data/sig/ades_21.geojson
 ```
 
-Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrites dans `data/out/` (JSON et CSV). La couche SIG est écrite dans `data/sig/` (GeoJSON).
+Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrites dans `data/out/` (JSON et CSV). La couche SIG est écrite dans `data/sig/` (GeoJSON). Un fichier de style QGIS (`.qml`) est généré pour la couche analyse (symbole simple) et pour les points chauds (symbologie par règles : dépassement, ratio, etc.).
 
 ## Construction du programme et couche SIG
 
@@ -95,9 +112,11 @@ Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrite
 - `hubeau.py` : client API Hub'Eau (Naïades + ADES)
 - `sources/naiades.py`, `sources/ades.py` : récupération données qualité eau pour le dép. 21
 - `sig.py` : schéma normalisé et export GeoJSON (couche SIG)
+- `sig_styles.py` : fichiers de style QGIS (.qml) pour symbologie impact / hotspots
+- `ppp_dict.py` : dictionnaire optionnel des usages PPP (type / usages typiques) pour enrichir la couche SIG
 - `ref_params.py` : chargement des listes de paramètres pesticides (Sandre / C3PO) et filtrage des analyses
 - `data/out/` : sorties analyse (`analyse_cote_dor.json`, `substances_c3po_disponibles.json`, etc.)
-- `data/sig/` : couche SIG (`impact_ppp_cote_dor.geojson`)
+- `data/sig/` : couche SIG (`analyse_stations_ppp_cote_dor.geojson`, `hotspots_ppp.geojson`)
 - `data/cache/` : cache des données brutes (C3PO, Naïades, ADES)
 
 ## Évolutions prévues
