@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="fr">
+	<!-- 
+		Schéma relatif aux données de décision d'AMM pour les intrants.
+		 + Types concernant les intrants
+	 -->
+	<xs:include schemaLocation="intrant-usage.xsd" />
+
+	<!-- Regroupe les listes d'intrants. il y a une liste par type d'intrant -->
+	<xs:complexType name="intrants">
+		<xs:sequence>
+			<xs:element name="PPPs" type="PPPs" minOccurs="0" />
+			<xs:element name="MFSCs" type="MFSCs" minOccurs="0" />
+			<xs:element name="adjuvants" type="adjuvants" minOccurs="0" />
+			<xs:element name="produit-mixtes" type="produit-mixtes" minOccurs="0" />
+			<xs:element name="melanges" type="melanges" minOccurs="0" />
+			<xs:element name="substances" type="substances" minOccurs="0" /><!-- substance active -->
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- liste d'intrants de type PPP -->
+	<xs:complexType name="PPPs">
+		<xs:sequence>
+			<xs:element name="PPP" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="intrant">
+							<xs:sequence>
+								<xs:element name="usages" type="usages" minOccurs="0" />
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- liste d'intrants de type MFSC -->
+	<xs:complexType name="MFSCs">
+		<xs:sequence>
+			<xs:element name="MFSC" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="intrant">
+							<xs:sequence>
+								<xs:element name="cultures-preconises" type="cultures-preconises" minOccurs="0" />
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- liste d'intrants de type adjuvant -->
+	<xs:complexType name="adjuvants">
+		<xs:sequence>
+			<xs:element name="adjuvant" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="intrant">
+							<xs:sequence>
+								<xs:element name="usages" type="usages" minOccurs="0" />
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- liste d'intrants de type produit mixte -->
+	<xs:complexType name="produit-mixtes">
+		<xs:sequence>
+			<xs:element name="produit-mixte" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="intrant">
+							<xs:sequence>
+								<xs:element name="usages" type="usages" minOccurs="0" />
+								<xs:element name="cultures-preconises" type="cultures-preconises" minOccurs="0" />
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- liste d'intrants de type melange -->
+	<xs:complexType name="melanges">
+		<xs:sequence>
+			<xs:element name="melange" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="intrant">
+							<xs:sequence>
+								<xs:element name="usages" type="usages" minOccurs="0" />
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Défini les attributs d'un intrant
+		un élements de type "ref" est une réference vers un élément de référentiel.
+		un élements de type "refs" est une liste de réferences vers un référentiel.
+	-->
+	<xs:complexType name="intrant">
+		<xs:sequence>
+			<!--  description -->
+			<xs:element name="titulaire" type="ref-et-decision" minOccurs="0" /><!-- ref-type=firme-titulaire -->
+			<xs:element name="type-produit" >
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PPP" />
+						<xs:enumeration value="MFSC" />
+						<xs:enumeration value="ADJUVANT" />
+						<xs:enumeration value="PRODUIT-MIXTE" />
+						<xs:enumeration value="MELANGE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+
+			<xs:element name="etat-produit" >
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="AUTORISE" />
+						<xs:enumeration value="RETIRE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+						
+			<xs:element name="numero-AMM" type="xs:string" />
+			<xs:element name="nom-produit" type="string-et-decision" /><!-- (synonyme: nom comercial)  -->
+			<xs:element name="type-commercial" type="ref-et-decision" minOccurs="0" /><!-- ref-type=type-commercial -->
+			<xs:element name="date-premiere-autorisation" type="date-ddmmaaaa" minOccurs="0" />
+			<xs:element name="date-retrait-produit" type="date-ddmmaaaa" minOccurs="0" /><!-- [SI-INTRANT uniquement] ecranTop_3, (synonyme: retrait définitif) -->
+			<xs:element name="gamme-usage" type="ref" minOccurs="0" /><!-- ref-type=gamme-usage  -->
+
+			<xs:element name="autres-noms" type="autres-noms" minOccurs="0" />
+			
+			<xs:element name="conditions-emploi-produit" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="condition-emploi-produit" maxOccurs="unbounded" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="condition-emploi-categorie" type="ref" /><!-- ref-type=condition-emploi-categorie  -->
+									<xs:element name="description" type="xs:string" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+
+			<xs:element name="fonctions" type="refs-et-decisions" minOccurs="0" /><!-- ref-type=fonction -->
+
+
+			<xs:element name="type-formulations" type="refs-et-decisions" minOccurs="0" /> <!-- ref-type=formulation-->
+			<xs:element name="mentions-autorisees" type="refs-et-decisions" minOccurs="0" /><!-- ref-type=mention -->
+			<xs:element name="restrictions" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="restriction" maxOccurs="unbounded" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="restriction-ref" type="ref" maxOccurs="1" minOccurs="1" /> <!-- ref-type=mention -->
+									<xs:element name="restriction-commentaire" type="xs:string" maxOccurs="1" minOccurs="1" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="produits-lies" minOccurs="0"><!--  autorisé et non autorisé -->
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="produit-lie" maxOccurs="unbounded" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="relation-produit" type="ref" /><!-- ref-type=relation-produit -->
+									<xs:element name="produit" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="numero-AMM" type="xs:string" />
+												<xs:element name="nom-produit" type="string-et-decision" minOccurs="0" />
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+			<xs:element name="classement-CLP" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="classes-danger" type="refs" minOccurs="0" /><!--ref-type=classe-danger -->
+						<xs:element name="phrases-risque" type="refs" minOccurs="0" /><!--ref-type=phrase-risque -->
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+			<xs:element name="classement-DSD" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence><!-- filtrer uniquement les éléments etat=Retenu  -->
+						<xs:element name="classes-danger" type="refs" minOccurs="0" /><!--ref-type=classe-danger -->
+						<xs:element name="phrases-risque" type="refs" minOccurs="0" /><!--ref-type=phrase-risque -->
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<!-- Element pas nécessaire pour e-phy v0 : produits-importes -->
+			<xs:element name="produits-importes" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="produit-importe" maxOccurs="unbounded" minOccurs="0"><!-- synonyme : Pays d'origine. -->
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="nom-produit-origine" type="xs:string" minOccurs="0" />
+									<xs:element name="numero-AMM-origine" type="xs:string" minOccurs="0" />
+									<xs:element name="pays-origine" type="ref" minOccurs="0" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="composition-integrale" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="substances-actives" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="substance-active" maxOccurs="unbounded" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="substance" type="ref" /><!-- ref_type=substance, ref-id=intrants/substances/substance/identifiant -->
+												<xs:element name="variant" minOccurs="0">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="nom" type="xs:string" />
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="teneur-SA-pure" type="decimal-et-unite" minOccurs="0" />
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- onglet: spécificité  MFSC - utilisé par e-phy -->
+			<xs:element name="ecarts-admissibles-sur-elements-de-composition" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ecart-admissible-sur-element-de-composition" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="element-de-composition" type="ref" /><!-- ref_type=composant-simple -->
+									<xs:element name="valeur-min-retenue" type="decimal-et-unite" minOccurs="0"/>
+									<xs:element name="valeur-max-retenue" type="decimal-et-unite" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ecarts-admissibles-sur-revendications-complementaire" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ecart-admissible-sur-revendication-complementaire" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="revendication" type="xs:string" />
+									<xs:element name="valeur-min-retenue" type="decimal-et-unite" minOccurs="0" />
+									<xs:element name="valeur-max-retenue" type="decimal-et-unite" minOccurs="0" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="substances"><!--  Susbstances actives  -->
+		<xs:sequence>
+			<xs:element name="substance" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="identifiant" type="xs:string" /><!-- identifiant technique, n'a pas de sens métier-->
+						<xs:element name="type-produit" >
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="SUBSTANCE" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+			
+						<xs:element name="nom-produit" type="xs:string" />
+						<xs:element name="autres-noms" type="autres-noms" minOccurs="0" /><!-- numero CAS -->
+						<xs:element name="famille-chimique" type="ref" minOccurs="0" /><!--ref-type=famille-chimique -->
+						
+						<xs:element name="etat-produit" >
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="INSCRITE" />
+									<xs:enumeration value="NON_INSCRITE" />
+									<xs:enumeration value="INSCRIPTION_EN_COURS" />
+									<xs:enumeration value="AUTRE_CAS" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+												
+						<xs:element name="variants" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="variant" maxOccurs="unbounded" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="nom" type="xs:string" />
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="autres-noms" >
+		<xs:sequence>
+			<xs:element name="autre-nom" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="type-nom" type="ref" />
+						<xs:element name="nom" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

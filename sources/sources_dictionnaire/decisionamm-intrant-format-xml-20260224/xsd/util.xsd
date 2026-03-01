@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="fr">
+	<!-- 
+		Redéfini des types simples 
+	-->	
+	<xs:simpleType name="date-ddmmaaaa">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{2}/\d{2}/\d{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- Element de type string soumis à décision. 
+		@date-decision : date de la décision 
+	-->
+	<xs:complexType name="string-et-decision">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="date-decision" type="date-ddmmaaaa" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<!-- Element de type string avec une unité (g/ha) 
+		@unite-id : une identifiant technique de l'unité. n'a pas de sens métier.
+		@unite : l'unité proprement dite 
+	-->
+	<xs:complexType name="string-et-unite">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="unite-id" type="xs:string" /><!-- id referentiel -->
+				<xs:attribute name="unite" type="xs:string" /><!-- ex g/l -->
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<!-- Element de type décimal avec une unité (g/ha) 
+		@unite-id : une identifiant technique de l'unité. n'a pas de sens métier.
+		@unite : l'unité proprement dite 
+	-->
+	<xs:complexType name="decimal-et-unite">
+		<xs:simpleContent>
+			<xs:extension base="decimal-or-empty"><!-- indispensable pour la usage/dose-retenue : on a une unite spéciale (20100401000000000502, .., « VOIR PARTICULARITES D'EMPLOI ») et pas de valeur -->
+				<xs:attribute name="unite-id" type="xs:string" /><!-- id referentiel -->
+				<xs:attribute name="unite" type="xs:string" /><!-- ex g/l -->
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<!-- Element de type décimal ou valeur vide
+	-->
+	<xs:simpleType name="decimal-or-empty">
+  		<xs:union memberTypes="xs:decimal empty-string" />
+	</xs:simpleType>
+	<xs:simpleType name="empty-string">
+	  <xs:restriction base="xs:string">
+	    <xs:enumeration value="" />
+	  </xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Element de type string avec un code langue
+	-->
+	<xs:complexType name="string-et-lang">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="lang" type="xs:string" /><!--  code iso ISO 639-1 -->
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+</xs:schema>

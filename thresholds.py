@@ -7,24 +7,17 @@ Objectif :
 """
 from __future__ import annotations
 
-from typing import Any
 from pathlib import Path
+from typing import Any
 import csv
 import yaml
+
+from config import load_config, resolve_path
 
 
 # Seuil sanitaire générique (directive eau potable UE 2020/2184) pour un pesticide individuel : 0,1 µg/L
 # (0,5 µg/L pour la somme des pesticides, non géré ici car on travaille substance par substance)
 DEFAULT_SANITAIRE_PPP_UGL = 0.1
-
-CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
-
-
-def _load_config() -> dict[str, Any]:
-    if not CONFIG_PATH.exists():
-        return {}
-    with CONFIG_PATH.open(encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
 
 
 def _default_thresholds_file() -> Path:
@@ -38,10 +31,10 @@ def _default_thresholds_file() -> Path:
       thresholds_pesticides:
         file: data/ref/seuils_pesticides.csv
     """
-    cfg = _load_config()
+    cfg = load_config()
     ref_cfg = cfg.get("ref", {}).get("thresholds_pesticides", {})
     path = ref_cfg.get("file", "data/ref/seuils_pesticides.csv")
-    return Path(path)
+    return resolve_path(path)
 
 
 _THRESHOLDS_CACHE: dict[str, float] | None = None

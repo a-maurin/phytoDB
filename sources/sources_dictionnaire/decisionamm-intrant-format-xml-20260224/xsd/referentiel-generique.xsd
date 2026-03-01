@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="fr">
+	
+	<!-- 
+			Schéma relatif aux données de décision d'AMM pour les intrants.
+			 + Types concernant les référentiels génériques
+	 -->
+
+	<xs:include schemaLocation="util.xsd" />
+
+	<!-- liste les types de référentiel
+			tous les 
+	 -->
+	<xs:simpleType name="typeRef">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="substance" />
+			<xs:enumeration value="firme-titulaire" />
+			<xs:enumeration value="firme" />
+			<xs:enumeration value="etat-physique" />
+			<xs:enumeration value="type-commercial" />
+			<xs:enumeration value="type-nom" />
+			<xs:enumeration value="relation-produit" />
+			<xs:enumeration value="fonction" />
+			<xs:enumeration value="gamme-usage" />
+			<xs:enumeration value="type-emballage" />
+			<xs:enumeration value="matiere-emballage" />
+			<xs:enumeration value="mode-conditionnement" />
+			<xs:enumeration value="condition-emploi-categorie" />
+			<xs:enumeration value="formulation" />
+			<xs:enumeration value="unite" />
+			<xs:enumeration value="pictogramme-danger" />
+			<xs:enumeration value="mention-danger" />
+			<xs:enumeration value="classe-danger" />
+			<xs:enumeration value="phrase-risque" />
+			<xs:enumeration value="phrase-prudence" />
+			<xs:enumeration value="pays" />
+			<xs:enumeration value="identifiant-usage" />
+			<xs:enumeration value="methode-application" />
+			<xs:enumeration value="groupe-organisme-nuisible" />
+			<xs:enumeration value="culture" />
+			<xs:enumeration value="stade-cultural-bbch" />
+			<xs:enumeration value="type-usage" />
+			<xs:enumeration value="mention" />
+			<xs:enumeration value="filiere" />
+			<xs:enumeration value="zone-usage" />
+			<xs:enumeration value="type-culture" />
+			<xs:enumeration value="famille-chimique" />
+			<xs:enumeration value="nature-sa" />
+			<xs:enumeration value="portee-usage" />
+			<xs:enumeration value="type-demande" />
+			<xs:enumeration value="saison" />
+			<xs:enumeration value="milieu" />
+			<xs:enumeration value="composant-simple" />
+		</xs:restriction>
+	</xs:simpleType>
+		
+	<!-- Liste de références vers un référentiel. -->
+	<xs:complexType name="refs">
+		<xs:sequence>
+			<xs:element name="ref" type="ref" maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="ref-type" type="typeRef" />
+	</xs:complexType>
+	<!-- Liste de références vers un référentiel avec une date de décision -->
+	<xs:complexType name="refs-et-decisions">
+		<xs:sequence>
+			<xs:element name="ref" type="ref-et-decision" maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="ref-type" type="typeRef" />
+	</xs:complexType>
+
+	<!-- Référence vers un élément de référentiel.
+		@type : identifie le référentiel 
+		@id : identifie l'élément dans ce référentiel 
+		@lib-court: libelle court [optionnel]
+		@contenu libelle
+	-->
+	<xs:complexType name="ref">
+		<xs:simpleContent>
+			<xs:extension base="xs:string"><!-- pour le libelle, obligatoire s'il est présent en base de données -->
+				<xs:attribute name="ref-type" type="typeRef" /><!-- obligatoire si ref unique, pas a fournir si liste de référence (type name=refs) -->
+				<xs:attribute name="ref-id" type="xs:string" use="required" />
+				<xs:attribute name="lib-court" type="xs:string"/>
+				<xs:attribute name="lib-specifique" type="xs:string" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<!-- Référence vers un élément de référentiel. Element avec une date de décision 
+		@type : identifie le référentiel 
+		@id : identifie l'élément dans ce référentiel 
+		@lib-court: libelle court [optionnel]
+		@date-decision : date de la décision [optionnel]
+		@contenu libelle
+	-->
+	<xs:complexType name="ref-et-decision">
+		<xs:simpleContent>
+			<xs:extension base="xs:string" ><!-- pour le libelle, obligatoire s'il est présent en base de données -->
+				<xs:attribute name="ref-type" type="typeRef" />
+				<xs:attribute name="ref-id" type="xs:string" use="required" />
+				<xs:attribute name="lib-court" />
+				<xs:attribute name="lib-specifique" type="xs:string" />
+				<xs:attribute name="date-decision" type="date-ddmmaaaa" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+</xs:schema>

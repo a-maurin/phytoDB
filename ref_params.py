@@ -25,20 +25,14 @@ import json
 import yaml
 import requests
 
-
-CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
-
-
-def _load_config() -> dict[str, Any]:
-    with open(CONFIG_PATH, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+from config import load_config, resolve_path
 
 
 def _default_pesticide_file() -> Path:
-    cfg = _load_config() or {}
+    cfg = load_config() or {}
     ref_cfg = cfg.get("ref", {}).get("parametres_pesticides", {})
     path = ref_cfg.get("file", "data/ref/parametres_pesticides.csv")
-    return Path(path)
+    return resolve_path(path)
 
 
 def _pesticide_remote_url() -> str | None:
@@ -54,7 +48,7 @@ def _pesticide_remote_url() -> str | None:
     Si non renseignée, le programme pourra tenter d'autres stratégies
     (ex. croisement Sandre / C3PO).
     """
-    cfg = _load_config() or {}
+    cfg = load_config() or {}
     ref_cfg = cfg.get("ref", {}).get("parametres_pesticides", {})
     url = ref_cfg.get("url")
     if url:
@@ -67,9 +61,9 @@ def _c3po_substances_path() -> Path:
     Emplacement attendu du fichier JSON des substances C3PO agrégées,
     produit par l'analyse : data/out/substances_c3po_disponibles.json
     """
-    cfg = _load_config() or {}
+    cfg = load_config() or {}
     out_dir = cfg.get("analysis", {}).get("out_dir", "data/out")
-    return Path(out_dir) / "substances_c3po_disponibles.json"
+    return resolve_path(out_dir) / "substances_c3po_disponibles.json"
 
 
 def _build_pesticide_csv_from_c3po(csv_path: Path) -> bool:

@@ -10,13 +10,14 @@ from __future__ import annotations
 import argparse
 import asyncio
 import sys
+from datetime import date, timedelta
 from pathlib import Path
 
 # Permettre l'import des modules du projet (répertoire courant)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from c3po import fetch_all_c3po, fetch_all_c3po_async, get_c3po_resource_ids
-from analysis import run_analysis
+from analysis import run_analysis, stats_prelevements_par_annee
 from datagouv import get_resources_for_tabular
 from sources.naiades import (
     fetch_naiades_stations_dep,
@@ -32,10 +33,10 @@ from sources.ades import (
 )
 from sig import export_sig_geojson
 from sig_styles import write_sig_styles
-from sig_views import export_top10_ppp_par_annee, export_hotspots_ppp
+from sig_views import export_top10_ppp_par_annee, export_hotspots_ppp, export_agregations_ppp_par_annee
 from ref_params import filter_analyses_pesticides
 from ppp_dict import build_ppp_usages_from_sources_dictionnaire
-import yaml
+from config import load_config, get_cache_dir, get_code_departement, cache_path, resolve_path
 
 
 def cmd_fetch(args) -> int:
@@ -75,9 +76,7 @@ def cmd_analyze(args) -> int:
 
 def cmd_run(args) -> int:
     """Analyse complète : fetch C3PO, Naïades et ADES en parallèle (async), puis analyse + export SIG."""
-    root = Path(__file__).resolve().parent
-    with open(root / "config.yaml", encoding="utf-8") as f:
-        config = yaml.safe_load(f)
+    config = load_config()
     return asyncio.run(_run_async(args, config))
 
 
@@ -90,8 +89,9 @@ async def _run_async(args: argparse.Namespace, config: dict) -> int:
     max_pages_naiades = getattr(args, "max_pages_naiades", 20)
     max_pages_ades = getattr(args, "max_pages_ades", 20)
     max_pages_ades_analyses = getattr(args, "max_pages_ades_analyses", 20)
-    apercu_naiades = min(max_pages_naiades, 5) if not getattr(args, "naiades_analyses", False) else max_pages_naiades
-    apercu_ades = min(max_pages_ades_analyses, 3) if not getattr(args, "ades_analyses", False) else max_pages_ades_analyses
+    # Aperçu : suffisamment de pages pour inclure les données les plus récentes (date_fin = aujourd'hui)
+    apercu_naiades = min(max_pages_naiades, 15) if not getattr(args, "naiades_analyses", False) else max_pages_naiades
+    apercu_ades = min(max_pages_ades_analyses, 10) if not getattr(args, "ades_analyses", False) else max_pages_ades_analyses
 
     # 1) Fetch en parallèle : C3PO, Naïades (stations + analyses), ADES (stations + analyses)
     print("=== 1/5 Fetch en parallèle (C3PO, Naïades, ADES) ===")
@@ -129,7 +129,10 @@ async def _run_async(args: argparse.Namespace, config: dict) -> int:
             do_c3po(), do_naiades(), do_ades()
         )
     except Exception as e:
-        print(f"Erreur fetch: {e}")
+        import traceback
+        msg = str(e) or "(aucun message)"
+        print(f"Erreur fetch: {type(e).__name__}: {msg}")
+        traceback.print_exc()
         return 1
 
     # Filtrage PPP
@@ -161,6 +164,8 @@ async def _run_async(args: argparse.Namespace, config: dict) -> int:
                 print(f"  Couche top10 PPP par année: {top10_path} ({top10_path.stat().st_size // 1024} Ko)")
             hotspots_path = export_hotspots_ppp(sig_path=path, out_path=Path("data/sig/hotspots_ppp.geojson"))
             print(f"  Couche points chauds PPP: {hotspots_path} ({hotspots_path.stat().st_size // 1024} Ko)")
+            agg_path = export_agregations_ppp_par_annee(sig_path=path, out_path=Path("data/sig/agregations_ppp_par_annee.csv"))
+            print(f"  Agrégations (CSV): {agg_path} ({agg_path.stat().st_size // 1024} Ko)")
         except Exception as e:
             print(f"  Erreur export SIG: {e}")
     else:
@@ -175,8 +180,7 @@ async def _run_async(args: argparse.Namespace, config: dict) -> int:
 
 def cmd_list_resources(args) -> int:
     """Liste les ressources du jeu C3PO (pour récupérer les RIDs à mettre dans config)."""
-    with open(Path(__file__).resolve().parent / "config.yaml", encoding="utf-8") as f:
-        config = yaml.safe_load(f)
+    config = load_config()
     c3po_id = config.get("datasets", {}).get("c3po", {}).get("id")
     if not c3po_id:
         print("datasets.c3po.id non renseigné dans config.yaml")
@@ -216,17 +220,21 @@ def cmd_build_ppp_dict(args) -> int:
         return 1
 
 
-def _cache_dir(config: dict) -> Path | None:
-    c = config.get("cache", {})
-    if c.get("enabled"):
-        return Path(c.get("dir", "data/cache"))
-    return None
+def _filter_10_dernieres_annees(
+    analyses: list[dict], date_field: str = "date_prelevement"
+) -> list[dict]:
+    """Filtre les analyses pour ne garder que les 10 dernières années (à partir du jour)."""
+    seuil = (date.today() - timedelta(days=365 * 10)).isoformat()
+    return [a for a in analyses if (a.get(date_field) or a.get("date_debut_prelevement") or "")[:10] >= seuil[:10]]
+
+
+def _cache_dir(config: dict | None = None) -> Path | None:
+    return get_cache_dir(config)
 
 
 def cmd_fetch_naiades(args) -> int:
     """Récupère les données Naïades (qualité eaux de surface) pour le dép. 21."""
-    with open(Path(__file__).resolve().parent / "config.yaml", encoding="utf-8") as f:
-        config = yaml.safe_load(f)
+    config = load_config()
     code_dep = config.get("departement", {}).get("code", "21")
     cache = _cache_dir(config)
     print(f"Récupération Naïades (Hub'Eau) pour le département {code_dep}...")
@@ -247,8 +255,7 @@ def cmd_fetch_naiades(args) -> int:
 
 def cmd_fetch_ades(args) -> int:
     """Récupère les données ADES (qualité nappes) pour le dép. 21."""
-    with open(Path(__file__).resolve().parent / "config.yaml", encoding="utf-8") as f:
-        config = yaml.safe_load(f)
+    config = load_config()
     code_dep = config.get("departement", {}).get("code", "21")
     cache = _cache_dir(config)
     print(f"Récupération ADES (Hub'Eau) pour le département {code_dep}...")
@@ -269,10 +276,9 @@ def cmd_fetch_ades(args) -> int:
 
 def cmd_export_sig(args) -> int:
     """Génère la couche SIG (GeoJSON) à partir des données Naïades/ADES (cache ou fetch)."""
-    with open(Path(__file__).resolve().parent / "config.yaml", encoding="utf-8") as f:
-        config = yaml.safe_load(f)
-    code_dep = config.get("departement", {}).get("code", "21")
-    cache = Path(config.get("cache", {}).get("dir", "data/cache"))
+    config = load_config()
+    code_dep = get_code_departement(config)
+    cache = get_cache_dir(config) or resolve_path("data/cache")
     out = Path(getattr(args, "out", "data/sig/analyse_stations_ppp_cote_dor.geojson"))
 
     naiades_stations, naiades_analyses, ades_stations, ades_analyses = [], [], [], []
@@ -287,27 +293,31 @@ def cmd_export_sig(args) -> int:
         return json.loads(path.read_text(encoding="utf-8"))
 
     if use_naiades:
-        naiades_stations = load_json(cache / "naiades_stations_21.json")
+        naiades_stations = load_json(cache_path(cache, "naiades_stations", code_dep))
         if not naiades_stations:
             print("Pas de cache Naïades stations. Lancement fetch...")
             naiades_stations = fetch_naiades_stations_dep(code_dep, cache_dir=cache)
-        naiades_analyses = load_json(cache / "naiades_analyses_21.json")
+        naiades_analyses = _filter_10_dernieres_annees(
+            load_json(cache_path(cache, "naiades_analyses", code_dep)), date_field="date_prelevement"
+        )
         if not naiades_analyses and not getattr(args, "no_fetch_analyses", False):
-            print("Pas de cache Naïades analyses (paramètres PPP). Récupération limitée (5 pages)...")
-            naiades_analyses = fetch_naiades_analyses_dep(code_dep, cache_dir=cache, max_pages=5)
+            print("Pas de cache Naïades analyses (paramètres PPP). Récupération jusqu'aux données les plus récentes...")
+            naiades_analyses = fetch_naiades_analyses_dep(code_dep, cache_dir=cache, max_pages=15)
         # Filtre PPP si référentiel disponible
         naiades_analyses_ppp = filter_analyses_pesticides(naiades_analyses, code_field="code_parametre")
         print(f"Analyses Naïades pesticides retenues (export-sig): {len(naiades_analyses_ppp)}")
         naiades_analyses = naiades_analyses_ppp
     if use_ades:
-        ades_stations = load_json(cache / "ades_stations_21.json")
+        ades_stations = load_json(cache_path(cache, "ades_stations", code_dep))
         if not ades_stations:
             print("Pas de cache ADES stations. Lancement fetch...")
             ades_stations = fetch_ades_stations_dep(code_dep, cache_dir=cache, max_pages=50)
-        ades_analyses = load_json(cache / "ades_analyses_21.json")
+        ades_analyses = _filter_10_dernieres_annees(
+            load_json(cache_path(cache, "ades_analyses", code_dep)), date_field="date_debut_prelevement"
+        )
         if not ades_analyses and not getattr(args, "no_fetch_analyses", False):
-            print("Pas de cache ADES analyses (paramètres PPP). Récupération limitée (3 pages)...")
-            ades_analyses = fetch_ades_analyses_dep(code_dep, cache_dir=cache, max_pages=3)
+            print("Pas de cache ADES analyses (paramètres PPP). Récupération jusqu'aux données les plus récentes...")
+            ades_analyses = fetch_ades_analyses_dep(code_dep, cache_dir=cache, max_pages=10)
         # Filtre PPP si référentiel disponible
         ades_analyses_ppp = filter_analyses_pesticides(ades_analyses, code_field="code_param")
         print(f"Analyses ADES pesticides retenues (export-sig): {len(ades_analyses_ppp)}")
@@ -322,6 +332,67 @@ def cmd_export_sig(args) -> int:
     )
     write_sig_styles(out.parent)
     print(f"Couche SIG exportée: {path} ({path.stat().st_size // 1024} Ko)")
+    hotspots_path = export_hotspots_ppp(sig_path=path, out_path=out.parent / "hotspots_ppp.geojson")
+    print(f"Couche points chauds: {hotspots_path} ({hotspots_path.stat().st_size // 1024} Ko)")
+    agg_path = export_agregations_ppp_par_annee(sig_path=path, out_path=out.parent / "agregations_ppp_par_annee.csv")
+    print(f"Agrégations (CSV): {agg_path} ({agg_path.stat().st_size // 1024} Ko)")
+    return 0
+
+
+def cmd_stats_annees(args) -> int:
+    """Affiche le classement par année du nombre de prélèvements (analyses) en Côte-d'Or."""
+    config = load_config()
+    cache_dir = getattr(args, "cache_dir", None) or (get_cache_dir(config) or resolve_path("data/cache"))
+    cache_dir = Path(cache_dir) if not isinstance(cache_dir, Path) else cache_dir
+    sig_path = getattr(args, "sig", None)
+    if sig_path and not Path(sig_path).is_absolute():
+        sig_path = resolve_path(str(sig_path))
+
+    stats = stats_prelevements_par_annee(cache_dir=cache_dir, sig_path=sig_path)
+    if stats["total"] == 0:
+        print("Aucune donnée disponible. Lancer d'abord :")
+        print("  python main.py run --naiades-analyses --ades-analyses")
+        print("  ou  python main.py export-sig  (sans --no-fetch-analyses)")
+        print("pour générer le cache ou la couche SIG, puis relancer stats-annees.")
+        return 1
+
+    print("Prélèvements (analyses PPP) en Côte-d'Or — classement par année")
+    print("Source des données:", stats["source"])
+    print("Total:", stats["total"], "analyses")
+    print()
+    annees = sorted(stats["par_annee"].keys())
+    for annee in annees:
+        n = stats["par_annee"][annee]
+        n_na = stats.get("par_annee_naïades", {}).get(annee, 0)
+        n_ad = stats.get("par_annee_ades", {}).get(annee, 0)
+        detail = ""
+        if n_na or n_ad:
+            detail = f"  (Naïades: {n_na}, ADES: {n_ad})"
+        print(f"  {annee} : {n} analyses{detail}")
+    # Ventilation par usage (famille) lorsque disponible (données depuis GeoJSON)
+    par_usage = stats.get("par_annee_usage")
+    if par_usage:
+        print()
+        print("Par année et usage (famille PPP) :")
+        for annee in sorted(par_usage.keys()):
+            usages = par_usage[annee]
+            parts = [f"    {k}: {v}" for k, v in sorted(usages.items(), key=lambda x: -x[1])]
+            print(f"  {annee} :")
+            print("\n".join(parts))
+    return 0
+
+
+def cmd_export_agregations(args) -> int:
+    """Exporte le CSV d'agrégations (station × paramètre × année)."""
+    root = Path(__file__).resolve().parent
+    sig_path = getattr(args, "sig", None) or root / "data" / "sig" / "analyse_stations_ppp_cote_dor.geojson"
+    out_path = Path(getattr(args, "out", "data/sig/agregations_ppp_par_annee.csv"))
+    if not out_path.is_absolute():
+        out_path = root / out_path
+    if not Path(sig_path).is_absolute():
+        sig_path = root / sig_path
+    p = export_agregations_ppp_par_annee(sig_path=sig_path, out_path=out_path)
+    print(f"Agrégations exportées: {p} ({p.stat().st_size} octets)")
     return 0
 
 
@@ -376,6 +447,16 @@ def main() -> int:
     p_sig.add_argument("--no-fetch-analyses", action="store_true", dest="no_fetch_analyses",
                         help="Ne pas récupérer les analyses si cache vide (couche sans paramètres PPP)")
     p_sig.set_defaults(func=cmd_export_sig)
+
+    p_stats = sub.add_parser("stats-annees", help="Afficher le classement par année du nombre de prélèvements (Côte-d'Or)")
+    p_stats.add_argument("--cache-dir", default=None, help="Répertoire cache (défaut: config cache.dir)")
+    p_stats.add_argument("--sig", default=None, help="Fichier GeoJSON couche SIG (si pas de cache)")
+    p_stats.set_defaults(func=cmd_stats_annees)
+
+    p_agg = sub.add_parser("export-agregations", help="Exporter les agrégations station × paramètre × année (CSV)")
+    p_agg.add_argument("--sig", default=None, help="Fichier GeoJSON couche SIG")
+    p_agg.add_argument("--out", default="data/sig/agregations_ppp_par_annee.csv", help="Fichier CSV de sortie")
+    p_agg.set_defaults(func=cmd_export_agregations)
 
     args = parser.parse_args()
     return args.func(args)

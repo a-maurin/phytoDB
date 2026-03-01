@@ -1,7 +1,7 @@
 """
 Couche SIG : schéma normalisé et export GeoJSON pour visualiser les zones impactées par les PPP.
 - Uniquement les entités localisées en Côte-d'Or (département 21).
-- Table attributaire fixe : localisation + toutes les données possibles sur présence/quantité/impact des PPP.
+- Table attributaire : champs utiles pour un utilisateur non spécialiste des PPP.
 """
 from __future__ import annotations
 
@@ -10,64 +10,44 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
-import yaml
 from thresholds import seuil_sanitaire_ugL
 from ppp_dict import lookup_ppp_usage
+from utils import resultat_to_ugl
 
-CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
+try:
+    from sources.nqe_ecophyto import get_nqe_for_analyse
+except ImportError:
+    get_nqe_for_analyse = None
+try:
+    from sources.amm import get_amm_autorise
+except ImportError:
+    get_amm_autorise = None
+try:
+    from sources.fichetox import get_fichetox_url
+except ImportError:
+    get_fichetox_url = None
 
 # Département cible : seules les entités en Côte-d'Or sont conservées
 CODE_DEPARTEMENT_COTE_DOR = "21"
 
-# Champs PPP « lisibles » en tête de formulaire pour l'utilisateur
-COLONNES_PPP_SIMPLE = [
-    "ppp_nom",
-    "ppp_usage",
-    "ppp_taux_ugl",
-    "ppp_depassement",
-    "ppp_seuil_sanitaire_ugl",
-    "ppp_ratio_seuil",
-    "ppp_usages_typiques",
-]
-
-# Localisation (lisibilité : nom du lieu, commune, cours d'eau, puis codes)
-COLONNES_BASE = [
-    "libelle_station",
-    "libelle_commune",
-    "nom_commune",
-    "nom_cours_eau",
-    "nom_masse_deau",
-    "code_station",
-    "code_commune",
-    "code_departement",
-    "bss_id",
-    "code_bss",
-    "num_departement",
-    "source",
-    "type_donnee",
+# Champs des entités (ordre d'affichage pour un utilisateur non spécialiste)
+COLONNES_ATTR = [
+    "lieu",
+    "commune",
+    "cours_eau",
+    "masse_eau",
+    "substance",
+    "usage_ppp",
+    "amm_autorise",
+    "concentration_ugl",
+    "depassement_seuil_sanitaire",
+    "ratio_seuil_sanitaire",
+    "depassement_seuil_nqe",
+    "date_prelevement",
+    "type_eau",
+    "lien_fiche",
     "wkt_geom",
 ]
-
-# Colonnes techniques (paramètre, résultat, date, liens)
-COLONNES_PPP_IMPACT = [
-    "libelle_parametre",
-    "code_parametre",
-    "resultat",
-    "symbole_unite",
-    "date_prelevement",
-    "annee",
-    "ppp_description",
-    "ppp_url_inrs",
-    "ppp_url_ephy",
-]
-
-# Ordre global : utile en premier (PPP, localisation lisible, contexte, technique)
-COLONNES_ATTR = COLONNES_PPP_SIMPLE + COLONNES_BASE + COLONNES_PPP_IMPACT
-
-
-def load_config() -> dict[str, Any]:
-    with open(CONFIG_PATH, encoding="utf-8") as f:
-        return yaml.safe_load(f)
 
 
 def _load_c3po_substances() -> dict[str, dict[str, Any]]:
@@ -98,6 +78,18 @@ def _load_c3po_substances() -> dict[str, dict[str, Any]]:
 
 
 _C3PO_BY_PARAM: dict[str, dict[str, Any]] = _load_c3po_substances()
+
+
+def _oui_non(value: bool | None) -> str | None:
+    """Formate un booléen en 'oui' / 'non' pour l'affichage."""
+    if value is True:
+        return "oui"
+    if value is False:
+        return "non"
+    return None
+
+
+    return None
 
 
 def _geom_to_wkt(geom: dict[str, Any] | None) -> str | None:
@@ -152,7 +144,7 @@ def _ppp_metadata_for_param(code_parametre: Any, libelle_parametre: Any) -> dict
             usage = "herbicide"
         elif "insecticide" in text_for_detection:
             usage = "insecticide"
-        elif "fongicide" in text_for_detection or "fongicide" in text_for_detection:
+        elif "fongicide" in text_for_detection or "fungicide" in text_for_detection:
             usage = "fongicide"
         elif "acaricide" in text_for_detection:
             usage = "acaricide"
@@ -198,17 +190,25 @@ def _ppp_metadata_for_param(code_parametre: Any, libelle_parametre: Any) -> dict
         desc = phrase
         nom_ppp = None
 
-    # URL vers les sites officiels (pages d'entrée des bases)
-    url_inrs = "https://www.inrs.fr/publications/bdd/fichetox.html"
+    # Fiche INRS : lien direct vers la fiche toxicologique si CAS connu et présent dans fichetox_cas_ref.csv
+    cas = (c3po or {}).get("cas_parametre_sandre") if c3po else None
+    url_inrs = get_fichetox_url(cas) if get_fichetox_url else "https://www.inrs.fr/publications/bdd/fichetox.html"
     url_ephy = "https://ephy.anses.fr/"
+    # Fiche Sandre du paramètre (référentiel EauFrance)
+    url_sandre = f"http://id.eaufrance.fr/par/{code}" if code else None
+
+    # AMM : bénéficie d'une autorisation de mise sur le marché (référentiel décision AMM, lookup par CAS)
+    ppp_amm_autorise = get_amm_autorise(cas) if get_amm_autorise and cas else None
 
     return {
         "ppp_nom": nom_ppp,
         "ppp_usage": usage,
+        "ppp_amm_autorise": ppp_amm_autorise,
         "ppp_usages_typiques": usages_typiques,
         "ppp_description": desc or None,
         "ppp_url_inrs": url_inrs,
         "ppp_url_ephy": url_ephy,
+        "ppp_url_sandre": url_sandre,
     }
 
 
@@ -235,6 +235,7 @@ def _feature_normalized(geom: dict | None, attrs: dict[str, Any]) -> dict[str, A
     wkt = _geom_to_wkt(geom)
     if not wkt:
         return None
+    # Filtre Côte-d'Or (codes passés dans attrs pour le filtre, pas exposés dans les propriétés)
     if not _in_cote_dor(
         attrs.get("code_departement"),
         attrs.get("num_departement"),
@@ -262,15 +263,13 @@ def feature_naiades_station(station: dict[str, Any], source_label: str = "Naïad
     if code_dep != CODE_DEPARTEMENT_COTE_DOR:
         return None
     attrs = {
-        "source": source_label,
-        "type_donnee": "impact_surface",
-        "code_station": station.get("code_station"),
-        "libelle_station": station.get("libelle_station"),
-        "code_departement": station.get("code_departement"),
+        "lieu": station.get("libelle_station"),
+        "commune": station.get("libelle_commune"),
+        "cours_eau": station.get("nom_cours_eau"),
+        "masse_eau": station.get("nom_masse_deau"),
+        "type_eau": "surface",
+        "code_departement": code_dep,
         "code_commune": station.get("code_commune"),
-        "libelle_commune": station.get("libelle_commune"),
-        "nom_cours_eau": station.get("nom_cours_eau"),
-        "nom_masse_deau": station.get("nom_masse_deau"),
     }
     return _feature_normalized(geom, attrs)
 
@@ -296,22 +295,10 @@ def feature_naiades_analyse(analyse: dict[str, Any], source_label: str = "Naïad
     # Conversion du résultat en µg/L si possible
     resultat = analyse.get("resultat")
     unite = analyse.get("symbole_unite")
-    conc_ugl: float | None = None
+    conc_ugl = resultat_to_ugl(resultat, unite)
     seuil_ugl: float | None = None
     ratio: float | None = None
     depassement: bool | None = None
-
-    if resultat is not None and unite is not None:
-        try:
-            val = float(resultat)
-        except Exception:
-            val = None
-        if val is not None:
-            unite_norm = str(unite).replace("µ", "u")
-            if unite_norm in ("µg/L", "ug/L"):
-                conc_ugl = val
-            elif unite_norm in ("mg/L",):
-                conc_ugl = val * 1000.0
 
     if conc_ugl is not None:
         seuil_ugl = seuil_sanitaire_ugL(analyse.get("code_parametre"), analyse)
@@ -319,35 +306,37 @@ def feature_naiades_analyse(analyse: dict[str, Any], source_label: str = "Naïad
             ratio = conc_ugl / seuil_ugl
             depassement = ratio > 1.0
 
+    # Enrichissement NQE (dépassements réglementaires Ecophyto 2030, eaux de surface uniquement)
+    nqe_ma, nqe_cma = (None, None)
+    if get_nqe_for_analyse:
+        try:
+            nqe_ma, nqe_cma = get_nqe_for_analyse(
+                analyse.get("code_station"),
+                analyse.get("code_parametre"),
+                annee,
+            )
+        except Exception:
+            pass
+    depassement_nqe = (nqe_ma is True or nqe_cma is True) if (nqe_ma is not None or nqe_cma is not None) else None
+
     attrs = {
-        # Champs PPP « lisibles » en premier
-        "ppp_nom": meta_ppp.get("ppp_nom"),
-        "ppp_usage": meta_ppp.get("ppp_usage"),
-        "ppp_usages_typiques": meta_ppp.get("ppp_usages_typiques"),
-        "ppp_taux_ugl": conc_ugl,
-        "ppp_seuil_sanitaire_ugl": seuil_ugl,
-        "ppp_ratio_seuil": ratio,
-        "ppp_depassement": depassement,
-        # Localisation / contexte
-        "source": source_label,
-        "type_donnee": "impact_surface",
-        "code_station": analyse.get("code_station"),
-        "libelle_station": analyse.get("libelle_station"),
+        "lieu": analyse.get("libelle_station"),
+        "commune": analyse.get("libelle_commune") or analyse.get("code_commune"),
+        "cours_eau": analyse.get("nom_cours_eau"),
+        "masse_eau": analyse.get("nom_masse_deau"),
+        "substance": meta_ppp.get("ppp_nom"),
+        "usage_ppp": meta_ppp.get("ppp_usage"),
+        "amm_autorise": _oui_non(meta_ppp.get("ppp_amm_autorise")),
+        "concentration_ugl": conc_ugl,
+        "depassement_seuil_sanitaire": _oui_non(depassement),
+        "ratio_seuil_sanitaire": round(ratio, 2) if ratio is not None else None,
+        "depassement_seuil_nqe": _oui_non(depassement_nqe),
+        "date_prelevement": date_prel,
+        "type_eau": "surface",
+        "lien_fiche": meta_ppp.get("ppp_url_inrs"),
+        # Pour filtre Côte-d'Or (non exposés)
         "code_departement": code_dep or CODE_DEPARTEMENT_COTE_DOR,
         "code_commune": analyse.get("code_commune"),
-        "libelle_commune": analyse.get("libelle_commune"),
-        "nom_cours_eau": analyse.get("nom_cours_eau"),
-        "nom_masse_deau": analyse.get("nom_masse_deau"),
-        # Détail technique du paramètre
-        "libelle_parametre": analyse.get("libelle_parametre"),
-        "code_parametre": analyse.get("code_parametre"),
-        "resultat": resultat,
-        "symbole_unite": unite,
-        "date_prelevement": date_prel,
-        "annee": annee,
-        "ppp_description": meta_ppp.get("ppp_description"),
-        "ppp_url_inrs": meta_ppp.get("ppp_url_inrs"),
-        "ppp_url_ephy": meta_ppp.get("ppp_url_ephy"),
     }
     return _feature_normalized(geom, attrs)
 
@@ -366,13 +355,12 @@ def feature_ades_station(station: dict[str, Any], source_label: str = "ADES") ->
     if not _in_cote_dor(None, num_dep, code_insee):
         return None
     attrs = {
-        "source": source_label,
-        "type_donnee": "impact_souterrain",
-        "bss_id": station.get("bss_id"),
-        "code_bss": station.get("code_bss"),
+        "lieu": station.get("bss_id") or station.get("code_bss"),
+        "commune": station.get("nom_commune"),
+        "type_eau": "souterraine",
         "num_departement": str(num_dep) if num_dep is not None else None,
-        "nom_commune": station.get("nom_commune"),
         "code_departement": CODE_DEPARTEMENT_COTE_DOR if num_dep in ("21", 21) else None,
+        "code_commune": code_insee,
     }
     return _feature_normalized(geom, attrs)
 
@@ -396,22 +384,10 @@ def feature_ades_analyse(analyse: dict[str, Any], source_label: str = "ADES") ->
     # Conversion du résultat en µg/L si possible
     resultat = analyse.get("resultat")
     unite = analyse.get("symbole_unite")
-    conc_ugl: float | None = None
+    conc_ugl = resultat_to_ugl(resultat, unite)
     seuil_ugl: float | None = None
     ratio: float | None = None
     depassement: bool | None = None
-
-    if resultat is not None and unite is not None:
-        try:
-            val = float(resultat)
-        except Exception:
-            val = None
-        if val is not None:
-            unite_norm = str(unite).replace("µ", "u")
-            if unite_norm in ("µg/L", "ug/L"):
-                conc_ugl = val
-            elif unite_norm in ("mg/L",):
-                conc_ugl = val * 1000.0
 
     if conc_ugl is not None:
         seuil_ugl = seuil_sanitaire_ugL(analyse.get("code_param"), analyse)
@@ -420,32 +396,24 @@ def feature_ades_analyse(analyse: dict[str, Any], source_label: str = "ADES") ->
             depassement = ratio > 1.0
 
     attrs = {
-        # Champs PPP « lisibles » en premier
-        "ppp_nom": meta_ppp.get("ppp_nom"),
-        "ppp_usage": meta_ppp.get("ppp_usage"),
-        "ppp_usages_typiques": meta_ppp.get("ppp_usages_typiques"),
-        "ppp_taux_ugl": conc_ugl,
-        "ppp_seuil_sanitaire_ugl": seuil_ugl,
-        "ppp_ratio_seuil": ratio,
-        "ppp_depassement": depassement,
-        # Localisation / contexte
-        "source": source_label,
-        "type_donnee": "impact_souterrain",
-        "bss_id": analyse.get("bss_id"),
-        "code_bss": analyse.get("code_bss"),
-        "num_departement": str(num_dep) if num_dep is not None else None,
-        "nom_commune": analyse.get("nom_commune_actuel"),
-        "code_departement": CODE_DEPARTEMENT_COTE_DOR if num_dep in ("21", 21) else None,
-        # Détail technique du paramètre
-        "libelle_parametre": analyse.get("nom_param"),
-        "code_parametre": analyse.get("code_param"),
-        "resultat": resultat,
-        "symbole_unite": unite,
+        "lieu": analyse.get("bss_id") or analyse.get("code_bss"),
+        "commune": analyse.get("nom_commune_actuel"),
+        "cours_eau": None,
+        "masse_eau": None,
+        "substance": meta_ppp.get("ppp_nom"),
+        "usage_ppp": meta_ppp.get("ppp_usage"),
+        "amm_autorise": _oui_non(meta_ppp.get("ppp_amm_autorise")),
+        "concentration_ugl": conc_ugl,
+        "depassement_seuil_sanitaire": _oui_non(depassement),
+        "ratio_seuil_sanitaire": ratio,
+        "ratio_seuil_sanitaire_phrase": _ratio_seuil_phrase(ratio),
+        "depassement_seuil_nqe": None,
         "date_prelevement": date_prel,
-        "annee": annee,
-        "ppp_description": meta_ppp.get("ppp_description"),
-        "ppp_url_inrs": meta_ppp.get("ppp_url_inrs"),
-        "ppp_url_ephy": meta_ppp.get("ppp_url_ephy"),
+        "type_eau": "souterraine",
+        "lien_fiche": meta_ppp.get("ppp_url_inrs"),
+        "code_departement": CODE_DEPARTEMENT_COTE_DOR if num_dep in ("21", 21) else None,
+        "num_departement": num_dep,
+        "code_commune": code_insee,
     }
     return _feature_normalized(geom, attrs)
 
@@ -484,11 +452,9 @@ def export_sig_geojson(
     """
     Écrit la couche SIG (GeoJSON) :
     - uniquement entités en Côte-d'Or ;
-    - table attributaire : wkt_geom, source, type_donnee, bss_id, code_bss, code_station,
-      libelle_station, code_departement, code_commune, libelle_commune, nom_cours_eau,
-      nom_masse_deau, num_departement, nom_commune, libelle_parametre, code_parametre,
-      resultat, symbole_unite, date_prelevement, annee.
-    Permet d'évaluer le degré d'impact (paramètres, quantités, résultats d'analyses).
+    - table attributaire : lieu, commune, cours_eau, masse_eau, substance, usage_ppp,
+      amm_autorise, concentration_ugl, depassement_seuil_sanitaire, depassement_seuil_nqe,
+      date_prelevement, type_eau, lien_fiche, wkt_geom.
     """
     features = build_geojson_features(
         naiades_stations=naiades_stations,

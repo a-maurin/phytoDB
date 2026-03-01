@@ -7,16 +7,9 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-import yaml
-
 from api_tabulaire import get_profile, fetch_full_resource
 
-CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
-
-
-def load_config() -> dict[str, Any]:
-    with open(CONFIG_PATH, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+from config import load_config
 
 
 def get_c3po_resource_ids() -> list[str]:

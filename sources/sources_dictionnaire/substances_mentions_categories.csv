@@ -1,0 +1,3345 @@
+"id_bnvd";"libelle_bnvd";"cas_bnvd";"index_eupdb";"libelle_eupdb";"cas_eupdb";"micro_organisme";"substance_base";"faible_risque";"faible_risque_liste_amm_ephy";"candidat_substitution";"candidat_substitution_type";"in_uab_pro";"uab_pro_liste_amm_ephy";"in_uab_amateur";"uab_amateur_liste_amm_ephy";"in_biocontrole";"biocontrole_liste_amm_ephy";"in_eaj";"in_eaj_bnvd";"eaj_liste_amm_bnvd";"in_eaj_ephy";"eaj_liste_amm_ephy"
+"0_sub_bnvd";"(e)-5-decen-1-yl acetate";"38421-90-8";"1330";"(E)-5-Decen-1-yl acetate (SCLP Acetates)";"38421-90-8";False;False;True;"";False;"";True;"2171126
+2180549";False;"";True;"2171126
+2180549";False;False;"";False;""
+"1_sub_bnvd";"(e,z)-2,13-octadecadienyl acetate";"86252-65-5";"349";"(E,Z)-2,13-Octadecadien-1-yl acetate (SCLP Acetates)";"86252-65-5";False;False;True;"";False;"";True;"2170960";False;"";True;"2170960";False;False;"";False;""
+"2_sub_bnvd";"(e,z)-3,13-octadecadienyl acetate";"53120-26-6";"1499";"(E,Z)-3,13-Octadecadien-1-yl acetate (SCLP Acetates)";"No CAS allocated";False;False;True;"";False;"";True;"2170960
+2180257";False;"";True;"2170960
+2180257";False;False;"";False;""
+"3_sub_bnvd";"(e,z)-3,8-tetradecadien-1-yl acetate";"163041-87-0";"";"";"";"";"";"";"";"";"";True;"2190594";False;"";True;"2190594";False;False;"";False;""
+"4_sub_bnvd";"(e,z)-7,9-dodecadien-1-yl acetate";"55774-32-8";"";"";"";"";"";"";"";"";"";True;"2210439
+2220002
+2220441
+2220447
+2220737
+2220738";False;"";True;"2210439
+2220002
+2220441
+2220447
+2220737
+2220738";False;False;"";False;""
+"5_sub_bnvd";"(e,z,z)-3,8,11-tetradecatrien-1-yl acetate";"163041-94-9";"";"";"";"";"";"";"";"";"";True;"2190594";False;"";True;"2190594";False;False;"";False;""
+"6_sub_bnvd";"(z)-11-hexadecenal";"53939-28-9";"1017";"(Z)-11-Hexadecenal (SCLP Aldehydes)";"53939-28-9";False;False;False;"";False;"";True;"2189998";False;"";True;"2189998";False;False;"";False;""
+"7_sub_bnvd";"(z)-8-dodecenol";"40642-40-8";"373";"(Z)-8-Dodecen-1-ol (SCLP Alcohols)";"40642-40-8";False;False;False;"";False;"";True;"2100241
+2110179
+2120130
+2140143
+2180549
+2190561
+2210017
+2210610
+2220429";False;"";True;"2100241
+2110179
+2120130
+2140143
+2180549
+2190561
+2210017
+2210610
+2220429";False;False;"";False;""
+"8_sub_bnvd";"(z)-9-dodecenylacetate";"16974-11-1";"375";"(Z)-9-Dodecen-1-yl acetate (SCLP Acetates)";"16974-11-1";False;False;True;"";False;"";True;"2120030
+2130109
+2140044
+2140215
+2161035
+2200389
+2220002
+2220737
+2220738
+9400458
+9400459
+9400462";False;"";True;"2120030
+2130109
+2140044
+2140215
+2161035
+2200389
+2220002
+2220737
+2220738
+9400458
+9400459
+9400462";False;False;"";False;""
+"9_sub_bnvd";"(z,z)-3,13-octadecadienyl acetate";"53120-27-7";"1500";"(Z,Z)-3,13-Octadecadien-1-yl acetate (SCLP Acetates)";"No CAS allocated";False;False;True;"";False;"";True;"2180257";False;"";True;"2180257";False;False;"";False;""
+"10_sub_bnvd";"1 iso thiazolinon chloromethyl";"55965-84-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"11_sub_bnvd";"1,3-dichloropropene";"542-75-6";"384";"1,3-Dichloropropene";"542-75-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"12_sub_bnvd";"1,4-dimethylnaphtalene";"571-58-4";"1203";"1,4-Dimethylnaphthalene";"571-58-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"13_sub_bnvd";"1,5-diaminopentane";"462-94-2";"";"";"";"";"";"";"";"";"";True;"2130114
+2130115";False;"";True;"2130114
+2130115";False;False;"";False;""
+"14_sub_bnvd";"1-dodecanol";"112-53-8";"1064";"Dodecan-1-ol (SCLP Alcohols)";"112-53-8";False;False;False;"";False;"";True;"2000536
+2110179
+2150175
+2160929
+2170785
+9900123";False;"";True;"2000536
+2110179
+2150175
+2160929
+2170785
+9900123";False;False;"";False;""
+"15_sub_bnvd";"1-methylcyclopropene (1-mcp)";"3100-04-7";"390";"1-methylcyclopropene";"3100-04-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"16_sub_bnvd";"1-tetradecanol";"112-72-1";"1384";"Tetradecan-1-ol (SCLP Alcohols)";"63393-82-8";False;False;False;"";False;"";True;"2000536
+2110179
+2150175
+2160929
+2170785
+2180549
+9900123";False;"";True;"2000536
+2110179
+2150175
+2160929
+2170785
+2180549
+9900123";False;False;"";False;""
+"17_sub_bnvd";"2 phenyl-phenol";"90-43-7";"1013";"2-Phenylphenol (incl. sodium salt orthophenyl phenol)";"90-43-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"18_sub_bnvd";"2,4-d";"94-75-7";"394";"2,4-D";"94-75-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000071
+2000412
+2010378
+2010438
+2010439
+2010637
+2020303
+2020305
+2020336
+2030173
+2040140
+2090032
+2110146
+6900472
+7600156
+8000169
+8100548
+8200346
+8300032
+8600241
+8600519
+8600575
+8600622
+8720669
+9000647
+9200118
+9200475
+9220043
+9400456
+9420040
+9420112
+9500269
+9500413
+9500556
+9600299
+9600325
+9600404
+9700409
+9800334
+9800358";True;"2000071
+2000390
+2000412
+2010378
+2010439
+2010637
+2020303
+2020305
+2020336
+2030173
+2030331
+2040080
+2040140
+2090032
+2100083
+2110146
+2120118
+2130040
+2160487
+6900472
+7600156
+7700706
+8000169
+8100548
+8200346
+8300032
+8600241
+8600575
+8600622
+8720669
+9000647
+9200118
+9200132
+9220043
+9400109
+9400456
+9420040
+9420112
+9420113
+9500269
+9500413
+9500556
+9600299
+9600325
+9600404
+9700409
+9800334
+9800350
+9800358"
+"19_sub_bnvd";"2,4-db";"94-82-6";"395";"2,4-DB";"94-82-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"20_sub_bnvd";"2,4-mcpa";"94-74-6";"1324";"MCPA";"see remark";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000241
+2010319
+2010378
+2010438
+2010439
+2040079
+2090032
+2110174
+2120155
+7700388
+9000662
+9200118
+9400245
+9500037
+9500038
+9500143
+9500227
+9500281
+9500484
+9500485
+9500572
+9600404
+9700414
+9800238
+9800334
+9800432
+9900098
+9900319
+9900320
+9900321";True;"2000241
+2010035
+2010296
+2010319
+2010378
+2010439
+2040079
+2050144
+2090032
+2100083
+2110174
+2120155
+6900486
+7700388
+9000662
+9020380
+9200118
+9400245
+9500037
+9500038
+9500143
+9500227
+9500281
+9500484
+9500485
+9600404
+9700414
+9800238
+9800334
+9800350
+9800432
+9900098
+9900319
+9900320
+9900321"
+"21_sub_bnvd";"2,4-mcpb";"94-81-5";"279";"MCPB";"94-81-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"22_sub_bnvd";"2-methyl-1-naphtylacetamide";"85-07-4";"1322";"Methylnaphthylacetamide";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"23_sub_bnvd";"6-benzyladenine";"1214-39-7";"1044";"6-Benzyladenine";"1214-39-7";False;False;False;"";False;"";False;"";False;"";True;"2060079
+2090019
+2090055
+8200489
+9700357";False;False;"";False;""
+"24_sub_bnvd";"8-hydroxiquinoline";"148-24-3";"1047";"Quinolin-8-ol";"148-24-3";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"25_sub_bnvd";"abamectine";"71751-41-2";"1048";"Abamectin (aka avermectin)";"71751-41-2";False;False;False;"";False;"";False;"";False;"";True;"2090146";True;True;"2090146
+2130172";True;"2090146
+2130172"
+"26_sub_bnvd";"abe-it 56";"";"1307";"ABE-IT 56";"No CAS allocated";False;False;True;"";False;"";True;"2210387";False;"";True;"2210387";False;False;"";False;""
+"27_sub_bnvd";"acequinocyl";"57960-19-7";"1209";"Acequinocyl";"57960-19-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"28_sub_bnvd";"acetamipride";"135410-20-7";"1050";"Acetamiprid";"135410-20-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2080018
+2080054
+2090045
+2090047
+2100004
+2100077
+2100165";True;"2080018
+2080054
+2080069
+2090045
+2090047
+2100004
+2100077
+2100165"
+"29_sub_bnvd";"acetate d'ammonium";"631-61-8";"1569";"Ammonium Acetate";"631-61-8";False;False;False;"";False;"";True;"2130114
+2130115";False;"";True;"2130114
+2130115";False;False;"";False;""
+"30_sub_bnvd";"acetate de e-8-dodecenyle";"38363-29-0";"361";"(E)-8-Dodecen-1-yl acetate (SCLP Acetates)";"38363-29-0";False;False;True;"";False;"";True;"2100241
+2110179
+2120130
+2140143
+2180549
+2190561
+2210610
+2220429
+8900685";False;"";True;"2100241
+2110179
+2120130
+2140143
+2180549
+2190561
+2210610
+2220429
+8900685";False;False;"";False;""
+"31_sub_bnvd";"acetate de tetradecyle";"638-59-5";"1253";"n-Tetradecylacetate (SCLP Acetates)";"No CAS allocated";False;False;True;"";False;"";True;"2140146
+2170434";False;"";True;"2140146
+2170434";False;False;"";False;""
+"32_sub_bnvd";"acetate de z-8-dodecenyle";"28079-04-1";"374";"(Z)-8-Dodecen-1-yl acetate (SCLP Actetates)";"28079-04-1";False;False;True;"";False;"";True;"2100241
+2110179
+2120130
+2140143
+2180549
+2190561
+2210610
+2220429
+8900685";False;"";True;"2100241
+2110179
+2120130
+2140143
+2180549
+2190561
+2210610
+2220429
+8900685";False;False;"";False;""
+"33_sub_bnvd";"acetochlore";"34256-82-1";"1052";"Acetochlor";"34256-82-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"34_sub_bnvd";"acibenzolar-s-methyl";"135158-54-2";"1053";"Acibenzolar-S-methyl (benzothiadiazole)";"135158-54-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"35_sub_bnvd";"acide 2,5-dichlorobenzoique";"50-79-3";"617";"2,5-Dichlorobenzoic acid methylester";"2905-69-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"36_sub_bnvd";"acide 2-methyl-1-naphtylacetique";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"37_sub_bnvd";"acide acetique";"64-19-7";"1051";"Acetic acid";"64-19-7";False;False;False;"";False;"";False;"";False;"";True;"2090078
+2090079
+2130153
+2170685
+2180244
+2180245";True;True;"2090078
+2090079
+2130153
+2170685
+2180244";True;"2090078
+2090079
+2130153
+2170685
+2180244"
+"37_sub_bnvd";"acide acetique";"64-19-7";"1207";"Vinegar";"64-19-7";False;True;False;"";False;"";False;"";False;"";True;"2090078
+2090079
+2130153
+2170685
+2180244
+2180245";True;True;"2090078
+2090079
+2130153
+2170685
+2180244";True;"2090078
+2090079
+2130153
+2170685
+2180244"
+"38_sub_bnvd";"acide alkylbenzene sulfonique lineaire";"68584-22-5";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"39_sub_bnvd";"acide alpha naphtylacetique (ana)";"86-87-3";"380";"1-Naphthylacetic acid (1-NAA)";"86-87-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8700485
+8800499
+9500444
+9500445
+9700175";True;"8700485
+8800499
+9500444
+9500445
+9700175"
+"40_sub_bnvd";"acide b-indole acetique (aia)";"87-51-4";"227";"Indolylacetic acid (aka auxins)";"87-51-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"41_sub_bnvd";"acide b-indole butyrique (aib)";"133-32-4";"228";"Indolylbutyric acid";"133-32-4";False;False;False;"";False;"";False;"";False;"";True;"2180252
+8500351
+8500352
+8500353
+8500354
+9200056
+9200058
+9200062";True;True;"2180252";True;"2180252"
+"42_sub_bnvd";"acide benzoique";"65-85-0";"455";"Benzoic acid";"65-85-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"43_sub_bnvd";"acide blue 9";"2650-18-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;False;"";True;"9800518"
+"44_sub_bnvd";"acide citrique";"77-92-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"45_sub_bnvd";"acide decanoique";"334-48-5";"502";"Capric acid (CAS 334-48-5)";"334485";False;False;False;"";False;"";False;"";False;"";True;"2140166
+2140167";True;True;"2140166
+2140167";True;"2140166
+2140167"
+"46_sub_bnvd";"acide formique";"64-18-6";"1004";"Formic acid";"64-18-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"47_sub_bnvd";"acide gibberellique";"77-06-5";"764";"Gibberellic acid";"77-06-5 ";False;False;False;"";False;"";False;"";False;"";True;"2140001
+2160383
+2210416
+7400619
+8100110
+9000737";False;False;"";False;""
+"48_sub_bnvd";"acide gras sous forme de sel d'amine";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"9100696";True;"9100696"
+"49_sub_bnvd";"acide halauxifene";"943832-60-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"50_sub_bnvd";"acide hydroxyacetique";"79-14-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"51_sub_bnvd";"acide malique";"6915-15-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"52_sub_bnvd";"acide nonanoique";"112-05-0";"959";"Pelargonic acid (CAS 112-05-0)";"112-05-0";False;False;False;"";False;"";False;"";False;"";True;"2110033
+2110056";True;True;"2090124
+2110033";True;"2090124
+2110033"
+"53_sub_bnvd";"acide octanoique";"124-07-2";"503";"Caprylic acid (CAS 124-07-2)";"124-07-2";False;False;False;"";False;"";False;"";False;"";True;"2140166
+2140167
+2180369";True;True;"2140166
+2140167";True;"2140166
+2140167"
+"54_sub_bnvd";"acide oleique";"112-80-1";"919";"Oleic acid  (CAS 112-80-1)";"112-80-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"55_sub_bnvd";"acide pelargonique";"112-05-0";"959";"Pelargonic acid (CAS 112-05-0)";"112-05-0";False;False;False;"";False;"";False;"";False;"";True;"2110033
+2110056
+2140121
+2140254
+2140255
+2160115
+2170243
+2170321
+2170355
+2190319
+2200372
+2200526
+2210563";True;True;"2090124
+2110033
+2120116
+2120174
+2160115
+2170355
+2190319
+2200372
+2200526
+2210563";True;"2090124
+2110033
+2120116
+2120157
+2120174
+2140121
+2160115
+2170243
+2170355
+2190319
+2200372
+2200526
+2210563"
+"56_sub_bnvd";"acide peracetique";"79-21-0";"965";"Peracetic acid";"79-21-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"57_sub_bnvd";"acide phosphoreux";"10294-56-1";"";"";"";"";"";"";"";"";"";False;"";False;"";True;"2100041
+2100059
+2100060
+2190161
+2190190
+2220003";True;True;"2190190";True;"2190190"
+"58_sub_bnvd";"acide phosphorique";"7664-38-2";"1030";"Phosphoric acid";"7664-38-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"59_sub_bnvd";"acide propionique";"79-09-4";"77";"Propionic acid";"79-09-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"60_sub_bnvd";"acide sorbique";"110-44-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"61_sub_bnvd";"acide sulfamique";"5329-14-6";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"62_sub_bnvd";"acide sulfurique";"7664-93-9";"1181";"Sulphuric acid";"7664-93-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"63_sub_bnvd";"acides gras c14-22 et c14-22 insatures, methyl ester, sulfates, sels de sodium";"84776-43-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"64_sub_bnvd";"acides gras, c14-c18 et c16-c18 insatures";"67701-06-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"65_sub_bnvd";"aclonifen";"74070-46-5";"1054";"Aclonifen";"74070-46-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"66_sub_bnvd";"acrinathrine";"101007-06-1";"1056";"Acrinathrin";"101007-06-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"67_sub_bnvd";"adoxophyes orana granulovirus souche bv-0001";"";"";"";"";"";"";"";"";"";"";True;"2140187";False;"";True;"2140187";False;False;"";False;""
+"68_sub_bnvd";"alcool denature";"64-17-5";"88";"Ethanol";"64-17-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8400364";False;""
+"69_sub_bnvd";"alcool ethylique";"64-17-5";"88";"Ethanol";"64-17-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2020001
+8400364
+9400332
+9600474";False;""
+"70_sub_bnvd";"alcool gras ethoxyle";"24938-91-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"71_sub_bnvd";"alcool isodecylique";"61827-42-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"72_sub_bnvd";"alcool isopropylique";"67-63-0";"1033";"2-Propanol";"67-63-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"73_sub_bnvd";"alcools gras";"85566-12-7";"117";"Fatty alcohols / Aliphatic alcohols";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"74_sub_bnvd";"alcools terpeniques";"98-55-5";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"9800099";True;"9800099"
+"75_sub_bnvd";"alkyl amine";"61790-57-6";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"76_sub_bnvd";"alkyl phenol polyethoxyle";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"77_sub_bnvd";"alkylpolyglucoside";"68515-73-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"78_sub_bnvd";"alpha naphtyl acetamide (nad)";"86-86-2";"391";"1-Naphthylacetamide (1-NAD)";"86-86-2 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8800499
+9500444
+9500445
+9700175";True;"8800499
+9500444
+9500445
+9700175"
+"79_sub_bnvd";"alpha oleines sulfonate de sodium";"68439-57-6";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"80_sub_bnvd";"alpha-chloralose";"15879-93-3";"524";"Chloralose";"15879-93-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8400276
+8600110
+8600183
+8600215
+8600369
+8600583
+8600659
+8700271
+8700544
+8800445
+8900716";True;"8400276
+8600110
+8600183
+8600215
+8600369
+8600583
+8600659
+8700271
+8700544
+8800445
+8900716"
+"81_sub_bnvd";"alphachloralose";"15879-93-3";"524";"Chloralose";"15879-93-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9800255";True;"9800255"
+"82_sub_bnvd";"alphamethrine";"67375-30-8";"325";"Alpha-Cypermethrin (aka alphamethrin)";"67375-30-8";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"2010340
+2010522
+2020352
+2020354
+8900119
+9000383
+9200110
+9200180";True;"2010340
+2010522
+2020352
+2020354
+9200110
+9200180"
+"83_sub_bnvd";"ametoctradine";"865318-97-4";"705";"Ametoctradin";"865318-97-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"84_sub_bnvd";"amidosulfuron";"120923-37-7";"330";"Amidosulfuron";"120923-37-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"85_sub_bnvd";"amine grasse de suif ethoxylee";"61791-26-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"86_sub_bnvd";"aminopropyl dodecylamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"87_sub_bnvd";"aminopyralid";"150114-71-9";"865";"Aminopyralid";"150114-71-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"88_sub_bnvd";"aminotriazole";"61-82-5";"337";"Amitrole (aminotriazole)";"61-82-5";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"89_sub_bnvd";"amisulbrom";"348635-87-0";"335";"Amisulbrom";"348635-87-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"90_sub_bnvd";"amitrole";"61-82-5";"337";"Amitrole (aminotriazole)";"61-82-5";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"91_sub_bnvd";"ammonium quaternaire";"68424-95-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"92_sub_bnvd";"ampelomyces quisqualis souche aq10";"";"";"";"";"";"";"";"";"";"";True;"2100207";False;"";True;"2100207";False;False;"";False;""
+"93_sub_bnvd";"anthraquinone";"84-65-1";"1217";"Anthraquinone";"84-65-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"94_sub_bnvd";"arsenic du dimethylarsinate de sodium";"124-65-2";"1144";"Sodium dimethylarsinate";"124-65-2";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"7000049";False;""
+"95_sub_bnvd";"asulame";"2302-17-2";"415";"Asulam sodium";"2302-17-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"96_sub_bnvd";"aureobasidium pullulans souche dsm 14940";"67891-88-7";"417";"Aureobasidium pullulans (strains DSM 14940 and DSM 14941)";"No CAS allocated";True;False;False;"";False;"";True;"2110079
+2120082";False;"";True;"2110079
+2120082";False;False;"";False;""
+"97_sub_bnvd";"aureobasidium pullulans souche dsm 14941";"67891-88-7";"417";"Aureobasidium pullulans (strains DSM 14940 and DSM 14941)";"No CAS allocated";True;False;False;"";False;"";True;"2110079
+2120082";False;"";True;"2110079
+2120082";False;False;"";False;""
+"98_sub_bnvd";"azadirachtine";"11141-17-6";"420";"Azadirachtin (Margosa extract)";"11141-17-6";False;False;False;"";False;"";True;"2140090
+2189996";False;"";False;"";False;False;"";False;""
+"99_sub_bnvd";"azametiphos";"35575-96-3";"422";"Azamethiphos";"35575-96-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"100_sub_bnvd";"azimsulfuron";"120162-55-2";"423";"Azimsulfuron";"120162-55-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"101_sub_bnvd";"azocyclotin";"41083-11-8";"427";"Azocyclotin";"41083-11-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"102_sub_bnvd";"azoxystrobine";"131860-33-8";"428";"Azoxystrobin";"131860-33-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"103_sub_bnvd";"bacillus amyloliquefaciens souche fzb24";"NC";"1197";"Bacillus amyloliquefaciens strain FZB24";"No CAS allocated";True;False;True;"2180651";False;"";True;"2180651";False;"";True;"2180651";False;False;"";False;""
+"104_sub_bnvd";"bacillus amyloliquefaciens souche mbi 600";"NC";"1198";"Bacillus amyloliquefaciens strain MBI 600";"No CAS allocated";True;False;False;"";False;"";True;"2171248
+2171253";False;"";True;"2171248
+2171253";False;False;"";False;""
+"105_sub_bnvd";"bacillus amyloliquefaciens subsp plantarum d747";"";"";"";"";"";"";"";"";"";"";True;"2160841
+2210063";True;"2190346";True;"2160841
+2190346
+2210063";True;True;"2190346";True;"2190346"
+"106_sub_bnvd";"bacillus firmus i-1582";"";"";"";"";"";"";"";"";"";"";True;"2120069";False;"";True;"2120069";False;False;"";False;""
+"107_sub_bnvd";"bacillus pumilus souche qst 2808";"";"";"";"";"";"";"";"";"";"";True;"2140160
+2180633";False;"";True;"2140160
+2180633";False;False;"";False;""
+"108_sub_bnvd";"bacillus subtilis souche qst 713";"68038-70-0";"";"";"";"";"";"";"";"";"";True;"2100162
+2180404
+2211033";True;"2110040";True;"2100162
+2110040
+2180404
+2211033";True;True;"2110040";True;"2110040"
+"109_sub_bnvd";"bacillus subtilis";"68038-70-0";"";"";"";"";"";"";"";"";"";True;"2050001
+2100162";True;"2110040";True;"2050001
+2100162
+2110040";True;True;"2110040";True;"2110040"
+"110_sub_bnvd";"bacillus thuringiensis serotype 3a 3b";"68038-71-1";"";"";"";"";"";"";"";"";"";True;"2010513
+8900137
+9200482";True;"2030175
+9100177";True;"2000105
+2010327
+2010513
+2030175
+8400098
+8900137
+9200482";True;True;"2000105
+2030175
+8400098
+8700670
+9100177";True;"2000105
+2030175
+8400098
+8700670
+9100177"
+"111_sub_bnvd";"bacillus thuringiensis serotype h 14";"68038-71-1";"861";"Bacillus thuringiensis subsp. Israelensis (serotype H-14) strain AM65-52";"No CAS allocated";True;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"112_sub_bnvd";"bacillus thuringiensis sp. tenebrionis";"68038-71-1";"433";"Bacillus thuringiensis subsp. Tenebrionis strain NB176";"No CAS allocated";True;False;False;"";False;"";True;"9800280";False;"";True;"9800280";False;False;"";False;""
+"113_sub_bnvd";"bacillus thuringiensis ssp aizawai souche abts-1857";"68038-71-1";"1269";"Bacillus thuringiensis subsp. Aizawai strain ABTS-1857";"No CAS allocated";True;False;False;"";False;"";True;"2020241";False;"";True;"2020241";False;False;"";False;""
+"114_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche abts-351";"68038-71-1";"1270";"Bacillus thuringiensis subsp. Kurstaki strain ABTS-351";"No CAS allocated";True;False;False;"";False;"";True;"2010513";True;"2150417";True;"2010513
+2150417";True;False;"";True;"2150417"
+"115_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche eg 2348";"68038-71-1";"1271";"Bacillus thuringiensis subsp. Kurstaki strain EG2348";"No CAS allocated";True;False;False;"";False;"";True;"2160494
+2200048";False;"";True;"2160494
+2200048";False;False;"";False;""
+"116_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche pb 54";"68038-71-1";"";"";"";"";"";"";"";"";"";True;"2200701
+2210326";False;"";True;"2200701
+2210326";False;False;"";False;""
+"117_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche sa-11";"68038-71-1";"1273";"Bacillus thuringiensis subsp. Kurstaki strain SA 11";"No CAS allocated";True;False;False;"";False;"";True;"9200482";True;"2030175";True;"2030175
+9200482";True;True;"2030175";True;"2030175"
+"118_sub_bnvd";"bacillus thuringiensis ssp kurstaki";"68038-71-1";"1270";"Bacillus thuringiensis subsp. Kurstaki strain ABTS-351";"No CAS allocated";True;False;False;"";False;"";True;"2010513";True;"2150417";True;"2010513
+2150417";True;False;"";True;"2150417"
+"118_sub_bnvd";"bacillus thuringiensis ssp kurstaki";"68038-71-1";"1271";"Bacillus thuringiensis subsp. Kurstaki strain EG2348";"No CAS allocated";True;False;False;"";False;"";True;"2010513";True;"2150417";True;"2010513
+2150417";True;False;"";True;"2150417"
+"118_sub_bnvd";"bacillus thuringiensis ssp kurstaki";"68038-71-1";"1272";"Bacillus thuringiensis subsp. Kurstaki strain PB 54";"No CAS allocated";True;False;False;"";False;"";True;"2010513";True;"2150417";True;"2010513
+2150417";True;False;"";True;"2150417"
+"118_sub_bnvd";"bacillus thuringiensis ssp kurstaki";"68038-71-1";"1273";"Bacillus thuringiensis subsp. Kurstaki strain SA 11";"No CAS allocated";True;False;False;"";False;"";True;"2010513";True;"2150417";True;"2010513
+2150417";True;False;"";True;"2150417"
+"118_sub_bnvd";"bacillus thuringiensis ssp kurstaki";"68038-71-1";"1463";"Bacillus thuringiensis subsp. Kurstaki strain SA 12";"No CAS allocated";True;False;False;"";False;"";True;"2010513";True;"2150417";True;"2010513
+2150417";True;False;"";True;"2150417"
+"119_sub_bnvd";"bacillus thuringiensis sérotype h 7";"68038-71-1";"";"";"";"";"";"";"";"";"";True;"2020241";True;"2030175";True;"2020241
+2030175";True;True;"2030175";True;"2030175"
+"120_sub_bnvd";"beauveria bassiana souche 203";"63428-82-0";"1336";"Beauveria bassiana strain 203";"No CAS allocated";True;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"121_sub_bnvd";"beauveria bassiana souche atcc 74040";"63428-82-0";"1275";"Beauveria bassiana strain ATCC 74040";"No CAS allocated";True;False;False;"";False;"";True;"2170437";False;"";True;"2170437";False;False;"";False;""
+"122_sub_bnvd";"beauveria bassiana souche gha";"63428-82-0";"1339";"Beauveria bassiana strain GHA";"No CAS allocated";True;False;False;"";False;"";True;"2170780";False;"";True;"2170780";False;False;"";False;""
+"123_sub_bnvd";"beauveria bassiana souche npp111b005";"63428-82-0";"";"";"";"";"";"";"";"";"";True;"2180058";False;"";True;"2180058";False;False;"";False;""
+"124_sub_bnvd";"beflubutamide";"113614-08-7";"440";"Beflubutamid";"113614-08-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"125_sub_bnvd";"benalaxyl-m";"98243-83-5";"441";"Benalaxyl-M";"98243-83-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"126_sub_bnvd";"benalaxyl";"71626-11-4";"1345";"Benalaxyl";"71626-11-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"127_sub_bnvd";"benfluraline";"1861-40-1";"444";"Benfluralin";"1861-40-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"128_sub_bnvd";"benfuracarbe";"82560-54-1";"445";"Benfuracarb";"82560-54-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"129_sub_bnvd";"benoxacor";"98730-04-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"130_sub_bnvd";"bensulfuron methyl";"83055-99-6";"1019";"Bensulfuron";"83055-99-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"131_sub_bnvd";"bentazone";"25057-89-0";"451";"Bentazone";"25057-89-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"132_sub_bnvd";"benthiavalicarbe";"177406-68-7";"452";"Benthiavalicarb";"413615-35-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"133_sub_bnvd";"benzoate de denatonium";"3734-33-6";"836";"Denathonium benzoate";"3734-33-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"134_sub_bnvd";"benzoate de sodium";"532-32-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"135_sub_bnvd";"benzobicyclon";"156963-66-5";"454";"Benzobicyclon";"156963-66-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"136_sub_bnvd";"benzovindiflupyr";"1072957-71-1";"1204";"Benzovindiflupyr";"1072957-71-1";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"137_sub_bnvd";"betacyfluthrine";"68359-37-5";"589";"Cyfluthrin";"68359-37-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"138_sub_bnvd";"bicarbonate de potassium";"298-14-6";"51";"Potassium hydrogen carbonate";"298-14-6";False;False;True;"2110059
+2110196
+2171067
+2190265";False;"";True;"2110059
+2171200
+2190265";True;"2110196
+2171067";True;"2110059
+2110196
+2171067
+2171200
+2190265";True;True;"2110196
+2171067";True;"2110196
+2171067"
+"139_sub_bnvd";"bifenazate";"149877-41-8";"1349";"Bifenazate";"149877-41-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"140_sub_bnvd";"bifenox";"42576-02-3";"866";"Bifenox";"42576-02-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"141_sub_bnvd";"bifenthrine";"82657-04-3";"460";"Bifenthrin";"82657-04-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2000124
+2000466
+2020052
+2020254
+2020297
+2020298
+2020300
+2020301
+2020426
+2050040
+2050042
+2050043
+9000171
+9100162
+9100163
+9100375
+9100704
+9100706
+9200145
+9300214
+9300299
+9300300
+9300530
+9400213
+9600385
+9700235
+9700591
+9800394
+9800425
+9800426
+9800520
+9900094
+9900127";True;"2000124
+2000300
+2020052
+2020254
+2020297
+2020298
+2020300
+2020301
+2020426
+2050040
+2050042
+2050043
+9000171
+9100375
+9100704
+9100706
+9200145
+9300214
+9300299
+9300300
+9300530
+9400213
+9600385
+9700235
+9700591
+9800394
+9800425
+9800426
+9800520
+9900094
+9900127"
+"142_sub_bnvd";"bioallethrine";"584-79-2";"322";"Allethrin";"584-79-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"143_sub_bnvd";"bis ( 3 - aminopropyl ) dodecylamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"144_sub_bnvd";"bis (aminopropyl) laurylamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"145_sub_bnvd";"bisulfate de sodium";"7681-36-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"146_sub_bnvd";"bitertanol";"55179-31-2";"1393";"Bitertanol";"55179-31-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"147_sub_bnvd";"bixafen";"581809-46-3";"675";"Bixafen";"581809-46-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"148_sub_bnvd";"bore de solubore";"12280-03-4";"1383";"Disodium octaborate tetrahydrate";"12280-03-4";False;False;False;"";False;"";False;"";False;"";True;"7400657";False;False;"";False;""
+"149_sub_bnvd";"boscalid";"188425-85-6";"472";"Boscalid (formerly nicobifen)";"188425-85-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"150_sub_bnvd";"brai";"65996-93-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"7400610
+8400364";False;""
+"151_sub_bnvd";"brodifacoum";"56073-10-0";"474";"Brodifacoum";"56073-10-0";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010137";False;""
+"152_sub_bnvd";"bromadiolone";"28772-56-7";"476";"Bromadiolone";"28772-56-7";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"2000108
+2010309
+2030405
+2030406
+7500588
+7700788
+8600491
+9600009
+9900025";False;""
+"153_sub_bnvd";"bromoxynil octanoate";"1689-99-2";"483";"Bromoxynil";"1689-84-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"154_sub_bnvd";"bromoxynil";"1689-84-5";"483";"Bromoxynil";"1689-84-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"155_sub_bnvd";"bromuconazole";"116255-48-2";"484";"Bromuconazole";"116255-48-2";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"156_sub_bnvd";"bromure de lauryl dimethyl benzyl ammonium";"7281-04-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"157_sub_bnvd";"bromure de methyle";"74-83-9";"220";"Methyl bromide";"74-83-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"158_sub_bnvd";"bupirimate";"41483-43-6";"485";"Bupirimate";"41483-43-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"159_sub_bnvd";"buprofezine";"69327-76-0";"486";"Buprofezin";"69327-76-0";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010529
+9000160";True;"9000160"
+"160_sub_bnvd";"butoxyde de piperonyle";"51-03-6";"";"";"";"";"";"";"";"";"";True;"8800818";True;"7500004
+8800335
+9100177
+9100259";True;"2100105
+2110084
+8400098
+8900132
+9100259";True;True;"2020365
+2110084
+7500004
+8400098
+8800335
+8800622
+8800818
+8900132
+9100177
+9100259
+9100260
+9900373";True;"2020365
+2110084
+7500004
+8400098
+8800335
+8800622
+8800818
+8900132
+9100177
+9100259
+9900373"
+"161_sub_bnvd";"butraline";"33629-47-9";"490";"Butralin";"33629-47-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"162_sub_bnvd";"candida oleophila souche o";"";"";"";"";"";"";"";"";"";"";True;"2080108";False;"";True;"2080108";False;False;"";False;""
+"163_sub_bnvd";"captane";"133-06-2";"505";"Captan";"133-06-02";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"164_sub_bnvd";"carbaryl";"63-25-2";"832";"Carbaryl";"63-25-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"165_sub_bnvd";"carbendazime";"10605-21-7";"506";"Carbendazim";"10605-21-7";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"166_sub_bnvd";"carbetamide";"16118-49-3";"507";"Carbetamide";"16118-49-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8400145
+8900231
+9320048
+9600091
+9700358
+9700411";True;"8400145
+8900231
+9320048
+9600091
+9700358
+9700411"
+"167_sub_bnvd";"carbofuran";"1563-66-2";"508";"Carbofuran";"1563-66-2";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8400032
+8600644";False;""
+"168_sub_bnvd";"carbonate d'ammonium";"506-87-6";"340";"Ammonium carbonate";"10361-29-2";False;False;False;"";False;"";True;"2170392";False;"";True;"2170392";False;False;"";False;""
+"169_sub_bnvd";"carbosulfan";"55285-14-8";"513";"Carbosulfan";"55285-14-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"170_sub_bnvd";"carboxine";"5234-68-4";"514";"Carboxin";"5234-68-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"171_sub_bnvd";"carfentrazone ethyl";"128639-02-1";"515";"Carfentrazone-ethyl";"128639-02-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"172_sub_bnvd";"cerevisane";"68876-77-7";"1065";"Cerevisane";"No CAS allocated";False;False;True;"2170654
+2180275";False;"";True;"2170654";True;"2180275";True;"2170654
+2180275";True;True;"2180275";True;"2180275"
+"173_sub_bnvd";"chlorantraniliprole";"500008-45-7";"526";"Chlorantraniliprole";"500008-45-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"174_sub_bnvd";"chlorate de sodium";"7775-09-9";"1141";"Sodium chloride";"7647-14-5 ";False;True;False;"";False;"";False;"";False;"";False;"";True;True;"2040349
+2040350
+2040351
+2040352
+2040353
+2080085
+2080086
+9200143
+9400227
+9400327
+9500351
+9800227
+9900015";True;"2040352
+2040353
+2070168
+2080085
+2080086
+9200143
+9900015"
+"175_sub_bnvd";"chlorhydrate de poly biguanide";"32289-58-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"176_sub_bnvd";"chlorhydrate de poly hexamethylene biguanidine";"27083-27-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"177_sub_bnvd";"chlorhydrate de poly(hexamethylene biguanide)";"27083-27-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"178_sub_bnvd";"chlorhydrate de poly-imino-imido biguanidine";"91403-50-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"179_sub_bnvd";"chloridazone";"1698-60-8";"538";"Chloridazon (aka pyrazone)";"1698-60-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"180_sub_bnvd";"chlormephos";"24934-91-6";"1354";"Chlormephos";"24934-91-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"181_sub_bnvd";"chlormequat chlorure";"999-81-5";"539";"Chlormequat";"7003-89-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"182_sub_bnvd";"chlorophacinone";"3691-35-8";"541";"Chlorophacinone";"3691-35-8";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000024
+2010013
+2020100
+6600112
+7500277
+7500391
+7500446
+7500464
+7500540
+8100236
+8100516
+8200295
+8600182
+8700210
+8900045
+8900143
+8900401
+9100234
+9200072
+9500415
+9500615
+9600115
+9700549";True;"6600112"
+"183_sub_bnvd";"chlorophylline (sels cuprosodiques)";"11006-34-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"184_sub_bnvd";"chlorothalonil";"1897-45-6";"544";"Chlorothalonil";"1897-45-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"185_sub_bnvd";"chlorotoluron";"15545-48-9";"545";"Chlorotoluron";"15545-48-9";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"185_sub_bnvd";"chlorotoluron";"15545-48-9";"545";"Chlorotoluron";"15545-48-9";False;False;False;"";True;"propriétés de perturbation endocrinienne";False;"";False;"";False;"";False;False;"";False;""
+"186_sub_bnvd";"chlorprophame";"101-21-3";"1356";"Chlorpropham";"101-21-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"187_sub_bnvd";"chlorpyriphos-ethyl";"2921-88-2";"548";"Chlorpyrifos";"2921-88-2";False;False;False;"";False;"";False;"";False;"";False;"";True;False;"";True;"9900154"
+"188_sub_bnvd";"chlorpyriphos-methyl";"5598-13-0";"549";"Chlorpyrifos-methyl";"5598-13-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"189_sub_bnvd";"chlorsulfuron";"64902-72-3";"550";"Chlorsulfuron";"64902-72-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"190_sub_bnvd";"chlorthal";"2136-79-0";"551";"Chlorthal-dimethyl";"1861-32-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"191_sub_bnvd";"chlorure d'alkyl dimethyl ammonium";"68424-85-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"192_sub_bnvd";"chlorure d'alkyl dimethyl benzyl ammonium";"68424-85-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"193_sub_bnvd";"chlorure d'iode";"7553-56-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"194_sub_bnvd";"chlorure de benzalkonium";"68424-85-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"195_sub_bnvd";"chlorure de choline";"67-48-1";"1021";"Choline chloride";"67-48-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"196_sub_bnvd";"chlorure de didecyl ammonium";"7173-51-5";"1190";"Didecyldimethylammonium chloride (DDAC)";"7173-51-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"197_sub_bnvd";"chlorure de didecyl dimethyl ammonium";"7173-51-5";"1190";"Didecyldimethylammonium chloride (DDAC)";"7173-51-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"198_sub_bnvd";"chlorure de didecyldimethylbenzylammonium";"68424-85-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"199_sub_bnvd";"chlorure de dimethyl dialkyl ammonium";"7173-51-5";"1190";"Didecyldimethylammonium chloride (DDAC)";"7173-51-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"200_sub_bnvd";"chlorure de dimethyl ethyl ammonium";"7173-51-5";"1190";"Didecyldimethylammonium chloride (DDAC)";"7173-51-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"201_sub_bnvd";"chlorure de lauryl dimethyl benzyl ammonium";"7173-51-5";"1190";"Didecyldimethylammonium chloride (DDAC)";"7173-51-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"202_sub_bnvd";"chlorure de n coco dimethyl benzyl ammonium";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"203_sub_bnvd";"chlorure de sodium";"7647-14-5";"1141";"Sodium chloride";"7647-14-5 ";False;True;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"204_sub_bnvd";"chlorures n-alkyl dimethyl benzyl ammonium";"68424-85-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"205_sub_bnvd";"chlorures n-alkyl dimethyl ethyl benzyl ammonium";"85409-23-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"206_sub_bnvd";"cinidon-ethyl";"142891-20-1";"555";"Cinidon ethyl";"142891-20-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"207_sub_bnvd";"cintofen";"130561-48-7";"1027";"Sintofen (aka Cintofen)";"130561-48-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"208_sub_bnvd";"cire d'abeille";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"7400610
+9000359
+9000360
+9500296";False;""
+"209_sub_bnvd";"cire";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8400364";False;""
+"210_sub_bnvd";"cires de petrole";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"211_sub_bnvd";"cires microcristallines";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"212_sub_bnvd";"clethodime";"99129-21-2";"561";"Clethodim";"99129-21-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"213_sub_bnvd";"clodinafop-propargyl";"105512-06-9";"562";"Clodinafop";"105512-06-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"214_sub_bnvd";"clofentezine";"74115-24-5";"564";"Clofentezine";"74115-24-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"215_sub_bnvd";"clomazone";"81777-89-1";"565";"Clomazone";"81777-89-1 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"216_sub_bnvd";"clonostachys rosea j1446 (anciennement gliocladium catenulatum)";"";"";"";"";"";"";"";"2120177
+2150847";"";"";True;"2120177
+2150847";False;"";True;"2120177
+2150847";False;False;"";False;""
+"217_sub_bnvd";"clopyralid (sous forme de sel de monoethanolamine)";"57754-85-5";"566";"Clopyralid";"1702-17-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"218_sub_bnvd";"clopyralid";"1702-17-6";"566";"Clopyralid";"1702-17-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2050143
+9600404
+9800432";True;"2050143
+2050144
+9600404
+9800432"
+"219_sub_bnvd";"cloquintocet-mexyl";"99607-70-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"220_sub_bnvd";"clothianidine";"210880-92-5";"867";"Clothianidin";"210880-92-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"221_sub_bnvd";"colophane traitee au maleate";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"7400610
+8400364";False;""
+"222_sub_bnvd";"colophane";"8050-09-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"9500296";False;""
+"223_sub_bnvd";"composes de l'ion ammonium quaternaire, benzylalkyl en c12-c18 dimethyles, chlorures";"68391-01-5";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"224_sub_bnvd";"composition complexe";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"225_sub_bnvd";"coniothyrium minitans souche con/m/91-08";"";"";"";"";"";"";"";"9900189";"";"";True;"9900189";False;"";True;"9900189";False;False;"";False;""
+"226_sub_bnvd";"copolymere de polyether - polymethylsiloxane";"134180-76-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"227_sub_bnvd";"cos-oga";"";"1185";"COS-OGA";"No CAS allocated";False;False;True;"2170932
+2190730";False;"";True;"2150479
+2190730";True;"2170932";True;"2150479
+2170932
+2190730";True;False;"";True;"2170932"
+"228_sub_bnvd";"cresol";"95-48-7";"576";"Cresylic acid";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2020001";False;""
+"229_sub_bnvd";"cresyl";"95-48-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"9400332
+9600474";False;""
+"230_sub_bnvd";"cuivre de l'hydroxyde de cuivre";"20427-59-2";"571";"Copper hydroxide";"20427-59-2";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2000087
+2000517
+2090133
+2090134
+2090135
+2090170
+2110021
+2180670
+2180829
+8200024
+9000277
+9700401
+9800304
+9900227
+9900354";True;"9600097";False;"";True;True;"9100639
+9300180
+9300181
+9400345
+9600016
+9600097";True;"9100639
+9300180
+9300181
+9400345
+9600016
+9600097"
+"231_sub_bnvd";"cuivre de l'oxychlorure de cuivre (trihydroxychlorure de dicuivre)";"1332-65-6";"572";"Copper oxychloride";"1332-65-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2180670
+2180829";False;"";False;"";True;True;"6500400
+9100637
+9700399";True;"9100637
+9700399"
+"232_sub_bnvd";"cuivre de l'oxychlorure de cuivre";"1332-40-7";"572";"Copper oxychloride";"1332-65-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2000210
+7200451
+7700681
+8700506
+9300490
+9400346";True;"7800571
+9900282";False;"";True;True;"2020321
+6200015
+7800571
+8000624
+9700171
+9900282";True;"2020321
+6200015
+7800571
+8000624
+9700171
+9900282"
+"233_sub_bnvd";"cuivre de l'oxyde cuivreux";"1317-39-1";"580";"Copper oxide";"1317-39-1";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2010130
+2170702";True;"2110180";False;"";True;True;"2110180
+8600063";True;"2110180
+8600063"
+"234_sub_bnvd";"cuivre du carbonate de cuivre";"12069-69-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"235_sub_bnvd";"cuivre du sulfate de cuivre";"7758-98-7";"1221";"Copper compounds";"No unique CAS";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2090137
+2110006";True;"2000125
+2110083";False;"";True;True;"2000125
+2110083";True;"2000125
+2110083"
+"236_sub_bnvd";"cuivre du sulfate de cuivre";"8011-63-0";"470";"Bordeaux mixture";"No CAS allocated";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2010618
+2090121
+2090137
+2110006
+2110021
+2180901
+6200075
+7500716
+7800305
+9200359
+9300571
+9500452
+9800474
+9900013";True;"2000125
+2150087
+2189993
+2189994
+7700568
+9500302
+9900257";False;"";True;True;"2000089
+2000125
+2010209
+2010520
+2020027
+2040207
+2040213
+2040314
+2150087
+6900376
+7500242
+7700568
+7900379
+8000600
+9000595
+9100262
+9300326
+9500302
+9500411
+9600466
+9700394
+9800130
+9900257";True;"2000089
+2000125
+2010209
+2010520
+2020027
+2040207
+2040213
+2040314
+2150087
+2189993
+2189994
+6900376
+7500242
+7700568
+7900379
+8000600
+9000595
+9100262
+9300326
+9500302
+9500411
+9600466
+9700394
+9800130
+9900257"
+"237_sub_bnvd";"cuivre du sulfate tetracuivrique et tricalcique";"8011-63-0";"470";"Bordeaux mixture";"No CAS allocated";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"9400352";False;"";False;"";False;False;"";False;""
+"238_sub_bnvd";"cuivre du sulfate tribasique";"12527-76-3";"1222";"Tribasic copper sulphate";"12527-76-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";True;"2090119
+2140168
+2160694
+2180246";True;"2110083
+2180319
+2180888";False;"";True;True;"2110083
+2180319";True;"2110083
+2180319
+2180888"
+"239_sub_bnvd";"cuivre du tallate de cuivre";"71789-22-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"240_sub_bnvd";"cyanamide de calcium";"156-62-7";"581";"Cyanamide (H & Ca cyanamide)";"420-04-2";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010122
+2010123
+2010558
+2040083
+2050037
+9400210
+9600081
+9700293
+9700294
+9700509
+9800132
+9800175
+9800203
+9900440";True;"2010122
+2010123
+2010558
+2050037
+9400210
+9600081
+9700293
+9700294"
+"241_sub_bnvd";"cyanamide hydrogene";"420-04-2";"581";"Cyanamide (H & Ca cyanamide)";"420-04-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"242_sub_bnvd";"cyantraniliprole";"736994-63-1";"1083";"Cyantraniliprole";"736994-63-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"243_sub_bnvd";"cyazofamide";"120116-88-3";"583";"Cyazofamid";"120116-88-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"244_sub_bnvd";"cycloxydime";"101205-02-1";"586";"Cycloxydim";"101 205-02-1";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2020020";True;"2020020"
+"245_sub_bnvd";"cydia pomonella granulosis, isolat m (cpvg m)";"";"";"";"";"";"";"";"";"";"";True;"9800076";False;"";True;"9800076";False;False;"";False;""
+"246_sub_bnvd";"cydia pomonella granulovirus, isolat r5 (cpgv-r5)";"";"";"";"";"";"";"";"";"";"";True;"2120081";False;"";True;"2120081";False;False;"";False;""
+"247_sub_bnvd";"cydia pomonella granulovirus";"";"";"";"";"";"";"";"";"";"";True;"2130175
+2140238";False;"";True;"2130175
+2140238";False;False;"";False;""
+"248_sub_bnvd";"cyflufenamid";"180409-60-3";"833";"Cyflufenamid";"180409-60-3 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"249_sub_bnvd";"cyfluthrine";"68359-37-5";"589";"Cyfluthrin";"68359-37-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8600051
+9100239
+9400106";True;"9100239"
+"250_sub_bnvd";"cyhalofop butyl";"122008-85-9";"590";"Cyhalofop-butyl";"122008-85-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"251_sub_bnvd";"cyhexatin";"13121-70-5";"592";"Cyhexatin";"13121-70-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9700453";True;"9700453"
+"252_sub_bnvd";"cymoxanil";"57966-95-7";"593";"Cymoxanil";"57966-95-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2070137
+8100460
+8800534";True;"2070137
+8100460
+8800534"
+"253_sub_bnvd";"cypermethrine";"52315-07-8";"834";"Cypermethrin";"52315-07-8";False;False;False;"";True;"isomères non-actifs";False;"";False;"";False;"";True;True;"2000096
+2010429
+2010430
+2010434
+2030286
+2080135
+9000124
+9200135
+9200227
+9200333
+9300127
+9500514
+9500515
+9600387
+9600488
+9800321
+9800393";True;"2030286
+2080135
+2130111
+8400218
+9100558
+9200135
+9200333
+9500414
+9600387
+9600488
+9800321"
+"253_sub_bnvd";"cypermethrine";"52315-07-8";"198";"zeta-Cypermethrin";"52315-07-8";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000096
+2010429
+2010430
+2010434
+2030286
+2080135
+9000124
+9200135
+9200227
+9200333
+9300127
+9500514
+9500515
+9600387
+9600488
+9800321
+9800393";True;"2030286
+2080135
+2130111
+8400218
+9100558
+9200135
+9200333
+9500414
+9600387
+9600488
+9800321"
+"254_sub_bnvd";"cyproconazole";"94361-06-5";"594";"Cyproconazole";"94361-06-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;False;"";True;"2130183"
+"255_sub_bnvd";"cyprodinil";"121552-61-2";"1023";"Cyprodinil";"121552-61-2";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2040357";True;"2159993"
+"256_sub_bnvd";"cyprosulfamide";"221667-31-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"257_sub_bnvd";"cyromazine";"66215-27-8";"596";"Cyromazine";"66215-27-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"258_sub_bnvd";"daminozide";"1596-84-5";"599";"Daminozide";"1596-84-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"259_sub_bnvd";"dazomet";"533-74-4";"835";"Dazomet";"533-74-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"260_sub_bnvd";"decane-1-ol";"112-30-1";"826";"1-Decanol";"112-30-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"261_sub_bnvd";"deltamethrine";"52918-63-5";"602";"Deltamethrin";"52918-63-5";False;False;False;"";False;"";True;"2130112
+2130114
+2130115
+2140091
+2170392
+2200509";False;"";True;"2130112
+2130114
+2130115
+2140091
+2170392
+2200509
+2210477
+2219995";True;True;"8300053";True;"2030125
+2100078
+2120213
+8300053"
+"262_sub_bnvd";"derives d'acides gras vegetaux";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"263_sub_bnvd";"desmediphame";"13684-56-5";"605";"Desmedipham";"13684-56-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"264_sub_bnvd";"di aminopropyl laurylamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"265_sub_bnvd";"di-1-p-menthene";"34363-01-4";"607";"Di-1-p-menthene B470";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"266_sub_bnvd";"diazinon";"333-41-5";"612";"Diazinon";"333-41-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010377
+2010436
+2030278
+6500379
+6900079
+7500239
+8500591
+9200131
+9800226
+9800239";True;"2010436
+6500379
+6900079
+7500239
+9200131
+9800226
+9800239"
+"267_sub_bnvd";"dicamba dimethylammonium";"2300-66-5";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"268_sub_bnvd";"dicamba";"1918-00-9";"613";"Dicamba";"1918-00-9";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000071
+2000412
+2020336
+2090032
+2110174
+6900472
+7700388
+8000169
+8100548
+8200346
+8600241
+8600575
+8720669
+9000662
+9500269
+9500281
+9500484
+9500485
+9600325
+9900098";True;"2000071
+2000390
+2000412
+2010296
+2020336
+2040080
+2090032
+2100083
+2110174
+6900472
+6900486
+7700388
+7700706
+8000169
+8100548
+8200346
+8600241
+8600575
+8720669
+9000662
+9400109
+9420113
+9500269
+9500281
+9500484
+9500485
+9600325
+9900098"
+"269_sub_bnvd";"dichlobenil";"1194-65-6";"614";"Dichlobenil";"1194-65-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000009
+2020322
+2030270
+2030271
+2030293
+7500669
+7600146
+7700027
+8000077
+9000435
+9700232
+9700233
+9700561
+9800332
+9800357
+9800556
+9800557
+9800558
+9900372";True;"2000009
+7500669
+7600146
+7700027
+8000077
+9700561"
+"270_sub_bnvd";"dichlormide";"37764-25-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"271_sub_bnvd";"dichloro isocyanurate de sodium dihydrate";"51580-86-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"272_sub_bnvd";"dichloroisocyanurate de sodium";"2893-78-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"273_sub_bnvd";"dichlorprop-p";"15165-67-0";"619";"Dichlorprop-P";" 15165-67-0 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010319
+2040079
+9500572
+9700414
+9800238";True;"2010035
+2010296
+2010319
+2030331
+2040079
+9700414
+9800238"
+"274_sub_bnvd";"dichlorvos";"62-73-7";"620";"Dichlorvos";"62-73-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"275_sub_bnvd";"diclofop methyl";"51338-27-3";"622";"Diclofop";"40843-25-2";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"276_sub_bnvd";"dicofol";"115-32-2";"1360";"Dicofol";"115-32-2";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000096
+2010429
+2010430
+2010434
+2020351
+2020365
+8100167
+8300464
+9000106
+9000124
+9100260
+9100490
+9200265
+9300254
+9300255
+9500514
+9500515
+9500531
+9700083
+9800005
+9800393";True;"2020365
+8100167
+9000106
+9100490
+9200265
+9300254
+9800005"
+"276_sub_bnvd";"dicofol";"115-32-2";"624";"Dicofol (containing <78% p.p´-dicofol or > 1g/kg DDT and DDT related cmpds)";"115-32-2";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000096
+2010429
+2010430
+2010434
+2020351
+2020365
+8100167
+8300464
+9000106
+9000124
+9100260
+9100490
+9200265
+9300254
+9300255
+9500514
+9500515
+9500531
+9700083
+9800005
+9800393";True;"2020365
+8100167
+9000106
+9100490
+9200265
+9300254
+9800005"
+"277_sub_bnvd";"difenacoum";"56073-07-5";"630";"Difenacoum";"56073-07-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2000019
+2020185
+7800798
+8300307
+8800238
+9200046
+9300349";False;""
+"277_sub_bnvd";"difenacoum";"56073-07-5";"630";"Difenacoum";"56073-07-5";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"2000019
+2020185
+7800798
+8300307
+8800238
+9200046
+9300349";False;""
+"278_sub_bnvd";"difenoconazole";"119446-68-3";"631";"Difenoconazole";"119446-68-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;False;"";True;"2090033
+2090034"
+"279_sub_bnvd";"difethialone";"104653-34-1";"633";"Difethialone";"104653-34-1";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010016";False;""
+"280_sub_bnvd";"diflubenzuron";"35367-38-5";"634";"Diflubenzuron";"35367-38-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"281_sub_bnvd";"diflufenicanil";"83164-33-4";"635";"Diflufenican";"83164-33-4 ";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2000128
+2010157
+2010299
+2050050
+2050077
+2050145
+2050146
+2080053
+2120150
+2120155
+2130093
+2150102
+8900231
+9400245
+9700358
+9800107
+9900093";True;"2000128
+2010157
+2010299
+2050050
+2050077
+2050145
+2050146
+2080053
+2120150
+2120155
+2130093
+2150102
+8900231
+9400245
+9700358
+9800107
+9900093"
+"282_sub_bnvd";"dimethachlore";"50563-36-5";"639";"Dimethachlor";"50563-36-5 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"283_sub_bnvd";"dimethenamide-p (dmta-p)";"163515-14-8";"641";"Dimethenamid-P";"163515-14-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"284_sub_bnvd";"dimethenamide";"87674-68-8";"640";"Dimethenamid";"87674-68-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"285_sub_bnvd";"dimethoate";"60-51-5";"1214";"Dimethoate";"60-51-5";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"9900333";True;"2010121"
+"286_sub_bnvd";"dimethomorphe";"110488-70-5";"644";"Dimethomorph";"110488-70-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"287_sub_bnvd";"dimethyl disulfide";"624-92-0";"988";"Dimethyl disulphide";"624-92-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"288_sub_bnvd";"dimethyl polysiloxane";"63148-62-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"289_sub_bnvd";"dimoxystrobine";"149961-52-4";"868";"Dimoxystrobin";"149961-52-4";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"289_sub_bnvd";"dimoxystrobine";"149961-52-4";"868";"Dimoxystrobin";"149961-52-4";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"290_sub_bnvd";"dinocap";"39300-45-3";"650";"Dinocap";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"291_sub_bnvd";"dioxyde de carbone";"124-38-9";"509";"Carbon dioxide (active substance)";"124-38-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"291_sub_bnvd";"dioxyde de carbone";"124-38-9";"1454";"Carbon dioxide (basic substance)";"124-38-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"292_sub_bnvd";"diphenylamine";"122-39-4";"658";"Diphenylamine";"122-39-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"293_sub_bnvd";"diquat";"85-00-7";"659";"Diquat";"85-00-7";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"2090176";True;"2090176"
+"293_sub_bnvd";"diquat";"85-00-7";"659";"Diquat";"85-00-7";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2090176";True;"2090176"
+"294_sub_bnvd";"disodium phosphate";"7558-79-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"295_sub_bnvd";"disulfure de dimethyle (dmds)";"624-92-0";"988";"Dimethyl disulphide";"624-92-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"296_sub_bnvd";"dithianon";"3347-22-6";"691";"Dithianon";"3347-22-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"297_sub_bnvd";"diuron";"330-54-1";"692";"Diuron";"330-54-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"298_sub_bnvd";"dodemorphe acetate";"31717-87-0";"694";"Dodemorph";"1593-77-7 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"299_sub_bnvd";"dodine";"2439-10-3";"695";"Dodine";"2439-10-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000222";True;"2000222"
+"300_sub_bnvd";"e,z-8-dodecen-1-yl acetate + z-8-dodecen-1-ol";"";"";"";"";"";"";"";"";"";"";True;"2140143";False;"";True;"2140143";False;False;"";False;""
+"301_sub_bnvd";"e-5-decen-1-ol";"56578-18-8";"360";"(E)-5-Decen-1-ol (SCLP Alcohols)";"56578-18-8";False;False;False;"";False;"";True;"2171126
+2180549";False;"";True;"2171126
+2180549";False;False;"";False;""
+"302_sub_bnvd";"e/z8 acetate de dodecenyle";"37338-40-2";"364";"(E,Z)-8-Dodecen-1-yl acetate";"No CAS allocated";False;False;False;"";False;"";True;"2171126
+2210017
+8900685";False;"";True;"2171126
+2210017
+8900685";False;False;"";False;""
+"303_sub_bnvd";"e/z9-dodecenyl acetate";"16974-34-8";"";"";"";"";"";"";"";"";"";True;"9400462";False;"";True;"9400462";False;False;"";False;""
+"304_sub_bnvd";"e7,e/z9-dodecadienyl acetate + n-dodecanyl acetate";"";"";"";"";"";"";"";"";"";"";True;"2150105";False;"";True;"2150105";False;False;"";False;""
+"305_sub_bnvd";"e7,z9-dodecadienylacetate";"54364-62-4";"1328";"(E,Z)-7,9-Dodecadien-1-yl acetate (SCLP Acetates)";"54364-62-4";False;False;True;"";False;"";True;"2120030
+2130108
+2130109
+2140043
+2140044
+2140215
+2150105
+2160423
+2161035
+2170435
+2200132
+2200389
+2200914
+9400458
+9400459
+9400460";False;"";True;"2120030
+2130108
+2130109
+2140043
+2140044
+2140215
+2150105
+2160423
+2161035
+2170435
+2200132
+2200389
+2200914
+9400458
+9400459
+9400460";False;False;"";False;""
+"306_sub_bnvd";"e8,e10-dodecadiene-1-ol";"33956-49-9";"362";"(E,E)-8,10-Dodecadien-1-ol (SCLP Alcohols)";"33956-49-9";False;False;False;"";False;"";True;"2000536
+2100036
+2100242
+2110074
+2110179
+2130272
+2140146
+2150175
+2150179
+2160929
+2170434
+2170785
+2190561
+2190599
+2200388
+2210541
+9800030
+9900123";True;"2120033";True;"2000536
+2100036
+2100242
+2110074
+2110179
+2120033
+2130272
+2140146
+2150175
+2150179
+2160929
+2170434
+2170785
+2190561
+2190599
+2200388
+2210541
+9800030
+9900123";True;True;"2120033";True;"2120033"
+"307_sub_bnvd";"e8,e10-dodécadiène-1-ol + tétradécylacétate";"";"";"";"";"";"";"";"";"";"";True;"2140146
+2170434";False;"";True;"2140146
+2170434";False;False;"";False;""
+"308_sub_bnvd";"edta";"60-00-4";"698";"EDTA and its salts";"60-00-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"309_sub_bnvd";"emamectine benzoate";"155569-91-8";"838";"Emamectin";"119791-41-2";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"310_sub_bnvd";"engrais divers";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"2000241
+2020001
+9900319
+9900320
+9900321";True;"2000241
+9900319
+9900320
+9900321"
+"311_sub_bnvd";"epoxiconazole";"133855-98-8";"701";"Epoxiconazole";"133855-98-8";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"311_sub_bnvd";"epoxiconazole";"133855-98-8";"701";"Epoxiconazole";"133855-98-8";False;False;False;"";True;"propriétés de perturbation endocrinienne";False;"";False;"";False;"";False;False;"";False;""
+"311_sub_bnvd";"epoxiconazole";"133855-98-8";"701";"Epoxiconazole";"133855-98-8";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"312_sub_bnvd";"esfenvalerate";"66230-04-4";"84";"Esfenvalerate";"66230-04-4";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2010524
+2020319
+2020353";True;"2010524
+2020319
+2020353"
+"313_sub_bnvd";"essence de girofle";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"314_sub_bnvd";"esters de colophane et de diethylene glycol";"68153-38-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"315_sub_bnvd";"esters de phosphate d'alcools gras polyoxyalkyles";"68649-29-6";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"316_sub_bnvd";"esters methyliques d'acides gras c16-c18 et c18 insatures";"67762-38-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"317_sub_bnvd";"esters methyliques d'acides gras, c14-c18 et c16-c18 insatures";"67762-26-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"318_sub_bnvd";"esters methyliques d'acides gras";"61788-59-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"319_sub_bnvd";"ethanol";"64-17-5";"88";"Ethanol";"64-17-5";False;False;False;"";False;"";True;"2110155";False;"";False;"";False;False;"";False;""
+"320_sub_bnvd";"ethephon";"16672-87-0";"89";"Ethephon";"16672-87-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"321_sub_bnvd";"ether d'alkyl aryl polyglycol";"61827-42-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"322_sub_bnvd";"ethofumesate";"26225-79-6";"94";"Ethofumesate";"26225-79-6 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"323_sub_bnvd";"ethoprophos";"13194-48-4";"95";"Ethoprophos";"13194-48-4";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"324_sub_bnvd";"ethoxyquine";"91-53-2";"96";"Ethoxyquin";"91-53-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"325_sub_bnvd";"ethylene";"74-85-1";"98";"Ethylene";"74-85-1";False;False;False;"";False;"";True;"2150003";False;"";False;"";False;False;"";False;""
+"326_sub_bnvd";"etofenprox";"80844-07-1";"101";"Etofenprox";"80844-07-1";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2020009
+2040082";True;"2020009
+2040082"
+"327_sub_bnvd";"etoxazole";"153233-91-1";"102";"Etoxazole";"153233-91-1";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"328_sub_bnvd";"eugenol";"97-53-0";"301";"Eugenol";"97-53-0";False;False;False;"";False;"";True;"2161080";False;"";True;"2161080";False;False;"";False;""
+"328_sub_bnvd";"eugenol";"97-53-0";"298";"Plant oils / Clove oil";"84961-50-2";False;False;False;"";False;"";True;"2161080";False;"";True;"2161080";False;False;"";False;""
+"329_sub_bnvd";"extrait d'ail";"8008-99-9";"760";"Garlic extract";"No CAS allocated";False;False;False;"";False;"";True;"2160454";False;"";True;"2160454";False;False;"";False;""
+"330_sub_bnvd";"extrait de bois de quassia (variete picrasma)";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"331_sub_bnvd";"extrait de fenugrec";"";"";"";"";"";"";"";"";"";"";False;"";False;"";True;"2050030";False;False;"";False;""
+"332_sub_bnvd";"extrait de pyrethre vegetal";"8003-34-7";"1092";"Pyrethrins";"8003-34-7 ";False;False;False;"";False;"";False;"";False;"";True;"2000006";False;False;"";False;""
+"333_sub_bnvd";"famoxadone";"131807-57-3";"109";"Famoxadone";"131807-57-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"334_sub_bnvd";"farine de sang";"";"";"";"";"";"";"";"2110195";"";"";True;"2110195";False;"";True;"2110195";False;False;"";False;""
+"335_sub_bnvd";"fenamidone";"161326-34-7";"119";"Fenamidone";"161326-34-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"336_sub_bnvd";"fenazaquin";"120928-09-8";"124";"Fenazaquin";"120928-09-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"337_sub_bnvd";"fenbuconazole";"114369-43-6";"125";"Fenbuconazole";"114369-43-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9800230
+9900134";True;"9800230
+9900134"
+"338_sub_bnvd";"fenbutatin oxyde";"13356-08-6";"1194";"Fenbutatin oxide";"13356-08-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"339_sub_bnvd";"fenhexamide";"126833-17-8";"4";"Fenhexamid";"126833-17-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"340_sub_bnvd";"fenitrothion";"122-14-5";"5";"Fenitrothion";"122-14-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"341_sub_bnvd";"fenoxaprop-p-ethyl";"71283-80-2";"9";"Fenoxaprop-P-ethyl";"71283-80-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"342_sub_bnvd";"fenoxycarbe";"72490-01-8";"10";"Fenoxycarb";"72490-01-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"343_sub_bnvd";"fenpicoxamide";"517875-34-2";"1286";"Fenpicoxamid (formerly: Lyserphenvalpyr)";"517875-34-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"344_sub_bnvd";"fenpropidine";"67306-00-7";"13";"Fenpropidin";"67306-00-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"345_sub_bnvd";"fenpropimorphe";"67564-91-4";"817";"Fenpropimorph";"67306-03-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"346_sub_bnvd";"fenpyrazamine";"473798-59-3";"683";"Fenpyrazamine";"473798-59-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"347_sub_bnvd";"fenpyroximate";"111812-58-9";"14";"Fenpyroximate";"134098-61-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"348_sub_bnvd";"fer sous forme de sulfate de fer";"7720-78-7";"237";"Iron sulphate";"see remark";False;False;False;"";False;"";False;"";False;"";True;"2000510
+2130126
+2190066";True;True;"2000510
+2130126
+8500216
+8600380
+8820680
+9600246
+9600299";True;"2000510
+2130126
+2190066
+8500216
+8600380
+8820680
+9600246
+9600299"
+"349_sub_bnvd";"fipronil";"120068-37-3";"1002";"Fipronil";"120068-37-3";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"9800377
+9900352
+9900407";True;"9900352"
+"350_sub_bnvd";"flazasulfuron";"104040-78-0";"819";"Flazasulfuron";"104040-78-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"351_sub_bnvd";"fleur de chaux (chaux eteinte)";"1305-62-0";"497";"Calcium hydroxide";"1305-62-0";False;True;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"352_sub_bnvd";"flonicamide";"158062-67-0";"27";"Flonicamid (IKI-220)";"158062-67-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"353_sub_bnvd";"florasulame";"145701-23-1";"28";"Florasulam";"145701-23-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"354_sub_bnvd";"florpyrauxifen-benzyl";"1390661-72-9";"1414";"Florpyrauxifen-benzyl";"1390661-72-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"355_sub_bnvd";"fluazifop-p-butyl";"79241-46-6";"31";"Fluazifop-P";"83066-88-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"356_sub_bnvd";"fluazinam";"79622-59-6";"32";"Fluazinam";"79622-59-6 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"357_sub_bnvd";"fludioxonil";"131341-86-1";"37";"Fludioxonil";"131341-86-1";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2040357";True;"2159993"
+"358_sub_bnvd";"flufenacet";"142459-58-3";"1313";"Flufenacet (formerly fluthiamide)";"142459-58-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2120150";True;"2120150"
+"359_sub_bnvd";"flufenoxuron";"101463-69-8";"38";"Flufenoxuron";"101463-69-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"360_sub_bnvd";"flumioxazine";"103361-09-7";"720";"Flumioxazin";"103361-09-7 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"361_sub_bnvd";"fluopicolide";"239110-15-7";"722";"Fluopicolide";"239110-15-7";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2120119";True;"2120063
+2120119"
+"362_sub_bnvd";"fluopyram";"658066-35-4";"723";"Fluopyram";"658066-35-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"363_sub_bnvd";"fluorure de sulfuryle";"2699-79-8";"1180";"Sulfuryl fluoride";"2699-79-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"364_sub_bnvd";"fluoxastrobine";"361377-29-9";"726";"Fluoxastrobin";"361377-29-9 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"365_sub_bnvd";"flupyrsulfuron-methyl";"144740-54-5";"728";"Flupyrsulfuron-methyl (DPX KE 459)";"144740-53-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"366_sub_bnvd";"fluquinconazole";"136426-54-5";"729";"Fluquinconazole";"136426-54-5";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"366_sub_bnvd";"fluquinconazole";"136426-54-5";"729";"Fluquinconazole";"136426-54-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"367_sub_bnvd";"flurochloridone";"61213-25-0";"733";"Flurochloridone";"61213-25-0";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"368_sub_bnvd";"fluroxypyr-meptyl";"81406-37-3";"734";"Fluroxypyr";"69377-81-7 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"369_sub_bnvd";"fluroxypyr";"69377-81-7";"734";"Fluroxypyr";"69377-81-7 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2050143
+8800287
+9000099
+9800432
+9800509";True;"2050143
+2050144
+2120133
+8800287
+9000099
+9800432
+9800509"
+"370_sub_bnvd";"flurprimidol";"56425-91-3";"735";"Flurprimidol";"56425-91-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"371_sub_bnvd";"flurtamone";"96525-23-4";"736";"Flurtamone";"96525-23-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"372_sub_bnvd";"flusilazole";"85509-19-9";"737";"Flusilazole";"85509-19-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"373_sub_bnvd";"flutolanil";"66332-96-5";"739";"Flutolanil";"66332-96-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"374_sub_bnvd";"flutriafol";"76674-21-0";"740";"Flutriafol";"76674-21-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"375_sub_bnvd";"fluxapyroxad";"907204-31-3";"989";"Fluxapyroxad";"907204-31-3 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"376_sub_bnvd";"folpel";"133-07-3";"742";"Folpet";"133-07-3 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"377_sub_bnvd";"foramsulfuron";"173159-57-4";"745";"Foramsulfuron";"173159-57-4 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"378_sub_bnvd";"forchlorfenuron";"68157-60-8";"746";"Forchlorfenuron";"68157-60-8 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"379_sub_bnvd";"formaldehyde";"50-00-0";"747";"Formaldehyde";"50-00-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"379_sub_bnvd";"formaldehyde";"50-00-0";"951";"Paraformaldehyde";"50-00-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"380_sub_bnvd";"formetanate-chlorhydrate";"23422-53-9";"748";"Formetanate";"23422-53-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"381_sub_bnvd";"formiate d'ammonium";"540-69-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"382_sub_bnvd";"formiate de calcium";"544-17-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"383_sub_bnvd";"fosetyl-aluminium";"39148-24-8";"751";"Fosetyl";"15845-66-6 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010354
+9500140
+9500404
+9600191
+9800215";True;"2130240
+9500140
+9500404
+9600191
+9600386
+9800215"
+"384_sub_bnvd";"fosetyl";"15845-66-6";"751";"Fosetyl";"15845-66-6 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"385_sub_bnvd";"fosthiazate";"98886-44-3";"752";"Fosthiazate";"98886-44-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"386_sub_bnvd";"gamma-cyhalothrine";"76703-62-3";"1211";"Gamma-cyhalothrin";"76703-62-3";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"387_sub_bnvd";"geraniol";"106-24-1";"1036";"Geraniol";"106-24-1";False;False;False;"";False;"";True;"2161080";False;"";True;"2161080";False;False;"";False;""
+"388_sub_bnvd";"gibberellines (a4+a7)";"8030-53-3";"765";"Gibberellins";"several - see remark";False;False;False;"";False;"";False;"";False;"";True;"2010643
+2030259
+2060079
+2160390
+8200489
+8300451
+9700355
+9700357";False;False;"";False;""
+"389_sub_bnvd";"glufosinate ammonium";"77182-82-2";"79";"Glufosinate";"51276-47-2";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";True;True;"2000027
+2000028
+2000029
+2000030
+2000031
+2000032
+2000033
+2000382
+8800854
+8900598
+9000264
+9000837
+9200102
+9200271
+9600049
+9600051
+9600052
+9700005
+9700006
+9700007
+9700008
+9700421";True;"2000027
+2000028
+2000029
+2000030
+2000031
+2000032
+2000033
+2000382
+8800854
+8900598
+9000264
+9000837
+9200102
+9200271
+9600049
+9600051
+9600052
+9700005
+9700006
+9700007
+9700008
+9700421"
+"390_sub_bnvd";"glutaraldehyde";"111-30-8";"1314";"Glutaraldehyde (aka glutardialdehyde)";"111-30-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"391_sub_bnvd";"glyoxal";"107-22-2";"86";"Ethanedial (glyoxal)";"107-22-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"392_sub_bnvd";"glyphosate";"1071-83-6";"811";"Glyphosate";"1071-83-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000001
+2000128
+2000146
+2000148
+2000150
+2000424
+2000500
+2010051
+2010052
+2010138
+2010147
+2010157
+2010290
+2010299
+2010319
+2010321
+2010325
+2010335
+2010420
+2010493
+2010494
+2010612
+2020048
+2020119
+2020436
+2020437
+2020448
+2030062
+2030136
+2030150
+2030158
+2030276
+2030289
+2030295
+2030321
+2040079
+2040085
+2040086
+2050050
+2050077
+2050145
+2050146
+2070170
+2070197
+2070198
+2080053
+2080133
+2080134
+2090035
+2090036
+2090044
+2090176
+2100005
+2100006
+2100007
+2100099
+2100100
+2100158
+2100159
+2100161
+2100163
+2100166
+2100203
+2100219
+2100220
+2100240
+2110135
+2120008
+2120015
+2120016
+2120019
+2120020
+2120116
+2120150
+2120155
+2120175
+2130093
+2130141
+2140055
+2150102
+8800425
+9100650
+9200039
+9200511
+9200512
+9300027
+9300050
+9300145
+9300229
+9400007
+9400246
+9400286
+9400393
+9400416
+9400495
+9500159
+9500161
+9500244
+9500363
+9500491
+9500561
+9500572
+9600224
+9600241
+9600318
+9600319
+9600377
+9700040
+9700124
+9700159
+9700207
+9700211
+9700229
+9700230
+9700259
+9700326
+9700458
+9700521
+9800036
+9800037
+9800107
+9800238
+9800252
+9800522
+9800523
+9900039
+9900093
+9900103
+9900143
+9900145
+9900200
+9900254
+9900255
+9900396
+9900405
+9900451";True;"2000001
+2000128
+2000146
+2000148
+2000150
+2000424
+2000500
+2010052
+2010138
+2010147
+2010157
+2010290
+2010299
+2010319
+2010321
+2010325
+2010335
+2010420
+2010493
+2010494
+2010612
+2020047
+2020048
+2020448
+2030050
+2030150
+2030276
+2030289
+2030321
+2040079
+2040085
+2050050
+2050077
+2050145
+2050146
+2070170
+2070197
+2070198
+2080053
+2080133
+2080134
+2090035
+2090036
+2090044
+2090164
+2090165
+2090176
+2100005
+2100006
+2100007
+2100099
+2100100
+2100158
+2100159
+2100161
+2100163
+2100166
+2100203
+2100219
+2100220
+2100240
+2110135
+2120008
+2120015
+2120016
+2120018
+2120019
+2120020
+2120116
+2120150
+2120155
+2120157
+2120175
+2130093
+2130141
+2140055
+2140162
+2150102
+8800425
+9200039
+9200511
+9200512
+9300027
+9300050
+9300145
+9300229
+9300241
+9400007
+9400246
+9400393
+9400495
+9500159
+9500161
+9500244
+9500491
+9500561
+9600224
+9600241
+9600318
+9600377
+9700040
+9700124
+9700159
+9700211
+9700229
+9700230
+9700259
+9700326
+9700458
+9700521
+9800036
+9800037
+9800107
+9800238
+9800522
+9800523
+9900039
+9900093
+9900103
+9900143
+9900145
+9900200
+9900254
+9900255
+9900396
+9900405"
+"393_sub_bnvd";"gomme manille";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"394_sub_bnvd";"goudron vegetal";"8011-48-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8400364";False;""
+"395_sub_bnvd";"goudrons de pin";"8011-48-1";"1303";"Landes pine tar";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2030340
+2030341
+8400278
+8400364
+8400567
+8600262
+8700073
+8900349";False;""
+"396_sub_bnvd";"graisse de mouton";"";"";"";"";"";"";"";"";"";"";True;"2120057";True;"2180289";True;"2120057
+2180289";True;False;"";True;"2180289"
+"397_sub_bnvd";"halauxifen-methyl";"943831-98-9";"1413";"Halauxifen-methyl";"943831-98-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"398_sub_bnvd";"halosulfuron-methyle";"100784-20-1";"83";"Halosulfuron-methyl";"100784-20-1";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"399_sub_bnvd";"haloxyfop-r";"72619-32-0";"768";"Haloxyfop-P (Haloxyfop-R)";"95977-29-0";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"399_sub_bnvd";"haloxyfop-r";"72619-32-0";"768";"Haloxyfop-P (Haloxyfop-R)";"95977-29-0";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"400_sub_bnvd";"heptamaloxyloglucan";"870721-81-6";"772";"Heptamaloxyloglucan";"870721-81-6";False;False;True;"2070108";False;"";True;"2070108";False;"";True;"2070108";False;False;"";False;""
+"401_sub_bnvd";"heptamethyltrisiloxane modifie polyalkylenoxide";"27306-78-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"402_sub_bnvd";"hexazinone";"51235-04-2";"129";"Hexazinone";"51235-04-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"403_sub_bnvd";"hexythiazox";"78587-05-0";"130";"Hexythiazox";"78587-05-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"404_sub_bnvd";"huile animale";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8400254";True;"8400254"
+"405_sub_bnvd";"huile blanche de petrole";"9206-23-56";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"6600074
+9500069";True;"9500069"
+"406_sub_bnvd";"huile blanche paraffinique";"8042-47-5";"949";"Paraffin oil/(CAS 8042-47-5)";"8042-47-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9300457";True;"9300457"
+"407_sub_bnvd";"huile d'os";"8001-85-2";"469";"Bone Oil";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2040076
+9100653
+9300375
+9300379
+9900018
+9900019";True;"2040076
+9300375
+9900018
+9900019"
+"408_sub_bnvd";"huile de colza esterifiee";"85586-25-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"409_sub_bnvd";"huile de colza";"8002-13-9";"870";"Rape seed oil";"8002-13-9";False;False;True;"";False;"";True;"2160608
+9700038";True;"2090199
+2090200
+2110149
+2110150
+2170977
+2170978
+2171312
+2190808
+9400039
+9800524";True;"2090199
+2090200
+2110149
+2110150
+2160608
+2170977
+2170978
+2190808
+9400039
+9700038
+9800524";True;True;"2090199
+2110149
+2110150
+2170978
+2171312
+2190808
+9400039
+9700038
+9800524";True;"2090199
+2090200
+2110149
+2110150
+2170977
+2170978
+2171312
+2190808
+9400039
+9700038
+9800524"
+"410_sub_bnvd";"huile de paraffine";"64742-46-7";"943";"Paraffin oil/(CAS 64742-46-7)";"64742-46-7";False;False;False;"";False;"";True;"2190065
+2190843
+9200235
+9400496
+9800096";True;"2180408";True;"2180408
+2190065
+2190843
+9200235
+9400496
+9800096";True;True;"2180408";True;"2180408"
+"411_sub_bnvd";"huile de paraffine";"72623-86-0";"947";"Paraffin oil/(CAS 72623-86-0)";"72623-86-0";False;False;False;"";False;"";True;"2160434
+2160985
+2170462
+2170464
+8500470";False;"";True;"2160985
+2170462
+2170464
+8500470";False;False;"";False;""
+"412_sub_bnvd";"huile de petrole";"64742-55-8";"945";"Paraffin oil/(CAS 64742-55-8)";"64742-55-8";False;False;False;"";False;"";True;"9200024";False;"";True;"9200024";True;True;"7000102";False;""
+"412_sub_bnvd";"huile de petrole";"64742-55-8";"970";"Petroleum oils/(CAS 64742-55-8/64742-57-7)";"64742-55-8";False;False;False;"";False;"";True;"9200024";False;"";True;"9200024";True;True;"7000102";False;""
+"413_sub_bnvd";"huile de pin";"8002-09-3";"41";"Plant oils / Pinus oil";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"414_sub_bnvd";"huile de poisson";"";"";"";"";"";"";"";"";"";"";True;"2110009";False;"";True;"2110009
+9400235
+9600242";True;True;"9400235
+9600242";True;"9400235
+9600242"
+"415_sub_bnvd";"huile de resine";"8050-18-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"7400610
+9000359
+9000360
+9500296";False;""
+"416_sub_bnvd";"huile de ricin";"8001-79-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8900633
+9200011
+9500296";False;""
+"417_sub_bnvd";"huile de vaseline";"8042-47-5";"949";"Paraffin oil/(CAS 8042-47-5)";"8042-47-5";False;False;False;"";False;"";True;"2010441
+2150103
+2150104
+8500470
+9300504
+9600022
+9600320
+9700519
+9900390";True;"9800401
+9800402";True;"2010441
+2150103
+2150104
+8500470
+9300504
+9600022
+9600320
+9700519
+9800401
+9800402
+9900390";True;True;"9600320
+9800401
+9800402";True;"9600320
+9800401
+9800402"
+"418_sub_bnvd";"huile essentielle d'orange douce";"8028-48-6";"39";"Orange oil";"No CAS allocated";False;False;False;"";False;"";True;"2090127
+2180631
+2190538
+2200899";True;"2200059
+2210895";True;"2090127
+2180631
+2190538
+2200059
+2200899
+2210895";True;True;"2200059
+2210895";True;"2200059
+2210895"
+"419_sub_bnvd";"huile essentielle de girofle";"84961-50-2";"298";"Plant oils / Clove oil";"84961-50-2";False;False;False;"";False;"";True;"2110075";False;"";True;"2110075";False;False;"";False;""
+"420_sub_bnvd";"huile essentielle de menthe verte";"8008-79-5";"44";"Plant oils / Spear mint oil";"8008-79-5 ";False;False;False;"";False;"";True;"2100194";True;"2180858";True;"2100194
+2180858";True;True;"2180858";True;"2180858"
+"421_sub_bnvd";"huile minerale blanche";"8042-47-5";"949";"Paraffin oil/(CAS 8042-47-5)";"8042-47-5";False;False;False;"";False;"";True;"2160434
+2170462
+2170464";True;"2171250";True;"2170462
+2170464
+2171250";True;True;"2171250";True;"2171250"
+"422_sub_bnvd";"huile minerale paraffinique";"8042-47-5";"949";"Paraffin oil/(CAS 8042-47-5)";"8042-47-5";False;False;False;"";False;"";True;"2080010
+2150104
+9200235
+9400496
+9800096";True;"2140106
+2150100
+9800396";True;"2050038
+2080010
+2140106
+2150100
+2150104
+8800469
+9200235
+9400235
+9400496
+9600242
+9800096
+9800396";True;True;"2050038
+2140106
+8200044
+8500198
+8700185
+8700435
+8800469
+8900277
+9100261
+9100666
+9300128
+9400235
+9600242
+9800396
+9900232";True;"2050038
+2140106
+2150100
+8700185
+8700435
+8800469
+9100261
+9300128
+9400235
+9600242
+9800396"
+"423_sub_bnvd";"huile vegetale";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8600349
+8600395
+8600404
+8600525
+8600526
+8600527
+8600639
+8600646
+8900618
+8900619
+9700234";False;""
+"424_sub_bnvd";"huiles empyreumatiques";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"6000328
+8600614
+8600615";True;"6000328"
+"425_sub_bnvd";"hydramethylnon";"67485-29-4";"1001";"Hydramethylnon";"67485-29-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"426_sub_bnvd";"hydrazide maleique";"123-33-1";"820";"Maleic hydrazide";"123-33-1 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2090124
+2120174
+2130151";True;"2090124
+2120174
+2130151"
+"427_sub_bnvd";"hydrolysat de proteines";"";"";"";"";"";"";"";"";"";"";True;"2130112
+7600426";False;"";True;"2130112
+7600426";False;False;"";False;""
+"428_sub_bnvd";"hydroxyde de potassium";"1310-58-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"429_sub_bnvd";"hydroxyde de sodium";"1310-73-2";"1149";"Sodium hydroxide";"1310-73-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"430_sub_bnvd";"hymexazol";"10004-44-1";"135";"Hymexazol";"10004-44-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"431_sub_bnvd";"hypochlorite de sodium";"7681-52-9";"1150";"Sodium hypochlorite";"7681-52-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"432_sub_bnvd";"imazalil";"35554-44-0";"1315";"Imazalil (aka enilconazole)";"35554-44-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"433_sub_bnvd";"imazamox";"114311-32-9";"138";"Imazamox";"114311-32-9";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"434_sub_bnvd";"imazaquine";"81335-37-7";"140";"Imazaquin";"81335-37-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"435_sub_bnvd";"imidaclopride";"138261-41-3";"688";"Imidacloprid";"138261-41-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000226
+2000416";True;"2000226
+2000416
+2040322
+2040323"
+"436_sub_bnvd";"indoxacarbe";"173584-44-6";"229";"Indoxacarb";"173584-44-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"437_sub_bnvd";"iodosulfuron-methyl-sodium";"144550-36-7";"231";"Iodosulfuron";"185119-76-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"438_sub_bnvd";"ioxynil octanoate";"3861-47-0";"232";"Ioxynil";"1689-83-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"439_sub_bnvd";"ioxynil";"1689-83-4";"232";"Ioxynil";"1689-83-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"440_sub_bnvd";"ipconazole";"125225-28-7";"233";"Ipconazole";"125225-28-7";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"441_sub_bnvd";"iprodione";"36734-19-7";"234";"Iprodione";"36734-19-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"442_sub_bnvd";"iprovalicarbe";"140923-17-7";"235";"Iprovalicarb";"140923-17-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"443_sub_bnvd";"isofetamide";"875915-78-9";"1199";"Isofetamid";"875915-78-9 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"444_sub_bnvd";"isoproturon";"34123-59-6";"246";"Isoproturon";"34123-59-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"445_sub_bnvd";"isoxaben";"82558-50-7";"248";"Isoxaben";"82558-50-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010284
+2020164
+2020176
+9000673
+9700100
+9700223
+9800195
+9800478";True;"2010284
+9700100
+9800195
+9800478
+9900119"
+"446_sub_bnvd";"isoxadifen-ethyl";"163520-33-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"447_sub_bnvd";"isoxaflutole";"141112-29-0";"249";"Isoxaflutole";"141112-29-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"448_sub_bnvd";"kaolin";"1332-58-7";"327";"Aluminium silicate (aka kaolin)";"1332-58-7";False;False;False;"";False;"";True;"2060034
+2100038
+2120158";True;"2120173";True;"2060034
+2100038
+2120158
+2120173";True;True;"2120173";True;"2120173"
+"449_sub_bnvd";"kieselguhr";"";"";"";"";"";"";"";"";"";"";True;"2130129";False;"";True;"2130129";False;False;"";False;""
+"450_sub_bnvd";"kresoxim-methyl";"143390-89-0";"257";"Kresoxim-methyl";"143390-89-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"451_sub_bnvd";"lactobacillus buchneri";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"452_sub_bnvd";"lactobacillus plantarum";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"453_sub_bnvd";"lambda-cyhalothrine";"91465-08-6";"591";"Cyhalothrin";"91465-08-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2120129
+2120172";True;"2030273
+2120129
+2120172"
+"453_sub_bnvd";"lambda-cyhalothrine";"91465-08-6";"259";"lambda-Cyhalothrin";"91465-08-6";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";True;True;"2120129
+2120172";True;"2030273
+2120129
+2120172"
+"453_sub_bnvd";"lambda-cyhalothrine";"91465-08-6";"259";"lambda-Cyhalothrin";"91465-08-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2120129
+2120172";True;"2030273
+2120129
+2120172"
+"454_sub_bnvd";"laminarine";"9008-22-4";"260";"Laminarin";"9008-22-4";False;False;True;"";False;"";True;"2020021
+2080019
+2210501";False;"";True;"2020021
+2080019
+2210501";False;False;"";False;""
+"455_sub_bnvd";"latex synthetique";"52831-07-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"456_sub_bnvd";"lauryl dipropylene triamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"457_sub_bnvd";"lauryl propylene diamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"458_sub_bnvd";"lauryl sulfate de sodium";"151-21-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"459_sub_bnvd";"lecanicillium muscarium souche ve6";"67892-35-7";"265";"Akanthomyces muscarius Ve6 (formerly Lecanicillium muscarium strain Ve6)";"No CAS allocated";True;False;True;"2040354";False;"";True;"2040354";False;"";True;"2040354";False;False;"";False;""
+"460_sub_bnvd";"lecithine de soja";"8002-43-5";"266";"Lecithin";"8002-43-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"460_sub_bnvd";"lecithine de soja";"8002-43-5";"1208";"Lecithins (basic substance)";"8002-43-5";False;True;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"461_sub_bnvd";"lenacile";"2164-08-1";"267";"Lenacil";"2164-08-1 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"462_sub_bnvd";"liant cellulosique";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"463_sub_bnvd";"linuron";"330-55-2";"270";"Linuron";"330-55-2";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"464_sub_bnvd";"lufenuron";"103055-07-8";"271";"Lufenuron";"103055-07-8";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"465_sub_bnvd";"magnesium peroxyphtalate";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"466_sub_bnvd";"malathion";"121-75-5";"273";"Malathion";"121-75-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"5500293
+8200044
+8500198
+8700185
+8700435
+8900277
+9100053
+9100261
+9100666
+9300128
+9300457
+9900232";True;"5500293
+8700185
+8700435
+9100053
+9100261
+9300128
+9300457"
+"467_sub_bnvd";"maltodextrine";"9050-36-6";"274";"Maltodextrin";"9050-36-6";False;False;False;"";False;"";True;"2160114
+2190191";False;"";True;"2160114
+2190191";False;False;"";False;""
+"468_sub_bnvd";"mancozebe";"8018-01-7";"277";"Mancozeb";"8018-01-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010520
+2020365
+2030178
+2070137
+8800534
+8800845
+8800846
+9000440
+9100260
+9600387
+9700317
+9700591
+9800231
+9800233
+9800510
+9800511";True;"2010520
+2020365
+2030178
+2070137
+8800534
+8800845
+8800846
+9000440
+9600387
+9700317
+9700591
+9800231
+9800233
+9800510
+9800511"
+"468_sub_bnvd";"mancozebe";"8018-01-7";"278";"Maneb";"8018-01-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010520
+2020365
+2030178
+2070137
+8800534
+8800845
+8800846
+9000440
+9100260
+9600387
+9700317
+9700591
+9800231
+9800233
+9800510
+9800511";True;"2010520
+2020365
+2030178
+2070137
+8800534
+8800845
+8800846
+9000440
+9600387
+9700317
+9700591
+9800231
+9800233
+9800510
+9800511"
+"469_sub_bnvd";"mandestrobine";"173662-97-0";"1200";"Mandestrobin";"173662-97-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"470_sub_bnvd";"mandipropamide";"374726-62-2";"996";"Mandipropamid";"374726-62-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"471_sub_bnvd";"manebe";"12427-38-2";"278";"Maneb";"8018-01-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9100162
+9100163";False;""
+"472_sub_bnvd";"mecoprop (mcpp)";"7085-19-0";"281";"Mecoprop";"93-65-2";False;False;False;"";True;"isomères non-actifs";False;"";False;"";False;"";True;True;"2090032
+2120155
+7600156
+8100548
+9000647
+9200118
+9220043
+9420112
+9500037
+9500038
+9500143
+9500556
+9600299
+9700409
+9800334
+9800358
+9900319
+9900320
+9900321";True;"2090032
+2120155
+7600156
+8100548
+9000647
+9020380
+9200118
+9200132
+9220043
+9420112
+9500037
+9500038
+9500143
+9500556
+9600299
+9700409
+9800334
+9800358
+9900319
+9900320
+9900321"
+"473_sub_bnvd";"mecoprop-p (mcpp-p)";"16484-77-8";"282";"Mecoprop-P";"16484-77-8";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000241
+9000662
+9200475
+9400245
+9400456
+9420040
+9500227
+9900098";True;"2000241
+2010035
+2100083
+9000662
+9400245
+9400456
+9420040
+9500227
+9900098"
+"474_sub_bnvd";"mefenpyr-diethyl";"135590-91-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"475_sub_bnvd";"mefentrifluconazole";"1417782-03-6";"1332";"Mefentrifluconazole";" 1417782-03-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"476_sub_bnvd";"mefluidide (sel de diethanolamine)";"53780-36-2";"283";"Mefluidide";"53780-34-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"477_sub_bnvd";"mepanipyrim";"110235-47-7";"284";"Mepanipyrim";"110235-47-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"478_sub_bnvd";"mepiquat-chlorure";"24307-26-4";"286";"Mepiquat";"15302-91-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"479_sub_bnvd";"meptyldinocap";"131-72-6";"823";"Meptyldinocap";"6119-92-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"480_sub_bnvd";"mesosulfuron-methyl";"208465-21-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"481_sub_bnvd";"mesotrione";"104206-82-8";"204";"Mesotrione";"104206-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"482_sub_bnvd";"metalaxyl-m";"70630-17-0";"206";"Metalaxyl-M";"70630-17-0 (R)";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"483_sub_bnvd";"metalaxyl";"57837-19-1";"1318";"Metalaxyl";"57837-19-1 ";False;False;False;"";True;"isomères non-actifs";False;"";False;"";False;"";False;False;"";False;""
+"484_sub_bnvd";"metaldehyde";"108-62-3";"207";"Metaldehyde";"see remark";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000041
+2000228
+2000362
+2000521
+2010009
+2010045
+2010142
+2010275
+2010317
+2010518
+2010604
+2020213
+2020217
+2030269
+2040084
+2040205
+2040337
+2050142
+2130103
+5700194
+6100363
+7700476
+8100226
+8400549
+8500183
+8500347
+8500348
+8800775
+8800777
+8900628
+9000107
+9000569
+9000576
+9000600
+9100231
+9300413
+9400289
+9500122
+9500135
+9500229
+9700092
+9700568
+9800019
+9800097";True;"2000041
+2000228
+2000362
+2000521
+2010009
+2010045
+2010142
+2010275
+2010317
+2010324
+2010518
+2010604
+2020213
+2020217
+2030269
+2040084
+2040205
+2050142
+2130088
+2130103
+2130106
+5700194
+6100363
+7700476
+8100226
+8400549
+8400551
+8500183
+8500347
+8500348
+8800775
+8800777
+8900628
+9000107
+9000569
+9000576
+9000600
+9100231
+9300413
+9400289
+9500122
+9500229
+9700092
+9700568
+9800019
+9800097"
+"485_sub_bnvd";"metam-sodium";"137-42-8";"208";"Metam (incl. -potassium and -sodium)";"144-54-7";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"486_sub_bnvd";"metamitrone";"41394-05-2";"209";"Metamitron";"41394-05-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"487_sub_bnvd";"metarhizium anisopliae";"";"";"";"";"";"";"";"";"";"";True;"2110055";False;"";True;"2110055";False;False;"";False;""
+"488_sub_bnvd";"metarhizium brunneum souche ma 43";"";"";"";"";"";"";"";"";"";"";True;"2110055
+2150990";False;"";True;"2110055";False;False;"";False;""
+"489_sub_bnvd";"metazachlore";"67129-08-2";"210";"Metazachlor";"67129-08-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"490_sub_bnvd";"metconazole";"125116-23-6";"211";"Metconazole";"125116-23-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"491_sub_bnvd";"methabenzthiazuron";"18691-97-9";"212";"Methabenzthiazuron";"18691-97-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"492_sub_bnvd";"methanol";"67-56-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"9400332
+9600474";False;""
+"493_sub_bnvd";"methiocarbe";"2032-65-7";"217";"Methiocarb (aka mercaptodimethur)";"2032-65-7";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"7900200";True;"2040323
+7900200"
+"494_sub_bnvd";"methomyl";"16752-77-5";"218";"Methomyl";"16752-77-5";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"495_sub_bnvd";"methoxyfenozide";"161050-58-4";"1321";"Methoxyfenozide";"161050-58-4";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"496_sub_bnvd";"methyl-butenol";"115-18-4";"405";"2-Methyl-3-buten-2-ol";"115-18-4";False;False;False;"";False;"";False;"";False;"";True;"7900468";False;False;"";False;""
+"497_sub_bnvd";"metirame-zinc";"9006-42-2";"1385";"Metiram";"9006-42-2";False;False;False;"";False;"";False;"";False;"";False;"";True;False;"";True;"9500148"
+"498_sub_bnvd";"metirame";"9006-42-2";"1385";"Metiram";"9006-42-2";False;False;False;"";False;"";False;"";False;"";False;"";True;False;"";True;"9500148"
+"499_sub_bnvd";"metobromuron";"3060-89-7";"1212";"Metobromuron";"3060-89-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"500_sub_bnvd";"metosulam";"139528-85-1";"877";"Metosulam";"139528-85-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"501_sub_bnvd";"metrafenone";"220899-03-6";"1195";"Metrafenone";"220899-03-6 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"502_sub_bnvd";"metribuzine";"21087-64-9";"845";"Metribuzin";"21087-64-9 ";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2050066
+2060169
+7200170";True;"2020065
+7200170"
+"503_sub_bnvd";"metschnikowia fructicola souche nrrl y-27328";"";"";"";"";"";"";"";"";"";"";True;"2190673";False;"";True;"2190673";False;False;"";False;""
+"504_sub_bnvd";"metsulfuron-methyl";"74223-64-6";"880";"Metsulfuron-methyl";"74223-64-6";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"505_sub_bnvd";"milbemectine";"51596-10-2";"882";"Milbemectin";"See note";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"506_sub_bnvd";"molinate";"2212-67-1";"885";"Molinate";"2212-67-1";False;False;False;"";True;"propriétés de perturbation endocrinienne";False;"";False;"";False;"";False;False;"";False;""
+"507_sub_bnvd";"monopotassium phosphonate";"13977-65-6";"53";"Potassium phosphonates (formerly potassium phosphite)";"see note";False;False;False;"";False;"";False;"";False;"";True;"2100041
+2100059
+2100060
+2180598
+2180720
+2190160
+2190162
+2200464
+2200476
+2210128
+2220668";False;False;"";False;""
+"508_sub_bnvd";"mouillant";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"509_sub_bnvd";"myclobutanil";"88671-89-0";"893";"Myclobutanil";"88671-89-0";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2000366
+2010530
+2050041
+2050043
+8500166
+9000489
+9300299
+9300300
+9300301
+9300302
+9500364
+9600385
+9700096
+9700167
+9700317
+9800007
+9800231
+9800510
+9800520";True;"2000366
+2010530
+2050041
+2050043
+8500166
+9000489
+9300299
+9300300
+9300301
+9300302
+9500364
+9600385
+9700096
+9700167
+9700317
+9800007
+9800231
+9800510
+9800520"
+"510_sub_bnvd";"n-hexadecylacetate";"629-70-9";"1498";"Hexadecyl acetate (SCLP Acetates)";"629-70-9";False;False;True;"";False;"";True;"2171126";False;"";True;"2171126";False;False;"";False;""
+"511_sub_bnvd";"n-n bis (3 aminopropyl) dodecylamine";"2372-82-9";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"512_sub_bnvd";"n-phosphonomethyl glycine";"1071-83-6";"811";"Glyphosate";"1071-83-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2030150
+2030321
+2070170
+2090044";True;"2030050
+2030150
+2030321
+2070170
+2090044"
+"513_sub_bnvd";"n-sodium-n-chloro-para-toluenesulfonamide";"127-65-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"514_sub_bnvd";"napropamide";"15299-99-7";"900";"Napropamide";"15299-99-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"515_sub_bnvd";"nicosulfuron";"111991-09-4";"904";"Nicosulfuron";"111991-09-4";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"516_sub_bnvd";"nitrate de baryum";"10022-31-8";"437";"Barium nitrate";"10022-31-8";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000364
+6600397
+7100041
+8700155
+9300304
+9900371";True;"2000364
+6600397
+7100041
+8700155
+9300304
+9900371"
+"517_sub_bnvd";"nitrate de potassium";"7757-79-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"7100041";True;"7100041"
+"518_sub_bnvd";"nitrite de sodium";"7632-00-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"519_sub_bnvd";"npv ha (nucleopolyhedrovirus d'helicoverpa armigera)";"";"";"";"";"";"";"";"";"";"";True;"2140094";False;"";True;"2140094";False;False;"";False;""
+"520_sub_bnvd";"nucleopolyhedrovirus de spodoptera littoralis";"";"";"";"";"";"";"";"";"";"";True;"2160706";False;"";True;"2160706";False;False;"";False;""
+"521_sub_bnvd";"octylphenol octaglycol ether";"9036-19-5";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"522_sub_bnvd";"oligomeres terpeniques";"70750-57-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"523_sub_bnvd";"ortho benzyl para chlorophenate de sodium";"3184-65-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"524_sub_bnvd";"orthophenylphenate de sodium";"132-27-4";"1013";"2-Phenylphenol (incl. sodium salt orthophenyl phenol)";"90-43-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"525_sub_bnvd";"orthophenylphenol";"90-43-7";"1013";"2-Phenylphenol (incl. sodium salt orthophenyl phenol)";"90-43-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"526_sub_bnvd";"oryzalin";"19044-88-3";"925";"Oryzalin";"19044-88-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9700100";True;"9700100
+9900119"
+"527_sub_bnvd";"oxadiargyl";"39807-15-3";"927";"Oxadiargyl";"39807-15-3";False;False;False;"";True;"reprotoxique 1A / 1B";False;"";False;"";False;"";False;False;"";False;""
+"528_sub_bnvd";"oxadiazon";"19666-30-9";"928";"Oxadiazon";"19666-30-9";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2000128
+2010157
+2010299
+2050077
+2080053
+2090147
+2100073
+8400145
+8900231
+9320048
+9400433
+9500363
+9600091
+9700040
+9700358
+9700411
+9800522
+9800523";True;"2000128
+2010157
+2010299
+2050077
+2080053
+2090147
+2100073
+8400145
+8900231
+9320048
+9400433
+9600091
+9700040
+9700358
+9700411
+9800522
+9800523"
+"529_sub_bnvd";"oxamyl";"23135-22-0";"930";"Oxamyl";"23135-22-0";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"530_sub_bnvd";"oxathiapiproline";"1003318-67-9";"1290";"Oxathiapiprolin";"1003318-67-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"531_sub_bnvd";"oxydemeton-methyl";"301-12-2";"934";"Oxydemeton-methyl";"301-12-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"532_sub_bnvd";"oxyfluorfene";"42874-03-3";"935";"Oxyfluorfen";"42874-03-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2150001
+9800006";True;"2150001
+9800006"
+"533_sub_bnvd";"paclobutrazol";"76738-62-0";"937";"Paclobutrazol";"76738-62-0";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"534_sub_bnvd";"paecilomyces fumosoroseus apopka souche 97";"";"";"";"";"";"";"";"2010206";"";"";True;"2010206";False;"";True;"2010206";False;False;"";False;""
+"535_sub_bnvd";"paecilomyces lilacinus souche 251";"";"";"";"";"";"";"";"";"";"";True;"2200197";False;"";True;"2200197";False;False;"";False;""
+"536_sub_bnvd";"para tertiaire amyl phenate de sodium";"31366-95-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"537_sub_bnvd";"paraffine";"8002-74-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"538_sub_bnvd";"parahydroxyphenylsalicylamide";"526-18-1";"134";"Hydroxyphenyl-salicylamide";"526-18-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"539_sub_bnvd";"pediococcus pentosaceus";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"540_sub_bnvd";"penconazole";"66246-88-6";"960";"Penconazole";"66246-88-6 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"541_sub_bnvd";"pencycuron";"66063-05-6";"1192";"Pencycuron";"66063-05-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"542_sub_bnvd";"pendimethaline";"40487-42-1";"961";"Pendimethalin";"40487-42-1 ";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2090147
+2100073
+2150001";True;"2090147
+2100073
+2150001"
+"543_sub_bnvd";"penoxsulame";"219714-96-2";"962";"Penoxsulam";"219714-96-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"544_sub_bnvd";"pentapotassium bis(peroxymonosulfate) bis(sulfate)";"70693-62-8";"1230";"Pentapotassium bis(peroxymonosulphate) bis(sulphate)";"70693-62-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"545_sub_bnvd";"penthiopyrad";"183675-82-3";"982";"Penthiopyrad";"183675-82-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"546_sub_bnvd";"permanganate de potassium";"7722-64-7";"52";"Potassium permanganate";"7722-64-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"547_sub_bnvd";"permethrine";"52645-53-1";"968";"Permethrin";"52645-53-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"547_sub_bnvd";"permethrine";"52645-53-1";"974";"Phenothrin (aka Sumithrin)";"52645-53-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"548_sub_bnvd";"peroxyde d'hydrogene";"7722-84-1";"131";"Hydrogen peroxide";"7722-84-1";False;True;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"549_sub_bnvd";"pethoxamide";"106700-29-2";"869";"Pethoxamid";"106700-29-2 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"550_sub_bnvd";"phenmediphame";"13684-63-4";"973";"Phenmedipham";"13684-63-4 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"551_sub_bnvd";"phlebiopsis gigantea souche vra 1835";"";"";"";"";"";"";"";"2120176";"";"";True;"2120176";False;"";True;"2120176";False;False;"";False;""
+"552_sub_bnvd";"phosalone";"2310-17-0";"977";"Phosalone";"2310-17-0";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9100578";True;"9100578"
+"553_sub_bnvd";"phosmet";"732-11-6";"850";"Phosmet";"732-11-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"554_sub_bnvd";"phosphate ferrique dihydrate";"14567-75-0";"23";"Ferric phosphate";"10045-86-0";False;False;True;"2200067
+2200068";False;"";False;"";True;"2200067
+2200068";True;"2200067
+2200068";True;True;"2200068";True;"2200067
+2200068"
+"555_sub_bnvd";"phosphate ferrique";"10045-86-0";"23";"Ferric phosphate";"10045-86-0";False;False;True;"2020003
+2100030
+2110031
+2140252
+2150789
+2150790
+2150969
+2160226
+2160409
+2180147
+2180148
+2190537
+2210940
+2230036";False;"";True;"2100030
+2110031
+2120134
+2160226
+2160409
+2180147
+2190537
+2210940
+2220268
+2220270";True;"2020003
+2140252
+2150789
+2150790
+2150969
+2180148
+2230036";True;"2020003
+2100030
+2110031
+2120134
+2140252
+2150789
+2150790
+2150969
+2160226
+2160409
+2180147
+2180148
+2190537
+2210940
+2220268
+2220270
+2230036";True;True;"2020003
+2140252
+2150789
+2150790
+2150969
+2180148
+2230036";True;"2020003
+2140252
+2150789
+2150790
+2150969
+2180148
+2230036"
+"556_sub_bnvd";"phosphonate de disodium";"13708-85-5";"690";"Disodium phosphonate";"13708-85-5";False;False;False;"";False;"";False;"";False;"";True;"2150067
+2150074";False;False;"";False;""
+"557_sub_bnvd";"phosphonates de potassium";"SA40";"";"";"";"";"";"";"";"";"";False;"";False;"";True;"2230160";False;False;"";False;""
+"558_sub_bnvd";"phosphure d'aluminium";"20859-73-8";"1015";"Aluminium phosphide";"20859-73-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"559_sub_bnvd";"phosphure de calcium";"1305-99-3";"500";"Calcium phosphide";"1305-99-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"560_sub_bnvd";"phosphure de magnesium";"12057-74-8";"272";"Magnesium phosphide";"12057-74-8 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"561_sub_bnvd";"phosphure de zinc";"1314-84-7";"199";"Zinc phosphide";"1314-84-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"562_sub_bnvd";"phoxime";"14816-18-3";"1031";"Phoxim";"14816-18-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9600405";False;""
+"563_sub_bnvd";"piclorame";"1918-02-1";"290";"Picloram";"1918-02-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"564_sub_bnvd";"picolinafen";"137641-05-5";"291";"Picolinafen";"137641-05-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"565_sub_bnvd";"picoxystrobine";"117428-22-5";"824";"Picoxystrobin";"117428-22-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"566_sub_bnvd";"pinoxaden";"243973-20-8";"292";"Pinoxaden";"243973-20-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"567_sub_bnvd";"piperonyl";"51-03-6";"";"";"";"";"";"";"";"";"";False;"";False;"";True;"2110084";True;True;"2110084";True;"2110084"
+"568_sub_bnvd";"poivre";"";"";"";"";"";"";"";"";"";"";False;"";False;"";True;"2110120
+2120042
+2130009";True;True;"2130009";True;"2130009"
+"569_sub_bnvd";"poix";"61789-60-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"7400610";False;""
+"570_sub_bnvd";"poly hexamethylene biguanide";"27083-27-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"571_sub_bnvd";"polybutene";"9003-29-6";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"572_sub_bnvd";"polyhexamethylene diguanide chlorhydrate";"32289-58-0";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"573_sub_bnvd";"polyisobutene";"115-11-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"574_sub_bnvd";"polymere carboxyl sulfone cationique";"8061-53-8";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"1030003";False;""
+"575_sub_bnvd";"polymere complexe d'ethylene et de propylene";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"576_sub_bnvd";"polymere d'amine gras";"68213-26-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"577_sub_bnvd";"polyoxyethylene amine";"107-21-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"578_sub_bnvd";"polysorbate 20";"9005-64-5";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"579_sub_bnvd";"polysulfure de calcium";"1344-81-6";"269";"Lime sulphur (calcium polysulphid)";"1344-81-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"580_sub_bnvd";"poudre de corne";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"581_sub_bnvd";"prochloraze-manganese";"75747-77-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"582_sub_bnvd";"prochloraze";"67747-09-5";"59";"Prochloraz";"67747-09-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"583_sub_bnvd";"procymidone";"32809-16-8";"60";"Procymidone";"32809-16-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"584_sub_bnvd";"profoxydim";"139001-49-3";"62";"Profoxydim";"139001-49-3";False;False;False;"";True;"propriétés de perturbation endocrinienne";False;"";False;"";False;"";False;False;"";False;""
+"585_sub_bnvd";"prohexadione-calcium";"127277-53-6";"63";"Prohexadione";"127277-53-6 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"586_sub_bnvd";"propachlore";"1918-16-7";"66";"Propachlor";"1918-16-7";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"587_sub_bnvd";"propamocarbe hcl";"25606-41-1";"67";"Propamocarb";"24579-73-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"588_sub_bnvd";"propamocarbe";"24579-73-5";"67";"Propamocarb";"24579-73-5";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000026
+2000538
+2020304
+2120119
+9500434
+9600287";True;"2000026
+2000538
+2020304
+2120063
+2120119
+9500434
+9600287"
+"589_sub_bnvd";"propanil";"709-98-8";"68";"Propanil";"709-98-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"590_sub_bnvd";"propaquizafop";"111479-05-1";"70";"Propaquizafop";"111479-05-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"591_sub_bnvd";"propargite";"2312-35-8";"71";"Propargite";"2312-35-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"592_sub_bnvd";"propiconazole";"60207-90-1";"75";"Propiconazole";"60207-90-1";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2000096
+2010429
+2010430
+2010432
+2010434
+2020254
+9000124
+9000127
+9100704
+9100706
+9200145
+9300530
+9500514
+9500515
+9800393
+9800394
+9800425
+9800426";True;"2010432
+2020254
+2080132
+9000127
+9100704
+9100706
+9200145
+9300530
+9800394
+9800425
+9800426"
+"593_sub_bnvd";"propinebe";"9016-72-2";"76";"Propineb";"9016-72-2";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"6500400
+8100460";True;"8100460"
+"594_sub_bnvd";"propionate d'ammonium (sel acide)";"17496-08-1";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"595_sub_bnvd";"propoxycarbazone sodium";"181274-15-7";"708";"Propoxycarbazone";"145026-81-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"596_sub_bnvd";"propyzamide";"23950-58-5";"709";"Propyzamide";"23950-58-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"597_sub_bnvd";"proquinazid";"189278-12-4";"710";"Proquinazid";"189278-12-4 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"598_sub_bnvd";"prosulfocarbe";"52888-80-9";"711";"Prosulfocarb";"52888-80-9 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2030172";True;"2030172"
+"599_sub_bnvd";"prosulfuron";"94125-34-5";"712";"Prosulfuron";"94125-34-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"600_sub_bnvd";"prothioconazole";"178928-70-6";"713";"Prothioconazole";"178928-70-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"601_sub_bnvd";"pseudomonas chlororaphis souche ma 342";"";"";"";"";"";"";"";"";"";"";True;"2080056";False;"";True;"2080056";False;False;"";False;""
+"602_sub_bnvd";"pymetrozine";"123312-89-0";"1405";"Pymetrozine";"123312-89-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"603_sub_bnvd";"pyraclostrobine";"175013-18-0";"1219";"Pyraclostrobin";"175013-18-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"604_sub_bnvd";"pyraflufen-ethyl";"129630-19-9";"1088";"Pyraflufen-ethyl";"129630-19-9";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2090035
+2100007
+2100158
+2100159
+2100161
+2100163";True;"2090035
+2100007
+2100158
+2100159
+2100161
+2100163"
+"605_sub_bnvd";"pyrethres naturels";"8003-34-7";"1092";"Pyrethrins";"8003-34-7 ";False;False;False;"";False;"";True;"2160608";True;"2090199
+2090200
+9100259";True;"2090199
+2090200
+2160608
+9100259";True;True;"2020365
+2090199
+9100259
+9100260
+9900373";True;"2020365
+2090199
+2090200
+9100259
+9900373"
+"606_sub_bnvd";"pyrethrines";"8003-34-7";"1092";"Pyrethrins";"8003-34-7 ";False;False;False;"";False;"";True;"2080038
+2160608
+2161105
+2161106
+8800818";True;"2030302
+2090199
+2090200
+2110083
+2171312
+2190808
+7500004
+8800335
+9100177
+9100259
+9300111";True;"2000006
+2090146
+2090199
+2090200
+2100105
+2110084
+2160608
+2190808
+8400098
+8900132
+9100259
+9300111";True;True;"2030302
+2090146
+2090199
+2110083
+2110084
+2171312
+2190808
+7500004
+8400098
+8800335
+8800622
+8800818
+8900132
+9100177
+9100259
+9300111";True;"2030302
+2090146
+2090199
+2090200
+2110083
+2110084
+2171312
+2190808
+7500004
+8400098
+8800335
+8800622
+8800818
+8900132
+9100177
+9100259
+9300111"
+"607_sub_bnvd";"pyridabene";"96489-71-3";"1093";"Pyridaben";"96489-71-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"608_sub_bnvd";"pyridalyl";"179101-81-6";"1095";"Pyridalyl";"179101-81-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"609_sub_bnvd";"pyridate";"55512-33-9";"1407";"Pyridate";"55512-33-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"610_sub_bnvd";"pyrimethanil";"53112-28-0";"1098";"Pyrimethanil";"53112-28-0 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2010512";True;"2010512"
+"611_sub_bnvd";"pyrimicarbe";"23103-98-2";"997";"Pirimicarb";"23103-98-2";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"7200224";True;"2030273
+7200224"
+"612_sub_bnvd";"pyrimiphos-methyl";"29232-93-7";"294";"Pirimiphos-methyl";"29232-93-7 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"613_sub_bnvd";"pyriofenone";"688046-61-9";"862";"Pyriofenone";"688046-61-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"614_sub_bnvd";"pyriproxyfene";"95737-68-1";"1100";"Pyriproxyfen";"95737-68-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"615_sub_bnvd";"pyroxsulame";"422556-08-9";"1101";"Pyroxsulam";"422556-08-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"616_sub_bnvd";"pythium oligandrum souche m1";"";"";"";"";"";"";"";"";"";"";True;"2150328";False;"";True;"2150328";False;False;"";False;""
+"617_sub_bnvd";"quinmerac";"90717-03-6";"1107";"Quinmerac";"90717-03-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"618_sub_bnvd";"quinoclamine";"2797-51-5";"1108";"Quinoclamine";"2797-51-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"619_sub_bnvd";"quinoxyfene";"124495-18-7";"1109";"Quinoxyfen";"124495-18-7";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"620_sub_bnvd";"quizalofop-p-ethyl";"100646-51-3";"1112";"Quizalofop-P";"see notes";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"620_sub_bnvd";"quizalofop-p-ethyl";"100646-51-3";"1113";"Quizalofop-P-ethyl";" 100646-51-3 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"621_sub_bnvd";"resines (colophane)";"8050-09-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8600349
+8600395
+8600404
+8600525
+8600526
+8600527
+8600639
+8600646
+8900618
+8900619
+8900633
+9000359
+9000360
+9200011
+9700234";False;""
+"622_sub_bnvd";"rhizobium japonicum";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"623_sub_bnvd";"rhizobium melilotti";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"624_sub_bnvd";"rimsulfuron";"122931-48-0";"1122";"Rimsulfuron (aka renriduron)";"122931-48-0 ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"625_sub_bnvd";"rotenone";"83-79-4";"1124";"Rotenone";"83-79-4";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"7300134
+8600014
+8800622
+9000289
+9000539
+9200052
+9200112
+9900125
+9900373";True;"7300134
+8600014
+8800622
+9000289
+9000539
+9100617
+9200052
+9200112
+9900125
+9900373"
+"626_sub_bnvd";"s-6-verbenol";"18881-04-4";"1040";"4,6,6-Trimethyl-bicyclo[3.1.1]hept-3-en-ol,((S)-cis-verbenol)";"No CAS allocated";False;False;False;"";False;"";False;"";False;"";True;"7900468";False;False;"";False;""
+"627_sub_bnvd";"s-metolachlore";"87392-12-9";"1137";"S-Metolachlor";"87392-12-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"628_sub_bnvd";"sable quartzeux";"";"";"";"";"";"";"";"";"";"";True;"8700752";False;"";True;"8700752";False;False;"";False;""
+"629_sub_bnvd";"saccharomyces cerevisiae souche las02";"";"";"";"";"";"";"";"2190010";"";"";True;"2190010";False;"";True;"2190010";False;False;"";False;""
+"630_sub_bnvd";"sedaxane";"874967-67-6";"1392";"Sedaxane";"874967-67-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"631_sub_bnvd";"sel de potassium de l'hydrazide maleique";"51542-52-0";"";"";"";"";"";"";"";"";"";False;"";True;"2010099
+2010100";True;"2010099
+2010100";True;True;"2010099
+2010100";True;"2010099
+2010100"
+"632_sub_bnvd";"sels de potassium d'acides gras (c8-c18)";"67701-09-1";"846";"Fatty acids C7-C18 and C18 unsaturated potassium salts";"67701-09-1";False;False;False;"";False;"";True;"2210244
+2210415";True;"2190811";True;"2190811
+2210244
+2210415";True;False;"";True;"2190811"
+"633_sub_bnvd";"sels de potassium d'acides gras";"10124-65-9";"846";"Fatty acids C7-C18 and C18 unsaturated potassium salts";"67701-09-1";False;False;False;"";False;"";True;"2160527";True;"2010099
+2010100";True;"2010099
+2010100
+2160527";True;True;"2010099
+2010100
+9100500";True;"2010099
+2010100
+9100500"
+"634_sub_bnvd";"silthiofam";"175217-20-6";"859";"Silthiofam";"175217-20-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"635_sub_bnvd";"sorbate de potassium";"24634-61-5";"55";"Potassium sorbate";"24634-61-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"636_sub_bnvd";"soufre pour pulverisation (micronise)";"7704-34-9";"1028";"Sulphur";"No CAS allocated";False;False;False;"";False;"";True;"2000018
+2090102
+2090103
+2140021
+2170997
+2190198
+5000014
+6700157
+7700216
+8300063
+8300488
+9000450
+9000451
+9100533
+9200214
+9200352
+9200360
+9600141
+9700114
+9700440
+9700448
+9700449
+9700451
+9700454
+9700455
+9700517
+9700539
+9800245";True;"2010410
+2030184
+9500147";True;"2000018
+2000211
+2010410
+2030184
+2090102
+2090103
+2140021
+2170997
+2190198
+5000014
+6700157
+7400657
+7700216
+7800481
+8300063
+8300488
+9000450
+9000452
+9000597
+9100533
+9200214
+9200352
+9200360
+9200417
+9300055
+9500147
+9600141
+9700114
+9700440
+9700448
+9700449
+9700451
+9700454
+9700455
+9700517
+9700539
+9800221
+9800245";True;True;"2010300
+2010410
+2030184
+2030391
+7800481
+8800558
+9000597
+9100499
+9500147
+9600141
+9800221
+9800225";True;"2010300
+2010410
+2030184
+2030391
+7800481
+8800558
+9000597
+9100499
+9500147
+9600141
+9800221
+9800225"
+"637_sub_bnvd";"soufre sublime";"7704-34-9";"1028";"Sulphur";"No CAS allocated";False;False;False;"";False;"";True;"5100219";False;"";True;"5100219";False;False;"";False;""
+"638_sub_bnvd";"soufre triture ventile";"7704-34-9";"1028";"Sulphur";"No CAS allocated";False;False;False;"";False;"";True;"2060007
+2140134
+6700395
+7700681
+8000350
+9700002";True;"2030466
+2160615";True;"2030466
+2060007
+2140134
+2160615
+6700395
+8000350
+9700002";True;True;"2000364
+2030466
+6600397
+7100041
+8600015
+8700155
+8800298
+9300304
+9900371";True;"2000364
+2030466
+2160615
+6600397
+7100041
+8600015
+8700155
+8800298
+9300304
+9900371"
+"639_sub_bnvd";"soufre triture";"7704-34-9";"1028";"Sulphur";"No CAS allocated";False;False;False;"";False;"";True;"2040336
+6200445
+7600310";False;"";True;"2040336
+6200445
+7600310";True;True;"7700032";True;"7700032"
+"640_sub_bnvd";"soufre";"7704-34-9";"1028";"Sulphur";"No CAS allocated";False;False;False;"";False;"";True;"2090105
+2120168
+2130277
+2150118
+2160475
+2160818
+2160845
+2190499
+2190632
+2190652
+8800494
+9000222
+9900432";True;"2010100
+2010101
+2060192
+2110083
+2190811
+2190874
+2210939
+9500341";True;"2010100
+2010101
+2060192
+2090105
+2120168
+2130277
+2150118
+2160475
+2160818
+2160845
+2190499
+2190632
+2190652
+2190811
+2190874
+2210939
+2230160
+7100322
+8700571
+8800494
+9000222
+9400501
+9500341
+9800455
+9900432";True;True;"2010100
+2010101
+2060192
+2110083
+2190874
+2210939
+9100162
+9100163
+9500341
+9800455";True;"2010100
+2010101
+2060192
+2110083
+2190811
+2190874
+2210939
+9500341
+9800455"
+"641_sub_bnvd";"spinetoram";"935545-74-7";"1166";"Spinetoram";"See note ";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"642_sub_bnvd";"spinosad";"168316-95-8";"1167";"Spinosad";"168316-95-8";False;False;False;"";False;"";True;"2060098
+2060130
+2060132
+2171089
+2190053
+2190054
+2190441";True;"2190088
+2190760";True;"2060130
+2171089
+2190441
+2190760";True;True;"2190088
+2190760";True;"2190088
+2190760"
+"643_sub_bnvd";"spirodiclofen";"148477-71-8";"1168";"Spirodiclofen";"148477-71-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"644_sub_bnvd";"spiromesifen";"283594-90-1";"1169";"Spiromesifen";"283594-90-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"645_sub_bnvd";"spirotetramat";"203313-25-1";"1170";"Spirotetramat";"203313-25-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"646_sub_bnvd";"spiroxamine";"118134-30-8";"1171";"Spiroxamine";"118134-30-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"647_sub_bnvd";"spores de beauveria bassiana 147";"";"";"";"";"";"";"";"";"";"";True;"9300093";False;"";True;"9300093";False;False;"";False;""
+"648_sub_bnvd";"spores de beauveria tenella 96";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"649_sub_bnvd";"streptococcus faecium";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"650_sub_bnvd";"streptomyces k61 (anciennement streptomyces griseoviridis)";"";"";"";"";"";"";"";"";"";"";True;"2140208";False;"";True;"2140208";False;False;"";False;""
+"651_sub_bnvd";"suif";"61789-97-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"652_sub_bnvd";"sulcotrione";"99105-77-8";"1177";"Sulcotrione";"99105-77-8";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"653_sub_bnvd";"sulfate d'ammonium";"7783-20-2";"343";"Ammonium sulphate";"7783-20-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"654_sub_bnvd";"sulfate de fer (sulfate ferreux heptahydrate)";"7782-63-0";"237";"Iron sulphate";"see remark";False;False;False;"";False;"";False;"";False;"";True;"2130125
+2130126
+2130127
+2130128
+2140190
+2140193
+2180283
+8100033
+8800297
+8900700
+8920634
+8920639
+9120616
+9400156
+9700032
+9800302
+9900324
+9900360
+9900361";True;True;"2000071
+2000241
+2000386
+2130125
+2130126
+2180283
+8800297
+8820359
+8900700
+8920634
+8920639
+9120180
+9120277
+9120616
+9220043
+9220045
+9400456
+9420040
+9420112
+9500037
+9500038
+9500143
+9500281
+9600325
+9700032
+9800302
+9800358
+9900320
+9900324
+9900360
+9900361";True;"2000071
+2000241
+2000386
+2040080
+2130125
+2130126
+2140193
+2180283
+8800297
+8820359
+8900700
+8920634
+8920639
+9120180
+9120277
+9120616
+9220043
+9220045
+9400456
+9420040
+9420112
+9420113
+9500037
+9500038
+9500143
+9500281
+9600325
+9700032
+9800302
+9800358
+9900320
+9900324
+9900360
+9900361"
+"655_sub_bnvd";"sulfate de fer monohydrate";"17375-41-6";"237";"Iron sulphate";"see remark";False;False;False;"";False;"";False;"";False;"";True;"2180256";True;True;"2180256";True;"2180256"
+"656_sub_bnvd";"sulfate double d'oxyquinoleine et de potassium";"15077-57-3";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"657_sub_bnvd";"sulfosate";"81591-81-3";"811";"Glyphosate";"1071-83-6";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"9700414";True;"9700414"
+"658_sub_bnvd";"sulfosulfuron";"141776-32-1";"1412";"Sulfosulfuron";"141776-32-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"659_sub_bnvd";"tau-fluvalinate";"102851-06-9";"1373";"tau-Fluvalinate";"102851-06-9";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000017";False;""
+"660_sub_bnvd";"tebuconazole";"107534-96-3";"779";"Tebuconazole";"107534-96-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;True;"2090178";True;"2090178
+2120213
+2150011"
+"661_sub_bnvd";"tebufenozide";"112410-23-8";"780";"Tebufenozide";"112410-23-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"662_sub_bnvd";"tebufenpyrad";"119168-77-3";"1374";"Tebufenpyrad";"119168-77-3";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";True;False;"";True;"2159998"
+"663_sub_bnvd";"teflubenzuron";"83121-18-0";"783";"Teflubenzuron";"Teflubenzuron";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"664_sub_bnvd";"tefluthrine";"79538-32-2";"784";"Tefluthrin";"79538-32-2";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"665_sub_bnvd";"tembotrione";"335104-84-2";"1218";"Tembotrione";"335104-84-2";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"666_sub_bnvd";"temephos";"3383-96-8";"785";"Temephos";"3383-96-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"667_sub_bnvd";"terbuthylazine";"5915-41-3";"788";"Terbuthylazine";"5915-41-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"668_sub_bnvd";"terebenthine";"8006-64-2";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";True;True;"8400364";False;""
+"669_sub_bnvd";"terpenes d'huile essentielle d'orange";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"670_sub_bnvd";"tetraconazole";"112281-77-3";"790";"Tetraconazole";"112281-77-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"671_sub_bnvd";"thiabendazole";"148-79-8";"795";"Thiabendazole";"148-79-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"672_sub_bnvd";"thiaclopride";"111988-49-9";"841";"Thiacloprid";"111988-49-9";False;False;False;"";True;"propriétés de perturbation endocrinienne";False;"";False;"";False;"";True;True;"2080089
+2080090";True;"2080089
+2080090"
+"673_sub_bnvd";"thiamethoxam";"153719-23-4";"796";"Thiamethoxam";"153719-23-4";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"674_sub_bnvd";"thiencarbazone-methyl";"317815-83-1";"800";"Thiencarbazone-methyl";"317815-83-1";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"675_sub_bnvd";"thifensulfuron-methyle";"79277-27-3";"842";"Thifensulfuron-methyl";"79277-27-3";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"676_sub_bnvd";"thiocyanate d'ammonium";"1761-95-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"677_sub_bnvd";"thiocyanate d'ammonium";"1762-95-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"678_sub_bnvd";"thiodicarbe";"59669-26-0";"802";"Thiodicarb";"59669-26-0";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2030078
+2040200";True;"2030078
+2040200"
+"679_sub_bnvd";"thiophanate-methyl";"23564-05-8";"807";"Thiophanate-methyl";"23564-05-8";False;False;False;"";False;"";False;"";False;"";False;"";True;False;"";True;"2130183"
+"680_sub_bnvd";"thirame";"137-26-8";"141";"Thiram";"137-26-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"681_sub_bnvd";"thymol";"89-83-8";"1082";"Thymol";"89-83-8";False;False;False;"";False;"";True;"2161080";False;"";True;"2161080";False;False;"";False;""
+"682_sub_bnvd";"tolclofos-methyl";"57018-04-9";"143";"Tolclofos-methyl";"57018-04-9";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"683_sub_bnvd";"triacetate de guazatine";"115044-19-4";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"684_sub_bnvd";"triadimenol";"55219-65-3";"153";"Triadimenol";"55219-65-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"8400108";True;"8400108"
+"685_sub_bnvd";"triallate";"2303-17-5";"154";"Tri-allate";"2303-17-5";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"686_sub_bnvd";"triazoxide";"72459-58-6";"159";"Triazoxide";"72459-58-6";False;False;False;"";True;"faible DJA / ARfD / AOEL";False;"";False;"";False;"";False;False;"";False;""
+"687_sub_bnvd";"tribenuron-methyle";"101200-48-0";"160";"Tribenuron (aka metometuron)";"106040-48-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"688_sub_bnvd";"trichoderma asperellum icc012";"";"";"";"";"";"";"";"";"";"";True;"2180120";False;"";True;"2180120";False;False;"";False;""
+"689_sub_bnvd";"trichoderma asperellum t25";"";"";"";"";"";"";"";"";"";"";True;"2150839";False;"";True;"2150839";False;False;"";False;""
+"690_sub_bnvd";"trichoderma asperellum t34";"";"";"";"";"";"";"";"";"";"";True;"2160492";False;"";True;"2160492";False;False;"";False;""
+"691_sub_bnvd";"trichoderma asperellum tv1";"";"";"";"";"";"";"";"";"";"";True;"2130089";False;"";True;"2130089";False;False;"";False;""
+"692_sub_bnvd";"trichoderma atroviride souche l-1237";"";"";"";"";"";"";"";"";"";"";True;"2080004
+2160686";False;"";True;"2080004
+2160686";False;False;"";False;""
+"693_sub_bnvd";"trichoderma atroviride souche sc1";"";"";"";"";"";"";"";"2169998";"";"";True;"2169998";False;"";True;"2169998";False;False;"";False;""
+"694_sub_bnvd";"trichoderma atroviride t11";"";"";"";"";"";"";"";"";"";"";True;"2150839";False;"";True;"2150839";False;False;"";False;""
+"695_sub_bnvd";"trichoderma atroviride";"";"";"";"";"";"";"";"2169998";"";"";True;"2080004
+2169998";False;"";True;"2080004
+2169998";False;False;"";False;""
+"696_sub_bnvd";"trichoderma gamsii icc080";"";"";"";"";"";"";"";"";"";"";True;"2180120";False;"";True;"2180120";False;False;"";False;""
+"697_sub_bnvd";"trichoderma harzianum souche t22";"";"";"";"";"";"";"";"";"";"";True;"2090168
+2090169";False;"";True;"2090168
+2090169";False;False;"";False;""
+"698_sub_bnvd";"trichogramma brassicae";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"699_sub_bnvd";"triclopyr";"55335-06-3";"170";"Triclopyr";"55335-06-3";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000385
+2010637
+2020303
+2020305
+2030173
+2040140
+2110146
+8800287
+9000099
+9800172
+9800199
+9800509";True;"2000385
+2010637
+2020303
+2020305
+2030173
+2040140
+2110146
+2120118
+2120133
+2160487
+8800287
+9000099
+9800172
+9800199
+9800509"
+"700_sub_bnvd";"triethanolamine";"102-71-6";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"701_sub_bnvd";"trifloxystrobine";"141517-21-7";"176";"Trifloxystrobin";"141517-21-7 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2090178";True;"2090178"
+"702_sub_bnvd";"trifluraline";"1582-09-8";"178";"Trifluralin";"1582-09-8";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2020164
+2020176
+9000673
+9700223
+9800195
+9800478";True;"9800195
+9800478"
+"703_sub_bnvd";"triflusulfuron-methyl";"126535-15-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"704_sub_bnvd";"triglyceride ethoxyle";"";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"705_sub_bnvd";"trimethylamine hydrochloride";"593-81-7";"182";"Trimethylamine hydrochloride";"593-81-7";False;False;False;"";False;"";True;"2130114
+2130115";False;"";True;"2130114
+2130115";False;False;"";False;""
+"706_sub_bnvd";"trinexapac-ethyl";"95266-40-3";"183";"Trinexapac (aka cimetacarb)";"104273-73-6";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"707_sub_bnvd";"triticonazole";"131983-72-7";"185";"Triticonazole";"131983-72-7 ";False;False;False;"";False;"";False;"";False;"";False;"";True;True;"2000135
+2100004
+2100165
+2110159
+2110160";True;"2000135
+2100004
+2100165
+2110159
+2110160"
+"708_sub_bnvd";"tritosulfuron";"142469-14-5";"186";"Tritosulfuron";"142469-14-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"709_sub_bnvd";"valifenalate";"283159-90-0";"189";"Valifenalate (formerly Valiphenal)";"283159-90-0";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"710_sub_bnvd";"virus de la granulose";"";"";"";"";"";"";"";"";"";"";True;"2120081
+9800076";False;"";True;"2120081
+9800076";False;False;"";False;""
+"711_sub_bnvd";"virus de la mosaique du pepino isolat vc1";"";"";"";"";"";"";"";"2190247";"";"";True;"2190247";False;"";True;"2190247";False;False;"";False;""
+"712_sub_bnvd";"virus de la mosaique du pepino isolat vx1";"";"";"";"";"";"";"";"2190247";"";"";True;"2190247";False;"";True;"2190247";False;False;"";False;""
+"713_sub_bnvd";"virus de la mosaique du pepino souche ch2 isolat 1906";"";"";"";"";"";"";"";"2159995";"";"";True;"2159995";False;"";True;"2159995";False;False;"";False;""
+"714_sub_bnvd";"virus zymv-wk";"";"";"";"";"";"";"";"";"";"";True;"2060125";False;"";True;"2060125";False;False;"";False;""
+"715_sub_bnvd";"z-11-tetradecenyl acetate";"20711-10-8";"368";"(Z)-11-Tetradecen-1-yl acetate (SCLP Acetates)";"20711-10-8";False;False;True;"";False;"";True;"2150175
+2161035
+2170434
+2170785";False;"";True;"2150175
+2161035
+2170434
+2170785";False;False;"";False;""
+"716_sub_bnvd";"z-9-tetradecenyl acetate";"16725-53-4";"377";"(Z)-9-Tetradecen-1-yl acetate (SCLP Acetates)";"16725-53-4";False;False;True;"";False;"";True;"2150175
+2161035
+2170785";False;"";True;"2150175
+2161035
+2170785";False;False;"";False;""
+"717_sub_bnvd";"z/e-11 hexadecenal";"53939-28-9";"1017";"(Z)-11-Hexadecenal (SCLP Aldehydes)";"53939-28-9";False;False;False;"";False;"";True;"2189998";False;"";True;"2189998";False;False;"";False;""
+"718_sub_bnvd";"zetacypermethrine";"52315-07-8";"834";"Cypermethrin";"52315-07-8";False;False;False;"";True;"isomères non-actifs";False;"";False;"";False;"";False;False;"";False;""
+"718_sub_bnvd";"zetacypermethrine";"52315-07-8";"198";"zeta-Cypermethrin";"52315-07-8";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""
+"719_sub_bnvd";"zinc (sulfate de zinc)";"7446-19-7";"";"";"";"";"";"";"";"";"";False;"";False;"";False;"";False;False;"";False;""
+"720_sub_bnvd";"zirame";"137-30-4";"1008";"Ziram";"137-30-4";False;False;False;"";True;"deux critères PBT (persistant, bioaccumulable et toxique)";False;"";False;"";False;"";False;False;"";False;""
+"721_sub_bnvd";"zoxamide";"156052-68-5";"200";"Zoxamide";"156052-68-5";False;False;False;"";False;"";False;"";False;"";False;"";False;False;"";False;""

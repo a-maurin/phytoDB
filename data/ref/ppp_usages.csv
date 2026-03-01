@@ -1,0 +1,435 @@
+code_parametre;cas;ppp_usage;ppp_usages_typiques;statut_ue;date_expiration;autorisation_france;mentions;pnec_ugl;mentions_danger
+5580;40642-40-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2037-08-30;Oui;biocontrôle;;H315 H317 H319 H336 H411
+1487;542-75-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;En attente d'évaluation;;;;;
+1598;571-58-4;régulateur de croissance;Pomme de terre, Trt Prod. Réc., Limit. Destruct. Germes;Approuvée;2027-11-30;Oui;;5.4;H302 H304 H319 H400 H412
+5570;3100-04-7;régulateur de croissance;"Kiwi, Trt Prod. Réc., Act. Qual. Fruits; Fruits à pépins, Trt Part.Aer., Act. Qual. Fruits; Fruits à pépins, Trt Prod. Réc., Act. Qual. Fruits; Fruits à pépins, Trt Prod. Réc., Echaudure; Prunier, Trt Prod. Réc., Act. Qual. Fruits; Tomate - Aubergine, Trt Prod. Réc., Act. Qual. Fruits; Cucurbitacées à peau non comestible, Trt Prod. Réc., Act. Qual. Fruits; Pêcher - Abricotier, Trt Prod. Réc., Act. Qual. Fruits";Approuvée;2034-07-31;Oui;;7.76;H412
+2781;90-43-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2027-11-15;Non;;;
+1141;94-75-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2030-12-31;Oui;;34.6;H302 H317 H318 H335 H412
+1142;94-82-6;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2032-10-31;Non;;;H302 H411
+1212;94-74-6;herbicide;"Gazons de graminées, Désherbage; Avoine, Désherbage; Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage; Graminées fourragères, Désherbage; Prairies, Désherbage; Lin, Désherbage";Approuvée;2026-08-15;Oui;;12.4;H302 H315 H318 H400 H410
+1213;94-81-5;herbicide;"Graines protéagineuses, Désherbage; Avoine, Désherbage; Blé, Désherbage; Porte graine - Légumineuses fourragères, Désherbage; Légumineuses fourragères, Désherbage; Orge, Désherbage; Seigle, Désherbage; Haricots et Pois écossés frais, Désherbage";Approuvée;2026-08-15;Oui;;;H400 H410
+5846;85-07-4;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Non approuvée;;;;;
+5576;1214-39-7;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Approuvée;2026-07-15;Oui;biocontrôle;132.0;H302 H361d H400 H411
+2007;71751-41-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2038-03-31;Oui;biocontrôle;0.0163;H300 H330 H361d H372 H400 H410
+8047;57960-19-7;insecticide;"Fruits à pépins, Trt Part.Aer., Acariens et phytoptes; Tomate - Aubergine, Trt Part.Aer., Acariens; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Acariens; Agrumes, Trt Part.Aer., Acariens et phytoptes; Pêcher - Abricotier, Trt Part.Aer., Acariens et phytoptes; Cucurbitacées à peau comestible, Trt Part.Aer., Acariens";Approuvée;2026-11-15;Oui;;1.5;H317 H370 H373 H400 H410
+5579;135410-20-7;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2033-02-28;Non;;0.2;H301 H361d H412
+1903;34256-82-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+5581;135158-54-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;Non;;2.6;H315 H317 H319 H335 H400 H410
+3151;64-19-7;herbicide;"Traitements généraux, Désherbage, Zones agricoles non cult.; JEVI, Désherb. total, Sites Indust. (1); JEVI, Désherbage, All. PJT, Cimet., Voies (1); Arbres et arbustes, Désherbage, Plantat. Pl. terre; Rosier, Désherbage, Pl. terre; Traitements généraux, Désherbage, Avt Mise Cult. (1); Traitements généraux, Désherbage, Cult. Installées (1); Traitements généraux, Désherbage, Zones Cult. Avt Plantat. (1)";Approuvée;2026-11-30;Oui;biocontrôle;189.0;H226 H314
+5584;86-87-3;insecticide;"Fruits à pépins, Trt Part.Aer., Act. Chute Fruits; Fruits à pépins, Trt Part.Aer., Act. Nouaison; Arbres et arbustes, Trt Part.Aer., Régul. Croiss. Org. Aériens";Approuvée;2026-05-31;Oui;;560.0;H302 H318 H361d H411
+5582;87-51-4;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Non approuvée;;;;;
+5583;133-32-4;régulateur de croissance;"Cultures ornementales, Trt Plants Boutures, Act. Rhizogénèse; Plantes d'intérieur et balcons, Trt Plants Boutures, Act. Rhizogénèse";Approuvée;2026-03-15;Oui;biocontrôle;1120.0;H302 H361fd
+3309;65-85-0;insecticide;Traitements généraux, Désinfection, Locx Struct. Matér. (POV...);Approuvée;2032-08-31;Oui;;1200.0;H315 H318 H372
+7931;64-18-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+5640;77-06-5;régulateur de croissance;"Cerisier, Trt Part.Aer., Act. Qual. Fruits; Vigne, Trt Part.Aer., Régul. Croiss. Org. Aériens; Artichaut, Trt Plants, Act. Floraison; Fruits à pépins, Trt Part.Aer., Act. Nouaison; Porte graine, Trt Part.Aer., Act. Croiss. Florais.; Bananier, Trt Prod. Réc., Act. Qual. Fruits; Agrumes, Trt Part.Aer., Act. Nouaison; Agrumes, Trt Part.Aer., Act. Qual. Fruits";Approuvée;2026-10-31;Oui;biocontrôle;;Sans classement
+7725;112-05-0;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-12-01;Non;biocontrôle;41.0;H315 H319 H412
+2998;112-80-1;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";Non approuvée;2024-08-31;;;50.0;H314 H412
+5878;7664-38-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+3152;79-09-4;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+1688;74070-46-5;herbicide;"Graines protéagineuses, Désherbage; Tournesol, Désherbage; Pomme de terre, Désherbage; Haricots et Pois écossés frais, Désherbage; Légumineuses potagères (sèches), Désherbage; Céleri-branche, Désherbage; Carotte, Désherbage; Cultures légumières, Désherbage";Approuvée;2026-10-31;Oui;candidat à la substitution;0.5;H317 H351 H400 H410
+1310;101007-06-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2021-12-31;;;;
+1745;64-17-5;bactericide;Lutte contre les bactéries (traitements des cultures ou des stockages).;Non approuvée;;;;;
+2585;67-63-0;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";Non approuvée;;;;;
+5587;86-86-2;insecticide;Fruits à pépins, Trt Part.Aer., Act. Nouaison;Approuvée;2026-05-31;Oui;;;H302 H318 H361d
+6553;15879-93-3;rodenticide;Lutte contre les rongeurs (bâtiments agricoles, stockages, etc.).;Non approuvée;;;;;
+1812;67375-30-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2021-06-07;;candidat à la substitution;;
+7842;865318-97-4;fongicide;"Vigne, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Mildiou(s); Tomate - Aubergine, Trt Part.Aer., Mildiou(s); Cucurbitacées à peau comestible, Trt Part.Aer., Mildiou(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Mildiou(s); Laitue, Trt Part.Aer., Mildiou(s)";Approuvée;2028-05-31;Oui;;4.4;H410
+2012;120923-37-7;herbicide;"Seigle, Désherbage; Blé, Désherbage; Graminées fourragères, Désherbage; Légumineuses fourragères, Désherbage; Lin, Désherbage; Avoine, Désherbage; Orge, Désherbage; PPAM - non alimentaires, Désherbage";Approuvée;2026-11-30;Oui;;0.92;H400 H410
+5666;61791-26-2;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+7580;150114-71-9;herbicide;"Crucifères oléagineuses, Désherbage; Graminées fourragères, Désherbage; Prairies, Désherbage";Approuvée;2027-05-31;Oui;;10.0;H318 H400 H410
+1105;61-82-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2016-06-30;;candidat à la substitution;;
+8043;348635-87-0;fongicide;"Vigne, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Mildiou(s)";Approuvée;2026-09-15;Oui;;0.368;H319 H351 H400 H410
+2013;84-65-1;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";Non approuvée;;;;;
+1844;124-65-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+"5592
+1965";"2302-17-2
+3337-71-1";herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2015;35575-96-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2937;120162-55-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2021-12-31;;;;
+5593;41083-11-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1951;131860-33-8;fongicide;"Gazons de graminées, Trt Part.Aer., Dollar spot; Maïs, Trt Part.Aer., Maladies des taches foliaires; Porte graine - Betterave industrielle et fourragère, Trt Part.Aer., Maladies des; Riz, Trt Part.Aer., Maladies des feuilles, tiges et panicules; Orge, Trt Part.Aer., Rouille(s); Seigle, Trt Part.Aer., Rouille(s); Maïs, Trt Sol, Champignons (autres que pythiacées); Graines protéagineuses, Trt Part.Aer., Rouille(s)";Approuvée;2027-05-31;Oui;;3.3;H331 H400 H410
+7522;113614-08-7;herbicide;"Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage";Approuvée;2026-10-31;Oui;;0.455;H400 H410
+7423;98243-83-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2027-09-30;Oui;;20.0;H411
+1687;71626-11-4;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2020-10-05;;;;
+1112;1861-40-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2023-02-12;;;0.13;H315 H317 H319 H351 H361d H400 H410
+2924;82560-54-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2074;98730-04-2;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;H317 H400 H410
+5512;83055-99-6;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-08-15;Oui;;0.1275;H317 H411
+1113;25057-89-0;herbicide;"Graines protéagineuses, Désherbage; Légumineuses fourragères, Désherbage; Haricots et Pois écossés frais, Désherbage; Haricots et pois non écossés frais, Désherbage; Fines Herbes, Désherbage; Oignon, Désherbage; Avoine, Désherbage; Blé, Désherbage";Approuvée;2027-10-31;Oui;;1200.0;H302 H317 H319 H361d
+7460;177406-68-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2023-12-13;;;100.0;H317 H350 H361fd H411
+9281;156963-66-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;En attente d'évaluation;;;;;
+8042;1072957-71-1;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-08-02;Oui;candidat à la substitution;0.095;H301 H331 H400 H410
+"1681
+3209";"68359-37-5
+1820573-27-0";insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+5545;149877-41-8;insecticide;"Cucurbitacées à peau comestible, Trt Part.Aer., Acariens; Cultures florales et plantes vertes, Trt Part.Aer., Acariens, phytoptes et tarso; Fraisier, Trt Part.Aer., Acariens; Poivron, Trt Part.Aer., Acariens; Rosier, Trt Part.Aer., Acariens; Tomate - Aubergine, Trt Part.Aer., Acariens";Approuvée;2037-06-30;Oui;;4.2;H317 H373 H400 H410
+1119;42576-02-3;herbicide;"Orge, Désherbage; Blé, Désherbage; Avoine, Désherbage; Seigle, Désherbage; Crucifères oléagineuses, Désherbage; Porte graine - Graminées fourragères et à gazons, Désherbage; Porte graine - Légumineuses fourragères, Désherbage; Porte graine, Désherbage";Approuvée;2027-03-31;Oui;;0.91;H302 H400 H410
+1120;82657-04-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-07-31;;candidat à la substitution;;
+1697;584-79-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1529;55179-31-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2013-08-29;;;;
+7345;581809-46-3;fongicide;"Blé, Trt Part.Aer., Rouille(s); Orge, Trt Part.Aer., Rhynchosporiose; Orge, Trt Part.Aer., Rouille(s); Seigle, Trt Part.Aer., Rhynchosporiose; Seigle, Trt Part.Aer., Rouille(s); Avoine, Trt Part.Aer., Rouille couronnée; Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Blé, Trt Part.Aer., Septoriose(s)";Approuvée;2027-10-31;Oui;;0.46;H400 H410
+5526;188425-85-6;fongicide;"Porte graine - Légumineuses fourragères, Trt Part.Aer., Maladies à sclérotes; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Maladies à sclérotes; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Phoma; Porte graine - Betterave industrielle et fourragère, Trt Part.Aer., Maladies des; Crucifères oléagineuses, Trt Part.Aer., Maladies fongiques des siliques; Crucifères oléagineuses, Trt Part.Aer., Phoma; Crucifères oléagineuses, Trt Part.Aer., Sclérotiniose; Haricots, Trt Part.Aer., Pourriture grise et sclérotinioses (1)";Approuvée;2026-04-15;Oui;;11.0;H411
+5546;56073-10-0;rodenticide;Lutte contre les rongeurs (bâtiments agricoles, stockages, etc.).;Non approuvée;;;;;
+1859;28772-56-7;rodenticide;Lutte contre les rongeurs (bâtiments agricoles, stockages, etc.).;Non approuvée;2021-05-31;;candidat à la substitution;;
+1941;1689-99-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2020-09-17;;;;
+1125;1689-84-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2020-09-17;;;;
+1860;116255-48-2;fongicide;"Blé, Trt Part.Aer., Fusarioses; Blé, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Rouille(s); Blé, Trt Part.Aer., Septoriose(s); Porte graine - Maïs, Trt Part.Aer., Fusarioses";Approuvée;2027-04-30;Oui;candidat à la substitution;6.5;H302 H361d H400 H410
+1530;74-83-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1861;41483-43-6;fongicide;"Cucurbitacées à peau comestible, Trt Part.Aer., Oïdium(s); Cassissier, Trt Part.Aer., Oïdium(s); Fraisier, Trt Part.Aer., Oïdium(s); Framboisier, Trt Part.Aer., Oïdium(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Oïdium(s); Pêcher - Abricotier, Trt Part.Aer., Oïdium(s); Fruits à pépins, Trt Part.Aer., Oïdium(s); Rosier, Trt Part.Aer., Oïdium(s)";Approuvée;2027-01-31;Oui;;10.0;H317 H351 H410
+1862;69327-76-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-12-15;Oui;;5.2;H400 H410
+1709;51-03-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;;;;biocontrôle;;H319 H335 H400 H410
+1126;33629-47-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1128;133-06-2;fongicide;"Pêcher - Abricotier, Trt Part.Aer., Cloque(s); Fruits à pépins, Trt Part.Aer., Tavelure(s); Fruits à pépins, Trt Part.Aer., Maladies précoces des fruits; Prunier, Trt Part.Aer., Cloque(s); Pêcher - Abricotier, Trt Part.Aer., Tavelure(s); Prunier, Trt Part.Aer., Tavelure(s); Pêcher - Abricotier, Trt Part.Aer., Moniliose(s); Fruits à pépins, Trt Part.Aer., Stemphyliose";Approuvée;2039-10-31;Oui;;7.45;H317 H318 H331 H351 H400
+1463;63-25-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1129;10605-21-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2014-11-30;;candidat à la substitution;;
+1333;16118-49-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2021-05-31;;;;
+1130;1563-66-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1864;55285-14-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2975;5234-68-4;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-05-31;;;;
+2976;128639-02-1;herbicide;"Avoine, Désherbage; Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage; Cultures fruitières, Désherbage, Cult. Installées; Fruits à noyau, Désherbage, Cult. Installées; Houblon, Désherbage; Olivier, Désherbage, Cult. Installées";Approuvée;2033-07-31;Oui;;;H400 H410
+7500;500008-45-7;insecticide;"Fruits à pépins, Trt Part.Aer., Chenilles phytophages; Vigne, Trt Part.Aer., Tordeuses de la grappe; Tomate - Aubergine, Trt Part.Aer., Chenilles phytophages; Maïs, Trt Part.Aer., Chenilles phytophages; Prunier, Trt Part.Aer., Chenilles foreuses des fruits; Choux à inflorescence, Trt Part.Aer., Chenilles phytophages; Prunier, Trt Part.Aer., Chenilles phytophages; Pêcher - Abricotier, Trt Part.Aer., Chenilles foreuses des fruits";Approuvée;2027-05-31;Oui;;0.58;H400 H410
+5551;7775-09-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;;;;;
+5652;32289-58-0;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+1133;1698-60-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1134;24934-91-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2097;999-81-5;régulateur de croissance;"Blé, Trt Part.Aer., Régul. Croiss. Org. Aériens; Avoine, Trt Part.Aer., Régul. Croiss. Org. Aériens; Seigle, Trt Part.Aer., Régul. Croiss. Org. Aériens; Porte graine - Graminées fourragères et à gazons, Trt Part.Aer., Régul. Croiss. ; Orge, Trt Part.Aer., Régul. Croiss. Org. Aériens";Approuvée;2027-02-28;Oui;;240.0;H302 H312
+1684;3691-35-8;rodenticide;Lutte contre les rongeurs (bâtiments agricoles, stockages, etc.).;Non approuvée;;;;;
+1473;1897-45-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2019-05-20;;;;
+1136;15545-48-9;herbicide;"Orge, Désherbage; Blé, Désherbage; Porte graine - Légumineuses fourragères, Désherbage; Porte graine - Graminées fourragères et à gazons, Désherbage";Approuvée;2026-08-15;Oui;candidat à la substitution;2.4;H351 H361d H400 H410
+1474;101-21-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2019-07-08;;;;
+1083;2921-88-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2020-01-16;;;;
+1540;5598-13-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2020-01-16;;;;
+1353;64902-72-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2019-12-31;;;;
+1867;2136-79-0;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1381;7553-56-2;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+2977;67-48-1;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Non approuvée;;;;;
+7018;7647-14-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;;;;;
+2938;142891-20-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+5556;130561-48-7;régulateur de croissance;Céréales à paille, Trt Part.Aer., Ag. chim. hybridation;Approuvée;2026-07-15;Oui;;460.0;H351 H411
+2978;99129-21-2;herbicide;"Betterave industrielle et fourragère, Désherbage; Graines protéagineuses, Désherbage; Crucifères oléagineuses, Désherbage; Arachide, Désherbage; Betterave potagère, Désherbage; Carotte, Désherbage; Choux pommés, Désherbage; Fines Herbes, Désherbage";Approuvée;2026-08-31;Oui;;190.0;H302 H317 H412
+2095;105512-06-9;herbicide;"Porte graine, Désherbage; Seigle, Désherbage; Blé, Désherbage";Approuvée;2027-07-31;Oui;;2.1;H302 H317 H373 H400 H410
+1868;74115-24-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2023-11-11;;;;
+2017;81777-89-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-09-30;Oui;;18.5;H302 H332 H400 H410
+5558;57754-85-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2036-09-30;Oui;;;
+1810;1702-17-6;herbicide;"Maïs, Désherbage; Betterave potagère, Désherbage; Forêt, Désherbage, Avt Plantation; Lin, Désherbage; Sorgho, Désherbage (1); Crucifères oléagineuses, Désherbage; Betterave industrielle et fourragère, Désherbage; Avoine, Désherbage";Approuvée;2036-09-30;Oui;;300.0;H318
+2018;99607-70-2;herbicide;"Seigle, Désherbage; Blé, Désherbage; Porte graine, Désherbage";;;;;25.0;H317 H373 H400 H410
+6389;210880-92-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-01-31;;;;
+"1640
+5275";"95-48-7
+1319-77-3";fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+1640;95-48-7;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+5561;20427-59-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2029-06-30;Non;candidat à la substitution;0.37;H302 H318 H330 H400 H410
+5562;1332-65-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2029-06-30;Non;candidat à la substitution;0.37;H301 H332 H400 H410
+5563;1317-39-1;fongicide;"Amandier, Trt Part.Aer., Cloque(s); Amandier, Trt Part.Aer., Coryneum; Amandier, Trt Part.Aer., Moniliose(s); Carotte, Trt Part.Aer., Bactériose(s); Carotte, Trt Part.Aer., Champignons (pythiacées); Carotte, Trt Part.Aer., Maladies des taches brunes; Cerisier, Trt Part.Aer., Anthracnose(s); Cerisier, Trt Part.Aer., Bactériose(s)";Approuvée;2029-06-30;Non;candidat à la substitution;0.37;H302 H318 H332 H400 H410
+5565;156-62-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+5566;420-04-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+7871;736994-63-1;insecticide;"Tomate - Aubergine, Trt Part.Aer., Aleurodes; Tomate - Aubergine, Trt Part.Aer., Chenilles phytophages; Tomate - Aubergine, Trt Part.Aer., Mouches; Tomate - Aubergine, Trt Part.Aer., Pucerons; Tomate - Aubergine, Trt Part.Aer., Thrips; Cucurbitacées à peau non comestible, Trt Part.Aer., Aleurodes; Cucurbitacées à peau non comestible, Trt Part.Aer., Chenilles phytophages; Cucurbitacées à peau non comestible, Trt Part.Aer., Mouches";Approuvée;2026-09-14;Oui;;1.0;H400 H410
+5567;120116-88-3;fongicide;"Tomate - Aubergine, Trt Part.Aer., Mildiou(s); Tabac, Trt Sol, Champignons (pythiacées); Arbres et arbustes, Trt Part.Aer., Maladies diverses (1); Cucurbitacées à peau comestible, Trt Part.Aer., Mildiou(s); Cultures florales et plantes vertes, Trt Part.Aer., Mildiou(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Mildiou(s); Oignon, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Mildiou(s)";Approuvée;2036-07-31;Oui;;1.07;H400 H410
+2729;101205-02-1;herbicide;"Asperge, Désherbage; Céleris, Désherbage (1); Choux, Désherbage; Cultures florales et plantes vertes, Désherbage; Haricots, Désherbage (1); Légumineuses fourragères, Désherbage; Pavot, Désherbage; Betterave industrielle et fourragère, Désherbage";Approuvée;2026-08-31;Oui;;7.9;H361d
+7748;180409-60-3;fongicide;"Artichaut, Trt Part.Aer., Oïdium(s); Fraisier, Trt Part.Aer., Oïdium(s); Arbres et arbustes, Trt Part.Aer., Oïdium(s); Cultures florales et plantes vertes, Trt Part.Aer., Oïdium(s); Cucurbitacées à peau comestible, Trt Part.Aer., Oïdium(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Oïdium(s); Rosier, Trt Part.Aer., Oïdium(s); Tomate - Aubergine, Trt Part.Aer., Oïdium(s)";Approuvée;2027-06-30;Oui;;2.4;H410
+1681;68359-37-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+5569;122008-85-9;herbicide;Riz, Désherbage;Approuvée;2032-06-30;Oui;;6.37;H400 H410
+2979;13121-70-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1139;57966-95-7;fongicide;"Vigne, Trt Part.Aer., Mildiou(s); Tomate - Aubergine, Trt Part.Aer., Mildiou(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Mildiou(s); Cucurbitacées à peau comestible, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Mildiou(s); Vigne, Trt Part.Aer., Excoriose; Graines protéagineuses, Trt Sem., Champignons (pythiacées); Graines protéagineuses, Trt Sem., Champignons (autres que pythiacées)";Approuvée;2026-08-15;Oui;;4.4;H302 H317 H361fd H373 H400 H410
+1140;52315-07-8;insecticide;"Maïs doux, Trt Sol, Ravageurs du sol; Maïs, Trt Sol, Ravageurs du sol; Sorgho, Trt Sol, Ravageurs du sol (1); Tournesol, Trt Sol, Ravageurs du sol; Pomme de terre, Trt Sol, Ravageurs du sol; Tomate - Aubergine, Trt Sol, Ravageurs du sol; Carotte, Trt Sol, Mouches; Carotte, Trt Sol, Ravageurs du sol";"Approuvée
+Non approuvée";"2029-01-31
+2020-12-01";Oui;;0.0017;H302 H332 H335 H373 H400 H410
+1680;94361-06-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-05-31;;candidat à la substitution;;
+1359;121552-61-2;fongicide;"Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Orge, Trt Part.Aer., Rhynchosporiose; Blé, Trt Part.Aer., Piétin verse; Arbres et arbustes, Trt Part.Aer., Maladies diverses (1); Asperge, Trt Part.Aer., Maladies des taches brunes; Asperge, Trt Part.Aer., Pourriture grise et sclérotinioses; Carotte, Trt Part.Aer., Maladies des taches brunes; Carotte, Trt Part.Aer., Pourriture grise et sclérotinioses";Approuvée;2026-10-31;Oui;candidat à la substitution;0.5;H317 H400 H410
+7801;221667-31-8;autre;Maïs, Désherbage;;;;;467.0;H351 H412
+2897;66215-27-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-12-31;;;;
+5597;1596-84-5;régulateur de croissance;Cultures florales et plantes vertes, Trt Part.Aer., Régul. Croiss. Org. Aériens;Approuvée;2026-09-15;Oui;;755.0;H351
+1869;533-74-4;herbicide;"Cultures légumières, Trt Sol, Nématodes; Cultures ornementales, Trt Sol, Champignons (autres que pythiacées); Vigne, Trt Sol, Nématodes; Tabac, Trt Sol, Nématodes; Tabac, Trt Sol, Champignons (pythiacées); Traitements généraux, Désherbage, Intercultures, jachères et destruction de cult; Gazons de graminées, Trt Sol, Nématodes; Traitements généraux, Destruction des couverts et repousses dans les cultures";Approuvée;2026-08-31;Oui;;3.0;H302 H319 H400 H410
+1149;52918-63-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-08-15;Oui;biocontrôle;0.0032;H301 H331 H400 H410
+2980;13684-56-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1157;333-41-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1480;1918-00-9;herbicide;"JEVI, Désherb. Total (1); JEVI, Désherbage, All. PJT, Cimet., Voies (1); JEVI, Désherb. Total, Sites industriels et autres infrastructures; JEVI, Désherbage, Voies ferrées; JEVI, Désherbage, PJT; Jachères et cultures intermédiaires, Trt Part.Aer., Limit. Pousse Fructif.; Maïs, Désherbage; Prairies, Désherbage";Approuvée;2027-03-31;Oui;;45.0;H302 H318 H412
+1679;1194-65-6;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2929;37764-25-3;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+2544;15165-67-0;herbicide;"Agrumes, Trt Part.Aer., Act. Qual. Fruits; Traitements généraux, Dévital. Broussailles (1); Forêt, Désherbage, Avt Plantation; Gazons de graminées, Désherbage; JEVI, Débroussaillage (1)";Approuvée;2026-10-31;Oui;;100.0;H302 H315 H317 H318
+1170;62-73-7;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1171;51338-27-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-08-31;Non;candidat à la substitution;;H302 H317 H400 H410
+1172;115-32-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2982;56073-07-5;rodenticide;Lutte contre les rongeurs (bâtiments agricoles, stockages, etc.).;Non approuvée;2019-12-30;;candidat à la substitution;;
+1905;119446-68-3;fongicide;"Betterave industrielle et fourragère, Trt Part.Aer., Maladies du feuillage; Vigne, Trt Part.Aer., Black rot; Pêcher - Abricotier, Trt Part.Aer., Oïdium(s); Asperge, Trt Part.Aer., Rouille(s); Lin, Trt Part.Aer., Oïdium(s); Porte graine - Légumineuses fourragères, Trt Part.Aer., Rouille(s); Porte graine, Trt Part.Aer., Maladies diverses; Betterave potagère, Trt Part.Aer., Maladies des taches brunes";Approuvée;2026-03-15;Oui;candidat à la substitution;0.36;H302 H319 H351 H400 H410
+2983;104653-34-1;rodenticide;Lutte contre les rongeurs (bâtiments agricoles, stockages, etc.).;Non approuvée;;;;;
+1488;35367-38-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2020-12-31;;;;
+1814;83164-33-4;herbicide;"Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage; Pomme de terre, Désherbage; JEVI, Désherb. Total (1); JEVI, Désherbage, Voies ferrées; JEVI, Désherbage, PJT; JEVI, Désherb. Total, Sites industriels et autres infrastructures";Approuvée;2026-01-15;Oui;candidat à la substitution;0.051;H400 H410
+2546;50563-36-5;herbicide;Crucifères oléagineuses, Désherbage;Approuvée;2026-10-15;Oui;;6.58;H302 H317 H400 H410
+5617;163515-14-8;herbicide;"Navet, Désherbage; Crucifères oléagineuses, Désherbage; Choux à inflorescence, Désherbage; Choux feuillus, Désherbage; Choux pommés, Désherbage; Poireau, Désherbage; Porte graine - PPAMC, Florales et Potagères, Désherbage; Betterave industrielle et fourragère, Désherbage";Approuvée;2034-08-31;Oui;;4.57;H302 H317 H400 H410
+1678;87674-68-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1175;60-51-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-06-30;;candidat à la substitution;;
+1403;110488-70-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2024-05-20;Non;;5.6;H360F H411
+5312;624-92-0;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;En attente d'évaluation;;;;;
+5748;149961-52-4;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2023-07-31;;candidat à la substitution;0.032;H332 H351 H361d H400 H410
+5619;39300-45-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1344;124-38-9;insecticide;"Traitements généraux, Trt Prod. Réc., Désinsectisation (1); Céréales, Trt Prod. Réc., Ravageurs des denrées stockées; Crucifères oléagineuses, Trt Prod. Réc., Ravageurs divers; Graines protéagineuses, Trt Prod. Réc., Ravageurs divers; Tabac, Trt Prod. Réc., Ravageurs des denrées stockées; Légumineuses potagères (sèches), Trt Prod. Réc., Coléoptères phytophages; Noisetier, Trt Prod. Réc., Désinsectisation; Chataignier, Trt Prod.Réc., Désinsectisation";"Non approuvée
+Approuvée";2037-04-30;Oui;;;Sans classement
+5478;122-39-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+"1699
+5621";"2764-72-9
+85-00-7";herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2018-11-14;;candidat à la substitution;;
+1966;3347-22-6;fongicide;"Fruits à pépins, Trt Part.Aer., Tavelure(s); Fruits à pépins, Trt Part.Aer., Oïdium(s); Fruits à pépins, Trt Part.Aer., Stemphyliose; Prunier, Trt Part.Aer., Rouille(s); Prunier, Trt Part.Aer., Tavelure(s); Amandier, Trt Part.Aer., Chancres à champignons; Amandier, Trt Part.Aer., Coryneum; Amandier, Trt Part.Aer., Tavelure(s) et polystigma";Approuvée;2027-01-31;Oui;;1.3;H302 H400 H410
+1177;330-54-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2020-09-30;;;;
+2933;2439-10-3;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-07-15;Oui;;8.2;H302 H315 H319 H400 H410
+5577;37338-40-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2023-08-31;Oui;biocontrôle;;
+5559;33956-49-9;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2037-08-30;Oui;biocontrôle;;H315 H317 H319 H336 H411
+1493;60-00-4;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+7739;155569-91-8;insecticide;"Fruits à pépins, Trt Part.Aer., Chenilles foreuses des fruits; Fruits à pépins, Trt Part.Aer., Chenilles phytophages; Artichaut, Trt Part.Aer., Chenilles phytophages; Haricots, Trt Part.Aer., Chenilles phytophages (1); Laitue, Trt Part.Aer., Chenilles phytophages; Pêcher - Abricotier, Trt Part.Aer., Chenilles foreuses des fruits; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Chenilles phytophage; PPAMC, Trt Part.Aer., Ravageurs divers";Approuvée;2026-11-15;Oui;candidat à la substitution;0.033;H301 H311 H318 H331 H370 H372 H400 H410
+1744;133855-98-8;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2020-04-30;;candidat à la substitution;;
+1809;66230-04-4;insecticide;"Agrumes, Trt Part.Aer., Mouches des fruits; Cerisier, Trt Part.Aer., Mouches des fruits; Kaki, Trt Part.Aer., Mouches des fruits; Pêcher - Abricotier, Trt Part.Aer., Mouches des fruits; Fruits à pépins, Trt Part.Aer., Mouches des fruits; Prunier, Trt Part.Aer., Mouches des fruits; Vigne, Trt Part.Aer., Mouches";Approuvée;2026-05-31;Oui;candidat à la substitution;0.0001;H301 H317 H331 H370 H373 H400 H410
+2093;16672-87-0;régulateur de croissance;"Seigle, Trt Part.Aer., Régul. Croiss. Org. Aériens; Porte graine, Trt Part.Aer., Act. Croiss. Florais.; Lin, Trt Part.Aer., Régul. Croiss. Org. Aériens; Orge, Trt Part.Aer., Régul. Croiss. Org. Aériens; Blé, Trt Part.Aer., Régul. Croiss. Org. Aériens; Tournesol, Désherbage; Tournesol, Trt Part.Aer., Régul. Croiss. Org. Aériens; Maïs doux, Trt Part.Aer., Régul. Croiss. Org. Aériens";Approuvée;2039-01-31;Oui;;160.0;H302 H311 H314 H332 H411
+1184;26225-79-6;herbicide;"Betterave industrielle et fourragère, Désherbage; PPAMC, Désherbage; Graminées fourragères, Désherbage; Porte graine, Désherbage; PPAM - non alimentaires, Désherbage; Porte graine - Graminées fourragères et à gazons, Désherbage; Porte graine - PPAMC, Florales et Potagères, Désherbage; Haricots, Désherbage (1)";Approuvée;2031-10-31;Oui;;15.6;H400 H410
+1495;13194-48-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-03-21;;candidat à la substitution;;
+5623;91-53-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+5891;74-85-1;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Approuvée;2026-11-30;Oui;;;H336
+5624;80844-07-1;insecticide;"Vigne, Trt Part.Aer., Cicadelles (1); Vigne, Trt Part.Aer., Tordeuses de la grappe; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Coléoptères phytopha; Choux, Trt Part.Aer., Chenilles phytophages; Crucifères oléagineuses, Trt Part.Aer., Coléoptères phytophages; Rosier, Trt Part.Aer., Aleurodes; Rosier, Trt Part.Aer., Pucerons; Arbres et arbustes, Trt Part.Aer., Chenilles phytophages";Approuvée;2027-03-31;Oui;candidat à la substitution;0.0054;H362 H400 H410
+5625;153233-91-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2028-01-31;Non;candidat à la substitution;;H400 H410
+2062;8003-34-7;insecticide;"Rosier, Trt Part.Aer., Acariens; Rosier, Trt Part.Aer., Aleurodes; Plantes d'intérieur et balcons, Trt Part.Aer., Acariens; Plantes d'intérieur et balcons, Trt Part.Aer., Aleurodes; Plantes d'intérieur et balcons, Trt Part.Aer., Pucerons; Cultures florales et plantes vertes, Trt Part.Aer., Aleurodes; Cultures florales et plantes vertes, Trt Part.Aer., Acariens, phytoptes et tarso; Cultures florales et plantes vertes, Trt Part.Aer., Pucerons";Approuvée;2026-06-15;Oui;biocontrôle;0.041;H302 H312 H332 H400 H410
+2020;131807-57-3;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;"2021-06-30
+2021-09-09";;candidat à la substitution;;
+2057;161326-34-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2018-08-14;;;;
+2742;120928-09-8;insecticide;"Cucurbitacées à peau comestible, Trt Part.Aer., Acariens; Cucurbitacées à peau non comestible, Trt Part.Aer., Acariens; Fraisier, Trt Part.Aer., Acariens; Pêcher - Abricotier, Trt Part.Aer., Acariens et phytoptes; Fruits à pépins, Trt Part.Aer., Acariens et phytoptes; Prunier, Trt Part.Aer., Acariens et phytoptes; Tomate - Aubergine, Trt Part.Aer., Acariens; Vigne, Trt Part.Aer., Acariens";Approuvée;2026-08-31;Oui;;0.15;H301 H332 H400 H410
+1906;114369-43-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-04-30;;;;
+2078;13356-08-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2014-06-02;;candidat à la substitution;;
+2743;126833-17-8;fongicide;"Cassissier, Trt Part.Aer., Pourriture grise; Fraisier, Trt Part.Aer., Pourriture grise et sclérotinioses; Framboisier, Trt Part.Aer., Pourriture grise; Porte graine, Trt Part.Aer., Maladies diverses; Tomate - Aubergine, Trt Part.Aer., Pourriture grise et sclérotinioses; Vigne, Trt Part.Aer., Pourriture grise; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Maladies à sclérotes; Arbres et arbustes, Trt Part.Aer., Pourriture grise";Approuvée;2030-12-31;Oui;;10.1;H411
+1187;122-14-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+5628;71283-80-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-11-30;Oui;;1.9;H317 H373 H400 H410
+1967;79127-80-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2021-05-31;;;;
+8685;517875-34-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2028-10-11;Oui;;0.033;H400 H410
+1700;67306-00-7;fongicide;"Betterave industrielle et fourragère, Trt Part.Aer., Maladies du feuillage; Porte graine - Betterave industrielle et fourragère, Trt Part.Aer., Maladies des; Bananier, Trt Part.Aer., Cercosporioses; Orge, Trt Part.Aer., Oïdium(s); Porte graine - Graminées fourragères et à gazons, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Oïdium(s)";Approuvée;2027-05-15;Oui;;0.33;H302 H315 H317 H318 H332 H335 H336 H361d H373 H400 H410
+1189;67564-91-4;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2019-04-30;;;;
+8351;473798-59-3;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2025-01-15;Non;;9.799999999999999;H400 H410
+5630;134098-61-6;insecticide;"Fruits à pépins, Trt Part.Aer., Acariens et phytoptes; Pêcher - Abricotier, Trt Part.Aer., Acariens et phytoptes";Approuvée;2026-06-15;Oui;;0.061;H301 H317 H330 H400 H410
+2009;120068-37-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2017-09-30;;candidat à la substitution;;
+1939;104040-78-0;herbicide;"Vigne, Désherbage, Cult. Installées; Olivier, Désherbage, Cult. Installées; JEVI, Désherb. Total (1); JEVI, Désherbage, All. PJT, Cimet., Voies (1); Traitements généraux, Désherbage, Zones agricoles non cult.; Agrumes, Désherbage, Cult. Installées; JEVI, Désherb. Total, Sites industriels et autres infrastructures; JEVI, Désherbage, PJT";Approuvée;2032-07-31;Oui;;0.07;H400 H410
+6393;158062-67-0;insecticide;"Haricots et Pois écossés frais, Trt Part.Aer., Pucerons; Haricots et pois non écossés frais, Trt Part.Aer., Pucerons; Choux pommés, Trt Part.Aer., Pucerons; Choux pommés, Trt Part.Aer., Aleurodes; Arbres et arbustes, Trt Part.Aer., Pucerons; Cultures florales et plantes vertes, Trt Part.Aer., Pucerons; Rosier, Trt Part.Aer., Pucerons; Tomate - Aubergine, Trt Part.Aer., Pucerons";Approuvée;2026-11-30;Oui;;310.0;H302
+2810;145701-23-1;herbicide;"Orge, Désherbage; Seigle, Désherbage; Porte graine - Graminées fourragères et à gazons, Désherbage; Blé, Désherbage; Maïs, Désherbage; Avoine, Désherbage; Graminées fourragères, Désherbage; Prairies, Désherbage";Approuvée;2030-12-31;Oui;;0.118;H400 H410
+1404;79241-46-6;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-05-31;Oui;;4.77;H361d H400 H410
+2984;79622-59-6;fongicide;"Pomme de terre, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Maladies des taches brunes; Bulbes ornementaux, Trt Bulbes, Pourritures en phase végétative; Bulbes ornementaux, Trt Bulbes, Pourritures en phase de conservation; Cultures florales et plantes vertes, Trt Part.Aer., Pourriture grise; Chicorées - Production de chicons, Trt Sem. Plants, Champignons (pythiacées)";Approuvée;2026-04-15;Oui;;0.29;H317 H318 H332 H361d H400 H410
+2022;131341-86-1;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-09-30;Oui;candidat à la substitution;3.28;H400 H410
+1940;142459-58-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2025-06-10;Oui;candidat à la substitution;0.357;H302 H317 H373 H400 H410
+1676;101463-69-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2023;103361-09-7;herbicide;"Fruits à pépins, Désherbage, Cult. Installées; Vigne, Désherbage, Cult. Installées";Approuvée;2037-02-28;Oui;;0.035;H361d H400 H410
+7499;239110-15-7;fongicide;"Choux à inflorescence, Trt Part.Aer., Mildiou(s); Choux pommés, Trt Part.Aer., Mildiou(s); Choux-raves, Trt Part.Aer., Mildiou(s); Laitue, Trt Part.Aer., Mildiou(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Mildiou(s); Oignon, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Mildiou(s); Epinard, Trt Part.Aer., Mildiou(s)";Approuvée;2026-08-31;Oui;candidat à la substitution;4.8;H361d
+7649;658066-35-4;fongicide;"Vigne, Trt Part.Aer., Pourriture grise; Bananier, Trt Part.Aer., Cercosporioses; Chicorées - Production de chicons, Trt Sem. Plants, Champignons (autres que pyth; Cucurbitacées à peau comestible, Trt Sol, Champignons (autres que pythiacées); Cucurbitacées à peau comestible, Trt Sol, Nématodes; Cucurbitacées à peau non comestible, Trt Sol, Champignons (autres que pythiacées; Poivron, Trt Sol, Champignons (autres que pythiacées); Cucurbitacées à peau non comestible, Trt Sol, Nématodes";Approuvée;2026-06-30;Oui;;13.5;H411
+5637;2699-79-8;insecticide;"Chataignier, Trt Prod.Réc., Désinsectisation; Forêt, Trt bois abattus, Insectes xylophages et sous-corticaux; Traitements généraux, Désinsectisation, Locx Struct. Matér. (POV...); Traitements généraux, Fumigation (désinsectisation), Locx Struct. Matér. (POV...; Traitements généraux, Trt Prod. Réc., Désinsectisation (1)";Approuvée;2027-01-31;Oui;;6.2;H331 H373 H400
+5638;361377-29-9;fongicide;"Betterave industrielle et fourragère, Trt Sem., Champignons (autres que pythiacé; Betterave industrielle et fourragère, Trt Sem., Champignons (pythiacées); Crucifères oléagineuses, Trt Sem., Champignons (autres que pythiacées); Crucifères oléagineuses, Trt Sem., Champignons (pythiacées); Avoine, Trt Sem., Champignons (autres que pythiacées); Seigle, Trt Sem., Champignons (autres que pythiacées); Blé, Trt Sem., Champignons (autres que pythiacées); Avoine, Trt Part.Aer., Oïdium(s)";Approuvée;2027-01-31;Oui;;0.061;H351 H400 H410
+2565;144740-54-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2056;136426-54-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-12-31;;candidat à la substitution;;
+1675;61213-25-0;herbicide;"Graines protéagineuses, Désherbage; Pomme de terre, Désherbage; Porte graine, Désherbage; PPAMC, Désherbage; Tomate - Aubergine, Désherbage; Tournesol, Désherbage; Carotte, Désherbage; PPAM - non alimentaires, Désherbage";Approuvée;2026-03-15;Oui;candidat à la substitution;;H302 H317 H360FD H400 H410
+2547;81406-37-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-02-15;Oui;;1.83;H400 H410
+1765;69377-81-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-02-15;Oui;;27.6;H412
+2024;56425-91-3;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Non approuvée;;;;;
+2008;96525-23-4;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2018-12-27;;;;
+1194;85509-19-9;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+2985;66332-96-5;fongicide;Pomme de terre, Trt Tuber. Semences, Champignons (autres que pythiacées);Approuvée;2026-06-15;Oui;;;H411
+1503;76674-21-0;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-05-31;;;;
+7342;907204-31-3;fongicide;"Vigne, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Rhynchosporiose; Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Orge, Trt Part.Aer., Rouille(s); Orge, Trt Part.Aer., Oïdium(s); Avoine, Trt Part.Aer., Rouille couronnée; Avoine, Trt Part.Aer., Oïdium(s); Seigle, Trt Part.Aer., Rhynchosporiose";Approuvée;2027-10-31;Oui;;3.59;H362 H400 H410
+1192;133-07-3;fongicide;"Vigne, Trt Part.Aer., Mildiou(s); Vigne, Trt Part.Aer., Excoriose; Vigne, Trt Part.Aer., Rougeot parasitaire; Vigne, Trt Part.Aer., Black rot; Orge, Trt Part.Aer., Rhynchosporiose; Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Blé, Trt Part.Aer., Septoriose(s); Seigle, Trt Part.Aer., Rouille(s)";Approuvée;2039-10-31;Oui;;0.2;H317 H319 H332 H351 H400
+2806;173159-57-4;herbicide;Maïs, Désherbage;Approuvée;2035-05-31;Oui;;0.101;H351 H400 H410
+5969;68157-60-8;régulateur de croissance;"Kiwi, Trt Part.Aer., Stimul.Croiss.Org.Aériens (1); Vigne, Trt Part.Aer., Régul. Croiss. Org. Aériens; Kiwi, Trt Part.Aer., Bactériose(s); Kiwi, Trt Part.Aer., Act. Qual. Fruits";Approuvée;2033-05-31;Oui;;80.0;H351 H411
+1702;50-00-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+7741;23422-53-9;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-09-30;Non;;;H300 H317 H330 H400 H410
+1975;39148-24-8;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-10-31;Oui;;600.0;H318
+1816;15845-66-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-10-31;Oui;;;
+2744;98886-44-3;insecticide;"Bananier, Trt Sol, Nématodes; Bananier, Trt Sol, Ravageurs du sol; Pomme de terre, Trt Sol, Nématodes; Pomme de terre, Trt Sol, Ravageurs du sol";Approuvée;2027-01-31;Oui;;;H301 H312 H317 H331 H400 H410
+5641;8030-53-3;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Approuvée;2026-10-31;Oui;biocontrôle;960.0;Sans classement
+2731;77182-82-2;herbicide;"Cerisier, Trt Part.Aer., Act. Qual. Fruits; Fruits à pépins, Trt Part.Aer., Act. Qual. Fruits; Fruits à pépins, Trt Part.Aer., Act. Nouaison; Fruits à pépins, Trt Plants, Act. Ramification";Non approuvée;2018-07-31;;candidat à la substitution;;
+5642;111-30-8;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+1506;1071-83-6;herbicide;"Traitements généraux, Désherbage, Zones agricoles non cult.; Traitements généraux, Destruction des couverts et repousses dans les cultures; Traitements généraux, Désherbage, Intercultures, jachères et destruction de cult; Cultures fruitières, Désherbage, Cult. Installées; JEVI, Désherb. Total, Sites industriels et autres infrastructures; JEVI, Désherbage, Voies ferrées; JEVI, Désherbage, PJT; Forêt, Dégagement";Approuvée;2033-12-15;Oui;;100.0;H318 H411
+8664;943831-98-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2028-01-05;Oui;;0.0393;H400 H410
+5508;100784-20-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-11-15;Oui;candidat à la substitution;0.0491;H360D H400 H410
+1909;72619-32-0;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2020-12-31;;candidat à la substitution;;
+7585;27306-78-1;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+1673;51235-04-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1876;78587-05-0;insecticide;"Vigne, Trt Part.Aer., Acariens; Agrumes, Trt Part.Aer., Acariens et phytoptes; Arbres et arbustes, Trt Part.Aer., Acariens; Fraisier, Trt Part.Aer., Acariens; Haricots, Trt Part.Aer., Acariens (1); Maïs doux, Trt Part.Aer., Acariens; Cucurbitacées à peau non comestible, Trt Part.Aer., Acariens; Pêcher - Abricotier, Trt Part.Aer., Acariens et phytoptes";Approuvée;2027-01-31;Oui;;0.61;H400 H410
+5644;67485-29-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+5645;123-33-1;herbicide;"Tabac, Contrôle Pl. parasites; Tabac, Trt Part.Aer., Régul. Croiss. Org. Aériens; Carotte, Trt Part.Aer., Régul. Croiss. Org. Aériens; Oignon, Trt Part.Aer., Limit. Destruct. Germes; Pomme de terre, Trt Part.Aer., Limit. Destruct. Germes; Oignon, Trt Prod. Réc., Limit. Destruct. Germes";Approuvée;2032-10-31;Oui;;960.0;Sans classement
+6555;1310-58-3;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+2927;1310-73-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+5646;10004-44-1;fongicide;"Betterave industrielle et fourragère, Trt Sem., Champignons (pythiacées); Betterave industrielle et fourragère, Trt Sem., Champignons (autres que pythiacé; Betterave potagère, Trt Sem. Plants, Champignons (pythiacées); Epinard, Trt Sem. Plants, Champignons (pythiacées); Tomate - Aubergine, Trt Sol, Champignons (autres que pythiacées)";Approuvée;2026-08-31;Oui;;40.0;H302 H317 H318 H361d H411
+6556;7681-52-9;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2019-08-31;;;;
+1704;35554-44-0;fongicide;"Pomme de terre, Trt Tuber. Semences, Champignons (autres que pythiacées); Tomate - Aubergine, Trt Part.Aer., Pourriture grise et sclérotinioses";Approuvée;2027-05-31;Oui;;14.8;H301 H318 H332 H351 H410
+2986;114311-32-9;herbicide;"Tournesol, Désherbage; Soja, Désherbage; Crucifères oléagineuses, Désherbage; Graines protéagineuses, Désherbage; Légumineuses fourragères, Désherbage; Légumineuses potagères (sèches), Désherbage; Porte graine, Désherbage; Haricots et pois non écossés frais, Désherbage";Approuvée;2027-06-30;Oui;candidat à la substitution;4.2;H361d H400 H410
+2860;81335-37-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2018-12-31;;;;
+1877;138261-41-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2020-12-01;;;;
+5483;144171-61-9;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2021-12-19;;;;
+6483;144550-36-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2032-03-31;Oui;;0.108;H400 H410
+1942;3861-47-0;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1205;1689-83-4;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+7508;125225-28-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;candidat à la substitution;0.044;H302 H360D H373 H410
+1206;36734-19-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2017-12-05;;;;
+2951;140923-17-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2031-03-31;Non;;189.0;H351
+1208;34123-59-6;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2016-06-30;;candidat à la substitution;;
+1672;82558-50-7;herbicide;"Arbres et arbustes, Désherbage, Pépi. Pl. terre; Arbres et arbustes, Désherbage, Plantat. Pl. terre; Asperge, Désherbage; Avoine, Désherbage; Bulbes ornementaux, Désherbage; Chicorées - Production de racines, Désherbage; Crucifères oléagineuses, Désherbage; Cultures florales et plantes vertes, Désherbage";Approuvée;2027-01-31;Oui;;3.75;H413
+2807;163520-33-0;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+1945;141112-29-0;herbicide;"Maïs, Désherbage; Maïs doux, Désherbage";Approuvée;2034-07-31;Oui;;0.1;H361d H400 H410
+1950;143390-89-0;fongicide;"Fruits à pépins, Trt Part.Aer., Stemphyliose; Fruits à pépins, Trt Part.Aer., Tavelure(s); Fruits à pépins, Trt Part.Aer., Oïdium(s); Vigne, Trt Part.Aer., Black rot; Arbres et arbustes, Trt Part.Aer., Maladies diverses (1); Arbres et arbustes, Trt Part.Aer., Oïdium(s); Cassissier, Trt Part.Aer., Oïdium(s); Cultures florales et plantes vertes, Trt Part.Aer., Oïdium(s)";Approuvée;2027-05-31;Oui;;15.0;H351 H400 H410
+1094;91465-08-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;"Approuvée
+Non approuvée";2026-08-31;Oui;candidat à la substitution;0.00039;H301 H312 H330 H400 H410
+5647;9008-22-4;fongicide;"Vigne, Trt Part.Aer., Stimul. Déf. Plantes - Maladies; Céréales à paille, Trt Part.Aer., Stimul. Déf. Plantes - Maladies; Blé, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Septoriose(s); Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Blé, Trt Part.Aer., Piétin verse; Orge, Trt Part.Aer., Oïdium(s); Fraisier, Trt Part.Aer., Oïdium(s)";Approuvée;2033-02-28;Oui;"biocontrôle; faible risque";713.0;Sans classement
+1406;2164-08-1;herbicide;"Betterave industrielle et fourragère, Désherbage; Betterave potagère, Désherbage; PPAM - non alimentaires, Désherbage; Porte graine - PPAMC, Florales et Potagères, Désherbage; Epinard, Désherbage; PPAMC, Désherbage; Fraisier, Désherbage";Approuvée;2040-06-30;Oui;;1.215;H351 H400 H410
+1209;330-55-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2017-03-03;;candidat à la substitution;;
+2026;103055-07-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-12-31;;candidat à la substitution;;
+1210;121-75-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-07-31;;;;
+1211;8018-01-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;"2021-01-04
+2017-01-31";;;;
+8827;173662-97-0;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2029-06-09;Oui;;7.18;H400 H410
+6399;374726-62-2;fongicide;"Pomme de terre, Trt Part.Aer., Mildiou(s); Epinard, Trt Part.Aer., Mildiou(s); Choux pommés, Trt Part.Aer., Mildiou(s); Choux à inflorescence, Trt Part.Aer., Mildiou(s); Navet, Trt Part.Aer., Mildiou(s); Chicorées - Production de chicons, Trt Sem. Plants, Champignons (pythiacées); Laitue, Trt Part.Aer., Mildiou(s); Tomate - Aubergine, Trt Part.Aer., Mildiou(s)";Approuvée;2029-06-30;Oui;;7.6;H400 H410
+1705;12427-38-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2017-01-31;;;;
+2084;16484-77-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;"2021-01-31
+2027-10-15";Oui;;160.0;H302 H318 H400 H410
+2930;135590-91-9;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;10.0;H411
+8686;1417782-03-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2029-03-20;Oui;;2.2;H317 H400 H410
+5533;110235-47-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2024-05-20;Non;;2.7;H351 H400 H410
+2089;24307-26-4;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Approuvée;2040-02-29;Oui;;685.0;H301 H332 H412
+1677;131-72-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2025-03-31;Oui;;0.038;H317 H332 H400 H410
+2578;208465-21-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;;;;;0.129;H400 H410
+2076;104206-82-8;herbicide;"Maïs doux, Désherbage; Maïs, Désherbage; Canne à sucre, Désherbage; Lin, Désherbage; Crucifères oléagineuses, Désherbage; Pavot, Désherbage; Sorgho, Désherbage (1); Porte graine - PPAMC, Florales et Potagères, Désherbage";Approuvée;2032-05-31;Oui;;0.77;H361d H373 H400 H410
+2987;70630-17-0;fongicide;"Betterave potagère, Trt Sem. Plants, Champignons (pythiacées); Choux, Trt Sem. Plants, Champignons (pythiacées); Epinard, Trt Sem. Plants, Champignons (pythiacées); Laitue, Trt Sem. Plants, Champignons (pythiacées); Navet, Trt Sem. Plants, Champignons (pythiacées); Porte graine - Maïs, Trt Sem. Plants, Champignons (pythiacées); Porte graine, Trt Sem. Plants, Maladies diverses; PPAMC, Trt Sem. Plants, Maladies fongiques";Approuvée;2035-05-31;Oui;;56.0;H302 H318
+1706;57837-19-1;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-09-30;Oui;candidat à la substitution;;H302 H317 H412
+1796;108-62-3;molluscicide;Lutte contre les limaces et mollusques.;Approuvée;2026-08-31;Oui;;750.0;H228 H301 H361f H412
+2088;137-42-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-11-15;Non;candidat à la substitution;;
+1215;41394-05-2;herbicide;"Betterave industrielle et fourragère, Désherbage; Betterave potagère, Désherbage; Bulbes ornementaux, Désherbage; Epinard, Désherbage; Porte graine - PPAMC, Florales et Potagères, Désherbage; PPAMC, Désherbage; PPAM - non alimentaires, Désherbage; Porte graine - Betterave industrielle et fourragère, Désherbage";Approuvée;2026-11-30;Oui;;373.0;H302 H400
+1670;67129-08-2;herbicide;"Crucifères oléagineuses, Désherbage; Porte graine, Désherbage; Tournesol, Désherbage; Choux, Désherbage; PPAMC, Désherbage; Navet, Désherbage";Approuvée;2026-10-31;Oui;;2.4;H317 H351 H400 H410
+1879;125116-23-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2031-08-31;Oui;candidat à la substitution;0.291;H302 H361d H411
+1216;18691-97-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2052;67-56-1;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+1510;2032-65-7;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-10-03;;;;
+1218;16752-77-5;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-08-31;;candidat à la substitution;;
+5511;161050-58-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-03-31;Non;candidat à la substitution;;
+2067;9006-42-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2023-11-28;;;5.5;H317 H351 H373 H400 H410
+1515;3060-89-7;herbicide;"Bulbes ornementaux, Désherbage; Tabac, Désherbage; Asperge, Désherbage; Laitue, Désherbage; Porte graine - PPAMC, Florales et Potagères, Désherbage; Soja, Désherbage; Tournesol, Désherbage; Pomme de terre, Désherbage";Approuvée;2027-05-31;Oui;;31.0;H302 H317 H351 H373 H400 H410
+1912;139528-85-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2021-04-30;;;;
+5654;220899-03-6;fongicide;"Avoine, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Piétin verse; Blé, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Piétin verse; Champignons, Trt Substrats, Moles et toiles; Cucurbitacées à peau comestible, Trt Part.Aer., Oïdium(s); Cultures florales et plantes vertes, Trt Part.Aer., Oïdium(s)";Approuvée;2039-10-31;Oui;;2.2;H400 H410
+1225;21087-64-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2024-11-24;Oui;candidat à la substitution;1.61;H302 H373 H400 H410
+1797;74223-64-6;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-08-31;Oui;candidat à la substitution;0.046;H400 H410
+5655;51596-10-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2040-11-15;Oui;;0.012;H302 H332 H400 H410
+1707;2212-67-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2014-07-31;;candidat à la substitution;;
+1881;88671-89-0;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-05-31;;candidat à la substitution;;
+1519;15299-99-7;herbicide;"Crucifères oléagineuses, Désherbage; Fruits à noyau, Désherbage, Cult. Installées; Fruits à noyau, Désherbage, Pépi. Jeunes plantat.; Fruits à pépins, Désherbage, Cult. Installées; Fruits à pépins, Désherbage, Pépi. Jeunes plantat.; PPAMC, Désherbage; Vigne, Désherbage, Cult. Installées; Vigne, Désherbage, Pépi. Jeunes plantat.";Approuvée;2027-03-31;Oui;;66.0;H400 H410
+1882;111991-09-4;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-03-31;Oui;candidat à la substitution;0.27;H400 H410
+1668;19044-88-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2021-05-31;;;;
+2068;39807-15-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2014-03-31;;candidat à la substitution;;
+1667;19666-30-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2018-12-31;;candidat à la substitution;;
+1850;23135-22-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2023-05-01;;candidat à la substitution;;
+7872;1003318-67-9;fongicide;"Tomate - Aubergine, Trt Part.Aer., Mildiou(s); Laitue, Trt Part.Aer., Mildiou(s); Oignon, Trt Part.Aer., Mildiou(s); Vigne, Trt Part.Aer., Mildiou(s); Tournesol, Trt Sem., Champignons (pythiacées); Pavot, Trt Sem. Plants, Champignons (pythiacées); Pomme de terre, Trt Part.Aer., Mildiou(s)";Approuvée;2027-03-03;Oui;;3.3;H410
+1231;301-12-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1952;42874-03-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-05-31;Non;candidat à la substitution;0.032;H351 H400 H410
+2545;76738-62-0;régulateur de croissance;"Lin, Trt Part.Aer., Régul. Croiss. Org. Aériens; Crucifères oléagineuses, Trt Part.Aer., Cylindrosporiose; Crucifères oléagineuses, Trt Part.Aer., Régul. Croiss. Org. Aériens; Crucifères oléagineuses, Trt Part.Aer., Phoma; Lin, Trt Part.Aer., Septoriose et kabatiella (polyspora); Cultures florales et plantes vertes, Trt Part.Aer., Act. Floraison; Cultures florales et plantes vertes, Trt Part.Aer., Act. Ramification; Cultures florales et plantes vertes, Trt Part.Aer., Régul. Croiss. Org. Aériens";Approuvée;2026-08-31;Oui;candidat à la substitution;0.82;H302 H319 H332 H361d H400 H410
+1762;66246-88-6;fongicide;"Cucurbitacées à peau comestible, Trt Part.Aer., Oïdium(s); Fraisier, Trt Part.Aer., Oïdium(s); Cucurbitacées à peau non comestible, Trt Part.Aer., Oïdium(s); Pêcher - Abricotier, Trt Part.Aer., Oïdium(s); Fruits à pépins, Trt Part.Aer., Oïdium(s); Vigne, Trt Part.Aer., Oïdium(s); Tabac, Trt Part.Aer., Oïdium(s); Artichaut, Trt Part.Aer., Oïdium(s)";Approuvée;2026-10-15;Oui;;6.0;H302 H361d H400 H410
+1887;66063-05-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-05-31;;;;
+1234;40487-42-1;herbicide;"Canne à sucre, Désherbage; Fruits à pépins, Désherbage, Cult. Installées; Riz, Désherbage; Vigne, Désherbage, Cult. Installées; Salsifis, Désherbage; Carotte, Désherbage; Blé, Désherbage; Céleris, Désherbage (1)";Approuvée;2027-01-15;Oui;candidat à la substitution;0.48;H361d H400 H410
+6394;219714-96-2;herbicide;"Sorgho, Désherbage (1); Riz, Désherbage; Vigne, Désherbage, Cult. Installées; Chicorées - Production de racines, Désherbage; Porte graine - PPAMC, Florales et Potagères, Désherbage";Approuvée;2026-05-15;Oui;;0.33;H400 H410
+7509;183675-82-3;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2025-10-31;Oui;;2.9;H400 H410
+1523;52645-53-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1849;7722-84-1;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;;;;;
+7519;106700-29-2;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2033-11-30;Oui;;2.67;H302 H317 H400 H410
+1236;13684-63-4;herbicide;"Betterave industrielle et fourragère, Désherbage; Betterave potagère, Désherbage; Fraisier, Désherbage; Epinard, Désherbage; PPAMC, Désherbage";Approuvée;2026-09-30;Oui;;4.1;H400 H410
+1237;2310-17-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1971;732-11-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2022-02-01;;;;
+5662;10045-86-0;molluscicide;Lutte contre les limaces et mollusques.;Approuvée;2030-12-31;Oui;"biocontrôle; faible risque";1000.0;Sans classement
+7584;13708-85-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-01-31;Oui;biocontrôle;612.6;H412
+6546;20859-73-8;insecticide;"Traitements généraux, Fumigation (désinsectisation), Locx Struct. Matér. (POV...; Traitements généraux, Trt Prod. Réc., Désinsectisation (1); Traitements généraux, Fumigation, Taupe; Forêt, Trt bois abattus, Insectes xylophages et sous-corticaux; Traitements généraux, Fumigation, Petits rongeurs; Traitements généraux, Désinsectisation, Locx Struct. Matér. (POA); Céréales, Trt Prod. Réc., Ravageurs des denrées stockées";Approuvée;2026-11-30;Oui;;0.0965;H260 H300 H311 H330 H400
+1665;14816-18-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1708;1918-02-1;herbicide;Crucifères oléagineuses, Désherbage;Approuvée;2028-02-15;Oui;;55.0;H400 H410
+5665;137641-05-5;herbicide;"Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage";Approuvée;2031-06-30;Oui;;0.024;H373 H400 H410
+2669;117428-22-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2017-08-31;;;;
+7057;243973-20-8;herbicide;"Orge, Désherbage; Seigle, Désherbage; Porte graine - Graminées fourragères et à gazons, Désherbage; Blé, Désherbage";Approuvée;2026-06-30;Oui;;8.8;H302 H317 H319 H332 H335 H361d H400 H412
+7737;9003-29-6;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+2718;107-21-1;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+5667;75747-77-2;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;;;;;;
+1253;67747-09-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-12-31;;candidat à la substitution;;
+1664;32809-16-8;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;;;;;
+8046;139001-49-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2021-07-31;;candidat à la substitution;;
+5668;127277-53-6;régulateur de croissance;"Gazons de graminées, Trt Part.Aer., Régul. Croiss. Org. Aériens; Fruits à pépins, Trt Part.Aer., Régul. Croiss. Org. Aériens; Fruits à pépins, Trt Part.Aer., Feu bactérien; Prunier, Trt Part.Aer., Limit.Croiss.Org.Aériens; Vigne, Trt Part.Aer., Act. Nouaison; Orge, Trt Part.Aer., Régul. Croiss. Org. Aériens; Avoine, Trt Part.Aer., Régul. Croiss. Org. Aériens; Blé, Trt Part.Aer., Régul. Croiss. Org. Aériens";Approuvée;;Oui;;120.0;H412
+1712;1918-16-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2988;25606-41-1;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2027-01-31;Oui;;;
+6398;24579-73-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2027-01-31;Oui;;1230.0;H317
+1532;709-98-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+1972;111479-05-1;herbicide;"Carotte, Désherbage; Laitue, Désherbage; Légumineuses fourragères, Désherbage; Pomme de terre, Désherbage; Porte graine, Désherbage; Betterave industrielle et fourragère, Désherbage; Crucifères oléagineuses, Désherbage; Graines protéagineuses, Désherbage";Approuvée;2027-02-28;Oui;;1.9;H317 H351 H400 H410
+1255;2312-35-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1257;60207-90-1;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2018-12-19;;candidat à la substitution;;
+2989;12071-83-9;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2018-03-22;;;;
+1414;23950-58-5;herbicide;"Crucifères oléagineuses, Désherbage; Vigne, Désherbage, Cult. Installées; Porte graine, Désherbage; Chicorées - Production de racines, Désherbage; Artichaut, Désherbage; Fruits à noyau, Désherbage, Cult. Installées; Graines protéagineuses, Désherbage; Laitue, Désherbage";Approuvée;2027-11-30;Oui;candidat à la substitution;2.1;H351 H400 H410
+7422;189278-12-4;fongicide;"Vigne, Trt Part.Aer., Oïdium(s); Avoine, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Oïdium(s); Seigle, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Oïdium(s)";Approuvée;2026-05-15;Oui;;0.18;H351 H400 H410
+1092;52888-80-9;herbicide;"Blé, Désherbage; Orge, Désherbage; Seigle, Désherbage; Pomme de terre, Désherbage; Tournesol, Désherbage; Arbres et arbustes, Désherbage, Pépi. Pl. terre; Arbres et arbustes, Désherbage, Plantat. Pl. terre; Carotte, Désherbage";Approuvée;2027-01-31;Oui;;7.5;H302 H317 H411
+2534;94125-34-5;herbicide;"Maïs doux, Désherbage; Maïs, Désherbage; Lin, Désherbage";Approuvée;2026-06-15;Oui;candidat à la substitution;0.212;H302 H400 H410
+5603;178928-70-6;fongicide;"Orge, Trt Part.Aer., Fusarioses; Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Orge, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Rhynchosporiose; Orge, Trt Part.Aer., Rouille(s); Seigle, Trt Part.Aer., Rhynchosporiose; Seigle, Trt Part.Aer., Rouille(s); Blé, Trt Part.Aer., Fusarioses";Approuvée;2027-03-31;Oui;;4.56;H400 H410
+5416;123312-89-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+2576;175013-18-0;fongicide;"Crucifères oléagineuses, Trt Part.Aer., Maladies fongiques des siliques; Crucifères oléagineuses, Trt Part.Aer., Sclérotiniose; Tournesol, Trt Part.Aer., Phoma (1); Tournesol, Trt Part.Aer., Phomopsis (1); Graines protéagineuses, Trt Part.Aer., Anthracnose(s); Graines protéagineuses, Trt Part.Aer., Pourriture grise et sclérotinioses; Légumineuses potagères (sèches), Trt Part.Aer., Maladies des taches brunes; Légumineuses potagères (sèches), Trt Part.Aer., Pourriture grise et sclérotinios";Approuvée;2026-09-15;Oui;;0.94;H315 H331 H400 H410
+5509;129630-19-9;herbicide;"Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage; Pomme de terre, Trt Part.Aer., Défanage; Vigne, Trt Part.Aer., Epamprage; Vigne, Désherbage, Cult. Installées";Approuvée;2031-03-31;Oui;;0.0172;H400 H410
+1890;96489-71-3;insecticide;"Tomate - Aubergine, Trt Part.Aer., Aleurodes; Tomate - Aubergine, Trt Part.Aer., Acariens; Cucurbitacées à peau comestible, Trt Part.Aer., Acariens; Cucurbitacées à peau comestible, Trt Part.Aer., Aleurodes; Poivron, Trt Part.Aer., Acariens; Poivron, Trt Part.Aer., Aleurodes; Arbres et arbustes, Trt Part.Aer., Acariens; Cultures florales et plantes vertes, Trt Part.Aer., Acariens, phytoptes et tarso";Approuvée;2026-07-31;Oui;;0.11;H301 H331 H400 H410
+8581;179101-81-6;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2024-06-30;;;;
+1259;55512-33-9;herbicide;"Choux, Désherbage; Artichaut, Désherbage; Légumineuses fourragères, Désherbage; Maïs doux, Désherbage; Oignon, Désherbage; Poireau, Désherbage; Porte graine, Désherbage; Salsifis, Désherbage";Approuvée;2030-12-31;Oui;;4.9;H302 H315 H317 H400 H410
+1432;53112-28-0;fongicide;"Fruits à pépins, Trt Part.Aer., Tavelure(s); Cultures florales et plantes vertes, Trt Part.Aer., Pourriture grise; Fraisier, Trt Part.Aer., Pourriture grise et sclérotinioses; Graines protéagineuses, Trt Part.Aer., Anthracnose(s); Graines protéagineuses, Trt Part.Aer., Pourriture grise et sclérotinioses; Haricots, Trt Part.Aer., Maladies des taches brunes (1); Haricots, Trt Part.Aer., Pourriture grise et sclérotinioses (1); Laitue, Trt Part.Aer., Pourriture grise et sclérotinioses";Approuvée;2026-06-30;Oui;;7.7;H411
+1528;23103-98-2;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-10-31;Oui;candidat à la substitution;2.0;H301 H317 H331 H351 H400 H410
+1261;29232-93-7;insecticide;"Traitements généraux, Fumigation (désinsectisation), Locx Struct. Matér. (POV...; Traitements généraux, Désinsectisation, Locx Struct. Matér. (POV...); Céréales, Trt Prod. Réc., Ravageurs des denrées stockées; Traitements généraux, Désinsectisation, Sacs Emballages (POV)";Approuvée;2027-01-31;Oui;;;H302 H372 H400 H410
+8583;688046-61-9;fongicide;"Avoine, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Oïdium(s); Seigle, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Oïdium(s); Vigne, Trt Part.Aer., Oïdium(s)";Approuvée;2027-06-30;Oui;;8.99;H351 H410
+5499;95737-68-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2035-07-31;Non;;0.0015;H400 H410
+7340;422556-08-9;herbicide;"Seigle, Désherbage; Blé, Désherbage";Approuvée;2027-09-30;Oui;;0.388;H317 H400 H410
+2087;90717-03-6;herbicide;"Crucifères oléagineuses, Désherbage; Porte graine, Désherbage; Betterave industrielle et fourragère, Désherbage";Approuvée;2026-12-31;Oui;;79.0;H400 H410
+7723;2797-51-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2028;124495-18-7;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2018-12-27;;candidat à la substitution;;
+6637;100646-51-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-02-28;"Non
+Oui";;2.1;H302 H400 H410
+1892;122931-48-0;herbicide;"Pomme de terre, Désherbage; Tomate - Aubergine, Désherbage; Maïs, Désherbage; Chicorées - Production de racines, Désherbage";Approuvée;2028-08-15;Oui;;0.46;H317 H400 H410
+2029;83-79-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+"2974
+8070";87392-12-9;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2024-01-22;;;6.7;H317 H400 H410
+7724;874967-67-6;fongicide;"Betterave industrielle et fourragère, Trt Sem., Champignons (autres que pythiacé; Betterave industrielle et fourragère, Trt Sem., Champignons (pythiacées); Orge, Trt Sem., Champignons (autres que pythiacées); Seigle, Trt Sem., Champignons (autres que pythiacées); Avoine, Trt Sem., Champignons (autres que pythiacées); Blé, Trt Sem., Champignons (autres que pythiacées); Maïs, Trt Sem., Charbon des inflorescences; Maïs doux, Trt Sem. Plants, Champignons (autres que pythiacées)";Approuvée;2027-10-31;Oui;;6.2;H351 H400 H411
+5609;175217-20-6;fongicide;"Orge, Trt Sem., Champignons (autres que pythiacées); Blé, Trt Sem., Champignons (autres que pythiacées)";Approuvée;2033-06-30;Oui;;47.0;H373 H411
+1819;63705-05-5;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2026-07-31;Oui;biocontrôle;;H315
+8041;935545-74-7;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2024-06-30;Non;;;
+5610;168316-95-8;insecticide;"Pomme de terre, Trt Sol, Ravageurs du sol; Carotte, Trt Sol, Ravageurs du sol; Carotte, Trt Sol, Mouches; Betterave potagère, Trt Sol, Ravageurs du sol; Arbres et arbustes, Trt Part.Aer., Chenilles phytophages; Arbres et arbustes, Trt Part.Aer., Ravageurs divers (1); Cultures florales et plantes vertes, Trt Part.Aer., Chenilles phytophages; Cultures florales et plantes vertes, Trt Part.Aer., Ravageurs divers (1)";Approuvée;2026-10-31;Oui;biocontrôle;0.12;H400 H410
+8044;148477-71-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2020-07-31;;;;
+7738;283594-90-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2023-09-30;Non;;;
+7506;203313-25-1;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2024-04-30;Non;;8.5;H317 H319 H335 H361fd H400 H410
+2664;118134-30-8;fongicide;"Avoine, Trt Part. Aer., Fusariose à microdochium; Avoine, Trt Part.Aer., Fusarioses; Avoine, Trt Part.Aer., Oïdium(s); Avoine, Trt Part.Aer., Piétin verse; Avoine, Trt Part.Aer., Rouille couronnée; Avoine, Trt Part.Aer., Septoriose(s) et helminthosporiose; Blé, Trt Part.Aer., Fusariose à microdochium; Blé, Trt Part.Aer., Fusarioses";Approuvée;2026-05-31;Oui;;0.2;H302 H312 H315 H317 H332 H361d H373 H400 H410
+1662;99105-77-8;herbicide;"Lin, Désherbage; Graminées fourragères, Désherbage; Maïs doux, Désherbage; Maïs, Désherbage";Approuvée;2026-11-30;Oui;candidat à la substitution;2.35;H317 H361d H373 H400 H410
+5612;7782-63-0;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-11-30;Oui;biocontrôle;;H302 H315 H319
+2077;81591-81-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2033-12-15;Oui;;;
+2085;141776-32-1;herbicide;Blé, Désherbage;Approuvée;2030-12-31;Oui;;;H400 H410
+1193;102851-06-9;insecticide;"Céréales à paille, Trt Part.Aer., Pucerons; Céréales à paille, Trt Part.Aer., Mouches; Crucifères oléagineuses, Trt Part.Aer., Pucerons; Betterave industrielle et fourragère, Trt Part.Aer., Pucerons; Pomme de terre, Trt Part.Aer., Pucerons; Tournesol, Trt Part.Aer., Pucerons; Carotte, Trt Part.Aer., Pucerons; Artichaut, Trt Part.Aer., Pucerons";Approuvée;2027-01-31;Oui;;0.0064;H302 H315 H400 H410
+1694;107534-96-3;fongicide;"Vigne, Trt Part.Aer., Oïdium(s); Avoine, Trt Part.Aer., Rouille couronnée; Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Orge, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Rhynchosporiose; Orge, Trt Part.Aer., Rouille(s); Seigle, Trt Part.Aer., Rhynchosporiose; Seigle, Trt Part.Aer., Rouille(s)";Approuvée;2026-08-15;Oui;candidat à la substitution;1.0;H302 H361d H400 H410
+1895;112410-23-8;insecticide;"Chataignier, Trt Part.Aer., Chenilles foreuses des fruits; Noyer, Trt Part.Aer., Chenilles foreuses des fruits; Fruits à pépins, Trt Part.Aer., Chenilles foreuses des fruits; Fruits à pépins, Trt Part.Aer., Chenilles phytophages; Vigne, Trt Part.Aer., Chenilles phytophages; Vigne, Trt Part.Aer., Tordeuses de la grappe; Arbres et arbustes, Trt Part.Aer., Chenilles phytophages; Cultures florales et plantes vertes, Trt Part.Aer., Chenilles phytophages";Approuvée;2027-01-31;Oui;;0.57;H411
+1896;119168-77-3;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2027-01-31;Oui;candidat à la substitution;;H301 H317 H332 H373 H400 H410
+1897;83121-18-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1953;79538-32-2;insecticide;"Avoine, Trt Sem., Champignons (autres que pythiacées); Céréales à paille, Trt Sem., Mouches; Céréales à paille, Trt Sem., Ravageurs des parties aériennes; Céréales à paille, Trt Sem., Ravageurs du sol; Orge, Trt Sem., Champignons (autres que pythiacées); Seigle, Trt Sem., Champignons (autres que pythiacées); Blé, Trt Sem., Champignons (autres que pythiacées); Maïs doux, Trt Sol, Ravageurs du sol";Approuvée;2027-05-31;Oui;;0.00023;H300 H310 H330 H400 H410
+7086;335104-84-2;herbicide;"Maïs, Désherbage; Maïs doux, Désherbage; PPAM - non alimentaires, Désherbage; Pavot, Désherbage";Approuvée;2026-12-31;Oui;candidat à la substitution;0.6;H317 H361d H373 H400 H410
+1898;3383-96-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1268;5915-41-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-05-31;Oui;;1.9;H302 H373 H400 H410
+1660;112281-77-3;fongicide;"Blé, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Rouille(s); Blé, Trt Part.Aer., Septoriose(s); Betterave industrielle et fourragère, Trt Part.Aer., Maladies du feuillage; Orge, Trt Part.Aer., Oïdium(s); Blé, Trt Part.Aer., Helminthosporiose";Approuvée;2027-03-31;Oui;;4.2;H302 H332 H411
+1713;148-79-8;fongicide;"Bananier, Trt Prod. Réc., Maladies de conservation; Pomme de terre, Trt Tuber. Semences, Champignons (autres que pythiacées); Chicorées - Production de chicons, Trt Sem. Plants, Champignons (autres que pyth";Approuvée;2032-03-31;Oui;;1.2;H400 H410
+5671;111988-49-9;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2020-02-03;;candidat à la substitution;;
+6390;153719-23-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;2019-04-30;;;;
+7517;317815-83-1;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-03-01;Oui;;0.187;H400 H410
+1913;79277-27-3;herbicide;"Avoine, Désherbage; Orge, Désherbage; Seigle, Désherbage; Blé, Désherbage; Porte graine, Désherbage; Graminées fourragères, Désherbage; Légumineuses fourragères, Désherbage";Approuvée;2031-10-31;Oui;;0.023;H400 H410
+5672;1762-95-4;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;;;;;;
+1093;59669-26-0;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Non approuvée;;;;;
+1717;23564-05-8;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2020-10-19;;;;
+1718;137-26-8;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2018-10-30;;;;
+3396;89-83-8;insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;Approuvée;2026-04-30;Oui;biocontrôle;30.0;H302 H314 H411
+5675;57018-04-9;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2034-08-31;Non;;1.2;H317 H400 H410
+5643;115044-19-4;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;;;;;;
+1280;55219-65-3;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2019-08-31;;;;
+1281;2303-17-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2027-03-31;Non;candidat à la substitution;0.91;H302 H317 H373 H400 H410
+2990;72459-58-6;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Non approuvée;2021-09-30;;candidat à la substitution;;
+2064;101200-48-0;herbicide;"Orge, Désherbage; Seigle, Désherbage; Avoine, Désherbage; Blé, Désherbage; Jachères et cultures intermédiaires, Trt Part.Aer., Limit. Pousse Fructif.; Tournesol, Désherbage";Approuvée;2034-01-30;Oui;;0.47;H317 H373 H400 H410
+1288;55335-06-3;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Approuvée;2026-03-31;Oui;;1170.0;H302 H317 H319 H412
+6621;102-71-6;autre;"Autre usage phytopharmaceutique ; consulter e-phy/INRS pour le détail.";;;;;;
+2678;141517-21-7;fongicide;"Avoine, Trt Part.Aer., Rouille couronnée; Orge, Trt Part.Aer., Helminthosporiose et ramulariose; Orge, Trt Part.Aer., Rhynchosporiose; Orge, Trt Part.Aer., Oïdium(s); Orge, Trt Part.Aer., Rouille(s); Porte graine - Graminées fourragères et à gazons, Trt Part.Aer., Rouille(s); Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Maladies des taches ; Porte graine - PPAMC, Florales et Potagères, Trt Part.Aer., Rouille(s)";Approuvée;2033-07-31;Oui;;0.2;H317 H362 H400 H410
+1289;1582-09-8;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;;;;;
+2991;126535-15-7;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;;;;;;H351 H400 H410
+2096;95266-40-3;régulateur de croissance;Régulation de la croissance des plantes (antigerminatif, etc.).;Approuvée;2039-04-30;Oui;;41.0;H317 H373 H410
+2992;131983-72-7;fongicide;"Avoine, Trt Sem., Champignons (autres que pythiacées); Orge, Trt Sem., Champignons (autres que pythiacées); Seigle, Trt Sem., Champignons (autres que pythiacées); Blé, Trt Sem., Champignons (autres que pythiacées); Maïs, Trt Sem., Charbon des inflorescences";Approuvée;2027-01-31;Oui;;1.0;H361f H373 H400 H410
+7087;142469-14-5;herbicide;Désherbage des cultures, bords de champs, talus ou voiries.;Non approuvée;2024-11-06;Oui;;2.55;H317 H400 H410
+8045;283159-90-0;fongicide;Protection des cultures contre les maladies fongiques (mildiou, oïdium, etc.).;Approuvée;2027-03-01;Oui;;28.0;H351 H411
+"1140
+7521";"52315-07-8
+97955-44-7";insecticide;Lutte contre les insectes ravageurs des cultures ou des stockages.;"Non approuvée
+Approuvée";"2020-12-01
+2029-01-31";Oui;;0.0017;H302 H332 H335 H373 H400 H410
+1722;137-30-4;fongicide;"Maïs, Trt Sem., Répulsif Corbeaux; Amandier, Trt Part.Aer., Cloque(s); Amandier, Trt Part.Aer., Tavelure(s) et polystigma; Pêcher - Abricotier, Trt Part.Aer., Cloque(s); Fruits à pépins, Trt Part.Aer., Stemphyliose; Fruits à pépins, Trt Part.Aer., Tavelure(s); Fruits à pépins, Trt Part.Aer., Maladies du feuillage; Fruits à pépins, Trt Part.Aer., Maladies précoces des fruits";Approuvée;2027-01-31;Oui;candidat à la substitution;1.0;H302 H317 H318 H330 H335 H373 H400 H410
+2858;156052-68-5;fongicide;"Vigne, Trt Part.Aer., Mildiou(s); Tomate - Aubergine, Trt Part.Aer., Mildiou(s); Pomme de terre, Trt Part.Aer., Mildiou(s)";Approuvée;2033-06-30;Oui;;0.348;H317 H400 H410

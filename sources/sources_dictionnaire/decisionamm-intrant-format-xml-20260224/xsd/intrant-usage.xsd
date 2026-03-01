@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="fr">
+	<!-- 
+		Schéma relatif aux données de décision d'AMM pour les intrants.
+		types concernant les:
+			+ usages
+			+ effets revendiqués.
+			+ cultures préconisées
+	 -->
+	<xs:include schemaLocation="util.xsd" />
+	<xs:include schemaLocation="referentiel-generique.xsd" />
+
+	<xs:complexType name="usages">
+		<xs:sequence>
+			<xs:element name="usage" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="id" type="xs:string" /><!-- identifiant technique, n'a pas de sens métier-->
+						
+						<xs:element name="identifiant-usage" type="ref" /><!-- ref-type=identifiant-usage (catalogue des usages). numero usage=lib-court de identifiant-usage -->
+						<xs:element name="identifiant-usage-portee-usage" type="ref" minOccurs="0" /><!-- culture principale-->
+						<xs:element name="identifiant-usage-methode-application" type="ref" minOccurs="0" /><!--  methode d'application -->
+						<xs:element name="identifiant-usage-groupe-organisme-nuisible" type="ref" minOccurs="0" /><!-- nuisible -->
+	
+						<xs:element name="stade-cultural-min" type="ref" minOccurs="0" /><!-- ref-type=stade-cultural-bbch  -->
+						<xs:element name="stade-cultural-max" type="ref" minOccurs="0" /> <!-- ref-type=stade-cultural-bbch  -->
+
+						<xs:element name="etat-usage" ><!-- ref-type=type-usage -->
+							<xs:complexType>
+								<xs:simpleContent>
+									<xs:extension base="ref">
+										<xs:attribute name="provisoire" type="xs:boolean" />
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:complexType>
+						</xs:element>
+						
+						<xs:element name="dose-retenue" type="decimal-et-unite" minOccurs="0" />
+						<xs:element name="delai-avant-recolte-jour" type="xs:integer" minOccurs="0" />
+						<xs:element name="delai-avant-recolte-bbch"  type="xs:integer" minOccurs="0" />
+						<xs:element name="nombre-apport-max" type="xs:integer" minOccurs="0" />
+						<xs:element name="date-fin-distribution" type="date-ddmmaaaa" minOccurs="0" />
+						<xs:element name="date-fin-utilisation" type="date-ddmmaaaa" minOccurs="0" />
+						<xs:element name="condition-emploi" type="xs:string" minOccurs="0" />
+						<xs:element name="mentions-autorisees" type="refs-et-decisions" minOccurs="0" /><!--ref-type=type-mention -->
+						<xs:element name="ZNT-aquatique" type="decimal-et-unite" minOccurs="0" />
+						<xs:element name="ZNT-arthropodes-non-cibles" type="decimal-et-unite" minOccurs="0" />
+						<xs:element name="ZNT-plantes-non-cibles" type="decimal-et-unite" minOccurs="0" />
+			
+					</xs:sequence>
+						<xs:attribute name="date-decision" type="date-ddmmaaaa" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="cultures-preconises">
+		<xs:sequence>
+			<xs:element name="culture-preconise" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="id" type="xs:string" /><!-- identifiant technique, n'a pas de sens métier-->
+						<xs:element name="type-culture" type="ref" minOccurs="0" />
+						<xs:element name="culture-commentaire" type="xs:string" minOccurs="0" />
+						<xs:element name="etat" type="ref" minOccurs="0"/><!--  ref-type=type-usage -->
+						<xs:element name="stade-cultural-min" type="ref" minOccurs="0" /><!--  ref-type=stade-cultural-bbch -->
+						<xs:element name="stade-cultural-max" type="ref" minOccurs="0" /> <!--  ref-type=stade-cultural-bbch  -->
+						<xs:element name="dose-min-par-apport" type="decimal-et-unite" minOccurs="0" />
+						<xs:element name="dose-max-par-apport" type="decimal-et-unite" minOccurs="0" />
+						<xs:element name="nombre-apport-min" type="xs:integer" minOccurs="0" />
+						<xs:element name="nombre-apport-max" type="xs:integer" minOccurs="0" />
+						
+						<xs:element name="saison-application-min" type="ref" minOccurs="0" /><!-- ref-type=saison -->
+						<xs:element name="saison-application-max" type="ref" minOccurs="0" /><!-- ref-type=saison -->
+						<xs:element name="saison-application-min-commentaire" type="xs:string" minOccurs="0" />
+						<xs:element name="saison-application-max-commentaire" type="xs:string" minOccurs="0" />
+					</xs:sequence>
+					<xs:attribute name="date-decision" type="date-ddmmaaaa" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

@@ -39,6 +39,7 @@ hubeau:
   max_pages: 50
 
 # Paramètres PPP (codes Sandre) et période d'analyse
+# Le programme se limite aux 10 dernières années (date_fin = jour courant, date_debut = il y a 10 ans).
 # Ces listes doivent contenir les codes de paramètres correspondant aux pesticides / produits phytosanitaires
 # tels que définis dans les référentiels Sandre (listes pesticides / phytosanitaires).
 ppp:
@@ -46,12 +47,15 @@ ppp:
     # Liste de codes Sandre de paramètres à considérer comme PPP (ex. groupe \"phytosanitaires\").
     # À renseigner depuis les listes officielles (Naïades / Sandre).
     codes_parametre: []
-    # Fenêtre temporelle recommandée pour l'analyse (format AAAA-MM-JJ). Laisser null pour ne pas filtrer.
-    date_debut: null   # ex. \"2013-01-01\"
+    # Fenêtre temporelle (format AAAA-MM-JJ). Si null : 10 dernières années (date_fin=jour courant).
+    date_debut: null
     date_fin: null
+    # Début de la période NQE (Ecophyto) : fetch séparé 2019+ pour chevauchement avec les dépassements NQE.
+    date_debut_nqe: "2019-01-01"
   ades:
     # Liste de codes Sandre de paramètres PPP pour les nappes (mêmes principes que ci-dessus).
     codes_parametre: []
+    # Si null : 10 dernières années (date_fin=jour courant)
     date_debut: null
     date_fin: null
 
@@ -69,3 +73,12 @@ ref:
     file: data/ref/ppp_usages.csv
     # Répertoire des sources C3PO/e-Phy (substances_identification.csv, substances_fonctions.csv, etc.)
     sources_dictionnaire: sources/sources_dictionnaire
+
+# Données NQE (Normes Qualité Environnementale) - dépassements réglementaires Ecophyto 2030
+# Source : OFB, diagnostics territoriaux BFC (data.gouv.fr)
+nqe:
+  # Chemin local du CSV BFC (optionnel). Sinon téléchargement automatique.
+  csv_path: null
+  # URL de téléchargement (défaut : resume_sta_param_annee_reg_27_BFC.csv.gz)
+  url: null
+  cache_dir: data/cache

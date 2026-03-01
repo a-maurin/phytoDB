@@ -1,0 +1,889 @@
+"id_bnvd";"libelle_bnvd";"cas_bnvd";"fonction_principale_bnvd";"fonction_precision_bnvd";"fonctions_autres_bnvd";"fonction_eupdb";"fonction_sandre";"herbicide";"insecticide";"fongicide";"bactericide";"molluscicide";"nematicide";"regulateur_croissance";"rodenticide";"autre_fonction"
+"0_sub_bnvd";"(e)-5-decen-1-yl acetate";"38421-90-8";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"1_sub_bnvd";"(e,z)-2,13-octadecadienyl acetate";"86252-65-5";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"2_sub_bnvd";"(e,z)-3,13-octadecadienyl acetate";"53120-26-6";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"3_sub_bnvd";"(e,z)-3,8-tetradecadien-1-yl acetate";"163041-87-0";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"4_sub_bnvd";"(e,z)-7,9-dodecadien-1-yl acetate";"55774-32-8";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"5_sub_bnvd";"(e,z,z)-3,8,11-tetradecatrien-1-yl acetate";"163041-94-9";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"6_sub_bnvd";"(z)-11-hexadecenal";"53939-28-9";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"7_sub_bnvd";"(z)-8-dodecenol";"40642-40-8";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"8_sub_bnvd";"(z)-9-dodecenylacetate";"16974-11-1";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"9_sub_bnvd";"(z,z)-3,13-octadecadienyl acetate";"53120-27-7";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"10_sub_bnvd";"1 iso thiazolinon chloromethyl";"55965-84-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"11_sub_bnvd";"1,3-dichloropropene";"542-75-6";"Nématicide";"Appliqué par fumigation";"Bactéricide - Virucide
+Insecticide";"";"Nématicides";False;True;False;True;False;True;False;False;False
+"12_sub_bnvd";"1,4-dimethylnaphtalene";"571-58-4";"Régulateur de croissance";"";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;False
+"13_sub_bnvd";"1,5-diaminopentane";"462-94-2";"Insecticide - Médiateur chimique";"";"Autre usage - Répulsif";"";"";False;True;False;False;False;False;False;False;True
+"14_sub_bnvd";"1-dodecanol";"112-53-8";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"15_sub_bnvd";"1-methylcyclopropene (1-mcp)";"3100-04-7";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"16_sub_bnvd";"1-tetradecanol";"112-72-1";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"17_sub_bnvd";"2 phenyl-phenol";"90-43-7";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"18_sub_bnvd";"2,4-d";"94-75-7";"Herbicide";"";"";"Régulateur de croissance
+Herbicide";"Herbicides";True;False;False;False;False;False;True;False;False
+"19_sub_bnvd";"2,4-db";"94-82-6";"Herbicide";"";"";"Attractif";"Herbicides";True;True;False;False;False;False;False;False;False
+"20_sub_bnvd";"2,4-mcpa";"94-74-6";"Herbicide";"";"";"Herbicide";"Métabolites
+Herbicides";True;False;False;False;False;False;False;False;True
+"21_sub_bnvd";"2,4-mcpb";"94-81-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"22_sub_bnvd";"2-methyl-1-naphtylacetamide";"85-07-4";"Régulateur de croissance";"";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;False
+"23_sub_bnvd";"6-benzyladenine";"1214-39-7";"Régulateur de croissance";"";"";"";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"24_sub_bnvd";"8-hydroxiquinoline";"148-24-3";"Fongicide";"";"Bactéricide - Virucide";"";"";False;False;True;True;False;False;False;False;False
+"25_sub_bnvd";"abamectine";"71751-41-2";"Insecticide";"";"Insecticide - Acaricide
+Nématicide";"";"Nématicides
+Insecticides
+Acaricides";False;True;False;False;False;True;False;False;False
+"26_sub_bnvd";"abe-it 56";"";"Fongicide";"Stimulation des défenses naturelles";"";"";"";False;False;True;False;False;False;False;False;False
+"27_sub_bnvd";"acequinocyl";"57960-19-7";"Insecticide - Acaricide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"28_sub_bnvd";"acetamipride";"135410-20-7";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"29_sub_bnvd";"acetate d'ammonium";"631-61-8";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"30_sub_bnvd";"acetate de e-8-dodecenyle";"38363-29-0";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"31_sub_bnvd";"acetate de tetradecyle";"638-59-5";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"32_sub_bnvd";"acetate de z-8-dodecenyle";"28079-04-1";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"33_sub_bnvd";"acetochlore";"34256-82-1";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"34_sub_bnvd";"acibenzolar-s-methyl";"135158-54-2";"Fongicide";"";"Insecticide";"";"Insecticides
+Fongicides";False;True;True;False;False;False;False;False;False
+"35_sub_bnvd";"acide 2,5-dichlorobenzoique";"50-79-3";"Régulateur de croissance";"";"Fongicide";"Régulateur de croissance
+Fongicide";"";False;False;True;False;False;False;True;False;False
+"36_sub_bnvd";"acide 2-methyl-1-naphtylacetique";"";"Régulateur de croissance";"";"";"";"";False;False;False;False;False;False;True;False;False
+"37_sub_bnvd";"acide acetique";"64-19-7";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"38_sub_bnvd";"acide alkylbenzene sulfonique lineaire";"68584-22-5";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"39_sub_bnvd";"acide alpha naphtylacetique (ana)";"86-87-3";"Régulateur de croissance";"";"";"Attractif";"Régulateurs de croissances";False;True;False;False;False;False;True;False;False
+"40_sub_bnvd";"acide b-indole acetique (aia)";"87-51-4";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"41_sub_bnvd";"acide b-indole butyrique (aib)";"133-32-4";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"42_sub_bnvd";"acide benzoique";"65-85-0";"SA non phyto - Désinfectant - Biocide";"";"Fongicide
+Bactéricide - Virucide
+Insecticide";"";"Insecticides
+Fongicides";False;True;True;True;False;False;False;False;True
+"43_sub_bnvd";"acide blue 9";"2650-18-2";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"44_sub_bnvd";"acide citrique";"77-92-9";"Autre usage – Adjuvant";"Utilisé contre le feu bactérien en tant qu'adjuvant, en association avec l'AMM 2110079";"";"";"";False;False;False;False;False;False;False;False;True
+"45_sub_bnvd";"acide decanoique";"334-48-5";"Herbicide - Antimousse";"";"";"";"";True;False;False;False;False;False;False;False;False
+"46_sub_bnvd";"acide formique";"64-18-6";"SA non phyto - Divers";"Conservation d'ensilage";"";"Insecticide";"";False;True;False;False;False;False;False;False;True
+"47_sub_bnvd";"acide gibberellique";"77-06-5";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"48_sub_bnvd";"acide gras sous forme de sel d'amine";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"49_sub_bnvd";"acide halauxifene";"943832-60-8";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"50_sub_bnvd";"acide hydroxyacetique";"79-14-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"51_sub_bnvd";"acide malique";"6915-15-7";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"52_sub_bnvd";"acide nonanoique";"112-05-0";"Herbicide";"";"";"Insecticide
+Régulateur de croissance
+Acaricide
+Herbicide";"";True;True;False;False;False;False;True;False;False
+"53_sub_bnvd";"acide octanoique";"124-07-2";"Herbicide - Antimousse";"";"";"";"";True;False;False;False;False;False;False;False;False
+"54_sub_bnvd";"acide oleique";"112-80-1";"Autre usage – Adjuvant";"Adjuvant pour fongicide ou pour herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"55_sub_bnvd";"acide pelargonique";"112-05-0";"Herbicide";"";"";"Insecticide
+Régulateur de croissance
+Acaricide
+Herbicide";"";True;True;False;False;False;False;True;False;False
+"56_sub_bnvd";"acide peracetique";"79-21-0";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"57_sub_bnvd";"acide phosphoreux";"10294-56-1";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"58_sub_bnvd";"acide phosphorique";"7664-38-2";"Autre usage - Répulsif";"";"Fongicide";"";"";False;False;True;False;False;False;False;False;True
+"59_sub_bnvd";"acide propionique";"79-09-4";"SA non phyto - Divers";"Conservation d'ensilage";"Fongicide
+Bactéricide - Virucide
+Autre usage – Adjuvant";"Bactéricide
+Fongicide";"Fongicides";False;False;True;True;False;False;False;False;True
+"60_sub_bnvd";"acide sorbique";"110-44-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"61_sub_bnvd";"acide sulfamique";"5329-14-6";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"62_sub_bnvd";"acide sulfurique";"7664-93-9";"SA non phyto - Divers";"Conservation d'ensilage";"Herbicide";"Herbicide";"";True;False;False;False;False;False;False;False;True
+"63_sub_bnvd";"acides gras c14-22 et c14-22 insatures, methyl ester, sulfates, sels de sodium";"84776-43-2";"Autre usage – Adjuvant";"Adjuvant pour fongicide ou pour insecticide";"";"";"";False;False;False;False;False;False;False;False;True
+"64_sub_bnvd";"acides gras, c14-c18 et c16-c18 insatures";"67701-06-8";"Autre usage – Adjuvant";"Adjuvant pour fongicide ou pour herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"65_sub_bnvd";"aclonifen";"74070-46-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"66_sub_bnvd";"acrinathrine";"101007-06-1";"Insecticide";"";"Insecticide - Acaricide";"";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"67_sub_bnvd";"adoxophyes orana granulovirus souche bv-0001";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"68_sub_bnvd";"alcool denature";"64-17-5";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"
+Bactéricide - Virucide";"";"";False;False;False;True;False;False;False;False;True
+"69_sub_bnvd";"alcool ethylique";"64-17-5";"SA non phyto - Désinfectant - Biocide";"";"Bactéricide - Virucide
+Autre usage - Répulsif";"";"";False;False;False;True;False;False;False;False;True
+"70_sub_bnvd";"alcool gras ethoxyle";"24938-91-8";"Autre usage – Adjuvant";"Adjuvant";"";"";"";False;False;False;False;False;False;False;False;True
+"71_sub_bnvd";"alcool isodecylique";"61827-42-7";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"72_sub_bnvd";"alcool isopropylique";"67-63-0";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"73_sub_bnvd";"alcools gras";"85566-12-7";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Synergiste (en association avec le chlorprophame)";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;True
+"74_sub_bnvd";"alcools terpeniques";"98-55-5";"Autre usage – Adjuvant";"Adjuv. Regul. Croiss. | Adjuvant pour bouillie fongicide | Adjuvant pour bouillie insecticide | Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"75_sub_bnvd";"alkyl amine";"61790-57-6";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"76_sub_bnvd";"alkyl phenol polyethoxyle";"";"SA non phyto - Divers";"Dans la BNV-D, substance active répertoriée uniquement dans l’AMM n°2020284 (AEXALT), dégraissant utilisé en industrie agro-alimentaire ";"";"";"";False;False;False;False;False;False;False;False;True
+"77_sub_bnvd";"alkylpolyglucoside";"68515-73-1";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"78_sub_bnvd";"alpha naphtyl acetamide (nad)";"86-86-2";"Régulateur de croissance";"";"";"Attractif";"";False;True;False;False;False;False;True;False;False
+"79_sub_bnvd";"alpha oleines sulfonate de sodium";"68439-57-6";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"80_sub_bnvd";"alpha-chloralose";"15879-93-3";"Rodenticide - Taupicide";"";"Autre usage - Répulsif";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;True
+"81_sub_bnvd";"alphachloralose";"15879-93-3";"Rodenticide - Taupicide";"";"Autre usage - Répulsif";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;True
+"82_sub_bnvd";"alphamethrine";"67375-30-8";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"83_sub_bnvd";"ametoctradine";"865318-97-4";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"84_sub_bnvd";"amidosulfuron";"120923-37-7";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"85_sub_bnvd";"amine grasse de suif ethoxylee";"61791-26-2";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"86_sub_bnvd";"aminopropyl dodecylamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"87_sub_bnvd";"aminopyralid";"150114-71-9";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"88_sub_bnvd";"aminotriazole";"61-82-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"89_sub_bnvd";"amisulbrom";"348635-87-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"90_sub_bnvd";"amitrole";"61-82-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"91_sub_bnvd";"ammonium quaternaire";"68424-95-3";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"92_sub_bnvd";"ampelomyces quisqualis souche aq10";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"93_sub_bnvd";"anthraquinone";"84-65-1";"Autre usage - Répulsif";"";"";"Autre usage";"Répulsifs";False;False;False;False;False;False;False;False;True
+"94_sub_bnvd";"arsenic du dimethylarsinate de sodium";"124-65-2";"Insecticide";"";"";"Rodenticide";"Insecticides";False;True;False;False;False;False;False;True;False
+"95_sub_bnvd";"asulame";"2302-17-2";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"96_sub_bnvd";"aureobasidium pullulans souche dsm 14940";"67891-88-7";"Bactéricide - Virucide";"";"Fongicide";"";"";False;False;True;True;False;False;False;False;False
+"97_sub_bnvd";"aureobasidium pullulans souche dsm 14941";"67891-88-7";"Bactéricide - Virucide";"";"Fongicide";"";"";False;False;True;True;False;False;False;False;False
+"98_sub_bnvd";"azadirachtine";"11141-17-6";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"99_sub_bnvd";"azametiphos";"35575-96-3";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"100_sub_bnvd";"azimsulfuron";"120162-55-2";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"101_sub_bnvd";"azocyclotin";"41083-11-8";"Insecticide - Acaricide";"";"";"";"Acaricides";False;True;False;False;False;False;False;False;False
+"102_sub_bnvd";"azoxystrobine";"131860-33-8";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"103_sub_bnvd";"bacillus amyloliquefaciens souche fzb24";"NC";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"104_sub_bnvd";"bacillus amyloliquefaciens souche mbi 600";"NC";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"105_sub_bnvd";"bacillus amyloliquefaciens subsp plantarum d747";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"106_sub_bnvd";"bacillus firmus i-1582";"";"Nématicide";"";"";"";"";False;False;False;False;False;True;False;False;False
+"107_sub_bnvd";"bacillus pumilus souche qst 2808";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"108_sub_bnvd";"bacillus subtilis souche qst 713";"68038-70-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"109_sub_bnvd";"bacillus subtilis";"68038-70-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"110_sub_bnvd";"bacillus thuringiensis serotype 3a 3b";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"111_sub_bnvd";"bacillus thuringiensis serotype h 14";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"112_sub_bnvd";"bacillus thuringiensis sp. tenebrionis";"68038-71-1";"Insecticide";"";"";"Insecticide";"";False;True;False;False;False;False;False;False;False
+"113_sub_bnvd";"bacillus thuringiensis ssp aizawai souche abts-1857";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"114_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche abts-351";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"115_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche eg 2348";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"116_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche pb 54";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"117_sub_bnvd";"bacillus thuringiensis ssp kurstaki souche sa-11";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"118_sub_bnvd";"bacillus thuringiensis ssp kurstaki";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"119_sub_bnvd";"bacillus thuringiensis sérotype h 7";"68038-71-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"120_sub_bnvd";"beauveria bassiana souche 203";"63428-82-0";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"121_sub_bnvd";"beauveria bassiana souche atcc 74040";"63428-82-0";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"122_sub_bnvd";"beauveria bassiana souche gha";"63428-82-0";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"123_sub_bnvd";"beauveria bassiana souche npp111b005";"63428-82-0";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"124_sub_bnvd";"beflubutamide";"113614-08-7";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"125_sub_bnvd";"benalaxyl-m";"98243-83-5";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"126_sub_bnvd";"benalaxyl";"71626-11-4";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"127_sub_bnvd";"benfluraline";"1861-40-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"128_sub_bnvd";"benfuracarbe";"82560-54-1";"Insecticide";"";"";"Nématicide
+Insecticide";"Insecticides";False;True;False;False;False;True;False;False;False
+"129_sub_bnvd";"benoxacor";"98730-04-2";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Phytoprotecteur (en association avec le métolachlore, herbicide)";"";"";"Phytoprotecteurs";False;False;False;False;False;False;False;False;True
+"130_sub_bnvd";"bensulfuron methyl";"83055-99-6";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"131_sub_bnvd";"bentazone";"25057-89-0";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"132_sub_bnvd";"benthiavalicarbe";"177406-68-7";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"133_sub_bnvd";"benzoate de denatonium";"3734-33-6";"Autre usage - Répulsif";"";"";"Autre usage";"";False;False;False;False;False;False;False;False;True
+"134_sub_bnvd";"benzoate de sodium";"532-32-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"135_sub_bnvd";"benzobicyclon";"156963-66-5";"Herbicide";"";"";"";"Insecticides";True;True;False;False;False;False;False;False;False
+"136_sub_bnvd";"benzovindiflupyr";"1072957-71-1";"Fongicide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;False
+"137_sub_bnvd";"betacyfluthrine";"68359-37-5";"Insecticide";"";"";"Insecticide
+Acaricide";"Insecticides";False;True;False;False;False;False;False;False;False
+"138_sub_bnvd";"bicarbonate de potassium";"298-14-6";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"139_sub_bnvd";"bifenazate";"149877-41-8";"Insecticide - Acaricide";"";"";"";"Acaricides";False;True;False;False;False;False;False;False;False
+"140_sub_bnvd";"bifenox";"42576-02-3";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"141_sub_bnvd";"bifenthrine";"82657-04-3";"Insecticide";"";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"142_sub_bnvd";"bioallethrine";"584-79-2";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"143_sub_bnvd";"bis ( 3 - aminopropyl ) dodecylamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"144_sub_bnvd";"bis (aminopropyl) laurylamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"145_sub_bnvd";"bisulfate de sodium";"7681-36-1";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"146_sub_bnvd";"bitertanol";"55179-31-2";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"147_sub_bnvd";"bixafen";"581809-46-3";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"148_sub_bnvd";"bore de solubore";"12280-03-4";"SA non phyto - Désinfectant - Biocide";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;True
+"149_sub_bnvd";"boscalid";"188425-85-6";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"150_sub_bnvd";"brai";"65996-93-2";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"151_sub_bnvd";"brodifacoum";"56073-10-0";"Rodenticide - Taupicide";"Rodenticide";"";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;False
+"152_sub_bnvd";"bromadiolone";"28772-56-7";"Rodenticide - Taupicide";"";"";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;False
+"153_sub_bnvd";"bromoxynil octanoate";"1689-99-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"154_sub_bnvd";"bromoxynil";"1689-84-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"155_sub_bnvd";"bromuconazole";"116255-48-2";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"156_sub_bnvd";"bromure de lauryl dimethyl benzyl ammonium";"7281-04-1";"SA non phyto - Désinfectant - Biocide";"";"Autre usage – Adjuvant";"";"";False;False;False;False;False;False;False;False;True
+"157_sub_bnvd";"bromure de methyle";"74-83-9";"Fongicide";"Appliqué par fumigation";"Insecticide
+Nématicide
+Herbicide";"Insecticide
+Nématicide
+Herbicide
+Fongicide";"Insecticides";True;True;True;False;False;True;False;False;False
+"158_sub_bnvd";"bupirimate";"41483-43-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"159_sub_bnvd";"buprofezine";"69327-76-0";"Insecticide";"";"Insecticide - Acaricide";"";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"160_sub_bnvd";"butoxyde de piperonyle";"51-03-6";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Synergiste (utilisé avec des insecticides le plus souvent sur récoltes stockées)";"";"";"Insecticides";False;True;False;False;False;False;False;False;True
+"161_sub_bnvd";"butraline";"33629-47-9";"Herbicide";"";"Régulateur de croissance";"Régulateur de croissance
+Herbicide";"Régulateurs de croissances
+Herbicides";True;False;False;False;False;False;True;False;False
+"162_sub_bnvd";"candida oleophila souche o";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"163_sub_bnvd";"captane";"133-06-2";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"164_sub_bnvd";"carbaryl";"63-25-2";"Insecticide";"";"Régulateur de croissance";"Insecticide
+Régulateur de croissance";"Insecticides
+Régulateurs de croissances";False;True;False;False;False;False;True;False;False
+"165_sub_bnvd";"carbendazime";"10605-21-7";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"166_sub_bnvd";"carbetamide";"16118-49-3";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"167_sub_bnvd";"carbofuran";"1563-66-2";"Insecticide";"";"Nématicide";"Nématicide
+Insecticide
+Acaricide";"Nématicides
+Insecticides";False;True;False;False;False;True;False;False;False
+"168_sub_bnvd";"carbonate d'ammonium";"506-87-6";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"169_sub_bnvd";"carbosulfan";"55285-14-8";"Insecticide";"";"";"Nématicide
+Insecticide";"Insecticides";False;True;False;False;False;True;False;False;False
+"170_sub_bnvd";"carboxine";"5234-68-4";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"171_sub_bnvd";"carfentrazone ethyl";"128639-02-1";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"172_sub_bnvd";"cerevisane";"68876-77-7";"Fongicide";"Stimulation des défenses naturelles";"";"";"";False;False;True;False;False;False;False;False;False
+"173_sub_bnvd";"chlorantraniliprole";"500008-45-7";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"174_sub_bnvd";"chlorate de sodium";"7775-09-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"175_sub_bnvd";"chlorhydrate de poly biguanide";"32289-58-0";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"176_sub_bnvd";"chlorhydrate de poly hexamethylene biguanidine";"27083-27-8";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"177_sub_bnvd";"chlorhydrate de poly(hexamethylene biguanide)";"27083-27-8";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"178_sub_bnvd";"chlorhydrate de poly-imino-imido biguanidine";"91403-50-8";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"179_sub_bnvd";"chloridazone";"1698-60-8";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"180_sub_bnvd";"chlormephos";"24934-91-6";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"181_sub_bnvd";"chlormequat chlorure";"999-81-5";"Régulateur de croissance";"";"";"";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"182_sub_bnvd";"chlorophacinone";"3691-35-8";"Rodenticide - Taupicide";"";"";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;False
+"183_sub_bnvd";"chlorophylline (sels cuprosodiques)";"11006-34-1";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"184_sub_bnvd";"chlorothalonil";"1897-45-6";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"185_sub_bnvd";"chlorotoluron";"15545-48-9";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"186_sub_bnvd";"chlorprophame";"101-21-3";"Herbicide";"Désherbant utilisé en maraîchage, anti-germinatif (pommes de terre)";"Régulateur de croissance";"Herbicide
+Régulateur de croissance";"Insecticides
+Acaricides";True;True;False;False;False;False;True;False;False
+"187_sub_bnvd";"chlorpyriphos-ethyl";"2921-88-2";"Insecticide";"";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"188_sub_bnvd";"chlorpyriphos-methyl";"5598-13-0";"Insecticide";"";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"189_sub_bnvd";"chlorsulfuron";"64902-72-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"190_sub_bnvd";"chlorthal";"2136-79-0";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"191_sub_bnvd";"chlorure d'alkyl dimethyl ammonium";"68424-85-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"192_sub_bnvd";"chlorure d'alkyl dimethyl benzyl ammonium";"68424-85-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"193_sub_bnvd";"chlorure d'iode";"7553-56-2";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"194_sub_bnvd";"chlorure de benzalkonium";"68424-85-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"195_sub_bnvd";"chlorure de choline";"67-48-1";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Coformulant (en association avec le chlormequat chlorure, régulateur de croissance)";"";"Rodenticide";"Régulateurs de croissances";False;False;False;False;False;False;True;True;True
+"196_sub_bnvd";"chlorure de didecyl ammonium";"7173-51-5";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"197_sub_bnvd";"chlorure de didecyl dimethyl ammonium";"7173-51-5";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"198_sub_bnvd";"chlorure de didecyldimethylbenzylammonium";"68424-85-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"199_sub_bnvd";"chlorure de dimethyl dialkyl ammonium";"7173-51-5";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"200_sub_bnvd";"chlorure de dimethyl ethyl ammonium";"7173-51-5";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"201_sub_bnvd";"chlorure de lauryl dimethyl benzyl ammonium";"7173-51-5";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"202_sub_bnvd";"chlorure de n coco dimethyl benzyl ammonium";"";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"203_sub_bnvd";"chlorure de sodium";"7647-14-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"204_sub_bnvd";"chlorures n-alkyl dimethyl benzyl ammonium";"68424-85-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"205_sub_bnvd";"chlorures n-alkyl dimethyl ethyl benzyl ammonium";"85409-23-0";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"206_sub_bnvd";"cinidon-ethyl";"142891-20-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"207_sub_bnvd";"cintofen";"130561-48-7";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"208_sub_bnvd";"cire d'abeille";"";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes) / ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"209_sub_bnvd";"cire";"";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes) / ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"210_sub_bnvd";"cires de petrole";"";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"211_sub_bnvd";"cires microcristallines";"";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"212_sub_bnvd";"clethodime";"99129-21-2";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"213_sub_bnvd";"clodinafop-propargyl";"105512-06-9";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"214_sub_bnvd";"clofentezine";"74115-24-5";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"215_sub_bnvd";"clomazone";"81777-89-1";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"216_sub_bnvd";"clonostachys rosea j1446 (anciennement gliocladium catenulatum)";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"217_sub_bnvd";"clopyralid (sous forme de sel de monoethanolamine)";"57754-85-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"218_sub_bnvd";"clopyralid";"1702-17-6";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"219_sub_bnvd";"cloquintocet-mexyl";"99607-70-2";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Phytoprotecteur (utilisé avec le clodinafop-propargyl, herbicide)";"";"";"Phytoprotecteurs
+Herbicides";True;False;False;False;False;False;False;False;True
+"220_sub_bnvd";"clothianidine";"210880-92-5";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"221_sub_bnvd";"colophane traitee au maleate";"";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"222_sub_bnvd";"colophane";"8050-09-7";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"223_sub_bnvd";"composes de l'ion ammonium quaternaire, benzylalkyl en c12-c18 dimethyles, chlorures";"68391-01-5";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"224_sub_bnvd";"composition complexe";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"225_sub_bnvd";"coniothyrium minitans souche con/m/91-08";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"226_sub_bnvd";"copolymere de polyether - polymethylsiloxane";"134180-76-0";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"227_sub_bnvd";"cos-oga";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"228_sub_bnvd";"cresol";"95-48-7";"Autre usage - Répulsif";"";"SA non phyto - Désinfectant - Biocide";"Autre usage
+Fongicide";"";False;False;True;False;False;False;False;False;True
+"229_sub_bnvd";"cresyl";"95-48-7";"Autre usage - Répulsif";"";"SA non phyto - Désinfectant - Biocide";"";"";False;False;False;False;False;False;False;False;True
+"230_sub_bnvd";"cuivre de l'hydroxyde de cuivre";"20427-59-2";"Fongicide";"";"Bactéricide - Virucide";"";"Fongicides
+Bactéricides";False;False;True;True;False;False;False;False;False
+"231_sub_bnvd";"cuivre de l'oxychlorure de cuivre (trihydroxychlorure de dicuivre)";"1332-65-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"232_sub_bnvd";"cuivre de l'oxychlorure de cuivre";"1332-40-7";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"233_sub_bnvd";"cuivre de l'oxyde cuivreux";"1317-39-1";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"234_sub_bnvd";"cuivre du carbonate de cuivre";"12069-69-1";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"235_sub_bnvd";"cuivre du sulfate de cuivre";"7758-98-7";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"236_sub_bnvd";"cuivre du sulfate de cuivre";"8011-63-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"237_sub_bnvd";"cuivre du sulfate tetracuivrique et tricalcique";"8011-63-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"238_sub_bnvd";"cuivre du sulfate tribasique";"12527-76-3";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"239_sub_bnvd";"cuivre du tallate de cuivre";"71789-22-8";"Autre usage – Adjuvant";"";"Fongicide";"";"";False;False;True;False;False;False;False;False;True
+"240_sub_bnvd";"cyanamide de calcium";"156-62-7";"Herbicide - Antimousse";"";"Fongicide
+Régulateur de croissance";"Herbicide
+Régulateur de croissance";"Régulateurs de croissances
+Herbicides";True;False;True;False;False;False;True;False;False
+"241_sub_bnvd";"cyanamide hydrogene";"420-04-2";"Régulateur de croissance";"";"";"Herbicide
+Régulateur de croissance";"Régulateurs de croissances
+Herbicides";True;False;False;False;False;False;True;False;False
+"242_sub_bnvd";"cyantraniliprole";"736994-63-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"243_sub_bnvd";"cyazofamide";"120116-88-3";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"244_sub_bnvd";"cycloxydime";"101205-02-1";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"245_sub_bnvd";"cydia pomonella granulosis, isolat m (cpvg m)";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"246_sub_bnvd";"cydia pomonella granulovirus, isolat r5 (cpgv-r5)";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"247_sub_bnvd";"cydia pomonella granulovirus";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"248_sub_bnvd";"cyflufenamid";"180409-60-3";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"249_sub_bnvd";"cyfluthrine";"68359-37-5";"Insecticide";"";"";"Insecticide
+Acaricide";"Insecticides";False;True;False;False;False;False;False;False;False
+"250_sub_bnvd";"cyhalofop butyl";"122008-85-9";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"251_sub_bnvd";"cyhexatin";"13121-70-5";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"252_sub_bnvd";"cymoxanil";"57966-95-7";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"253_sub_bnvd";"cypermethrine";"52315-07-8";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"254_sub_bnvd";"cyproconazole";"94361-06-5";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"255_sub_bnvd";"cyprodinil";"121552-61-2";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"256_sub_bnvd";"cyprosulfamide";"221667-31-8";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Phytoprotecteur (utilisé avec le thiencarbazone-methyl, herbicide)";"";"";"";False;False;False;False;False;False;False;False;True
+"257_sub_bnvd";"cyromazine";"66215-27-8";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"258_sub_bnvd";"daminozide";"1596-84-5";"Régulateur de croissance";"";"";"";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"259_sub_bnvd";"dazomet";"533-74-4";"Nématicide";"Appliqué par fumigation";"Fongicide
+Herbicide
+Insecticide";"";"Nématicides
+Insecticides
+Herbicides
+Fongicides";True;True;True;False;False;True;False;False;False
+"260_sub_bnvd";"decane-1-ol";"112-30-1";"Régulateur de croissance";"";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;False
+"261_sub_bnvd";"deltamethrine";"52918-63-5";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"262_sub_bnvd";"derives d'acides gras vegetaux";"";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"263_sub_bnvd";"desmediphame";"13684-56-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"264_sub_bnvd";"di aminopropyl laurylamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"265_sub_bnvd";"di-1-p-menthene";"34363-01-4";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Anti-transpirant";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;True
+"266_sub_bnvd";"diazinon";"333-41-5";"Insecticide";"";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"267_sub_bnvd";"dicamba dimethylammonium";"2300-66-5";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"268_sub_bnvd";"dicamba";"1918-00-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"269_sub_bnvd";"dichlobenil";"1194-65-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"270_sub_bnvd";"dichlormide";"37764-25-3";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Phytoprotecteur (utilisé avec herbicide)";"";"";"Phytoprotecteurs";False;False;False;False;False;False;False;False;True
+"271_sub_bnvd";"dichloro isocyanurate de sodium dihydrate";"51580-86-0";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"272_sub_bnvd";"dichloroisocyanurate de sodium";"2893-78-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"273_sub_bnvd";"dichlorprop-p";"15165-67-0";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"274_sub_bnvd";"dichlorvos";"62-73-7";"Insecticide";"Appliqué par fumigation";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"275_sub_bnvd";"diclofop methyl";"51338-27-3";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"276_sub_bnvd";"dicofol";"115-32-2";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"277_sub_bnvd";"difenacoum";"56073-07-5";"Rodenticide - Taupicide";"Rodenticide";"";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;False
+"278_sub_bnvd";"difenoconazole";"119446-68-3";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"279_sub_bnvd";"difethialone";"104653-34-1";"Rodenticide - Taupicide";"";"";"Rodenticide";"Rodenticides";False;False;False;False;False;False;False;True;False
+"280_sub_bnvd";"diflubenzuron";"35367-38-5";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"281_sub_bnvd";"diflufenicanil";"83164-33-4";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"282_sub_bnvd";"dimethachlore";"50563-36-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"283_sub_bnvd";"dimethenamide-p (dmta-p)";"163515-14-8";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"284_sub_bnvd";"dimethenamide";"87674-68-8";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"285_sub_bnvd";"dimethoate";"60-51-5";"Insecticide";"";"Insecticide - Acaricide";"Insecticide
+Acaricide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"286_sub_bnvd";"dimethomorphe";"110488-70-5";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"287_sub_bnvd";"dimethyl disulfide";"624-92-0";"Nématicide";"Appliqué par fumigation";"Fongicide
+Herbicide
+Insecticide";"Nématicide
+Fongicide";"";True;True;True;False;False;True;False;False;False
+"288_sub_bnvd";"dimethyl polysiloxane";"63148-62-9";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Coformulant";"";"";"";False;False;False;False;False;False;False;False;True
+"289_sub_bnvd";"dimoxystrobine";"149961-52-4";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"290_sub_bnvd";"dinocap";"39300-45-3";"Fongicide";"";"Insecticide - Acaricide";"Acaricide
+Fongicide";"Fongicides
+Acaricides";False;True;True;False;False;False;False;False;False
+"291_sub_bnvd";"dioxyde de carbone";"124-38-9";"Rodenticide - Taupicide";"";"Insecticide - Acaricide";"Autre usage";"";False;True;False;False;False;False;False;True;True
+"292_sub_bnvd";"diphenylamine";"122-39-4";"Régulateur de croissance";"Traitement contre l'échaudure des pommes";"Fongicide
+Insecticide";"Régulateur de croissance";"Fongicides";False;True;True;False;False;False;True;False;False
+"293_sub_bnvd";"diquat";"85-00-7";"Herbicide";"";"";"Herbicide
+Autre usage";"Herbicides";True;False;False;False;False;False;False;False;True
+"294_sub_bnvd";"disodium phosphate";"7558-79-4";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"295_sub_bnvd";"disulfure de dimethyle (dmds)";"624-92-0";"Nématicide";"Appliqué par fumigation";"Fongicide
+Herbicide
+Insecticide";"Nématicide
+Fongicide";"";True;True;True;False;False;True;False;False;False
+"296_sub_bnvd";"dithianon";"3347-22-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"297_sub_bnvd";"diuron";"330-54-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"298_sub_bnvd";"dodemorphe acetate";"31717-87-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"299_sub_bnvd";"dodine";"2439-10-3";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"300_sub_bnvd";"e,z-8-dodecen-1-yl acetate + z-8-dodecen-1-ol";"";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"301_sub_bnvd";"e-5-decen-1-ol";"56578-18-8";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"302_sub_bnvd";"e/z8 acetate de dodecenyle";"37338-40-2";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"303_sub_bnvd";"e/z9-dodecenyl acetate";"16974-34-8";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"304_sub_bnvd";"e7,e/z9-dodecadienyl acetate + n-dodecanyl acetate";"";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"305_sub_bnvd";"e7,z9-dodecadienylacetate";"54364-62-4";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"306_sub_bnvd";"e8,e10-dodecadiene-1-ol";"33956-49-9";"Insecticide - Médiateur chimique";"";"";"Attractif";"Insecticides";False;True;False;False;False;False;False;False;False
+"307_sub_bnvd";"e8,e10-dodécadiène-1-ol + tétradécylacétate";"";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"308_sub_bnvd";"edta";"60-00-4";"SA non phyto - Désinfectant - Biocide";"Dans la BNV-D, substance active répertoriée uniquement dans l’AMM n°9500402 (PHAGOGERMYL 4), désinfectant de surfaces";"Autre usage – Adjuvant";"Herbicide";"";True;False;False;False;False;False;False;False;True
+"309_sub_bnvd";"emamectine benzoate";"155569-91-8";"Insecticide";"";"";"Insecticide";"";False;True;False;False;False;False;False;False;False
+"310_sub_bnvd";"engrais divers";"";"SA non phyto - Divers";"";"";"";"";False;False;False;False;False;False;False;False;True
+"311_sub_bnvd";"epoxiconazole";"133855-98-8";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"312_sub_bnvd";"esfenvalerate";"66230-04-4";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"313_sub_bnvd";"essence de girofle";"";"Fongicide";"";"Herbicide
+Insecticide
+Rodenticide";"";"";True;True;True;False;False;False;False;True;False
+"314_sub_bnvd";"esters de colophane et de diethylene glycol";"68153-38-8";"Autre usage – Adjuvant";"Adjuvant pour bouillie fongicide | Adjuvant pour bouillie insecticide";"";"";"";False;False;False;False;False;False;False;False;True
+"315_sub_bnvd";"esters de phosphate d'alcools gras polyoxyalkyles";"68649-29-6";"SA non phyto - Désinfectant - Biocide";"";"Autre usage – Adjuvant";"";"";False;False;False;False;False;False;False;False;True
+"316_sub_bnvd";"esters methyliques d'acides gras c16-c18 et c18 insatures";"67762-38-3";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"317_sub_bnvd";"esters methyliques d'acides gras, c14-c18 et c16-c18 insatures";"67762-26-9";"Autre usage – Adjuvant";"Adjuvant pour bouillie fongicide | Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"318_sub_bnvd";"esters methyliques d'acides gras";"61788-59-8";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide | Adjuvant pour bouillie fongicide";"";"";"";False;False;False;False;False;False;False;False;True
+"319_sub_bnvd";"ethanol";"64-17-5";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"320_sub_bnvd";"ethephon";"16672-87-0";"Régulateur de croissance";"";"";"";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"321_sub_bnvd";"ether d'alkyl aryl polyglycol";"61827-42-7";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"322_sub_bnvd";"ethofumesate";"26225-79-6";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"323_sub_bnvd";"ethoprophos";"13194-48-4";"Nématicide";"";"Insecticide";"Nématicide
+Insecticide";"Nématicides
+Insecticides";False;True;False;False;False;True;False;False;False
+"324_sub_bnvd";"ethoxyquine";"91-53-2";"Fongicide";"";"";"Régulateur de croissance";"Fongicides";False;False;True;False;False;False;True;False;False
+"325_sub_bnvd";"ethylene";"74-85-1";"Régulateur de croissance";"";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;False
+"326_sub_bnvd";"etofenprox";"80844-07-1";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"327_sub_bnvd";"etoxazole";"153233-91-1";"Insecticide - Acaricide";"";"";"";"Acaricides";False;True;False;False;False;False;False;False;False
+"328_sub_bnvd";"eugenol";"97-53-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"329_sub_bnvd";"extrait d'ail";"8008-99-9";"Nématicide";"";"Insecticide
+Répulsif";"";"";False;True;False;False;False;True;False;False;False
+"330_sub_bnvd";"extrait de bois de quassia (variete picrasma)";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"331_sub_bnvd";"extrait de fenugrec";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"332_sub_bnvd";"extrait de pyrethre vegetal";"8003-34-7";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"333_sub_bnvd";"famoxadone";"131807-57-3";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"334_sub_bnvd";"farine de sang";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"335_sub_bnvd";"fenamidone";"161326-34-7";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"336_sub_bnvd";"fenazaquin";"120928-09-8";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"337_sub_bnvd";"fenbuconazole";"114369-43-6";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"338_sub_bnvd";"fenbutatin oxyde";"13356-08-6";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"339_sub_bnvd";"fenhexamide";"126833-17-8";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"340_sub_bnvd";"fenitrothion";"122-14-5";"Insecticide";"";"";"Insecticide
+Acaricide";"Insecticides";False;True;False;False;False;False;False;False;False
+"341_sub_bnvd";"fenoxaprop-p-ethyl";"71283-80-2";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"342_sub_bnvd";"fenoxycarbe";"72490-01-8";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"343_sub_bnvd";"fenpicoxamide";"517875-34-2";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"344_sub_bnvd";"fenpropidine";"67306-00-7";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"345_sub_bnvd";"fenpropimorphe";"67564-91-4";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"346_sub_bnvd";"fenpyrazamine";"473798-59-3";"Fongicide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;False
+"347_sub_bnvd";"fenpyroximate";"111812-58-9";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"348_sub_bnvd";"fer sous forme de sulfate de fer";"7720-78-7";"Herbicide - Antimousse";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;False
+"349_sub_bnvd";"fipronil";"120068-37-3";"SA non phyto - Désinfectant - Biocide";"";"Insecticide";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;True
+"350_sub_bnvd";"flazasulfuron";"104040-78-0";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"351_sub_bnvd";"fleur de chaux (chaux eteinte)";"1305-62-0";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"Insecticide, Herbicide, Fongicide";"";"";True;True;True;False;False;False;False;False;True
+"352_sub_bnvd";"flonicamide";"158062-67-0";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"353_sub_bnvd";"florasulame";"145701-23-1";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"354_sub_bnvd";"florpyrauxifen-benzyl";"1390661-72-9";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"355_sub_bnvd";"fluazifop-p-butyl";"79241-46-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"356_sub_bnvd";"fluazinam";"79622-59-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"357_sub_bnvd";"fludioxonil";"131341-86-1";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"358_sub_bnvd";"flufenacet";"142459-58-3";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"359_sub_bnvd";"flufenoxuron";"101463-69-8";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"360_sub_bnvd";"flumioxazine";"103361-09-7";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"361_sub_bnvd";"fluopicolide";"239110-15-7";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"362_sub_bnvd";"fluopyram";"658066-35-4";"Fongicide";"";"";"Fongicide
+Nématicide";"";False;False;True;False;False;True;False;False;False
+"363_sub_bnvd";"fluorure de sulfuryle";"2699-79-8";"Insecticide";"Appliqué par fumigation (notamment sur cultures stockées)";"Fongicide
+Nématicide
+Rodenticide";"Insecticide";"Nématicides
+Insecticides
+Fongicides
+Bactéricides";False;True;True;True;False;True;False;True;False
+"364_sub_bnvd";"fluoxastrobine";"361377-29-9";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"365_sub_bnvd";"flupyrsulfuron-methyl";"144740-54-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"366_sub_bnvd";"fluquinconazole";"136426-54-5";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"367_sub_bnvd";"flurochloridone";"61213-25-0";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"368_sub_bnvd";"fluroxypyr-meptyl";"81406-37-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"369_sub_bnvd";"fluroxypyr";"69377-81-7";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"370_sub_bnvd";"flurprimidol";"56425-91-3";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"371_sub_bnvd";"flurtamone";"96525-23-4";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"372_sub_bnvd";"flusilazole";"85509-19-9";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"373_sub_bnvd";"flutolanil";"66332-96-5";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"374_sub_bnvd";"flutriafol";"76674-21-0";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"375_sub_bnvd";"fluxapyroxad";"907204-31-3";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"376_sub_bnvd";"folpel";"133-07-3";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"377_sub_bnvd";"foramsulfuron";"173159-57-4";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"378_sub_bnvd";"forchlorfenuron";"68157-60-8";"Régulateur de croissance";"";"";"";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"379_sub_bnvd";"formaldehyde";"50-00-0";"SA non phyto - Désinfectant - Biocide";"";"Fongicide
+Bactéricide - Virucide";"Insecticide
+Fongicide
+Autre usage";"Fongicides
+Bactéricides";False;True;True;True;False;False;False;False;True
+"380_sub_bnvd";"formetanate-chlorhydrate";"23422-53-9";"Insecticide";"";"";"Insecticide
+Acaricide";"";False;True;False;False;False;False;False;False;False
+"381_sub_bnvd";"formiate d'ammonium";"540-69-2";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"382_sub_bnvd";"formiate de calcium";"544-17-2";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"383_sub_bnvd";"fosetyl-aluminium";"39148-24-8";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"384_sub_bnvd";"fosetyl";"15845-66-6";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"385_sub_bnvd";"fosthiazate";"98886-44-3";"Nématicide";"";"Insecticide";"Nématicide";"Nématicides
+Insecticides";False;True;False;False;False;True;False;False;False
+"386_sub_bnvd";"gamma-cyhalothrine";"76703-62-3";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"387_sub_bnvd";"geraniol";"106-24-1";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"388_sub_bnvd";"gibberellines (a4+a7)";"8030-53-3";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"389_sub_bnvd";"glufosinate ammonium";"77182-82-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"390_sub_bnvd";"glutaraldehyde";"111-30-8";"SA non phyto - Désinfectant - Biocide";"";"Fongicide
+Bactéricide - Virucide";"Bactéricide
+Fongicide";"Fongicides
+Bactéricides";False;False;True;True;False;False;False;False;True
+"391_sub_bnvd";"glyoxal";"107-22-2";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"392_sub_bnvd";"glyphosate";"1071-83-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"393_sub_bnvd";"gomme manille";"";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"394_sub_bnvd";"goudron vegetal";"8011-48-1";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"395_sub_bnvd";"goudrons de pin";"8011-48-1";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"396_sub_bnvd";"graisse de mouton";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"397_sub_bnvd";"halauxifen-methyl";"943831-98-9";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"398_sub_bnvd";"halosulfuron-methyle";"100784-20-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"399_sub_bnvd";"haloxyfop-r";"72619-32-0";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"400_sub_bnvd";"heptamaloxyloglucan";"870721-81-6";"SA non phyto - Divers";"Protection contre le gel (vignes)";"";"";"";False;False;False;False;False;False;False;False;True
+"401_sub_bnvd";"heptamethyltrisiloxane modifie polyalkylenoxide";"27306-78-1";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"402_sub_bnvd";"hexazinone";"51235-04-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"403_sub_bnvd";"hexythiazox";"78587-05-0";"Insecticide - Acaricide";"";"";"Acaricide
+Insecticide";"Acaricides";False;True;False;False;False;False;False;False;False
+"404_sub_bnvd";"huile animale";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"405_sub_bnvd";"huile blanche de petrole";"9206-23-56";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"";"";False;True;False;False;False;False;False;False;True
+"406_sub_bnvd";"huile blanche paraffinique";"8042-47-5";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"Insecticide
+Acaricide";"";False;True;False;False;False;False;False;False;True
+"407_sub_bnvd";"huile d'os";"8001-85-2";"Autre usage - Répulsif";"";"";"Autre usage";"";False;False;False;False;False;False;False;False;True
+"408_sub_bnvd";"huile de colza esterifiee";"85586-25-0";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide | Adjuvant pour bouillie insecticide";"";"";"";False;False;False;False;False;False;False;False;True
+"409_sub_bnvd";"huile de colza";"8002-13-9";"Insecticide";"";"";"Acaricide";"";False;True;False;False;False;False;False;False;False
+"410_sub_bnvd";"huile de paraffine";"64742-46-7";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"Acaricide
+Insecticide";"";False;True;False;False;False;False;False;False;True
+"411_sub_bnvd";"huile de paraffine";"72623-86-0";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"Acaricide
+Insecticide";"";False;True;False;False;False;False;False;False;True
+"412_sub_bnvd";"huile de petrole";"64742-55-8";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"";"";False;True;False;False;False;False;False;False;True
+"413_sub_bnvd";"huile de pin";"8002-09-3";"Autre usage - Répulsif";"Dans la BNV-D, substance active répertoriée unqiuement dans l'AMM n°8000374 (FCH 675), répulsif (sur cervidés, lapin et lièvre)";"Herbicide
+Adjuvant";"";"";True;False;False;False;False;False;False;False;True
+"414_sub_bnvd";"huile de poisson";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"415_sub_bnvd";"huile de resine";"8050-18-8";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes) / ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"416_sub_bnvd";"huile de ricin";"8001-79-4";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"417_sub_bnvd";"huile de vaseline";"8042-47-5";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"Insecticide
+Acaricide";"";False;True;False;False;False;False;False;False;True
+"418_sub_bnvd";"huile essentielle d'orange douce";"8028-48-6";"Régulateur de croissance";"Anti-germinatif (pommes de terre)";"Insecticide
+Acaricide
+Fongicide";"Insecticide";"";False;True;True;False;False;False;True;False;False
+"419_sub_bnvd";"huile essentielle de girofle";"84961-50-2";"Fongicide";"";"Herbicide
+Insecticide
+Rodenticide";"";"";True;True;True;False;False;False;False;True;False
+"420_sub_bnvd";"huile essentielle de menthe verte";"8008-79-5";"Régulateur de croissance";"";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;False
+"421_sub_bnvd";"huile minerale blanche";"8042-47-5";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"Insecticide
+Acaricide";"";False;True;False;False;False;False;False;False;True
+"422_sub_bnvd";"huile minerale paraffinique";"8042-47-5";"Insecticide - Acaricide";"";"Autre usage – Adjuvant";"Insecticide
+Acaricide";"";False;True;False;False;False;False;False;False;True
+"423_sub_bnvd";"huile vegetale";"";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"424_sub_bnvd";"huiles empyreumatiques";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"425_sub_bnvd";"hydramethylnon";"67485-29-4";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"426_sub_bnvd";"hydrazide maleique";"123-33-1";"Régulateur de croissance";"";"";"";"Régulateurs de croissances
+Herbicides";True;False;False;False;False;False;True;False;False
+"427_sub_bnvd";"hydrolysat de proteines";"";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"428_sub_bnvd";"hydroxyde de potassium";"1310-58-3";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"429_sub_bnvd";"hydroxyde de sodium";"1310-73-2";"SA non phyto - Désinfectant - Biocide";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;True
+"430_sub_bnvd";"hymexazol";"10004-44-1";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"431_sub_bnvd";"hypochlorite de sodium";"7681-52-9";"SA non phyto - Désinfectant - Biocide";"";"Fongicide";"Bactéricide";"Fongicides
+Bactéricides";False;False;True;True;False;False;False;False;True
+"432_sub_bnvd";"imazalil";"35554-44-0";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"433_sub_bnvd";"imazamox";"114311-32-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"434_sub_bnvd";"imazaquine";"81335-37-7";"Régulateur de croissance";"";"Herbicide";"Régulateur de croissance";"Herbicides";True;False;False;False;False;False;True;False;False
+"435_sub_bnvd";"imidaclopride";"138261-41-3";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"436_sub_bnvd";"indoxacarbe";"173584-44-6";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"437_sub_bnvd";"iodosulfuron-methyl-sodium";"144550-36-7";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"438_sub_bnvd";"ioxynil octanoate";"3861-47-0";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"439_sub_bnvd";"ioxynil";"1689-83-4";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"440_sub_bnvd";"ipconazole";"125225-28-7";"Fongicide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;False
+"441_sub_bnvd";"iprodione";"36734-19-7";"Fongicide";"";"";"Fongicide
+Nématicide";"Fongicides";False;False;True;False;False;True;False;False;False
+"442_sub_bnvd";"iprovalicarbe";"140923-17-7";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"443_sub_bnvd";"isofetamide";"875915-78-9";"Fongicide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;False
+"444_sub_bnvd";"isoproturon";"34123-59-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"445_sub_bnvd";"isoxaben";"82558-50-7";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"446_sub_bnvd";"isoxadifen-ethyl";"163520-33-0";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Phytoprotecteur (utilisé avec foramsulfuron et tembotrione, herbicides)";"";"";"Phytoprotecteurs";False;False;False;False;False;False;False;False;True
+"447_sub_bnvd";"isoxaflutole";"141112-29-0";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"448_sub_bnvd";"kaolin";"1332-58-7";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"449_sub_bnvd";"kieselguhr";"";"Insecticide - Acaricide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"450_sub_bnvd";"kresoxim-methyl";"143390-89-0";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"451_sub_bnvd";"lactobacillus buchneri";"";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"452_sub_bnvd";"lactobacillus plantarum";"";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"453_sub_bnvd";"lambda-cyhalothrine";"91465-08-6";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"454_sub_bnvd";"laminarine";"9008-22-4";"Fongicide";"";"Bactéricide - Virucide";"";"Fongicides";False;False;True;True;False;False;False;False;False
+"455_sub_bnvd";"latex synthetique";"52831-07-9";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"456_sub_bnvd";"lauryl dipropylene triamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"457_sub_bnvd";"lauryl propylene diamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"458_sub_bnvd";"lauryl sulfate de sodium";"151-21-3";"SA non phyto - Désinfectant - Biocide";"Dans la BNV-D, substance active répetoriée uniquement dans l'AMM n°8800344 (D39 VEGETAL)";"";"";"";False;False;False;False;False;False;False;False;True
+"459_sub_bnvd";"lecanicillium muscarium souche ve6";"67892-35-7";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"460_sub_bnvd";"lecithine de soja";"8002-43-5";"Autre usage – Adjuvant";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"461_sub_bnvd";"lenacile";"2164-08-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"462_sub_bnvd";"liant cellulosique";"";"Autre usage – Adjuvant";"Adjuvant pour bouillie fongicide | Adjuvant pour bouillie insecticide";"";"";"";False;False;False;False;False;False;False;False;True
+"463_sub_bnvd";"linuron";"330-55-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"464_sub_bnvd";"lufenuron";"103055-07-8";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"465_sub_bnvd";"magnesium peroxyphtalate";"";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"466_sub_bnvd";"malathion";"121-75-5";"Insecticide";"";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"467_sub_bnvd";"maltodextrine";"9050-36-6";"Insecticide";"";"";"Insecticide";"";False;True;False;False;False;False;False;False;False
+"468_sub_bnvd";"mancozebe";"8018-01-7";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"469_sub_bnvd";"mandestrobine";"173662-97-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"470_sub_bnvd";"mandipropamide";"374726-62-2";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"471_sub_bnvd";"manebe";"12427-38-2";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"472_sub_bnvd";"mecoprop (mcpp)";"7085-19-0";"Herbicide";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;False
+"473_sub_bnvd";"mecoprop-p (mcpp-p)";"16484-77-8";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"474_sub_bnvd";"mefenpyr-diethyl";"135590-91-9";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Phytoprotecteur (utilisé avec fenoxaprop-P-ethyl et iodosulfuron, herbicides)";"";"";"Phytoprotecteurs";False;False;False;False;False;False;False;False;True
+"475_sub_bnvd";"mefentrifluconazole";"1417782-03-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"476_sub_bnvd";"mefluidide (sel de diethanolamine)";"53780-36-2";"Régulateur de croissance";"";"";"Régulateur de croissance";"";False;False;False;False;False;False;True;False;False
+"477_sub_bnvd";"mepanipyrim";"110235-47-7";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"478_sub_bnvd";"mepiquat-chlorure";"24307-26-4";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"479_sub_bnvd";"meptyldinocap";"131-72-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"480_sub_bnvd";"mesosulfuron-methyl";"208465-21-8";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"481_sub_bnvd";"mesotrione";"104206-82-8";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"482_sub_bnvd";"metalaxyl-m";"70630-17-0";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"483_sub_bnvd";"metalaxyl";"57837-19-1";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"484_sub_bnvd";"metaldehyde";"108-62-3";"Molluscicide";"";"";"Molluscicide";"Molluscicides";False;False;False;False;True;False;False;False;False
+"485_sub_bnvd";"metam-sodium";"137-42-8";"Nématicide";"Appliqué par fumigation";"Fongicide
+Herbicide
+Insecticide";"";"Nématicides
+Insecticides
+Herbicides
+Fongicides";True;True;True;False;False;True;False;False;False
+"486_sub_bnvd";"metamitrone";"41394-05-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"487_sub_bnvd";"metarhizium anisopliae";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"488_sub_bnvd";"metarhizium brunneum souche ma 43";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"489_sub_bnvd";"metazachlore";"67129-08-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"490_sub_bnvd";"metconazole";"125116-23-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"491_sub_bnvd";"methabenzthiazuron";"18691-97-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"492_sub_bnvd";"methanol";"67-56-1";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"493_sub_bnvd";"methiocarbe";"2032-65-7";"Molluscicide";"";"Insecticide
+Répulsif";"Insecticide
+Autre usage";"Molluscicides
+Insecticides
+Acaricides";False;True;False;False;True;False;False;False;True
+"494_sub_bnvd";"methomyl";"16752-77-5";"Insecticide";"";"";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"495_sub_bnvd";"methoxyfenozide";"161050-58-4";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"496_sub_bnvd";"methyl-butenol";"115-18-4";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"497_sub_bnvd";"metirame-zinc";"9006-42-2";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"498_sub_bnvd";"metirame";"9006-42-2";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"499_sub_bnvd";"metobromuron";"3060-89-7";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"500_sub_bnvd";"metosulam";"139528-85-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"501_sub_bnvd";"metrafenone";"220899-03-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"502_sub_bnvd";"metribuzine";"21087-64-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"503_sub_bnvd";"metschnikowia fructicola souche nrrl y-27328";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"504_sub_bnvd";"metsulfuron-methyl";"74223-64-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"505_sub_bnvd";"milbemectine";"51596-10-2";"Insecticide - Acaricide";"";"Nématicide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;True;False;False;False
+"506_sub_bnvd";"molinate";"2212-67-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"507_sub_bnvd";"monopotassium phosphonate";"13977-65-6";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"508_sub_bnvd";"mouillant";"";"Autre usage – Adjuvant";"Adjuvant pour bouillie fongicide | Adjuvant pour bouillie insecticide";"";"";"";False;False;False;False;False;False;False;False;True
+"509_sub_bnvd";"myclobutanil";"88671-89-0";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"510_sub_bnvd";"n-hexadecylacetate";"629-70-9";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"511_sub_bnvd";"n-n bis (3 aminopropyl) dodecylamine";"2372-82-9";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"512_sub_bnvd";"n-phosphonomethyl glycine";"1071-83-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"513_sub_bnvd";"n-sodium-n-chloro-para-toluenesulfonamide";"127-65-1";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"514_sub_bnvd";"napropamide";"15299-99-7";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"515_sub_bnvd";"nicosulfuron";"111991-09-4";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"516_sub_bnvd";"nitrate de baryum";"10022-31-8";"Rodenticide - Taupicide";"";"";"Autre usage";"";False;False;False;False;False;False;False;True;True
+"517_sub_bnvd";"nitrate de potassium";"7757-79-1";"Rodenticide - Taupicide";"";"";"";"";False;False;False;False;False;False;False;True;False
+"518_sub_bnvd";"nitrite de sodium";"7632-00-0";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"519_sub_bnvd";"npv ha (nucleopolyhedrovirus d'helicoverpa armigera)";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"520_sub_bnvd";"nucleopolyhedrovirus de spodoptera littoralis";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"521_sub_bnvd";"octylphenol octaglycol ether";"9036-19-5";"Autre usage – Adjuvant";"Adjuvant pour bouillie fongicide | Adjuvant pour bouillie insecticide | Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"522_sub_bnvd";"oligomeres terpeniques";"70750-57-1";"Autre usage – Adjuvant";"Adjuvant pour bouillie fongicide | Adjuvant pour bouillie insecticide";"";"";"";False;False;False;False;False;False;False;False;True
+"523_sub_bnvd";"ortho benzyl para chlorophenate de sodium";"3184-65-4";"SA non phyto - Désinfectant - Biocide";"Dans la BNV-D, substance active répetoriée uniquement dans l'AMM n°8800344 (D39 VEGETAL)";"";"";"";False;False;False;False;False;False;False;False;True
+"524_sub_bnvd";"orthophenylphenate de sodium";"132-27-4";"SA non phyto - Désinfectant - Biocide";"Dans la BNV-D, substance active répetoriée uniquement dans l'AMM n°8800344 (D39 VEGETAL)";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"525_sub_bnvd";"orthophenylphenol";"90-43-7";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;True
+"526_sub_bnvd";"oryzalin";"19044-88-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"527_sub_bnvd";"oxadiargyl";"39807-15-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"528_sub_bnvd";"oxadiazon";"19666-30-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"529_sub_bnvd";"oxamyl";"23135-22-0";"Nématicide";"";"Insecticide - Acaricide";"Nématicide
+Insecticide";"Nématicides
+Insecticides
+Acaricides";False;True;False;False;False;True;False;False;False
+"530_sub_bnvd";"oxathiapiproline";"1003318-67-9";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"531_sub_bnvd";"oxydemeton-methyl";"301-12-2";"Insecticide";"";"";"Insecticide
+Acaricide";"Insecticides";False;True;False;False;False;False;False;False;False
+"532_sub_bnvd";"oxyfluorfene";"42874-03-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"533_sub_bnvd";"paclobutrazol";"76738-62-0";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"534_sub_bnvd";"paecilomyces fumosoroseus apopka souche 97";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"535_sub_bnvd";"paecilomyces lilacinus souche 251";"";"Nématicide";"";"Insecticide";"";"";False;True;False;False;False;True;False;False;False
+"536_sub_bnvd";"para tertiaire amyl phenate de sodium";"31366-95-7";"SA non phyto - Désinfectant - Biocide";"Dans la BNV-D, substance active répetoriée uniquement dans l'AMM n°8800344 (D39 VEGETAL)";"";"";"";False;False;False;False;False;False;False;False;True
+"537_sub_bnvd";"paraffine";"8002-74-2";"Insecticide - Acaricide";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;True;False;False;False;False;False;False;False
+"538_sub_bnvd";"parahydroxyphenylsalicylamide";"526-18-1";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"539_sub_bnvd";"pediococcus pentosaceus";"";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"540_sub_bnvd";"penconazole";"66246-88-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"541_sub_bnvd";"pencycuron";"66063-05-6";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"542_sub_bnvd";"pendimethaline";"40487-42-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"543_sub_bnvd";"penoxsulame";"219714-96-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"544_sub_bnvd";"pentapotassium bis(peroxymonosulfate) bis(sulfate)";"70693-62-8";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"545_sub_bnvd";"penthiopyrad";"183675-82-3";"Fongicide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;False
+"546_sub_bnvd";"permanganate de potassium";"7722-64-7";"SA non phyto - Désinfectant - Biocide";"";"";"Bactéricide
+Molluscicide
+Fongicide";"";False;False;True;True;True;False;False;False;True
+"547_sub_bnvd";"permethrine";"52645-53-1";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"548_sub_bnvd";"peroxyde d'hydrogene";"7722-84-1";"SA non phyto - Désinfectant - Biocide";"";"Fongicide
+Bactéricide - Virucide";"";"Fongicides
+Bactéricides";False;False;True;True;False;False;False;False;True
+"549_sub_bnvd";"pethoxamide";"106700-29-2";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"550_sub_bnvd";"phenmediphame";"13684-63-4";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"551_sub_bnvd";"phlebiopsis gigantea souche vra 1835";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"552_sub_bnvd";"phosalone";"2310-17-0";"Insecticide";"";"Insecticide - Acaricide";"Acaricide
+Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"553_sub_bnvd";"phosmet";"732-11-6";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"554_sub_bnvd";"phosphate ferrique dihydrate";"14567-75-0";"Molluscicide";"";"";"";"";False;False;False;False;True;False;False;False;False
+"555_sub_bnvd";"phosphate ferrique";"10045-86-0";"Molluscicide";"";"";"";"Molluscicides";False;False;False;False;True;False;False;False;False
+"556_sub_bnvd";"phosphonate de disodium";"13708-85-5";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"557_sub_bnvd";"phosphonates de potassium";"SA40";"Fongicide";"Stimulation des défenses naturelles";"";"";"";False;False;True;False;False;False;False;False;False
+"558_sub_bnvd";"phosphure d'aluminium";"20859-73-8";"Insecticide";"Appliqué par fumigation (notamment sur cultures stockées)";"Rodenticide - Taupicide";"";"Rodenticides
+Insecticides";False;True;False;False;False;False;False;True;False
+"559_sub_bnvd";"phosphure de calcium";"1305-99-3";"Rodenticide - Taupicide";"";"";"Rodenticide";"";False;False;False;False;False;False;False;True;False
+"560_sub_bnvd";"phosphure de magnesium";"12057-74-8";"Insecticide";"Appliqué par fumigation (notamment sur cultures stockées)";"";"Insecticide
+Rodenticide";"";False;True;False;False;False;False;False;True;False
+"561_sub_bnvd";"phosphure de zinc";"1314-84-7";"Rodenticide - Taupicide";"";"";"Rodenticide";"";False;False;False;False;False;False;False;True;False
+"562_sub_bnvd";"phoxime";"14816-18-3";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"563_sub_bnvd";"piclorame";"1918-02-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"564_sub_bnvd";"picolinafen";"137641-05-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"565_sub_bnvd";"picoxystrobine";"117428-22-5";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"566_sub_bnvd";"pinoxaden";"243973-20-8";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"567_sub_bnvd";"piperonyl";"51-03-6";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Synergiste (utilisé avec des insecticides le plus souvent sur récoltes stockées)";"";"";"Insecticides";False;True;False;False;False;False;False;False;True
+"568_sub_bnvd";"poivre";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"569_sub_bnvd";"poix";"61789-60-4";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"570_sub_bnvd";"poly hexamethylene biguanide";"27083-27-8";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"571_sub_bnvd";"polybutene";"9003-29-6";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"572_sub_bnvd";"polyhexamethylene diguanide chlorhydrate";"32289-58-0";"SA non phyto - Désinfectant - Biocide";"";"";"";"";False;False;False;False;False;False;False;False;True
+"573_sub_bnvd";"polyisobutene";"115-11-7";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes)";"";"";"";False;False;False;False;False;False;False;False;True
+"574_sub_bnvd";"polymere carboxyl sulfone cationique";"8061-53-8";"SA non phyto - Divers";"Dans la BNV-D, substance active répertoriée uniquement dans l'AMM n°1030003 (OSIRYL), Matière Fertilisante/Additif agronomique";"";"";"";False;False;False;False;False;False;False;False;True
+"575_sub_bnvd";"polymere complexe d'ethylene et de propylene";"";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"576_sub_bnvd";"polymere d'amine gras";"68213-26-3";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"577_sub_bnvd";"polyoxyethylene amine";"107-21-1";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"578_sub_bnvd";"polysorbate 20";"9005-64-5";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"579_sub_bnvd";"polysulfure de calcium";"1344-81-6";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"580_sub_bnvd";"poudre de corne";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"581_sub_bnvd";"prochloraze-manganese";"75747-77-2";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"582_sub_bnvd";"prochloraze";"67747-09-5";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"583_sub_bnvd";"procymidone";"32809-16-8";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"584_sub_bnvd";"profoxydim";"139001-49-3";"Herbicide";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;False
+"585_sub_bnvd";"prohexadione-calcium";"127277-53-6";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"586_sub_bnvd";"propachlore";"1918-16-7";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"587_sub_bnvd";"propamocarbe hcl";"25606-41-1";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"588_sub_bnvd";"propamocarbe";"24579-73-5";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"589_sub_bnvd";"propanil";"709-98-8";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"590_sub_bnvd";"propaquizafop";"111479-05-1";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"591_sub_bnvd";"propargite";"2312-35-8";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"592_sub_bnvd";"propiconazole";"60207-90-1";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"593_sub_bnvd";"propinebe";"9016-72-2";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"594_sub_bnvd";"propionate d'ammonium (sel acide)";"17496-08-1";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"595_sub_bnvd";"propoxycarbazone sodium";"181274-15-7";"Herbicide";"";"";"";"";True;False;False;False;False;False;False;False;False
+"596_sub_bnvd";"propyzamide";"23950-58-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"597_sub_bnvd";"proquinazid";"189278-12-4";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"598_sub_bnvd";"prosulfocarbe";"52888-80-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"599_sub_bnvd";"prosulfuron";"94125-34-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"600_sub_bnvd";"prothioconazole";"178928-70-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"601_sub_bnvd";"pseudomonas chlororaphis souche ma 342";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"602_sub_bnvd";"pymetrozine";"123312-89-0";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"603_sub_bnvd";"pyraclostrobine";"175013-18-0";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"604_sub_bnvd";"pyraflufen-ethyl";"129630-19-9";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"605_sub_bnvd";"pyrethres naturels";"8003-34-7";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"606_sub_bnvd";"pyrethrines";"8003-34-7";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"607_sub_bnvd";"pyridabene";"96489-71-3";"Insecticide";"";"Insecticide - Acaricide";"Insecticide
+Acaricide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"608_sub_bnvd";"pyridalyl";"179101-81-6";"Insecticide";"";"";"Insecticide";"";False;True;False;False;False;False;False;False;False
+"609_sub_bnvd";"pyridate";"55512-33-9";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"610_sub_bnvd";"pyrimethanil";"53112-28-0";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"611_sub_bnvd";"pyrimicarbe";"23103-98-2";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"612_sub_bnvd";"pyrimiphos-methyl";"29232-93-7";"Insecticide";"Appliqué par fumigation";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"613_sub_bnvd";"pyriofenone";"688046-61-9";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"614_sub_bnvd";"pyriproxyfene";"95737-68-1";"Insecticide";"";"";"";"Insecticides";False;True;False;False;False;False;False;False;False
+"615_sub_bnvd";"pyroxsulame";"422556-08-9";"Herbicide";"";"";"Herbicide";"Graminicides
+Herbicides";True;False;False;False;False;False;False;False;False
+"616_sub_bnvd";"pythium oligandrum souche m1";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"617_sub_bnvd";"quinmerac";"90717-03-6";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"618_sub_bnvd";"quinoclamine";"2797-51-5";"Herbicide - Antimousse";"";"";"Alguicide
+Herbicide";"";True;False;False;False;False;False;False;False;False
+"619_sub_bnvd";"quinoxyfene";"124495-18-7";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"620_sub_bnvd";"quizalofop-p-ethyl";"100646-51-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"621_sub_bnvd";"resines (colophane)";"8050-09-7";"SA non phyto - Divers";"Usage de type ""Glu"" (barrière mécanique contre les insectes) / ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"622_sub_bnvd";"rhizobium japonicum";"";"SA non phyto - Divers";"Inoculation de rhizobium dans des légumineuses pour faciliter la fixation d'azote atmosphérique";"";"";"";False;False;False;False;False;False;False;False;True
+"623_sub_bnvd";"rhizobium melilotti";"";"SA non phyto - Divers";"Inoculation de rhizobium dans des légumineuses pour faciliter la fixation d'azote atmosphérique";"";"";"";False;False;False;False;False;False;False;False;True
+"624_sub_bnvd";"rimsulfuron";"122931-48-0";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"625_sub_bnvd";"rotenone";"83-79-4";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"626_sub_bnvd";"s-6-verbenol";"18881-04-4";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"627_sub_bnvd";"s-metolachlore";"87392-12-9";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"628_sub_bnvd";"sable quartzeux";"";"Autre usage - Répulsif";"";"";"";"";False;False;False;False;False;False;False;False;True
+"629_sub_bnvd";"saccharomyces cerevisiae souche las02";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"630_sub_bnvd";"sedaxane";"874967-67-6";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"631_sub_bnvd";"sel de potassium de l'hydrazide maleique";"51542-52-0";"Régulateur de croissance";"";"";"";"";False;False;False;False;False;False;True;False;False
+"632_sub_bnvd";"sels de potassium d'acides gras (c8-c18)";"67701-09-1";"Insecticide";"";"Herbicide
+Fongicide
+Autre usage - Répulsif
+Autre usage – Adjuvant";"";"";True;True;True;False;False;False;False;False;True
+"633_sub_bnvd";"sels de potassium d'acides gras";"10124-65-9";"Insecticide";"";"Herbicide
+Fongicide
+Autre usage - Répulsif
+Autre usage – Adjuvant";"";"";True;True;True;False;False;False;False;False;True
+"634_sub_bnvd";"silthiofam";"175217-20-6";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"635_sub_bnvd";"sorbate de potassium";"24634-61-5";"SA non phyto - Désinfectant - Biocide";"";"";"Fongicide";"";False;False;True;False;False;False;False;False;True
+"636_sub_bnvd";"soufre pour pulverisation (micronise)";"7704-34-9";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"637_sub_bnvd";"soufre sublime";"7704-34-9";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"638_sub_bnvd";"soufre triture ventile";"7704-34-9";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"639_sub_bnvd";"soufre triture";"7704-34-9";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"640_sub_bnvd";"soufre";"7704-34-9";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"641_sub_bnvd";"spinetoram";"935545-74-7";"Insecticide";"";"";"Insecticide";"";False;True;False;False;False;False;False;False;False
+"642_sub_bnvd";"spinosad";"168316-95-8";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"643_sub_bnvd";"spirodiclofen";"148477-71-8";"Insecticide - Acaricide";"";"";"Insecticide
+Acaricide";"";False;True;False;False;False;False;False;False;False
+"644_sub_bnvd";"spiromesifen";"283594-90-1";"Insecticide";"";"";"Acaricide
+Insecticide";"";False;True;False;False;False;False;False;False;False
+"645_sub_bnvd";"spirotetramat";"203313-25-1";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"646_sub_bnvd";"spiroxamine";"118134-30-8";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"647_sub_bnvd";"spores de beauveria bassiana 147";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"648_sub_bnvd";"spores de beauveria tenella 96";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"649_sub_bnvd";"streptococcus faecium";"";"SA non phyto - Divers";"Conservation d'ensilage";"";"";"";False;False;False;False;False;False;False;False;True
+"650_sub_bnvd";"streptomyces k61 (anciennement streptomyces griseoviridis)";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"651_sub_bnvd";"suif";"61789-97-7";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"652_sub_bnvd";"sulcotrione";"99105-77-8";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"653_sub_bnvd";"sulfate d'ammonium";"7783-20-2";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"654_sub_bnvd";"sulfate de fer (sulfate ferreux heptahydrate)";"7782-63-0";"Herbicide - Antimousse";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;False
+"655_sub_bnvd";"sulfate de fer monohydrate";"17375-41-6";"Herbicide - Antimousse";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;False
+"656_sub_bnvd";"sulfate double d'oxyquinoleine et de potassium";"15077-57-3";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"657_sub_bnvd";"sulfosate";"81591-81-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"658_sub_bnvd";"sulfosulfuron";"141776-32-1";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"659_sub_bnvd";"tau-fluvalinate";"102851-06-9";"Insecticide";"";"Insecticide - Acaricide";"Insecticide";"Insecticides
+Acaricides";False;True;False;False;False;False;False;False;False
+"660_sub_bnvd";"tebuconazole";"107534-96-3";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"661_sub_bnvd";"tebufenozide";"112410-23-8";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"662_sub_bnvd";"tebufenpyrad";"119168-77-3";"Insecticide - Acaricide";"";"";"Acaricide";"Acaricides";False;True;False;False;False;False;False;False;False
+"663_sub_bnvd";"teflubenzuron";"83121-18-0";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"664_sub_bnvd";"tefluthrine";"79538-32-2";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"665_sub_bnvd";"tembotrione";"335104-84-2";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"666_sub_bnvd";"temephos";"3383-96-8";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"667_sub_bnvd";"terbuthylazine";"5915-41-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"668_sub_bnvd";"terebenthine";"8006-64-2";"SA non phyto - Divers";"Usage de type ""Mastic"" (protection des plaies des arbres et/ou greffe)";"";"";"";False;False;False;False;False;False;False;False;True
+"669_sub_bnvd";"terpenes d'huile essentielle d'orange";"";"Insecticide - Médiateur chimique";"Attractif pour abeilles";"";"";"";False;True;False;False;False;False;False;False;False
+"670_sub_bnvd";"tetraconazole";"112281-77-3";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"671_sub_bnvd";"thiabendazole";"148-79-8";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"672_sub_bnvd";"thiaclopride";"111988-49-9";"Insecticide";"";"Molluscicide";"Insecticide";"Molluscicides
+Insecticides";False;True;False;False;True;False;False;False;False
+"673_sub_bnvd";"thiamethoxam";"153719-23-4";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"674_sub_bnvd";"thiencarbazone-methyl";"317815-83-1";"Herbicide";"";"";"Herbicide";"";True;False;False;False;False;False;False;False;False
+"675_sub_bnvd";"thifensulfuron-methyle";"79277-27-3";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"676_sub_bnvd";"thiocyanate d'ammonium";"1761-95-4";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Synergiste (utilisé avec l'aminotriazole, herbicide)";"";"";"Molluscicides
+Insecticides";False;True;False;False;True;False;False;False;True
+"677_sub_bnvd";"thiocyanate d'ammonium";"1762-95-4";"Autre usage – Coformulant / Phytoprotecteur / Synergiste";"Synergiste (utilisé avec l'aminotriazole, herbicide)";"";"";"Molluscicides
+Insecticides";False;True;False;False;True;False;False;False;True
+"678_sub_bnvd";"thiodicarbe";"59669-26-0";"Molluscicide";"";"Insecticide";"Insecticide";"Molluscicides
+Insecticides";False;True;False;False;True;False;False;False;False
+"679_sub_bnvd";"thiophanate-methyl";"23564-05-8";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"680_sub_bnvd";"thirame";"137-26-8";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"681_sub_bnvd";"thymol";"89-83-8";"Fongicide";"";"Insecticide
+Désinfectant - Biocide";"";"Répulsifs
+Fongicides";False;True;True;False;False;False;False;False;True
+"682_sub_bnvd";"tolclofos-methyl";"57018-04-9";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"683_sub_bnvd";"triacetate de guazatine";"115044-19-4";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"684_sub_bnvd";"triadimenol";"55219-65-3";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"685_sub_bnvd";"triallate";"2303-17-5";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"686_sub_bnvd";"triazoxide";"72459-58-6";"Fongicide";"";"";"Fongicide";"Fongicides";False;False;True;False;False;False;False;False;False
+"687_sub_bnvd";"tribenuron-methyle";"101200-48-0";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"688_sub_bnvd";"trichoderma asperellum icc012";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"689_sub_bnvd";"trichoderma asperellum t25";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"690_sub_bnvd";"trichoderma asperellum t34";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"691_sub_bnvd";"trichoderma asperellum tv1";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"692_sub_bnvd";"trichoderma atroviride souche l-1237";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"693_sub_bnvd";"trichoderma atroviride souche sc1";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"694_sub_bnvd";"trichoderma atroviride t11";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"695_sub_bnvd";"trichoderma atroviride";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"696_sub_bnvd";"trichoderma gamsii icc080";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"697_sub_bnvd";"trichoderma harzianum souche t22";"";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"698_sub_bnvd";"trichogramma brassicae";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"699_sub_bnvd";"triclopyr";"55335-06-3";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"700_sub_bnvd";"triethanolamine";"102-71-6";"Autre usage – Adjuvant";"Adjuvant pour bouillie herbicide";"";"";"";False;False;False;False;False;False;False;False;True
+"701_sub_bnvd";"trifloxystrobine";"141517-21-7";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"702_sub_bnvd";"trifluraline";"1582-09-8";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"703_sub_bnvd";"triflusulfuron-methyl";"126535-15-7";"Herbicide";"";"";"";"Herbicides";True;False;False;False;False;False;False;False;False
+"704_sub_bnvd";"triglyceride ethoxyle";"";"Autre usage – Adjuvant";"";"";"";"";False;False;False;False;False;False;False;False;True
+"705_sub_bnvd";"trimethylamine hydrochloride";"593-81-7";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"706_sub_bnvd";"trinexapac-ethyl";"95266-40-3";"Régulateur de croissance";"";"";"Régulateur de croissance";"Régulateurs de croissances";False;False;False;False;False;False;True;False;False
+"707_sub_bnvd";"triticonazole";"131983-72-7";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False
+"708_sub_bnvd";"tritosulfuron";"142469-14-5";"Herbicide";"";"";"Herbicide";"Herbicides";True;False;False;False;False;False;False;False;False
+"709_sub_bnvd";"valifenalate";"283159-90-0";"Fongicide";"";"";"";"";False;False;True;False;False;False;False;False;False
+"710_sub_bnvd";"virus de la granulose";"";"Insecticide";"";"";"";"";False;True;False;False;False;False;False;False;False
+"711_sub_bnvd";"virus de la mosaique du pepino isolat vc1";"";"Bactéricide - Virucide";"";"";"";"";False;False;False;True;False;False;False;False;False
+"712_sub_bnvd";"virus de la mosaique du pepino isolat vx1";"";"Bactéricide - Virucide";"";"";"";"";False;False;False;True;False;False;False;False;False
+"713_sub_bnvd";"virus de la mosaique du pepino souche ch2 isolat 1906";"";"Bactéricide - Virucide";"";"";"";"";False;False;False;True;False;False;False;False;False
+"714_sub_bnvd";"virus zymv-wk";"";"Bactéricide - Virucide";"";"";"";"";False;False;False;True;False;False;False;False;False
+"715_sub_bnvd";"z-11-tetradecenyl acetate";"20711-10-8";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"716_sub_bnvd";"z-9-tetradecenyl acetate";"16725-53-4";"Insecticide - Médiateur chimique";"";"";"Attractif";"";False;True;False;False;False;False;False;False;False
+"717_sub_bnvd";"z/e-11 hexadecenal";"53939-28-9";"Insecticide - Médiateur chimique";"";"";"";"";False;True;False;False;False;False;False;False;False
+"718_sub_bnvd";"zetacypermethrine";"52315-07-8";"Insecticide";"";"";"Insecticide";"Insecticides";False;True;False;False;False;False;False;False;False
+"719_sub_bnvd";"zinc (sulfate de zinc)";"7446-19-7";"SA non phyto - Divers";"Préservation de la qualité des fruits (rugosité)";"";"";"";False;False;False;False;False;False;False;False;True
+"720_sub_bnvd";"zirame";"137-30-4";"Fongicide";"";"Autre usage - Répulsif";"";"Répulsifs
+Fongicides";False;False;True;False;False;False;False;False;True
+"721_sub_bnvd";"zoxamide";"156052-68-5";"Fongicide";"";"";"";"Fongicides";False;False;True;False;False;False;False;False;False

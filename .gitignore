@@ -28,3 +28,6 @@ build/
 dist/
 *.egg-info/
 
+# Fichiers opendata AMM trop volumineux pour GitHub (>100 Mo)
+**/decision_intrant_opendata*.xml
+

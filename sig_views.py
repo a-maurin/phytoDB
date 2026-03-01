@@ -2,31 +2,35 @@
 Vues dérivées de la couche SIG principale pour faciliter la lecture par l'utilisateur :
 
 - top10_ppp_par_annee.geojson : analyses des 10 PPP les plus détectés par année ;
-- hotspots_ppp.geojson : points chauds de dépassement des seuils sanitaires/réglementaires.
+- hotspots_ppp.geojson : points chauds de dépassement des seuils sanitaires/réglementaires ;
+- agregations_ppp_par_annee.csv : agrégation station × paramètre × année (nb prélèvements, concentration moyenne µg/L).
 """
 from __future__ import annotations
 
+import csv
 import json
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, Tuple
 
-from thresholds import seuil_sanitaire_ugL
-
-# Ordre des propriétés pour les couches dérivées (utile en premier)
 COLONNES_TOP10_ORDER = [
-    "ppp_nom", "ppp_usage", "ppp_usages_typiques", "ppp_taux_ugl", "ppp_seuil_sanitaire_ugl",
-    "ppp_ratio_seuil", "ppp_depassement", "top10_ppp_annee", "top10_rang",
-    "libelle_station", "libelle_commune", "nom_commune", "code_station", "code_commune",
-    "code_departement", "source", "type_donnee", "libelle_parametre", "code_parametre",
-    "resultat", "symbole_unite", "date_prelevement", "annee",
+    "substance", "usage_ppp", "amm_autorise", "concentration_ugl", "depassement_seuil_sanitaire",
+    "ratio_seuil_sanitaire", "depassement_seuil_nqe",
+    "top10_ppp_annee", "top10_rang",
+    "lieu", "commune", "cours_eau", "masse_eau", "date_prelevement", "type_eau", "lien_fiche",
 ]
 
 COLONNES_HOTSPOTS_ORDER = [
-    "ppp_nom", "ppp_usage", "ppp_usages_typiques", "n_depassements", "n_mesures",
-    "max_ratio", "max_conc_ugl", "ppp_taux_ugl", "ppp_seuil_sanitaire_ugl", "ppp_ratio_seuil", "ppp_depassement",
-    "libelle_station", "code_station", "libelle_commune", "nom_commune", "code_commune", "code_departement",
-    "bss_id", "code_bss", "source", "identifiant_point", "code_parametre", "libelle_parametre",
+    "substance", "usage_ppp", "amm_autorise", "n_depassements", "n_mesures",
+    "depassement_seuil_nqe",
+    "max_conc_ugl", "concentration_ugl", "depassement_seuil_sanitaire",
+    "ratio_seuil_sanitaire",
+    "taille_mm",
+    "taille_inner_mm",
+    "classe_taille",
+    "type_depassement",
+    "date_prelevement",
+    "lieu", "commune", "cours_eau", "masse_eau", "type_eau", "lien_fiche",
     "annee_min", "annee_max",
 ]
 
@@ -108,120 +112,123 @@ def export_hotspots_ppp(
     out_path: str | Path = "data/sig/hotspots_ppp.geojson",
 ) -> Path:
     """
-    Construit une couche de points chauds de dépassement des seuils sanitaires :
-    - agrégation par point de mesure (station / BSS) et paramètre ;
-    - indicateurs : nombre de dépassements, nombre total de mesures, max_ratio, etc.
+    Construit une couche de points chauds de dépassement :
+    - seuils sanitaires (0,1 µg/L ou référentiel) ;
+    - NQE réglementaires (NQE-MA, NQE-CMA, source Ecophyto 2030).
+    Agrégation par point de mesure (station / BSS) et paramètre.
     """
     features = _load_features(sig_path)
     if not features:
         return Path(out_path)
 
-    # Agrégation par clé (source, identifiant spatial, code_parametre)
+    # Agrégation par clé (type_eau, lieu, substance)
     AggKey = Tuple[str, str, str]
     aggs: Dict[AggKey, Dict[str, Any]] = {}
 
     for f in features:
         props = f.get("properties") or {}
         geom = f.get("geometry")
-        code_param = props.get("code_parametre")
-        if not code_param:
-            continue
-        resultat = props.get("resultat")
-        unite = props.get("symbole_unite")
-        if resultat is None or unite is None:
+        substance = props.get("substance")
+        type_eau = props.get("type_eau") or ""
+        lieu = props.get("lieu") or ""
+        if not substance or not lieu:
             continue
 
-        # Conversion en µg/L si possible
-        try:
-            val = float(resultat)
-        except Exception:
-            continue
-
-        unite_norm = str(unite).replace("µ", "u")  # tolérance sur le symbole
-        if unite_norm in ("µg/L", "ug/L"):
-            conc_ugl = val
-        elif unite_norm in ("mg/L",):
-            conc_ugl = val * 1000.0
-        else:
-            # Unité inconnue pour l'instant : on ignore
-            continue
-
-        seuil = seuil_sanitaire_ugL(str(code_param), props)
-        if seuil <= 0:
-            continue
-        ratio = conc_ugl / seuil
-
-        source = props.get("source") or ""
-        ident = (
-            props.get("code_station")
-            or props.get("bss_id")
-            or props.get("code_bss")
-            or ""
-        )
-        if not ident:
-            continue
-
-        key: AggKey = (str(source), str(ident), str(code_param))
+        key: AggKey = (str(type_eau), str(lieu), str(substance).strip())
         agg = aggs.get(key)
         if not agg:
             agg = {
-                "source": source,
-                "identifiant_point": ident,
-                "code_parametre": str(code_param),
-                "libelle_parametre": props.get("libelle_parametre"),
-                # Champs PPP « lisibles » repris de la couche principale
-                "ppp_nom": props.get("ppp_nom") or props.get("libelle_parametre"),
-                "ppp_usage": props.get("ppp_usage"),
-                "ppp_usages_typiques": props.get("ppp_usages_typiques"),
-                "code_station": props.get("code_station"),
-                "libelle_station": props.get("libelle_station"),
-                "bss_id": props.get("bss_id"),
-                "code_bss": props.get("code_bss"),
-                "code_departement": props.get("code_departement"),
-                "code_commune": props.get("code_commune"),
-                "libelle_commune": props.get("libelle_commune"),
+                "type_eau": type_eau,
+                "lieu": lieu,
+                "substance": substance,
+                "usage_ppp": props.get("usage_ppp"),
+                "amm_autorise": props.get("amm_autorise"),
+                "commune": props.get("commune"),
+                "cours_eau": props.get("cours_eau"),
+                "masse_eau": props.get("masse_eau"),
+                "lien_fiche": props.get("lien_fiche"),
                 "n_mesures": 0,
                 "n_depassements": 0,
-                "max_ratio": 0.0,
+                "depassement_seuil_nqe": False,
                 "max_conc_ugl": 0.0,
-                "seuil_ugl": seuil,
-                # Champs PPP synthétiques alignés avec la couche principale
-                "ppp_taux_ugl": 0.0,
-                "ppp_seuil_sanitaire_ugl": seuil,
-                "ppp_ratio_seuil": 0.0,
-                "ppp_depassement": False,
-                "annee_min": props.get("annee"),
-                "annee_max": props.get("annee"),
+                "concentration_ugl": 0.0,
+                "depassement_seuil_sanitaire": False,
+                "max_ratio_seuil_sanitaire": None,
+                "annee_min": None,
+                "annee_max": None,
+                "date_prelevement": None,
                 "_geometry": geom,
             }
             aggs[key] = agg
 
-        agg["n_mesures"] += 1
-        annee = props.get("annee")
-        if annee is not None:
-            if agg["annee_min"] is None or str(annee) < str(agg["annee_min"]):
-                agg["annee_min"] = annee
-            if agg["annee_max"] is None or str(annee) > str(agg["annee_max"]):
-                agg["annee_max"] = annee
+        date_prel = props.get("date_prelevement")
+        annee = str(date_prel)[:4] if date_prel else None
 
-        if ratio > 1.0:
-            agg["n_depassements"] += 1
-            if ratio > agg["max_ratio"]:
-                agg["max_ratio"] = ratio
-                agg["max_conc_ugl"] = conc_ugl
-                # Mettre à jour les champs PPP synthétiques sur la base du pire cas
-                agg["ppp_taux_ugl"] = conc_ugl
-                agg["ppp_seuil_sanitaire_ugl"] = seuil
-                agg["ppp_ratio_seuil"] = ratio
-                agg["ppp_depassement"] = True
+        if props.get("depassement_seuil_nqe") == "oui":
+            agg["depassement_seuil_nqe"] = True
 
-    # On ne garde que les vrais "points chauds" (au moins un dépassement)
+        conc_ugl = props.get("concentration_ugl")
+        ratio_sanitaire = props.get("ratio_seuil_sanitaire")
+        if ratio_sanitaire is not None:
+            try:
+                r = float(ratio_sanitaire)
+                if agg["max_ratio_seuil_sanitaire"] is None or r > agg["max_ratio_seuil_sanitaire"]:
+                    agg["max_ratio_seuil_sanitaire"] = r
+                    agg["date_prelevement"] = date_prel
+            except (TypeError, ValueError):
+                pass
+        if conc_ugl is not None:
+            try:
+                c = float(conc_ugl)
+                agg["n_mesures"] += 1
+                if annee is not None:
+                    if agg["annee_min"] is None or annee < agg["annee_min"]:
+                        agg["annee_min"] = annee
+                    if agg["annee_max"] is None or annee > agg["annee_max"]:
+                        agg["annee_max"] = annee
+                if c > agg["max_conc_ugl"]:
+                    agg["max_conc_ugl"] = c
+                    agg["concentration_ugl"] = c
+                    if agg["date_prelevement"] is None:
+                        agg["date_prelevement"] = date_prel
+                if props.get("depassement_seuil_sanitaire") == "oui":
+                    agg["n_depassements"] += 1
+                    agg["depassement_seuil_sanitaire"] = True
+            except (TypeError, ValueError):
+                pass
+
+    # Points chauds : dépassement seuil sanitaire OU NQE
     out_features: list[dict[str, Any]] = []
     for agg in aggs.values():
-        if agg["n_depassements"] <= 0:
+        if agg["n_depassements"] <= 0 and not agg["depassement_seuil_nqe"]:
             continue
+        max_ratio = agg.pop("max_ratio_seuil_sanitaire", None)
+        ratio = round(max_ratio, 2) if max_ratio is not None else None
+        agg["ratio_seuil_sanitaire"] = ratio
+        # Taille en mm pour la symbologie QGIS (4–12 mm) : évite les expressions dans le QML
+        r = max_ratio if max_ratio is not None else 1.0
+        part = min(max(r - 1, 0.0), 9.0)
+        bonus_nqe = 1.5 if agg["depassement_seuil_nqe"] else 0.0
+        agg["taille_mm"] = round(4 + 0.75 * part + bonus_nqe, 1)
+        agg["taille_inner_mm"] = round(max(agg["taille_mm"] - 1.5, 1.5), 1)
+        # Classe de taille 1–4 pour règles QGIS à taille fixe (évite propriétés dérivées)
+        t = agg["taille_mm"]
+        if t >= 9.5:
+            agg["classe_taille"] = 4
+        elif t >= 7.5:
+            agg["classe_taille"] = 3
+        elif t >= 5.5:
+            agg["classe_taille"] = 2
+        else:
+            agg["classe_taille"] = 1
+        # Type de dépassement : 1 = NQE+sanitaire, 2 = NQE seul, 3 = sanitaire seul
+        if agg["depassement_seuil_sanitaire"] and agg["depassement_seuil_nqe"]:
+            agg["type_depassement"] = 1
+        elif agg["depassement_seuil_nqe"]:
+            agg["type_depassement"] = 2
+        else:
+            agg["type_depassement"] = 3
         geom = agg.pop("_geometry", None)
-        # Réordonner les propriétés (champs utiles en premier)
         props_ordered = {k: agg[k] for k in COLONNES_HOTSPOTS_ORDER if k in agg}
         for k, v in agg.items():
             if k not in props_ordered:
@@ -233,5 +240,86 @@ def export_hotspots_ppp(
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8") as f:
         json.dump({"type": "FeatureCollection", "features": out_features}, f, ensure_ascii=False, indent=2)
+    return out_path
+
+
+def export_agregations_ppp_par_annee(
+    sig_path: str | Path = "data/sig/analyse_stations_ppp_cote_dor.geojson",
+    out_path: str | Path = "data/sig/agregations_ppp_par_annee.csv",
+) -> Path:
+    """
+    Exporte un CSV d'agrégation par (type_eau, lieu, substance, année) :
+    nombre de prélèvements et concentration moyenne en µg/L.
+    """
+    features = _load_features(sig_path)
+    if not features:
+        out_path = Path(out_path)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        with out_path.open("w", encoding="utf-8", newline="") as f:
+            w = csv.writer(f, delimiter=";")
+            w.writerow([
+                "type_eau", "lieu", "commune", "substance", "usage_ppp", "annee",
+                "n_prelevements", "concentration_moyenne_ugl",
+            ])
+        return out_path
+
+    # Clé : (type_eau, lieu, substance, annee)
+    AggKey = Tuple[str, str, str, str]
+    aggs: Dict[AggKey, Dict[str, Any]] = {}
+
+    for f in features:
+        props = f.get("properties") or {}
+        type_eau = props.get("type_eau") or ""
+        lieu = props.get("lieu") or ""
+        substance = props.get("substance")
+        date_prel = props.get("date_prelevement")
+        annee = str(date_prel)[:4] if date_prel else None
+        if not lieu or not substance or not annee:
+            continue
+        annee = annee.strip()[:4]
+
+        key: AggKey = (str(type_eau), str(lieu), str(substance).strip(), annee)
+        if key not in aggs:
+            aggs[key] = {
+                "type_eau": type_eau,
+                "lieu": lieu,
+                "commune": props.get("commune"),
+                "substance": substance,
+                "usage_ppp": props.get("usage_ppp"),
+                "annee": annee,
+                "n_prelevements": 0,
+                "sum_ugl": 0.0,
+                "count_ugl": 0,
+            }
+        agg = aggs[key]
+        agg["n_prelevements"] += 1
+        conc = props.get("concentration_ugl")
+        if conc is not None:
+            try:
+                agg["sum_ugl"] += float(conc)
+                agg["count_ugl"] += 1
+            except (TypeError, ValueError):
+                pass
+
+    out_path = Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f, delimiter=";")
+        w.writerow([
+            "type_eau", "lieu", "commune", "substance", "usage_ppp", "annee",
+            "n_prelevements", "concentration_moyenne_ugl",
+        ])
+        for agg in sorted(aggs.values(), key=lambda x: (x["annee"], x["type_eau"], x["lieu"] or "", x["substance"])):
+            moy = (agg["sum_ugl"] / agg["count_ugl"]) if agg["count_ugl"] else ""
+            w.writerow([
+                agg["type_eau"] or "",
+                agg["lieu"] or "",
+                agg["commune"] or "",
+                agg["substance"] or "",
+                agg["usage_ppp"] or "",
+                agg["annee"],
+                agg["n_prelevements"],
+                f"{moy:.4f}" if isinstance(moy, float) else moy,
+            ])
     return out_path
 

@@ -89,9 +89,19 @@ python main.py export-sig            # génère data/sig/analyse_stations_ppp_co
 python main.py export-sig --no-fetch-analyses   # ne pas récupérer les analyses si cache vide (couche sans paramètres)
 python main.py export-sig --no-ades  # uniquement Naïades
 python main.py export-sig --no-naiades --out data/sig/ades_21.geojson
+
+# --- Statistiques et agrégations (inspirées data-pesticides) ---
+python main.py stats-annees
+# Affiche le nombre de prélèvements par année (et par source Naïades/ADES).
+# Si les données viennent du GeoJSON exporté, affiche aussi la ventilation par usage (famille PPP).
+
+python main.py export-agregations
+# Exporte data/sig/agregations_ppp_par_annee.csv : agrégation station × paramètre × année
+# (nombre de prélèvements, concentration moyenne µg/L) pour tableaux de bord et graphiques.
+python main.py export-agregations --sig data/sig/analyse_stations_ppp_cote_dor.geojson --out data/sig/agregations.csv
 ```
 
-Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrites dans `data/out/` (JSON et CSV). La couche SIG est écrite dans `data/sig/` (GeoJSON). Un fichier de style QGIS (`.qml`) est généré pour la couche analyse (symbole simple) et pour les points chauds (symbologie par règles : dépassement, ratio, etc.).
+Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrites dans `data/out/` (JSON et CSV). La couche SIG est écrite dans `data/sig/` (GeoJSON, hotspots, agrégations CSV). Un fichier de style QGIS (`.qml`) est généré pour la couche analyse (symbole simple) et pour les points chauds (symbologie par règles : dépassement, ratio, etc.). La table attributaire inclut un lien vers la fiche Sandre du paramètre (`ppp_url_sandre`, id.eaufrance.fr/par/...).
 
 ## Construction du programme et couche SIG
 
@@ -116,7 +126,7 @@ Les sorties (indicateurs, listes de substances/produits, agrégats) sont écrite
 - `ppp_dict.py` : dictionnaire optionnel des usages PPP (type / usages typiques) pour enrichir la couche SIG
 - `ref_params.py` : chargement des listes de paramètres pesticides (Sandre / C3PO) et filtrage des analyses
 - `data/out/` : sorties analyse (`analyse_cote_dor.json`, `substances_c3po_disponibles.json`, etc.)
-- `data/sig/` : couche SIG (`analyse_stations_ppp_cote_dor.geojson`, `hotspots_ppp.geojson`)
+- `data/sig/` : couche SIG (`analyse_stations_ppp_cote_dor.geojson`, `hotspots_ppp.geojson`, `agregations_ppp_par_annee.csv`)
 - `data/cache/` : cache des données brutes (C3PO, Naïades, ADES)
 
 ## Évolutions prévues

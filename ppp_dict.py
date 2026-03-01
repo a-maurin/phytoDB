@@ -35,20 +35,14 @@ import json
 
 import yaml
 
-
-CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
-
-
-def _load_config() -> dict[str, Any]:
-    with CONFIG_PATH.open(encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+from config import load_config, resolve_path
 
 
 def _default_ppp_usages_file() -> Path:
-    cfg = _load_config()
+    cfg = load_config()
     ref_cfg = cfg.get("ref", {}).get("ppp_usages", {}) or {}
     path = ref_cfg.get("file", "data/ref/ppp_usages.csv")
-    return Path(path)
+    return resolve_path(path)
 
 
 _PPP_USAGES_BY_CODE: Dict[str, Dict[str, str]] | None = None
@@ -158,7 +152,7 @@ def build_ppp_usages_from_c3po(output_path: str | Path | None = None) -> Path:
     Le CSV produit est compatible avec `lookup_ppp_usage` :
     - colonnes : code_parametre ; cas ; ppp_usage ; ppp_usages_typiques
     """
-    cfg = _load_config()
+    cfg = load_config()
     out_dir = cfg.get("analysis", {}).get("out_dir", "data/out")
     json_path = Path(out_dir) / "substances_c3po_disponibles.json"
     if not json_path.exists():
@@ -424,7 +418,7 @@ def build_ppp_usages_from_sources_dictionnaire(
 
     Fichiers optionnels : s'ils sont absents, les colonnes correspondantes sont vides.
     """
-    cfg = _load_config()
+    cfg = load_config()
     ref_ppp = cfg.get("ref", {}).get("ppp_usages", {}) or {}
     default_sources = ref_ppp.get("sources_dictionnaire", "sources/sources_dictionnaire")
     root = CONFIG_PATH.parent

@@ -5,6 +5,7 @@ Réf. : https://ades.eaufrance.fr/ — https://hubeau.eaufrance.fr/page/api-qual
 """
 from __future__ import annotations
 
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -12,12 +13,7 @@ import yaml
 
 from hubeau import ades_stations, ades_analyses
 
-CONFIG_PATH = Path(__file__).resolve().parent.parent / "config.yaml"
-
-
-def _load_config() -> dict[str, Any]:
-    with open(CONFIG_PATH, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+from config import load_config as _load_config, cache_path
 
 
 def fetch_ades_stations_dep(
@@ -41,7 +37,7 @@ def fetch_ades_stations_dep(
         import json
         cache_dir = Path(cache_dir)
         cache_dir.mkdir(parents=True, exist_ok=True)
-        (cache_dir / "ades_stations_21.json").write_text(
+        cache_path(cache_dir, "ades_stations", code_departement).write_text(
             json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
         )
     return data
@@ -65,9 +61,11 @@ def fetch_ades_analyses_dep(
 
     page_size = cfg_hubeau.get("page_size", 1000)
 
-    # Fenêtre temporelle par défaut issue de la config PPP si non fournie explicitement
-    date_debut_eff = date_debut or cfg_ppp.get("date_debut")
-    date_fin_eff = date_fin or cfg_ppp.get("date_fin")
+    # Fenêtre temporelle : 10 dernières années (date_fin = jour courant, date_debut = il y a 10 ans)
+    today = date.today()
+    _debut_default = (today - timedelta(days=365 * 10)).isoformat()
+    date_debut_eff = date_debut or cfg_ppp.get("date_debut") or _debut_default
+    date_fin_eff = date_fin or cfg_ppp.get("date_fin") or today.isoformat()
 
     data: list[dict[str, Any]] = []
 
@@ -122,7 +120,7 @@ def fetch_ades_analyses_dep(
         import json
         cache_dir = Path(cache_dir)
         cache_dir.mkdir(parents=True, exist_ok=True)
-        (cache_dir / "ades_analyses_21.json").write_text(
+        cache_path(cache_dir, "ades_analyses", code_departement).write_text(
             json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
         )
     return data
@@ -143,7 +141,7 @@ async def fetch_ades_stations_dep_async(
         import json
         cache_dir = Path(cache_dir)
         cache_dir.mkdir(parents=True, exist_ok=True)
-        (cache_dir / "ades_stations_21.json").write_text(
+        cache_path(cache_dir, "ades_stations", code_departement).write_text(
             json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
         )
     return data
@@ -163,8 +161,10 @@ async def fetch_ades_analyses_dep_async(
     cfg_hubeau = config.get("hubeau", {})
     cfg_ppp = config.get("ppp", {}).get("ades", {}) or {}
     page_size = cfg_hubeau.get("page_size", 1000)
-    date_debut_eff = date_debut or cfg_ppp.get("date_debut")
-    date_fin_eff = date_fin or cfg_ppp.get("date_fin")
+    today = date.today()
+    _debut_default = (today - timedelta(days=365 * 10)).isoformat()
+    date_debut_eff = date_debut or cfg_ppp.get("date_debut") or _debut_default
+    date_fin_eff = date_fin or cfg_ppp.get("date_fin") or today.isoformat()
     data: list[dict[str, Any]] = []
     if code_parametre is not None:
         data = await ades_analyses_async(
@@ -197,7 +197,7 @@ async def fetch_ades_analyses_dep_async(
         import json
         cache_dir = Path(cache_dir)
         cache_dir.mkdir(parents=True, exist_ok=True)
-        (cache_dir / "ades_analyses_21.json").write_text(
+        cache_path(cache_dir, "ades_analyses", code_departement).write_text(
             json.dumps(data, ensure_ascii=False, indent=0), encoding="utf-8"
         )
     return data
